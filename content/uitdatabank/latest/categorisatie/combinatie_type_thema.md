@@ -139,6 +139,8 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Voeding |	1.65.0.0.0 |
 |  |  | Milieu en natuur |	1.64.0.0.0 |
 |  |  | Omnisport en andere |	1.51.12.0.0 |
+|  |  | Themakamp | 1.11.2.0.0 |
+|  |  | Taal en communicatie | 1.11.1.0.0 | 
 | Markt of braderie | 0.37.0.0.0 |  |  |
 |  |  | Antiek en brocante | 1.17.0.0.0 |
 |  |  | Economie |	1.66.0.0.0 |
