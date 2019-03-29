@@ -43,8 +43,33 @@ _Voorbeeld response_
 ~~~xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ticketSale>
-	<creationDate>2011-12-02T12:23:35.636+01:00</creationDate>
-	<id>7</id>
-	<price>45.0</price>
-</ticketSale>
+            <createdVia>Flagey</createdVia>
+            <creationDate>2015-06-19T11:31:09+02:00</creationDate>
+            <id>17005</id>
+            <nodeId>283e8449-4ce8-44f9-aa87-c7e9395be025</nodeId>
+            <nodeTitle>Animazaterdag: Minuscule, La vallée des fourmis perdues</nodeTitle>
+            <price>5.0</price>
+            <tariff>0.0</tariff>
+            <firstName>test</firstName>
+            <lastName>ellen</lastName>
+            <dateOfBirth>1982-08-23T02:00:00+02:00</dateOfBirth>
+            <status>ACTIVE</status>
+            <location>Flagey</location>
+            <userId>1b567cc7-26f8-44e9-ab5b-990e92e34bfa</userId>
+            <organiser>Flagey</organiser>
+            <userHomeCity>Brussel</userHomeCity>
+            <ticketSaleCoupon>
+                <buyConstraint>
+                    <periodType>ABSOLUTE</periodType>
+                    <periodVolume>1</periodVolume>
+                </buyConstraint>
+                <exchangeConstraint>
+                    <periodType>YEAR</periodType>
+                    <periodVolume>1</periodVolume>
+                </exchangeConstraint>
+                <id>27</id>
+                <name>Cultuurbonnnnn</name>
+            </ticketSaleCoupon>
+            <groupPass>false</groupPass>
+        </ticketSale>
 ~~~
