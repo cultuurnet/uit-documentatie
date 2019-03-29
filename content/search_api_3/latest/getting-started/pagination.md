@@ -8,7 +8,7 @@ Every search endpoint supports pagination using two url parameters:
 * `start` : The number of results to skip \(`int`, defaults to 0\)
 * `limit`: The number of results to return in a single page \(`int`, defaults to 30\)
 
-For example, when [searching events & places](../../searching/offers-endpoint):
+For example, when [searching events & places]({% link content/search_api_3/latest/searching/offers/offers-endpoint.md %}):
 
 ```
 GET https://search.uitdatabank.be/offers/?start=10&limit=5

@@ -5,7 +5,7 @@
 
 * Must contain only 1 `id` for eventtype, can be combined with a theme id.
 * Can contain `domain` and `label`, but only `id` will be validated
-* See documentation for [eventTypes](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_aanbod/) and [event themes](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/combinatie_type_thema/)
+* See documentation for [eventTypes]({% link content/uitdatabank/latest/categorisatie/type_aanbod.md %}) and [event themes]({% link content/uitdatabank/latest/categorisatie/combinatie_type_thema.md %}) and [facilities]({% link content/uitdatabank/latest/categorisatie/voorzieningen.md %})
 
 **Example 1**
 

@@ -1,8 +1,8 @@
 <div class="book">
 <div class="book-teaser">
-
 	{% for version in book.versions limit:1  %}
-		<p class="book-teaser-title"><a href="/{{ version.path }}index.html" class="book-teaser-title-link">{{ book.title }}</a></p>
+    <a href="/{{ version.path }}start.html"><img src="/img/icons/{{book.icon}}.svg" style="float: left; margin-right: 15px;" alt="{{ book.title }}"></a>
+		<p class="book-teaser-title"><a href="/{{ version.path }}start.html" class="book-teaser-title-link">{{ book.title }}</a></p>
 		<div class="book-description">
 			<p>{{ book.description }}</p>
 		</div>

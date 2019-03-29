@@ -3,7 +3,7 @@ title: UiT-documentatie # used in header
 description: Bouw mee aan de verschillende UiT-producten, ga er zelf mee aan de slag en geef meer mensen meer goesting in meer cultuur!
 title_full: UiT-documentatie voor ontwikkelaars
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://documentatie.uitdatabank.be" # the base hostname & protocol for your site
 github: https://github.com/cultuurnet/uit-documentatie
 defaults:
   -
@@ -11,15 +11,12 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-permalink: pretty
+permalink: none
 # Build settings
 gems:
-  - jekyll-asciidoc
   - jekyll-last-modified-at
 exclude: [README.md, Gemfile, Gemfile.lock, Rakefile, tasks, vendor ]
 markdown: kramdown
-asciidoc: asciidoctor
-asciidoc_ext: asciidoc,adoc,ad
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
-search_api_server: "https://www.uitid.be/uitid/rest"
+search_api_server: "https://www.uitid.be/search/rest"

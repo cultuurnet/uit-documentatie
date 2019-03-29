@@ -6,7 +6,7 @@
 ## HTTP request
 
 ```
-DELETE /events/{cdbid}
+DELETE /events/{eventId}
 ```
 
 ## Request headers

@@ -19,14 +19,14 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 
 | Field | Type | Comments |
 | :--- | :--- | :--- |
-| organizer.name.{[lang](../../searching/languages)} | String |  |
-| name.{[lang](../../searching/languages)} | String |  |
-| description.{[lang](../../searching/languages)} | String |  |
-| location.name.{[lang](../../searching/languages)} | String |  |
-| address.{[lang](../../searching/languages)}.addressCountry | Enum | See [Address](../../searching/address) |
-| address.{[lang](../../searching/languages)}.addressLocality | String | See [Address](../../searching/address) |
-| address.{[lang](../../searching/languages)}.postalCode | String | See [Address](../../searching/address) |
-| address.{[lang](../../searching/languages)}.streetAddress | String | See [Address](../../searching/address) |
+| organizer.name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| description.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| location.name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.addressCountry | Enum | See [Address]({% link content/search_api_3/latest/searching/offers/address.md %}) |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.addressLocality | String | See [Address]({% link content/search_api_3/latest/searching/offers/address.md %}) |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.postalCode | String | See [Address]({% link content/search_api_3/latest/searching/offers/address.md %}) |
+| address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.streetAddress | String | See [Address]({% link content/search_api_3/latest/searching/offers/address.md %}) |
 
 When you use wildcards in field names to search across multiple translated versions, the wildcard should be escaped using a backslash. \(`\`\). For example:
 

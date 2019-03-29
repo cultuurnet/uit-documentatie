@@ -1,7 +1,7 @@
 {% if include.collection.size > 0 %}
 <ol class="toc-item level-{{ include.level }}">
     {% for item in include.collection %}
-      {% capture full_path %}/{{include.path}}{{ item.href }}/{% endcapture %}
+      {% capture full_path %}/{{include.path}}{{ item.href }}.html{% endcapture %}
       {% if found == true %}
         {% assign found = false %}
         {% assign next-title = item.title %}

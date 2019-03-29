@@ -88,81 +88,74 @@ The following is an example of the response.
 
 ### calendarType
 
-calendarType 'permanent' and 'periodic' can be used for offertype 'place', but 'permanent' is preferred and this calendarType is hardcoded in UiTdatabank when adding a new place.
+calendarType 'permanent' and 'periodic' can be used for offertype 'place', but 'permanent' is preferred.
+
 
 ```
-{
-  "type": "string",
-  "enum": [
-    "single",
-    "multiple",
-    "periodic",
-    "permanent"
-  ],
-  "example": "single"
-}
+  "calendarType": "periodic"
 ```
+
+### timeSpans
+
+timeSpans can be combined with calendarTypes 'single' and 'multiple'.
+One timeSpan consists of a start and end date-time
+
+```
+"timeSpans": [
+    {
+      "start": "2019-05-07T10:00:00+00:00",
+      "end": "2019-05-07T16:30:00+00:00"
+    },
+    {
+      "start": "2019-05-08T10:00:00+00:00",
+      "end": "2019-05-08T16:30:00+00:00"
+    }
+  ]
+```
+
 
 ### openingHours
 
-calendarType 'permanent' can be combined with openingHours
+openingHours can be combined with calendarTypes 'periodic' and 'permanent'
 openingHours contain an array of weekdays with matching opening hours and closing hours
 
 ```
-{
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "dayOfWeek": {
-        "type": "array",
-        "items": {
-          "type": "string",
-          "enum": [
-            "monday",
-            "tuesday",
-            "wednesday",
-            "thursday",
-            "friday",
-            "saturday",
-            "sunday"
-          ]
-        }
+    "openingHours": [
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "monday",
+          "tuesday",
+          "wednesday"
+        ]
       },
-      "opens": {
-        "type": "string",
-        "example": "14:30"
-      },
-      "closes": {
-        "type": "string",
-        "example": "17:00"
+      {
+        "dayOfWeek": [
+          "thursday",
+          "friday",
+          "saturday"
+        ],
+        "opens": "09:00",
+        "closes": "20:00"
       }
-    }
-  }
-}
+    ]
 ```
 
 ### startDate
 
-calendarType 'periodic' can be combined with a startDate and endDate
+startDate is required for calendarType `periodic`
+startDate signifies the first occurence of the offer
 
 ```
-{
-  "type": "string",
-  "format": "date-time",
-  "example": "2015-05-07T14:30:00+00:00"
-}
+  "startDate": "2015-05-07T14:30:00+00:00"
 ```
 
 ### endDate
 
-calendarType 'periodic' can be combined with a startDate and endDate
-
+endDate is required for calendarType `periodic`
+endDate signifies the last occurence of the offer
 
 ```
-{
-  "type": "string",
-  "format": "date-time",
-  "example": "2015-05-07T14:30:00+00:00"
-}
+  "endDate": "2015-05-07T14:30:00+00:00"
 ```

@@ -84,3 +84,5 @@
 |   |   | 7 | Circus | 0.52.0.0.0 |
 | 17 | Wetenschap |   |   | 1.25.0.0.0 |
 | 18 | Zingeving, filosofie en religie |   |   | 1.44.0.0.0 |
+| 19 | Taal en communicatie |   |   | 1.11.1.0.0 |
+| 20 | Themakamp |   |   | 1.11.2.0.0 |

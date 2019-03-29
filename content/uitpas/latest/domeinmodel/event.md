@@ -3,7 +3,7 @@
 
 # Event
 
-Een UiTPAS event is een event uit de UiTdatabank. Het kan manueel ingevoerd worden via uitdatabank.be of uit een systeem van derden doorstromen via een API. Meer informatie over UiTdatabank API integratiemogelijkheden is beschikbaar op [http://documentatie.uitdatabank.be/content/uitdatabank/latest/index.html](http://documentatie.uitdatabank.be/content/uitdatabank/latest/index.html).
+Een UiTPAS event is een event uit de UiTdatabank. Het kan manueel ingevoerd worden via uitdatabank.be of uit een systeem van derden doorstromen via een API. Meer informatie over UiTdatabank API integratiemogelijkheden is beschikbaar [hier]({% link content/uitdatabank/latest/start.md %}).
 
 Een UiTPAS event bevat volgende eigenschappen:
 
@@ -17,11 +17,11 @@ Wordt bepaald in UDB door de invoerder van het event. De marker bepaalt in welk 
 **Prijs** ```Verplicht```
 Wordt bepaald in UDB door de invoerder van het event. Dit is de totaalprijs van het evenement
 
-**Niet-automatische verdeelsleutel(s)** ```optioneel``` 
+**Niet-automatische verdeelsleutel(s)** ```optioneel```
 Wordt bepaald in UDB door de invoerder van het event.
 
 **Points** ```Verplicht```
-Het aantal punten dat de pashouder spaart, wordt ingesteld per event. Default kan op één event één punt verdiend worden. De KSB kan dit optioneel voor speciale gevallen aanpassen. 
+Het aantal punten dat de pashouder spaart, wordt ingesteld per event. Default kan op één event één punt verdiend worden. De KSB kan dit optioneel voor speciale gevallen aanpassen.
 
 **Checkin constraint** ```Optioneel```
 Het aantal keer dat een pashouder kan inchecken op een event is beperkt. Default waarden zijn ingesteld door CultuurNet Vlaanderen per calendar type: gaat het event eenmalig, periodiek of permanent door. De constraint kan per event aangepast worden door de KSB.

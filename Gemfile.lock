@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/asciidoctor/jekyll-asciidoc.git
-  revision: ab64bcffa28ee2db804ed2b143eeeb9561fc69f6
-  specs:
-    jekyll-asciidoc (2.1.1.dev)
-      asciidoctor (>= 1.5.0)
-      jekyll (>= 2.3.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -16,7 +8,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
-    asciidoctor (1.5.5)
     colorator (1.1.0)
     colored (1.2)
     concurrent-ruby (1.0.5)
@@ -103,11 +94,10 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll
-  jekyll-asciidoc!
   jekyll-last-modified-at (~> 1.0.1)
   preamble
   rake
   rspec
 
 BUNDLED WITH
-   1.15.1
+   1.16.0

@@ -1,9 +1,9 @@
 <header>
 	<ul class="navigation-items">
 		<li><a href="/">{{site.title}}</a></li>
-		<li><a href="/{{ selected_book.path }}index.html" class="book-title">{{selected_book.title}}</a></li>
+		<li><a href="/{{ selected_book.path }}start.html" class="book-title">{{selected_book.title}}</a></li>
     {% unless page.layout == "versions" %}
-	    <li><a href="/{{ selected_version.path }}index.html" class="book-title">{{selected_version.name}}</a></li>
+	    <li><a href="/{{ selected_version.path }}start.html" class="book-title">{{selected_version.name}}</a></li>
     {% endunless %}
 	</ul>
 	<section class="search">

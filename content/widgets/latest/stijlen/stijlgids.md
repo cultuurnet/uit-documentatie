@@ -4,20 +4,22 @@
 # Stijlgids
 
 Voor het stijlen van je widget maak je gebruik van CSS. Een CSS-regel bestaat steeds uit twee onderdelen:
-* **Een selector:** het element dat je wil stijlen (vb. ```h2```). 
+* **Een selector:** het element dat je wil stijlen (vb. ```a```). 
 Elementen die bij elkaar horen bevatten dezelfde klassenaam (vb. ```.cnw_card_title```)
 * **Een of meerdere stijldefinities** bestaande uit een eigenschap (vb. ```font-size```) en een waarde (vb. ```2em```). Elke definitie sluit je af met een puntkomma.
 
 Voorbeeld:
 ```
-h2 {
+.cnw_card-title a {
 font-size: 2em;
 font-weight: 700;
 color: red;
 }
 ```
 
-Alle <h2>-elementen op de pagina worden groter, vet en in het rood gestijld.
+Alle eventtiels van de widget worden groter, vet en in het rood gestijld.
+Let er op dat je steeds de juiste widget-klasse meegeeft in de stijling. Wanneer de klasse ontbreekt wordt de meegegeven stijling ook toegepast op andere elementen van de pagina.
+
 
 ## Selectors
 

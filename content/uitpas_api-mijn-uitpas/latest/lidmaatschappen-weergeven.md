@@ -40,9 +40,9 @@ Voorbeeld
         <newEndDate>2017-12-31T23:59:59+01:00</newEndDate>
     </membership>
 </memberships>
-~~~ 
+~~~
 
-[Voorbeeld response in XML (volledig)](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-van-pashouder/) 
+[Voorbeeld response in XML (volledig)]({% link content/uitpas_api/latest/pashouders/ophalen-van-pashouder.md %})
 
 Volgende velden heb je nodig:
 
@@ -54,6 +54,6 @@ Volgende velden heb je nodig:
 
 **Referentie UiTPAS API v3.0**
 
-[Ophalen van een pashouder](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-van-pashouder/)
+[Ophalen van een pashouder]({% link content/uitpas_api/latest/pashouders/ophalen-van-pashouder.md %})
 
 

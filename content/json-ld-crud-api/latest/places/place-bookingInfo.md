@@ -17,6 +17,16 @@ Can contain the following properties:
 
 To delete one bookingInfo property from an offer, remove it from the bookingInfo object and update the offer.
 
+## urlLabel - suggested translations
+It is advised to use the following combo's for adding urlLabels to a bookingInfo url. These are the default translations used by UiTdatabank.
+
+| nl | fr | en | de |
+| -- | -- | -- | -- |
+| Koop tickets | Achetez des tickets| Buy tickets | Tickets kaufen |
+| Reserveer plaatsen | Réservez des places | Reserve places | Platzieren Sie eine Reservierung |
+| Controleer beschikbaarheid | Controlez la disponibilité | Check availability | Verfügbarkeit prüfen |
+| Schrijf je in | Inscrivez-vous | Subscribe | Melde dich an |
+
 **Example**
 
 ```
@@ -27,7 +37,10 @@ To delete one bookingInfo property from an offer, remove it from the bookingInfo
   "phone": "123",
   "url": "https://www.test.com",
   "urlLabel": {
-    "nl": "Test"
+    "nl": "Reserveer plaatsen",
+    "fr": "Réservez des places",
+    "en": "Reserve places",
+    "de": "Platzieren Sie eine Reservierung"
   }
 }
 ```

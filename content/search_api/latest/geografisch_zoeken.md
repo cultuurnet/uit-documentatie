@@ -22,7 +22,7 @@ Geef alle resultaten waarvan de locatie binnen d km van pt gelegen is.
 Alle resultaten waarvan de locatie gelegen is binnen 5 km van de coördinaat ```51.036906, 3.720739```.
 
 ```
-{{site.search_api_server}}/searchv2/search?q=*.*&pt=51.036906,3.720739&sfield=physical_gis&d=5&fq={!geofilt}
+{{site.search_api_server}}/search?q=*.*&pt=51.036906,3.720739&sfield=physical_gis&d=5&fq={!geofilt}
 ```
 
 ## Alternatief: Bbox
@@ -34,7 +34,7 @@ Bbox staat voor bounding box. De bounding box is het vierkant dat de cirkel met 
 Alle resultaten waarvan de locatie gelegen is in het vierkant dat de cirkel met straal 5 km en met middelpunt ```51.036906,3.720739```
 
 ```
-{{site.search_api_server}}/searchv2/search?q=*.*&pt=51.036906,3.720739&sfield=physical_gis&d=5&fq={!bbox}
+{{site.search_api_server}}/search?q=*.*&pt=51.036906,3.720739&sfield=physical_gis&d=5&fq={!bbox}
 ```
 
 ## Zoeken op afstand: geodist
@@ -46,7 +46,7 @@ Geodist is de afstand tussen sfield en pt. Geodist gebruik je om te sorteren op 
 Alle documenten waarvan de locatie gelegen is binnen 5 km van het punt ```51.036906,3.720739``` gesorteerd op nabijheid:
 
 ```
-{{site.search_api_server}}/searchv2/search?q=*:*&pt=51.036906,3.720739&sfield=physical_gis&d=5&fq={!geofilt}&sort=geodist()+asc
+{{site.search_api_server}}/search?q=*:*&pt=51.036906,3.720739&sfield=physical_gis&d=5&fq={!geofilt}&sort=geodist()+asc
 ```
 
 ## Zoeken op postcode en straal
@@ -58,5 +58,26 @@ Het is ook mogelijk om te zoeken op postcode en straal rond postcode. Als fysiek
 Alle evenementen in en nabij Gent:
 
 ```
-{{site.search_api_server}}/searchv2/search?q=*:*&zipcode:9000!5km
+{{site.search_api_server}}/search?q=*:*&zipcode:9000!5km
 ```
+
+## Zoeken op flandersregion
+
+Voor elke Vlaamse en Brusselse gemeente wordt binnen UiTdatabank meerdere flandersregions berekend:
+```http://taxonomy.uitdatabank.be/api/domain/flandersregion/classification```
+
+Dit laat je toe om op individuele gemeenten, (toeristische) regio's of provincies te zoeken:
+
+**Voorbeelden**
+
+Alle evenementen in Oostende stad:
+```{{site.search_api_server}}/search?q=category_flandersregion_id:reg.1034```
+
+Alle evenementen in groot Oostende: 
+```{{site.search_api_server}}/search?q=category_flandersregion_id:reg.224```
+
+Alle evenementen binnen de regio 'De Kust':
+```{{site.search_api_server}}/search?q=category_flandersregion_id:reg.33```
+
+Alle evenementen binnen de provincie West-Vlaanderen: 
+```{{site.search_api_server}}/search?q=category_flandersregion_id:reg.32```

@@ -10,6 +10,7 @@ Op een pagina kan je meerdere rijen toevoegen, die gestapeld onder elkaar versch
 * Twee kolommen met een zijbalk links 
 * Twee kolommen met een zijbalk rechts 
 * Drie kolommen met een dubbele zijbalk
+* Drie gelijke kolommen
 
 Eens de lay-out van een rij gekozen, kan je dit niet meer veranderen. Maar je kan gerust een nieuwe rij met een andere lay-out toevoegen, die verplaatsen en de oude rij verwijderen. 
 

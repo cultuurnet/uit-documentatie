@@ -55,4 +55,4 @@ Ga naar [balie.uitpas.be](http://balie.uitpas.be) of open de balie-applicatie op
 
 Mail naar UiTPAS@''jouwgemeente''.be
 
-Bij technische problemen van de software vind je de M'eld een probleem'-link onderaan elke pagina.
+Bij technische problemen van de software vind je de 'Meld een probleem'-link onderaan elke pagina.

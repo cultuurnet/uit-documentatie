@@ -3,13 +3,13 @@
 
 # De UiTPAS activeren
 
-Na aankoop van de UiTPAS kan een gebruiker zijn UiTPAS 'activeren’ - d.w.z. zich registreren online. 
+Na aankoop van de UiTPAS kan een gebruiker zijn UiTPAS 'activeren’ - d.w.z. zich registreren online.
 
 In feite is het niet de UiTPAS die wordt geactiveerd, maar wel de *pashouder*. Dit doen we door zijn UiTPAS profiel te koppelen aan een UiTID. UiTID is de OAuth service provider van CultuurNet waarmee gebruikers een profiel kunnen aanmaken en authenticeren.
 
 ## Best practice
 
-De praktijk wijst uit dat de volgorde waarin de user de stappen voor activatie doorloopt een impact kan hebben op de conversie. 
+De praktijk wijst uit dat de volgorde waarin de user de stappen voor activatie doorloopt een impact kan hebben op de conversie.
 
 Een goed voorbeeld is [uitinleuven.be/](https://uitinleuven.be/uitpas-in-leuven), waar volgend stappenplan wordt voorgesteld aan de gebruiker:
 1. (UiTID account aanmaken)
@@ -18,7 +18,7 @@ Een goed voorbeeld is [uitinleuven.be/](https://uitinleuven.be/uitpas-in-leuven)
 
 ## Een UiTID aanmaken
 
-UiTID documentatie over het aanmaken van een UiTID gebruiker: [http://documentatie.uitdatabank.be/content/uitid/latest/gebruikers/gebruiker_aanmaken/](http://documentatie.uitdatabank.be/content/uitid/latest/gebruikers/gebruiker_aanmaken/)
+UiTID documentatie over het aanmaken van een UiTID gebruiker vind je [hier]({% link content/uitid/latest/gebruikers/gebruiker_aanmaken.md %})
 
 ## Activatie link ophalen
 
@@ -63,11 +63,11 @@ Voorbeeld
 
 **Referentie UiTPAS API v3.0**
 
-[Activatielink opvragen op basis van geboortedatum](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/activatie-link-opvragen-op-basis-van-geboortedatum/)
+[Activatielink opvragen op basis van geboortedatum]({% link content/uitpas_api/latest/pashouders/activatie-link-opvragen-op-basis-van-geboortedatum.md %})
 
 ### De user redirecten na de koppeling
 
-Als je na koppeling van UiTPAS-profiel en UiTID, de user wil redirecten naar een specifieke pagina, dan kan dat door aan de activatie link een parameter ```destination``` mee te geven. 
+Als je na koppeling van UiTPAS-profiel en UiTID, de user wil redirecten naar een specifieke pagina, dan kan dat door aan de activatie link een parameter ```destination``` mee te geven.
 
 De parameter ```destination```  is optioneel. Als value neem je het absolute path van de pagina waarnaar je wil redirecten. Default wordt de gebruiker naar een bevestigingspagina van UiTID-pagina gestuurd.
 

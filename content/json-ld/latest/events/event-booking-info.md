@@ -12,7 +12,7 @@ Booking info can contain one or more of the following properties, limited to one
 ## HTTP request
 
 ```
-PUT /events/{cdbid}/bookingInfo
+PUT /events/{eventId}/bookingInfo
 ```
 
 Update the bookingInfo for an offer
@@ -41,11 +41,21 @@ Not supported: to remove (specific) bookingInfo perform a PUT request with empty
 |--|--|--|--|
 | bookingInfo | object | object containing one or more properties | |
 | url | url | ticketlink | https://www.domain.be/reservations/eventname |
-| urlLabel | string | the copy shown on the 'make reservations'-button displayed instead of the url | Reserveer plaatsen |
+| urlLabel | object | only to be used in combination with `url`, must contain at least translation for the mainLanguage. | See below for suggestions |
 | email | email | emailaddress used for booking | user@example.com |
 | phone | string | phonenumber used for booking | 0123456789 |
 | availabilityStarts | date-time | the starttime for bookings | 2015-05-07T12:02:53+00:00 |
 | availabilityEnds | date-time | the endtime for bookings | 2015-05-07T12:02:53+00:00 |
+
+### urlLabel - suggested translations
+It is advised to use the following combo's for adding urlLabels to a bookingInfo url. These are the default translations used by UiTdatabank.
+
+| nl | fr | en | de |
+| -- | -- | -- | -- |
+| Koop tickets | Achetez des tickets| Buy tickets | Tickets kaufen |
+| Reserveer plaatsen | Réservez des places | Reserve places | Platzieren Sie eine Reservierung |
+| Controleer beschikbaarheid | Controlez la disponibilité | Check availability | Verfügbarkeit prüfen |
+| Schrijf je in | Inscrivez-vous | Subscribe | Melde dich an |
 
 ## Response
 
@@ -66,7 +76,12 @@ X-Api-Key: {apiKey}
 {
   "bookingInfo": {
     "url": "https://www.domain.be/reservations/eventname",
-    "urlLabel": "Reserveer plaatsen",
+    "urlLabel": {
+      "nl": "Reserveer plaatsen",
+      "fr": "Réservez des places",
+      "en": "Reserve places",
+      "de": "Platzieren Sie eine Reservierung"
+    },
     "email": "user@example.com",
     "phone": "0123456789",
     "availabilityStarts": "2015-05-01T00:00:00+00:00",

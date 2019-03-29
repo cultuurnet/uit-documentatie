@@ -27,7 +27,7 @@ List all places.
 | postalCode | string | Limit the list to places with this postal code in the address. |?postalCode=3000|
 | embed | true | Embed JSON-LD body in search results, default = false |?embed=true|
 
-To search for a specific place, first list all places from a specific postalCode and secondly perform a free-text query through the search results. For more advanced queries, use the [JSON-LD Search API](http://documentatie.uitdatabank.be/content/search_api_3/latest/searching/)
+To search for a specific place, first list all places from a specific postalCode and secondly perform a free-text query through the search results. For more advanced queries, use the [JSON-LD Search API]({% link content/search_api_3/latest/searching.md %})
 
 ## Response
 

@@ -12,7 +12,7 @@ Het kan handig zijn om zoektermen voor te stellen op basis van (incomplete) user
 Het is mogelijk een lijst van overeenkomende zoektermen te suggereren. De bron is in dit geval een eerder gelanceerde zoekopdracht.
 
 ```
-{{site.search_api_server}}/searchv2/search/suggest
+{{site.search_api_server}}/search/suggest
 ```
 
 | Parameter	| Beschrijving |
@@ -26,7 +26,7 @@ Response: lijst van overeenkomende zoektermen
 **Voorbeeld**
 
 ```
-{{site.search_api_server}}/searchv2/search/suggest?q=con
+{{site.search_api_server}}/search/suggest?q=con
 ```
 
 ### Suggesties van items
@@ -34,7 +34,7 @@ Response: lijst van overeenkomende zoektermen
 Het is mogelijk om zoekresultaten voor te stellen op basis van incomplete user input. De bron is in dit geval de documenten opgeslagen in de index.
 
 ```
-{{site.search_api_server}}/searchv2/search/suggest/item Parameters:
+{{site.search_api_server}}/search/suggest/item Parameters:
 ```
 
 | Parameter	| Beschrijving |
@@ -49,7 +49,7 @@ Response: lijst van overeenkomende items
 **Voorbeeld**
 
 ```
-{{site.search_api_server}}/searchv2/search/suggest/item?title=Speel&fq=asset:true
+{{site.search_api_server}}/search/suggest/item?title=Speel&fq=asset:true
 ```
 
 ## Suggesties i.v.m. spellingcontrole
@@ -62,5 +62,5 @@ Voorbeeld: Kamaguka geeft suggesties kamagurka, kamasutra en kiwanuka
 
 
 ```
-{{site.search_api_server}}/searchv2/search?q=kamaguka&spellcheck=true
+{{site.search_api_server}}/search?q=kamaguka&spellcheck=true
 ```

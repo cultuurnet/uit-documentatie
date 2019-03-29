@@ -1,7 +1,48 @@
+#
+# SYSTEEM
+#
+- title: "Authenticatie en autorisatie"
+  description: "Hoe kan je verbinden met onze omgevingen?"
+  path: "content/authenticatie-autorisatie/"
+  category: "Systeem"
+  weight: 20
+  icon: "authenticatie"
+  versions:
+      - name: "latest"
+        path: "content/authenticatie-autorisatie/latest/"
+        summary:
+          - title: "Authenticatie via User Access Token"
+            href: "authenticatie-via-useraccesstoken"
+          - title: "Authenticatie via Consumer Request"
+            href: "authenticatie-via-consumerrequest"
+          - title: "Postman"
+            href: "postman"
+- title: "Overzicht omgevingen"
+  description: "Via deze omgevingen kan je gebruik maken van onze services."
+  path: "content/omgevingen/"
+  category: "Systeem"
+  weight: 10
+  icon: "omgevingen"
+  versions:
+      - name: "latest"
+        path: "content/omgevingen/latest/"
+        summary:
+          - title: "Definitie van de omgevingen"
+            href: "definitie"
+          - title: "Gebruiksvoorbeelden"
+            href: "gebruiksvoorbeelden"
+          - title: "Endpoints"
+            href: "endpoints"
+          - title: "Testconsumer"
+            href: "testconsumer"
+#
+# UITDATABANK
+#
 - title: "Zo werkt UiTdatabank"
   description: "Dit document behandelt het datamodel van de UiTdatabank."
   path: "content/uitdatabank/"
-  category: "Functioneel"
+  category: "UiTdatabank"
+  icon: "uitdatabank"
   weight: 10
   versions:
     - name: "latest"
@@ -17,9 +58,9 @@
         - title: "Activiteiten"
           href: "content_types/activiteiten/activiteiten"
           summary:
-            - title: "Verplichte velden van activiteiten"
+            - title: "Verplichte velden"
               href: "content_types/activiteiten/verplichte_velden_van_activiteiten"
-            - title: "Niet verplichte velden activiteiten"
+            - title: "Niet verplichte velden"
               href: "content_types/activiteiten/niet_verplichte_velden_activiteiten"
         - title: "Locaties"
           href: "content_types/locaties/locaties"
@@ -75,7 +116,8 @@
 - title: "Het CdbXML-formaat"
   description: "Dit document beschrijft de XML gegevensstandaard."
   path: "content/cdbxml/"
-  category: "Technisch"
+  category: "UiTdatabank"
+  icon: "xml"
   weight: 20
   versions:
     - name: "latest"
@@ -116,11 +158,12 @@
             href: "tipsentricks/UiTPAS"
           - title: "XML valideren"
             href: "tipsentricks/xmlvalidatie"
-- title: "UiTdatabank doorzoeken met Search API"
+- title: "UiTdatabank doorzoeken met Search API 2"
   description: "Leer de querysyntax van de UiTdatabank."
   path: "content/search_api/"
-  category: "Technisch"
+  category: "UiTdatabank"
   weight: 20
+  icon: "sapi2"
   versions:
     - name: "latest"
       path: "content/search_api/latest/"
@@ -164,7 +207,8 @@
 - title: "Categorisatie API van UiTdatabank"
   description: "De categorisatie van UiTdatabank is beschikbaar via een API."
   path: "content/categorisatie/"
-  category: "Technisch"
+  category: "UiTdatabank"
+  icon: "categorisatie"
   weight: 30
   versions:
     - name: "latest"
@@ -177,7 +221,8 @@
 - title: "Zo werkt UiTPAS"
   description: "Basis van het UiTPAS-systeem."
   path: "content/uitpas/"
-  category: "Functioneel"
+  category: "UiTPAS"
+  icon: "uitpas2"
   weight: 20
   versions:
     - name: "latest"
@@ -236,19 +281,15 @@
               href: "processen/verenigingen"
             - title: "UiTPAS en UiTID koppelen"
               href: "processen/uitpas_en_uitid"
-- title: "Aan de slag met Culturefeed"
-  category: "Technisch"
-  description: "Maak gebruik van onze PHP-bibliotheken en Drupal-modules."
-  path: "content/culturefeed/"
-  weight: 50
-  versions:
-    - name: "latest"
-      path: "content/culturefeed/latest/"
+#
+# UITID
+#
 - title: "Aan de slag met UiTiD"
-  category: "Technisch"
+  category: "UiTid"
   description: "Met UiTiD laat je gebruikers aanmelden op meerdere websites en applicaties via één account. "
   path: "content/uitid/"
   weight: 40
+  icon: "uitid"
   versions:
     - name: "latest"
       path: "content/uitid/latest/"
@@ -334,8 +375,9 @@
 - title: "Gebruikershandleidingen voor UiTPAS"
   description: "UiTPAS balie (desktop en mobiele) en zuilen (CID)."
   path: "content/uitpas-handleidingen/"
-  category: "Technisch"
+  category: "UiTPAS"
   weight: 40
+  icon: "uitpas3"
   versions:
     - name: "latest"
       path: "content/uitpas-handleidingen/latest/"
@@ -364,26 +406,12 @@
             href: "zuil/monitoring"
           - title: "Problemen"
             href: "zuil/foutmeldingen"
-- title: "Authenticatie en autorisatie"
-  description: "Hoe kan je verbinden met onze omgevingen?"
-  path: "content/authenticatie-autorisatie/"
-  category: "Technisch"
-  weight: 20
-  versions:
-      - name: "latest"
-        path: "content/authenticatie-autorisatie/latest/"
-        summary:
-          - title: "Authenticatie via User Access Token"
-            href: "authenticatie-via-useraccesstoken"
-          - title: "Authenticatie via Consumer Request"
-            href: "authenticatie-via-consumerrequest"
-          - title: "Postman"
-            href: "postman"
-- title: "Entry API"
+- title: "Entry API via XML"
   description: "Via Entry API kan je items in UiTdatabank aanmaken, aanpassen en verwijderen."
   path: "content/entry_api/"
-  category: "Technisch"
+  category: "UiTdatabank"
   weight: 30
+  icon: "entry"
   versions:
       - name: "latest"
         path: "content/entry_api/latest/"
@@ -398,34 +426,12 @@
             href: "basic-search"
           - title: "Response"
             href: "response"
-- title: "Overzicht omgevingen"
-  description: "Via deze omgevingen kan je gebruik maken van onze services."
-  path: "content/omgevingen/"
-  category: "Technisch"
-  weight: 10
-  versions:
-      - name: "latest"
-        path: "content/omgevingen/latest/"
-- title: "UiT integreren op je eigen website"
-  description: "Er zijn 3 mogelijkheden om agenda-informatie te integreren."
-  path: "content/integratie-op-je-eigen-website/"
-  category: "Functioneel"
-  weight: 10
-  versions:
-      - name: "latest"
-        path: "content/integratie-op-je-eigen-website/latest/"
-        summary:
-          - title: "Mogelijkheden"
-            href: "mogelijkheden"
-          - title: "HTTPS-ondersteuning"
-            href: "https"
-          - title: "Gebruiksvoorwaarden"
-            href: "gebruiksvoorwaarden"
 - title: "Frontend afstemmen op het CdbXML-formaat"
   description: "Enkele tips & tricks om CdbXML-changes op te vangen sinds 2017."
   path: "content/frontend/"
-  category: "Technisch"
+  category: "UiTdatabank"
   weight: 100
+  icon: "frontend"
   versions:
   - name: "latest"
     path: "content/frontend/latest/"
@@ -449,11 +455,33 @@
           href: "wijzigingen-optimalisaties/tijdsinformatie"
         - title: "Verkeerde prijsinformatie"
           href: "wijzigingen-optimalisaties/prijsinformatie"
+- title: "Entry API via JSON"
+  description: "This document gives an introduction to the UiTdatabank JSON-LD APIs to create, update and delete content."
+  path: "content/entry_api_3/"
+  category: "UiTdatabank"
+  weight: 31
+  icon: "entry3"
+  hidden: false
+  versions:
+    - name: "latest"
+      path: "content/entry_api_3/latest/"
+      summary:
+        - title: "Getting started"
+          href: "start"
+        - title: "Who can import data in UiTdatabank?"
+          href: "who"
+        - title: "UiTdatabank Basics"
+          href: "basics"
+        - title: "Project flow from TEST to PRODUCTION"
+          href: "flow"
+        - title: "API documentation"
+          href: "api-documentation"
 - title: "JSON-LD"
   description: "This document describes the UiTdatabank v3 native JSON-LD format"
   path: "content/json-ld/"
-  category: "Technisch"
+  category: "UiTdatabank"
   weight: 110
+  icon: "json"
   hidden: true
   versions:
     - name: "latest"
@@ -475,6 +503,8 @@
           summary:
             - title: "Create event"
               href: "events/event-create"
+            - title: "Get event details"
+              href: "events/event-detail"
             - title: "Update event type"
               href: "events/event-type"
             - title: "Update event theme"
@@ -520,6 +550,8 @@
               href: "places/place-list"
             - title: "Create place"
               href: "places/place-create"
+            - title: "Get place details"
+              href: "places/place-detail"
             - title: "Update place type"
               href: "places/place-type"
             - title: "Update calendar"
@@ -530,8 +562,12 @@
               href: "places/place-name"
             - title: "Update description"
               href: "places/place-description"
+            - title: "Add image"
+              href: "places/place-image_add"
             - title: "Update image"
-              href: "places/place-image"
+              href: "places/place-image_update"
+            - title: "Set main image"
+              href: "places/place-image_main"
             - title: "Update booking info"
               href: "places/place-booking-info"
             - title: "Update contact info"
@@ -555,16 +591,8 @@
               href: "organizers/organizer-list"
             - title: "Create organizer"
               href: "organizers/organizer-create"
-            - title: "Update unique URL"
-              href: "organizers/organizer-url"
-            - title: "Update name"
-              href: "organizers/organizer-name"
-            - title: "Update contact info"
-              href: "organizers/organizer-contact-point"
-            - title: "Update address"
-              href: "organizers/organizer-address"
-            - title: "Update labels"
-              href: "organizers/organizer-label"
+            - title: "Get organizer details"
+              href: "organizers/organizer-detail"
         - title: "Manage images"
           href: "images"
           summary:
@@ -577,7 +605,7 @@
 - title: "JSON-LD CRUD API"
   description: "This document describes the UiTdatabank v3 native JSON-LD format"
   path: "content/json-ld-crud-api/"
-  category: "Technisch"
+  category: "UiTdatabank"
   weight: 120
   hidden: true
   versions:
@@ -659,27 +687,12 @@
               href: "places/place-priceInfo"
             - title: "typicalAgeRange"
               href: "places/place-typicalAgeRange"
-        - title: "Add and update organizers"
-          href: "organizers"
-          summary:
-            - title: "mainLanguage"
-              href: "organizers/organizer-mainLanguage"
-            - title: "name"
-              href: "organizers/organizer-name"
-            - title: "url"
-              href: "organizers/organizer-url"
-            - title: "address"
-              href: "organizers/organizer-address"
-            - title: "contactPoint"
-              href: "organizers/organizer-contactPoint"
-            - title: "labels"
-              href: "organizers/organizer-labels"
 - title: "UiTPAS API 3.0 : how-to 'Mijn UiTPAS' omgeving"
   description: "Handleiding voor de ontwikkeling van een 'Mijn UiTPAS' omgeving."
   path: "content/uitpas_api-mijn-uitpas/"
-  category: "Technisch"
+  category: "UiTPAS"
   weight: 130
-  hidden: false
+  icon: "uitpas"
   versions:
       - name: "latest"
         path: "content/uitpas_api-mijn-uitpas/latest/"
@@ -701,7 +714,7 @@
 - title: "UiTPAS integreren met ticketingsystemen"
   description: "Welke API calls kunnen ticketingvendors gebruiken"
   path: "content/uitpas_api_ticketing/"
-  category: "Technisch"
+  category: "UiTPAS"
   weight: 130
   hidden: true
   versions:
@@ -720,12 +733,16 @@
             href: "baliemedewerker-ziet-beperkte-pashouderinfo"
           - title: "Doorvoeren acties aan een balie"
             href: "doorvoeren-acties-aan-een-balie"
+          - title: "Baliemedewerker gebruikt ticketing applicatie"
+            href: "baliemedewerker-gebruikt-ticketing-applicatie"
+          - title: "Baliemedewerker scant UiTPAS"
+            href: "baliemedewerker-scant-UiTPAS"
 - title: "UiTPAS API 3.0 : referentie"
   description: "Overzicht van de beschikbare UiTPAS API-endpoints en entiteiten."
   path: "content/uitpas_api/"
-  category: "Technisch"
+  category: "UiTPAS"
   weight: 120
-  hidden: false
+  icon: "uitpas"
   versions:
       - name: "latest"
         path: "content/uitpas_api/latest/"
@@ -838,6 +855,8 @@
                 href: "events/online-annulatie-van-verkoop-van-ticket-adhv-id"
               - title: "Online registratie van verkoop van een ticket"
                 href: "events/online-registratie-van-verkoop-van-ticket"
+              - title: "Ophalen van kaartsystemen van een event"
+                href: "events/ophalen-kaartsystemen-van-event"
           - title: "Welkomstvoordelen en verzilveracties"
             href: "welkomstvoordelen-en-verzilveracties"
             summary:
@@ -952,9 +971,9 @@
 - title: "SAPI 3"
   description: "Leer de nieuwste querysyntax van de UiTdatabank."
   path: "content/search_api_3/"
-  category: "Technisch"
+  category: "UiTdatabank"
   weight: 130
-  hidden: false
+  icon: "sapi3"
   versions:
     - name: "latest"
       status: "pilot"
@@ -977,60 +996,75 @@
               href: "getting-started/default-filters"
             - title: "Escaping"
               href: "getting-started/escaping"
-        - title: "Searching events and places"
+        - title: "Searching events, places or all offers"
           href: "searching"
           summary:
             - title: "Offers endpoint"
-              href: "searching/offers-endpoint"
+              href: "searching/offers/offers-endpoint"
             - title: "Free text search"
-              href: "searching/free-text-search"
+              href: "searching/offers/free-text-search"
             - title: "Address"
-              href: "searching/address"
+              href: "searching/offers/address"
             - title: "Age"
-              href: "searching/age"
+              href: "searching/offers/age"
             - title: "Audience type"
-              href: "searching/audience-type"
+              href: "searching/offers/audience-type"
             - title: "Availability"
-              href: "searching/availability"
+              href: "searching/offers/availability"
             - title: "Calendar type"
-              href: "searching/calendar-type"
+              href: "searching/offers/calendar-type"
             - title: "Created and modified"
-              href: "searching/created-and-modified"
+              href: "searching/offers/created-and-modified"
             - title: "Creator"
-              href: "searching/creator"
+              href: "searching/offers/creator"
             - title: "Date & time"
-              href: "searching/date"
+              href: "searching/offers/date"
             - title: "Facet counts"
-              href: "searching/facet-counts"
+              href: "searching/offers/facet-counts"
             - title: "Geosearch"
-              href: "searching/geosearch"
+              href: "searching/offers/geosearch"
               summary:
               - title: "Search by shape"
-                href: "searching/geosearch/shape"
+                href: "searching/offers/geosearch/shape"
               - title: "List of shapes"
-                href: "searching/geosearch/list_of_shapes"
+                href: "searching/offers/geosearch/list_of_shapes"
               - title: "Search by distance"
-                href: "searching/geosearch/distance"
+                href: "searching/offers/geosearch/distance"
             - title: "Id"
-              href: "searching/id"
+              href: "searching/offers/id"
             - title: "Labels"
-              href: "searching/labels"
+              href: "searching/offers/labels"
             - title: "Languages"
-              href: "searching/languages"
+              href: "searching/offers/languages"
             - title: "Media objects"
-              href: "searching/media-objects"
+              href: "searching/offers/media-objects"
             - title: "Metadata"
-              href: "searching/metadata"
+              href: "searching/offers/metadata"
             - title: "Price"
-              href: "searching/price"
+              href: "searching/offers/price"
             - title: "Sorting"
-              href: "searching/sorting"
+              href: "searching/offers/sorting"
             - title: "Terms"
-              href: "searching/terms"
+              href: "searching/offers/terms"
             - title: "UiTPAS"
-              href: "searching/uitpas"
+              href: "searching/offers/uitpas"
             - title: "Workflow status"
-              href: "searching/workflow-status"
+              href: "searching/offers/workflow-status"
+        - title: "Searching organizers"
+          href: "searching-organizers"
+          summary:
+            - title: "Organizers endpoint"
+              href: "searching/organizers/organizers-endpoint"
+            - title: "Free text search"
+              href: "searching/organizers/free-text-search"
+            - title: "Address"
+              href: "searching/organizers/address"
+            - title: "Labels"
+              href: "searching/organizers/labels"
+            - title: "Creator"
+              href: "searching/organizers/creator"
+            - title: "Url"
+              href: "searching/organizers/url"
         - title: "Reference"
           href: "reference"
           summary:
@@ -1044,12 +1078,38 @@
               href: "reference/example-response"
             - title: "Exceptions"
               href: "reference/exceptions"
+#
+# INTEGREREN
+#
+- title: "UiT integreren op je eigen website"
+  description: "Er zijn 3 mogelijkheden om agenda-informatie te integreren."
+  path: "content/integratie-op-je-eigen-website/"
+  category: "Integreren"
+  icon: "integratie"
+  weight: 10
+  versions:
+      - name: "latest"
+        path: "content/integratie-op-je-eigen-website/latest/"
+        summary:
+          - title: "Mogelijkheden"
+            href: "mogelijkheden"
+          - title: "Gebruiksvoorwaarden"
+            href: "gebruiksvoorwaarden"
+- title: "Aan de slag met Culturefeed"
+  category: "Integreren"
+  description: "Maak gebruik van onze PHP-bibliotheken en Drupal-modules."
+  path: "content/culturefeed/"
+  weight: 50
+  icon: "drupal"
+  versions:
+    - name: "latest"
+      path: "content/culturefeed/latest/"
 - title: "Aan de slag met widgets"
   description: "De UiTwidgets van publiq zijn eenvoudige toepassingen waarmee je agenda-informatie in je website kan integreren."
   path: "content/widgets/"
   weight: 55
-  hidden: false
-  category: "Technisch"
+  icon: "widgets"
+  category: "Integreren"
   versions:
     - name: "latest"
       path: "content/widgets/latest/"
@@ -1074,10 +1134,10 @@
               href: "configureren/html"
             - title: "Tips"
               href: "configureren/tips"
+            - title: "Afbeeldingen opladen"
+              href: "configureren/afbeeldingen"
             - title: "Groepfilters"
               href: "configureren/groepfilters"
-            - title: "Een UiTPAS-regio maken"
-              href: "configureren/uitpasregio"
         - title: "Stijlen"
           href: "stijlen"
           summary:
@@ -1096,16 +1156,80 @@
               href: "na_publicatie/een_widget_inplakken_op_je_website"
             - title: "Aanpassen & dupliceren"
               href: "na_publicatie/je_widget_aanpassen_dupliceren_of_verwijderen"
-        - title: "Upgraden (v2 -> v3)"
-          href: "upgraden"
+        - title: "Geavanceerd"
+          href: "geavanceerd"
+        - title: "Browsercompatibiliteit"
+          href: "browsercompatibiliteit"
+#
+# AUTHENTICATION
+#
+- title: "Authentication and authorisation"
+  description: "How to connect to our applications?"
+  path: "content/authentication-authorisation/"
+  category: "Systeem"
+  weight: 20
+  hidden: true
+  icon: "authenticatie"
+  versions:
+      - name: "latest"
+        path: "content/authentication-authorisation/latest/"
+        summary:
+          - title: "Authentication via User Access Token"
+            href: "authentication-via-useraccesstoken"
+          - title: "Authentication via Consumer Request"
+            href: "authentication-via-consumerrequest"
+          - title: "Postman"
+            href: "postman"
+#
+# INTEGRATION
+#
+- title: "Integration of UiT data"
+  description: "Three methods with which you can integrate agenda information on your website."
+  path: "content/integration-on-your-own-website/"
+  category: "Integreren"
+  icon: "integratie"
+  weight: 10
+  hidden: true
+  versions:
+      - name: "latest"
+        path: "content/integration-on-your-own-website/latest/"
+        summary:
+          - title: "Possibilities"
+            href: "possibilities"
+          - title: "Terms of use"
+            href: "terms_of_use"
+          - title: "HTTPS"
+            href: "https"
+#
+# UITID
+#
+- title: "Getting started with UiTiD"
+  category: "UiTid"
+  description: "This manual explains how the UiTiD API can be used."
+  path: "content/uitid_en/"
+  weight: 40
+  hidden: true
+  icon: "uitid"
+  versions:
+    - name: "latest"
+      path: "content/uitid_en/latest/"
+      summary:
+        - title: "What is UiTiD?"
+          href: "uitid"
+        - title: "Actions"
+          href: "activities/activities"
           summary:
-            - title: "Hoe upgraden?"
-              href: "upgraden/upgraden"
-            - title: "Na upgrade"
-              href: "upgraden/na-upgrade"
-            - title: "Browsercompatibiliteit"
-              href: "upgraden/browsercompatibiliteit"
-            - title: "Vertaaltabel SAPI-syntax"
-              href: "upgraden/vertaaltabel"
-            - title: "Vertaaltabel regio's"
-              href: "upgraden/regiolijst"
+          - title: "Create an activity"
+            href: "activities/create_activity"
+          - title: "Search an activity"
+            href: "activities/search_activities"
+          - title: "Customise activity privacy"
+            href: "activities/customise_activity_privacy"
+          - title: "Search for users who performed a particular activity"
+            href: "activities/user_activities"
+          - title: "List of top shared events"
+            href: "activities/topactivities"
+          - title: "Delete Activity"
+            href: "activities/delete_activity"
+          - title: "Total Activities"
+            href: "activities/total_activities"

@@ -5,6 +5,8 @@ rvm:
 branches:
   only:
   - master
+before_install:
+  - gem install bundler -v '< 2'
 install: bundle install
 script: bundle exec rake test
 env:
@@ -19,6 +21,7 @@ deploy:
   region: eu-west-1
   skip_cleanup: true
   local_dir: _site
+  cache_control: "max-age=1800"
   on:
     branch: master
     repo: cultuurnet/uit-documentatie

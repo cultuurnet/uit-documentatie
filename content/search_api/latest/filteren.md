@@ -14,11 +14,11 @@ Het is dan ook aan te raden om de search termen die de ranking van de documenten
 Alle documenten die de term “concert” bevatten met locatie Gent
 
 ```
-{{site.search_api_server}}/searchv2/search?q=concert&fq=city:Gent
+{{site.search_api_server}}/search?q=concert&fq=city:Gent
 ```
 
 Er kan meer dan één filter query doorgegeven worden. Het resultaat bevat alleen documenten die zich in de doorsnede van alle filter queries bevinden.
 
 ```
-{{site.search_api_server}}/searchv2/search?q=concert%20&fq=city:Gent&fq=agefrom:18
+{{site.search_api_server}}/search?q=concert%20&fq=city:Gent&fq=agefrom:18
 ```

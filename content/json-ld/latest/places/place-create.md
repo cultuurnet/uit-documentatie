@@ -24,7 +24,7 @@ To create a new event the object-body must contain the following properties:
 - name: don't specify a language, the mainLanguage will be used to add a language property for the name
 - type
 - address: don't specify a language, the mainLanguage will be used to add a language property for the address
-- calendarType
+- calendar
 
 The initial POST request must contain a JSON body with (at least) all mandatory fields. These fields can be edited separately with individual PUT requests.
 See specific update requests for definitions of each property
@@ -59,46 +59,48 @@ X-Api-Key: {apiKey}
     "postalCode": "3271",
     "streetAddress": "Hoornblaas 107"
   },
-  "calendarType": "permanent",
-  "openingHours": [
-    {
-      "dayOfWeek": [
-        "monday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "opens": "13:00",
-      "closes": "23:59"
-    },
-    {
-      "dayOfWeek": [
-        "monday",
-        "tuesday",
-        "thursday",
-        "friday",
-        "saturday"
-      ],
-      "opens": "00:00",
-      "closes": "01:00"
-    },
-    {
-      "dayOfWeek": [
-        "saturday",
-        "sunday"
-      ],
-      "opens": "15:00",
-      "closes": "23:59"
-    },
-    {
-      "dayOfWeek": [
-        "saturday",
-        "sunday"
-      ],
-      "opens": "00:00",
-      "closes": "03:00"
-    }
-  ]
+  "calendar": {
+    "calendarType": "permanent",
+    "openingHours": [
+      {
+        "dayOfWeek": [
+          "monday",
+          "wednesday",
+          "thursday",
+          "friday"
+        ],
+        "opens": "13:00",
+        "closes": "23:59"
+      },
+      {
+        "dayOfWeek": [
+          "monday",
+          "tuesday",
+          "thursday",
+          "friday",
+          "saturday"
+        ],
+        "opens": "00:00",
+        "closes": "01:00"
+      },
+      {
+        "dayOfWeek": [
+          "saturday",
+          "sunday"
+        ],
+        "opens": "15:00",
+        "closes": "23:59"
+      },
+      {
+        "dayOfWeek": [
+          "saturday",
+          "sunday"
+        ],
+        "opens": "00:00",
+        "closes": "03:00"
+      }
+    ]
+  }
 }
 ```
 

@@ -3,7 +3,7 @@
 
 # Update location
 
-Update an event with a new location. For a list of all locations, see [List places](../../places/place-list) documentation.
+Update an event with a new location. For a list of all locations, see [List places]({% link content/json-ld/latest/places/place-list.md %}) documentation.
 
 Location is required, an event can only have one location.
 

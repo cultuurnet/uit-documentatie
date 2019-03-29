@@ -15,7 +15,7 @@ UiTPAS-aanbod is steeds gelinkt aan een organisator. Daarom is het sturen van he
 </organiser>
 ```
 
-Het sturen van het juiste cdbid in de node zorgt er ook voor dat de organisator aanklikbaar is op UiTinVlaanderen en andere kanalen van UiT. 
+Het sturen van het juiste cdbid in de node zorgt er ook voor dat de organisator aanklikbaar is op UiTinVlaanderen en andere kanalen van UiT.
 
 ## Label
 
@@ -29,11 +29,11 @@ Voor elke UiTPAS-activiteit moet het label ('keyword') van de overeenkomstige Ui
 
 Elke UiTPAS-regio heeft zijn eigen label:
 
-| Regio | Label | 
+| Regio | Label |
 | -- | -- |
-| Brussel | Paspartoe | 
-| Gent | UiTPAS Gent | 
-| Oostende | UiTPAS Oostende | 
+| Brussel | Paspartoe |
+| Gent | UiTPAS Gent |
+| Oostende | UiTPAS Oostende |
 | Aalst | UiTPAS Regio Aalst  |
 | Dender | UiTPAS Dender |
 | Zuidwest | UiTPAS Zuidwest |
@@ -56,11 +56,11 @@ Het is verplicht een prijs mee te geven bij elke UiTPAS-activiteit:
 </price>
 ```
 
-Het is ook mogelijk meerdere prijzen aan te maken in cdbxml. Zie hiervoor de sectie over [prijsinfo](http://documentatie.uitdatabank.be/content/cdbxml/latest/tipsentricks/prijsinfo/)
+Het is ook mogelijk meerdere prijzen aan te maken in cdbxml. Zie hiervoor de sectie over [prijsinfo]({% link content/cdbxml/latest/tipsentricks/prijsinfo.md %})
 
 ## Tijdsinfo: aanvangsuur
 
-Het is verplicht het aanvangsuur (en bij voorkeur ook het einduur) als volgt mee te sturen: 
+Het is verplicht het aanvangsuur (en bij voorkeur ook het einduur) als volgt mee te sturen:
 
 
 ```
@@ -77,6 +77,6 @@ Het is verplicht het aanvangsuur (en bij voorkeur ook het einduur) als volgt mee
 
 UiTdatabank zal ontbrekende begin- en einduren als volgt invullen:
 - ontbrekend beginuur: 00:00:00
-- ontbrekend einduur: 23:59:59 
+- ontbrekend einduur: 23:59:59
 
 De UiTPAS-zuilen zullen met deze informatie rekening houden.

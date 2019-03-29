@@ -3,7 +3,7 @@
 
 # Update event theme
 
-One of the available themes at http://taxonomy.uitdatabank.be/api/domain/theme/classification. Pick a theme that fits the chosen eventtype. For an overview of all eventtypes with appropriate themes: [http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/themas/](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/themas/)
+One of the available themes at http://taxonomy.uitdatabank.be/api/domain/theme/classification. Pick a theme that fits the chosen eventtype. For an overview of all eventtypes with appropriate themes, see [here]({% link content/uitdatabank/latest/categorisatie/themas.md %})
 
 Theme is not required, but highly recommended. An event can only have one theme.
 

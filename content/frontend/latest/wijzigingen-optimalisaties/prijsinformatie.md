@@ -9,7 +9,7 @@ Op een activiteitenpagina verschijnt prijsinformatie niet of verkeerd.
 
 ## Oorzaak
 
-Sinds 2017 zijn er [nieuwe regels](http://documentatie.uitdatabank.be/content/cdbxml/latest/tipsentricks/prijsinfo/ "Bekijk de exacte specificaties") voor het doorsturen van prijsinformatie.
+Sinds 2017 zijn er [nieuwe regels]({% link content/cdbxml/latest/tipsentricks/prijsinfo.md %}) voor het doorsturen van prijsinformatie.
 
 Het verkeerd tonen van de prijsinformatie betekent dat de prijsinformatie niet volgens de juiste standaard is doorgestuurd naar UiTdatabank.
 

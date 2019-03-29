@@ -68,7 +68,7 @@ In this step, the user's browser must be redirected to:
 {server}/auth/authorize
 ~~~
 
-The {server} section of the URL depends on the environment.The available environments can be found [here](http://documentatie.uitdatabank.be/content/omgevingen/latest/index.html)
+The {server} section of the URL depends on the environment.The available environments can be found [here]({% link content/omgevingen/latest/start.md %})
 
 *Parameters*
 

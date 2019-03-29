@@ -3,18 +3,18 @@
 
 # UiTPAS-historiek van de gebruiker weergeven
 
-Binnen het UiTPAS-systeem kan een gebruiker: 
+Binnen het UiTPAS-systeem kan een gebruiker:
 1. Punten sparen (door een checkin te doen op een UiTPAS event)
 2. Voordelen omruilen (tegen punten)
-3. Tickets aan kansentarief kopen (enkel voor pashouders met kansenstatuut). 
+3. Tickets aan kansentarief kopen (enkel voor pashouders met kansenstatuut).
 
-Van de 3 acties afzonderlijk kan een overzicht of historiek opgevraagd worden via de API. 
+Van de 3 acties afzonderlijk kan een overzicht of historiek opgevraagd worden via de API.
 
 In de frontend kunnen de 3 types van acties eventueel gecombineerd worden in één historiek, geordend op creatie datum.
 
-## Punten historiek 
+## Punten historiek
 
-Een pashouder kan punten sparen door een checkin te doen op een UiTPAS event. Iedere checkin geeft recht op een (instelbaar) aantal punten. 
+Een pashouder kan punten sparen door een checkin te doen op een UiTPAS event. Iedere checkin geeft recht op een (instelbaar) aantal punten.
 
 ![Punten historiek](/img/uitpas_api-mijn-uitpas-historiek-punten.png "Punten historiek")
 
@@ -30,7 +30,7 @@ Voorbeeld
 {prefix}/uitpas/cultureevent/searchCheckins?uid=22b69dc0-abf7-40f2-8ae7-c1e69811ed7c
 ```
 
-**Response** 
+**Response**
 
 ~~~ xml
 <checkinActivity>
@@ -65,7 +65,8 @@ Voorbeeld
 </checkinActivity>
 ~~~
 
-[Voorbeeld response in XML (volledig)](http://documentatie.uitdatabank.be/content/uitpas_api/latest/events/checkins-doorzoeken/)
+[Voorbeeld response in XML (volledig)]({% link content/uitpas_api/latest/events/checkins-doorzoeken.md %})
+
 
 Volgende velden heb je nodig:
 
@@ -76,21 +77,21 @@ Volgende velden heb je nodig:
 | Locatie naam | checkinActivity > createdVia | - |
 | Aantal punten | checkinActivity > points | - |
 
-Als er informatie van het event getoond moet worden (buiten de titel), dan kan het event detail opgehaald worden via Search API door een search op ```cdbid``` (vervat in het element ```nodeId```): 
+Als er informatie van het event getoond moet worden (buiten de titel), dan kan het event detail opgehaald worden via Search API door een search op ```cdbid``` (vervat in het element ```nodeId```):
 
 Voorbeeld
 
 ```
-https://www.uitid.be/uitid/rest/searchv2/search?q=cdbid:{nodeId}
+https://www.uitid.be/search/rest/search?q=cdbid:{nodeId}
 ```
 
 **Referentie UiTPAS API v3.0**
 
-[Checkins doorzoeken](http://documentatie.uitdatabank.be/content/uitpas_api/latest/events/checkins-doorzoeken/)
+[Checkins doorzoeken]({% link content/uitpas_api/latest/events/checkins-doorzoeken.md %})
 
 ## Historiek omgeruilde voordelen weergeven
 
-Gespaarde punten kan een pashouder omruilen tegen ‘omruilvoordelen’. 
+Gespaarde punten kan een pashouder omruilen tegen ‘omruilvoordelen’.
 De omruilvoordelen die door een pashouder omgeruild werden kunnen opgehaald worden o.b.v. UiTPAS-nummer.
 
 **Request**
@@ -125,7 +126,7 @@ Voorbeeld
 </cashedPromotion>
 ~~~
 
-[Voorbeeld reponse in XML (volledig)](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-verzilverde-omruilvoordelen/)
+[Voorbeeld reponse in XML (volledig)]({% link content/uitpas_api/latest/pashouders/ophalen-verzilverde-omruilvoordelen.md %})
 
 Volgende velden heb je nodig:
 
@@ -138,11 +139,11 @@ Volgende velden heb je nodig:
 
 **Referentie UiTPAS v3.0**
 
-[Ophalen van verzilverder omruilvoordelen](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-verzilverde-omruilvoordelen/)
+[Ophalen van verzilverder omruilvoordelen]({% link content/uitpas_api/latest/pashouders/ophalen-verzilverde-omruilvoordelen.md %})
 
 ## Historiek gekochte kansentarieven weergeven
 
-Pashouders met kansenstatuut kunnen tickets tegen kansentarief aankopen in het systeem. 
+Pashouders met kansenstatuut kunnen tickets tegen kansentarief aankopen in het systeem.
 
 Een pashouder met kansenstatuut heeft in het pashouder profiel, een waarde ```true``` op het veld currentCard > kansenpas.  Voor pashouders met waarde ```false``` zal geen ticket historiek gegeven kunnen worden.
 
@@ -195,7 +196,7 @@ Voorbeeld
 </ticketSale>
 ~~~
 
-[Voorbeeld response in XML (volledig)](http://documentatie.uitdatabank.be/content/uitpas_api/latest/events/verkoop-tickets-doorzoeken/)
+[Voorbeeld response in XML (volledig)]({% link content/uitpas_api/latest/events/verkoop-tickets-doorzoeken.md %})
 
 Volgende velden heb je nodig:
 
@@ -205,10 +206,10 @@ Volgende velden heb je nodig:
 | Event titel | ticketSale > nodeTitle | Naam van het event waarvoor een ticket werd gekocht. |
 | Event organiser | ticketSale > organiser | Organisator van het event. |
 
-[Overzicht beschikbare velden entiteit 'ticketsale'](http://documentatie.uitdatabank.be/content/uitpas_api/latest/entiteiten/ticketsale-entiteit-bij-zoekopdracht/) 
+[Overzicht beschikbare velden entiteit 'ticketsale']({% link content/uitpas_api/latest/entiteiten/ticketsale-entiteit-bij-zoekopdracht.md %})
 
 **Referentie UiTPAS API v3.0**
 
-[Verkoop tickets doorzoeken](http://documentatie.uitdatabank.be/content/uitpas_api/latest/events/verkoop-tickets-doorzoeken/)
+[Verkoop tickets doorzoeken]({% link content/uitpas_api/latest/events/verkoop-tickets-doorzoeken.md %})
 
 

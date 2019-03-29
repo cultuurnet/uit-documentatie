@@ -3,6 +3,8 @@
 
 # Possible exceptions and deprecated data
 
+You can already discover all features available in publiq’s Search API v3 for UiTdatabank. However, there are some possible exceptions to handle in this pilot stage.
+
 ## Missing `@id` for location
 
 * it is possible an event has **a place without `@id`**

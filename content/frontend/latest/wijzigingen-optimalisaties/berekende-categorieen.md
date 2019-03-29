@@ -12,6 +12,7 @@ Bepaalde activiteiten verschijnen niet meer op mijn agenda of in de zoekresultat
 Sinds 2017 worden geen categorieën meer automatisch berekend op basis van het ingevoerde aanbod, zoals:
 
 - targetaudience
+- publicscope
 - flanderstouristregion
 - umv (Vlieg-categorieën)
 - workingregion

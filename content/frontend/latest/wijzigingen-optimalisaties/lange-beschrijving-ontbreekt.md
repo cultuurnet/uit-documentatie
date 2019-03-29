@@ -12,7 +12,7 @@ Detailpagina's van het type actor tonen niet de volledige beschrijving.
 
 Objecten van het type actor bestonden voor 2017 enkel uit een korte beschrijving (max 400 karakters).
 
-Organisatoren kunnen sindsdien een beschrijving toevoegen die niet gelimiteerd is in aantal karakters. Deze beschrijving wordt net zoals die van activiteiten in een korte en lange beschrijving wordt opgedeeld (zie [Dubbele beschrijving van activiteiten](../korte-lange-beschrijving)).
+Organisatoren kunnen sindsdien een beschrijving toevoegen die niet gelimiteerd is in aantal karakters. Deze beschrijving wordt net zoals die van activiteiten in een korte en lange beschrijving wordt opgedeeld (zie [Dubbele beschrijving van activiteiten]({% link content/frontend/latest/wijzigingen-optimalisaties/korte-lange-beschrijving.md %})).
 
 ## Mogelijke oplossing
 

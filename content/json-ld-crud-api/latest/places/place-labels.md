@@ -3,6 +3,13 @@
 
 # Place - labels
 
+## Label guidelines
+
+* Labels should only start with a letter or number
+* Labels should have a minimum length of 2 characters
+* Labels should have a maximum length of 50 characters
+* Labels should only contain letters, numbers, dash `-` or underscores `_`
+
 ## labels (visible)
 
 * Can contain one or more labels

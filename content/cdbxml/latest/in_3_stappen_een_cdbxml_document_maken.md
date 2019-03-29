@@ -87,13 +87,13 @@ Tijdsinformatie. Het is verplicht aan te geven wanneer het event plaatsvindt. In
 </calendar>
 ~~~
 
-Let op, als een event op meer dan één tijdstip plaatsvindt, stuur je geen event object door per tijdstip maar voeg je binnen het betreffende event meerdere tijdstippen toe, of een periode, of geef je aan dat het een permanent aanbod is. Zie hiervoor in de sectie [Uitwisselingsformaat in XML](../cdbxml).
+Let op, als een event op meer dan één tijdstip plaatsvindt, stuur je geen event object door per tijdstip maar voeg je binnen het betreffende event meerdere tijdstippen toe, of een periode, of geef je aan dat het een permanent aanbod is. Zie hiervoor in de sectie [Uitwisselingsformaat in XML]({% link content/cdbxml/latest/start.md %}).
 
 ### //event/categories/category/@catid="eventtype"
 
 Informatie in de UiTdatabank wordt op de output kanalen verspreid via navigatierubrieken. Om opgenomen te worden in die rubrieken is het verplicht het type van het aanbod door te geven (vb. concert, film, theatervoorstelling, ...).
 
-De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie: [http://documentatie.uitdatabank.be/content/categorisatie/latest/index.html](http://documentatie.uitdatabank.be/content/categorisatie/latest/index.html)
+De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie [hier]({% link content/categorisatie/latest/start.md %})
 
 Het type van het aanbod is terug te vinden in het facet "eventtype" categorisation/item/@catid=eventtype.
 
@@ -160,6 +160,7 @@ Geef bij voorkeur ook een straat en een huisnummer zodat de UiTdatabank de corre
               <filename>x.jpg</filename>
               <filetype>jpeg</filetype>
               <hlink>http://www.flickr.com/images/x.jpg</hlink>
+              <mediatype>photo</mediatype>
             </file>
           </media>
           <shortdescription>Een beschrijving van maximaal 400 karakters.</shortdescription>
@@ -185,7 +186,7 @@ Geef bij voorkeur ook een straat en een huisnummer zodat de UiTdatabank de corre
 
 ### externalid
 
-Zorg ervoor dat het externalid dat je meestuurt uniek is: begin het id met een unieke code die staat voor de aanleverende partner, genereer een random id,...
+Zorg ervoor dat het externalid dat je meestuurt uniek is: begin het id met een unieke prefix die staat voor de aanleverende partner (vb. CCTEST_). Een externalid kan niet enkel bestaan uit cijfers. 
 
 
 ### /event/categories/category/@catid="theme"
@@ -199,7 +200,7 @@ Hierboven bij de verplichte velden stond beschreven dat het verplicht is het typ
 </categories>
 ~~~
 
-De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie: [http://documentatie.uitdatabank.be/content/categorisatie/latest/index.html](http://documentatie.uitdatabank.be/content/categorisatie/latest/index.html)
+De UiTdatabank categorieën zijn beschikbaar via een API, meer informatie [hier]({% link content/categorisatie/latest/start.md %})
 
 Het thema is wenselijk bij volgende types: "concert", "film", "theatervoorstelling", "dansvoorstelling" en "cursus of workshop".
 
@@ -215,7 +216,7 @@ Tal van kanalen gebruiken het agefrom veld om zich specifiek tot een leeftijdsgr
 
 Verhoog de zichtbaarheid van het event door een thumbnail toe te voegen, zoals in het voorbeeld.
 
-Om aan te geven dat het media object dat je verzendt kan dienen als thumbnail voorzie je het attribuut main - //media/file/@main="true". Voeg de verplichte elementen filename en filetype toe. Het element filename moet uniek zijn. Vergeet ook niet het copyright te vermelden. Dit is weliswaar niet verplicht voor een valid XML, maar het is ten zeerste aangeraden mee te geven wie de rechten op de afbeelding bezit.
+Om aan te geven dat het media object dat je verzendt kan dienen als thumbnail voorzie je het attribuut main - //media/file/@main="true". Voeg de verplichte elementen filename, filetype en mediatype toe. Het element filename moet uniek zijn. Vergeet ook niet het copyright te vermelden. Dit is weliswaar niet verplicht voor een valid XML, maar het is ten zeerste aangeraden mee te geven wie de rechten op de afbeelding bezit.
 
 Voeg in de node ```<mediatype>reservations</mediatype>``` toe, om een rechtstreekse ticketinglink toe te voegen aan het aanbod.
 

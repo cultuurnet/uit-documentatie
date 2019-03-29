@@ -18,26 +18,16 @@ layout: index
 
 <div class="row">
   <div class="catalog">
-    <h2 class="group-title"><strong>Handleidingen</strong> <small>Technische how-to's, geschreven voor ontwikkelaars en systeembeheerders</small></h2>
     <div class="books">
-    {% assign books = site.data.library | sort: 'weight'%}
-    {% for book in books%}
-      {% if book.category == "Technisch" and book.hidden != true %}
-        {% include bookteaser.html %}
-      {% endif %}
-    {% endfor %}
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  <div class="catalog">
-    <h2 class="group-title"><strong>Gidsen</strong> <small>Achtergrondinformatie voor analisten</small></h2>
-    <div class="books">
-    {% for book in books %}
-      {% if book.category == "Functioneel" and book.hidden != true %}
-        {% include bookteaser.html %}
-      {% endif %}
+    {% assign categories = site.data.library | group_by:"category" %}
+    {% for category in categories %}
+      <h2 class="group-title">{{category.name}}</h2>
+      {% assign books = category.items | sort:"weight" %}
+      {% for book in books %}
+        {% if book.hidden != true %}
+          {% include bookteaser.html %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
     </div>
   </div>

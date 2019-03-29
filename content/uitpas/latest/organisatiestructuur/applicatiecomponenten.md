@@ -12,9 +12,9 @@ De UiTPAS NFC kaart wordt gebruikt als fysieke identificatie van een persoon.
 
 ## UiTPAS mobiele applicatie
 
-Met de UiTPAS app staat je UiTPAS op je smartphone. Je kan punten sparen door de QR-code op de spaarzuil (zie verder - onderdeel Checkin device) te scannen met je smartphone. Bekijk verder hoeveel punten je al spaarde en alle voordelen voor de locatie waar je een punt spaarde. Je kan met de app enkel punten sparen aan spaarzuilen die ook ingesteld zijn om een QR-code te tonen. 
+Met de UiTPAS app staat je UiTPAS op je smartphone. Je kan punten sparen door de QR-code op de spaarzuil (zie verder - onderdeel Checkin device) te scannen met je smartphone. Bekijk verder hoeveel punten je al spaarde en alle voordelen voor de locatie waar je een punt spaarde. Je kan met de app enkel punten sparen aan spaarzuilen die ook ingesteld zijn om een QR-code te tonen.
 
-De app is beschikbaar voor [Android](https://play.google.com/store/apps/details?id=be.cultuurnet.uitpasapp) en [iOS](https://itunes.apple.com/us/app/uitpas/id1249270326?ls=1&mt=8).
+De app is beschikbaar voor [Android](https://play.google.com/store/apps/details?id=be.cultuurnet.uitpasapp) en [iOS](https://itunes.apple.com/be/app/uitpas/id1249270326?mt=8).
 
 ## Checkin device (CID)
 
@@ -44,9 +44,9 @@ Een CID kan ook andere functies vervullen:
 
 ## Publieke website
 
-De publieke website kan de site van de stad of gemeente zijn of kan een aan het UiTPAS systeem toegwijde website zijn. 
+De publieke website kan de site van de stad of gemeente zijn of kan een aan het UiTPAS systeem toegwijde website zijn.
 
-* Integratie met de UiTPAS backend kan via de [UiTPAS API](http://www.uitid.be/uitid/apidoc/uitpas-api.html).
+* Integratie met de UiTPAS backend kan via de [UiTPAS API]({% link content/uitpas_api/latest/start.md %}).
 
 * publiq stelt daarnaast Drupal 7 modules ter beschikking voor integratie met UiTPAS. Meer technische informatie hierover, zie [https://github.com/cultuurnet/culturefeed/wiki/Culturefeed-UiTPAS](https://github.com/cultuurnet/culturefeed/wiki/Culturefeed-UiTPAS). Voorbeelden van dergelijke sites zijn [https://www.uitinmechelen.be](https://www.uitinmechelen.be) en [http://www.uitpaskempen.be](http://www.uitpaskempen.be).
 
@@ -54,12 +54,12 @@ De publieke website kan de site van de stad of gemeente zijn of kan een aan het 
 
 Deze webapplicatie wordt gebruikt door baliemedewerkers om pashouders te registreren, pashouders een punt toe te kennen, welkomst/ruilvoordelen toe te kennen, UiTPAS’en te blokkeren, verkochte tickets aan kansenstatuut te registreren ...
 
-[balie.uitpas.be](balie.uitpas.be) is een applicatie die draait binnen een JavaFX browser maar die ook via een normale browser toegankelijk is. De JavaFX browser maakt het mogelijk om kaarten te scannen via randappratuur (bvb. barcode scanner, NFC lezer, eID kaartlezer).
+[balie.uitpas.be](https://balie.uitpas.be) is een applicatie die draait binnen een JavaFX browser maar die ook via een normale browser toegankelijk is. De JavaFX browser maakt het mogelijk om kaarten te scannen via randappratuur (bvb. barcode scanner, NFC lezer, eID kaartlezer).
 
 ## UiTPAS balie: mobiele applicatie
 
 Baliemedewerkers kunnen beschikken over de UiTPAS Balie-app waarmee ze
-pashouders kunnen inchecken, informatie over de pashouder kunnen raadplegen, 
+pashouders kunnen inchecken, informatie over de pashouder kunnen raadplegen,
 welkomst- en ruilvoordelen toekennen en ticket sales kunnen registreren.
 
 De app is beschikbaar voor [Android](https://play.google.com/store/apps/details?id=be.cultuurnet.uitpasmobile) en voor [iOS](https://itunes.apple.com/be/app/uitpas-balie/id1117438672?mt=8). De app is geschikt voor smartphones en tablets.

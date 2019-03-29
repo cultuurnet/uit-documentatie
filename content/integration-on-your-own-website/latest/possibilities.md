@@ -10,7 +10,7 @@ With this API you get access to the search engine of the UiT database.
 - Platform independent
 - Individual customized solutions possible
 
-> Read more in [Search API](http://documentatie.uitdatabank.be/content/search_api/latest/index.html)
+> Read more in [Search API]({% link content/search_api/latest/start.md %})
 
 ## Widgets
 
@@ -27,5 +27,5 @@ Modules with which you can integrate an UiTagenda into a Drupal site.
 - Refined SEO
 
 
-> Get started with [Culturefeed](http://documentatie.uitdatabank.be/content/culturefeed/latest/index.html)
+> Get started with [Culturefeed]({% link content/culturefeed/latest/start.md %})
 

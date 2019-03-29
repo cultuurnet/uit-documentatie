@@ -50,7 +50,28 @@ If successful, this method returns a `200` response code and a commandId in the 
 
 ## Example
 
-**request**
+**request for calendarType single**
+
+The following is an example of the request
+
+```
+PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/calendar
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
+{
+"calendarType": "single",
+ "timeSpans": [
+    {
+      "start": "2015-05-07T12:02:53+00:00",
+      "end": "2015-05-07T14:02:53+00:00"
+    }
+  ]
+}
+```
+
+**request for calendarType multiple**
 
 The following is an example of the request
 
@@ -75,9 +96,44 @@ X-Api-Key: {apiKey}
       "start": "2015-05-09T12:02:53+00:00",
       "end": "2015-05-09T14:02:53+00:00"
     }
-  ],
-  "startDate": "2015-05-07T12:02:53+00:00",
-  "endDate": "2015-05-09T14:02:53+00:00"
+  ]
+}
+```
+
+**request for calendarType periodic**
+
+The following is an example of the request
+
+```
+PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/calendar
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
+{
+  "calendarType": "periodic",
+  "startDate": "2019-05-01T00:00:00+00:00",
+  "endDate": "2019-09-01T23:59:00+00:00",
+  "openingHours": [
+    {
+      "opens": "10:00",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "monday",
+        "tuesday",
+        "wednesday"
+      ]
+    },
+    {
+      "dayOfWeek": [
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+    }
+  ]
 }
 ```
 
@@ -106,42 +162,25 @@ calendarType 'permanent' is reserved for offertype 'place'!
 
 
 ```
-{
-  "type": "string",
-  "enum": [
-    "single",
-    "multiple",
-    "periodic",
-    "permanent"
-  ],
-  "example": "single"
-}
+  "calendarType": "periodic"
 ```
 
 ### timeSpans
 
 timeSpans can be combined with calendarTypes 'single' and 'multiple'.
-One timeSpans consists of a start and end date-time
+One timeSpan consists of a start and end date-time
 
 ```
-{
-    "type": "array",
-    "items": {
-        "type": "object",
-        "properties": {
-            "start": {
-                "type": "string",
-                "format": "date-time",
-                "example": "2015-05-07T12:02:53+00:00"
-            },
-            "end": {
-                "type": "string",
-                "format": "date-time",
-                "example": "2015-05-07T12:02:53+00:00"
-            }
-        }
+"timeSpans": [
+    {
+      "start": "2019-05-07T10:00:00+00:00",
+      "end": "2019-05-07T16:30:00+00:00"
+    },
+    {
+      "start": "2019-05-08T10:00:00+00:00",
+      "end": "2019-05-08T16:30:00+00:00"
     }
-}
+  ]
 ```
 
 
@@ -151,60 +190,44 @@ openingHours can be combined with calendarTypes 'periodic' and 'permanent'
 openingHours contain an array of weekdays with matching opening hours and closing hours
 
 ```
-{
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "dayOfWeek": {
-        "type": "array",
-        "items": {
-          "type": "string",
-          "enum": [
-            "monday",
-            "tuesday",
-            "wednesday",
-            "thursday",
-            "friday",
-            "saturday",
-            "sunday"
-          ]
-        }
+    "openingHours": [
+      {
+        "opens": "10:00",
+        "closes": "16:00",
+        "dayOfWeek": [
+          "monday",
+          "tuesday",
+          "wednesday"
+        ]
       },
-      "opens": {
-        "type": "string",
-        "example": "14:30"
-      },
-      "closes": {
-        "type": "string",
-        "example": "17:00"
+      {
+        "dayOfWeek": [
+          "thursday",
+          "friday",
+          "saturday"
+        ],
+        "opens": "09:00",
+        "closes": "20:00"
       }
-    }
-  }
-}
+    ]
 ```
 
 ### startDate
+startDate is optional for calendarType `single` and `multiple` : it will be added automatically by the API
+startDate is required for calendarType `periodic`
 
-The first occurence of the event
+startDate signifies the first occurence of the event
 
 ```
-{
-  "type": "string",
-  "format": "date-time",
-  "example": "2015-05-07T14:30:00+00:00"
-}
+  "startDate": "2015-05-07T14:30:00+00:00"
 ```
 
 ### endDate
+endDate is optional for calendarType `single` and `multiple` : it will be added automatically by the API
+endDate is required for calendarType `periodic`
 
-The last occurence of the event
-
+endDate signifies the last occurence of the event
 
 ```
-{
-  "type": "string",
-  "format": "date-time",
-  "example": "2015-05-07T14:30:00+00:00"
-}
+  "endDate": "2015-05-07T14:30:00+00:00"
 ```

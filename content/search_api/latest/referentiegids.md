@@ -19,6 +19,7 @@ Een overzicht van geïndexeerde velden & parameters, gefilterd op relevantie, me
 * [datetype](#datetype)
 * [detail_lang](#detail_lang)
 * [enddate](#enddate)
+* [hasimage](#hasimage)
 * [keywords](#keywords)
 * [longdescription](#longdescription)
 * [mail](#mail)
@@ -48,8 +49,6 @@ Een overzicht van geïndexeerde velden & parameters, gefilterd op relevantie, me
 * [category_facility_name](#category_facility_name)
 * [category_misc_id](#category_misc_id)
 * [category_misc_name](#category_misc_name)
-* [category_municipal_id](#category_municipal_id)
-* [category_municipal_name](#category_municipal_name)
 * [category_publicscope_id](#category_publicscope_id)
 * [category_publicscope_name](#category_publicscope_name)
 * [category_targetaudience_id](#category_targetaudience_id)
@@ -350,35 +349,6 @@ Naam van de 'misc'-categorie.
 ~~~
 
 [Terug naar index](#index)
-
-
-<a id="category_municipal_id"></a>
-<h2>category_municipal_id</h2>
-
-``` string ```
-
-ID van de regio-categorie.
-
-~~~
-{BaseUrl}search?q=category_municipal_id:"reg.1195"
-~~~
-
-[Terug naar index](#index)
-
-
-<a id="category_municipal_name"></a>
-<h2>category_municipal_name</h2>
-
-``` string ```
-
-Naam van de regio-categorie.
-
-~~~
-{BaseUrl}search?q=category_municipal_name:"Roeselare"
-~~~
-
-[Terug naar index](#index)
-
 
 <a id="category_name"></a>
 <h2>category_name</h2>
@@ -723,6 +693,20 @@ ID van het object in de brondatabank. Hoofdlettergevoelig.
 
 ~~~
 {BaseUrl}search?q=externalid:*ccbrugge*&fq=type:event&group=true
+~~~
+
+[Terug naar index](#index)
+
+
+<a id="hasimage"></a>
+<h2>hasimage</h2>
+
+``` boolean ```
+
+Gebruik dit veld indien je enkel resultaten wil krijgen van objecten met één of meerdere afbeeldingen (met mediatype=photo). Geldig voor: events, productions.
+
+~~~
+{BaseUrl}search?q=hasimage:true&fq=type:event&group=true
 ~~~
 
 [Terug naar index](#index)

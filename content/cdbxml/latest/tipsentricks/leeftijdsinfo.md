@@ -28,6 +28,8 @@ Beiden kunnen ook samen gestuurd worden:
 <ageto>2</ageto>
 ~~~
 
+Let wel: het ageto-element kan enkel gebruikt worden in cdbXML 3.3. Alle voorgaande versies ondersteunen enkel de agefrom-tag.
+
 Het kan handig zijn om de leeftijdscategorieën van UiTmetVlieg over te nemen:
 
 - 0 - 2 jaar

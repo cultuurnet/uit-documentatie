@@ -20,6 +20,9 @@ status: experimental
 | Recreatiedomein of centrum | Locatie met infrastructuur en animatie gericht op ontspanning. | 0.53.0.0.0 |
 | School of onderwijscentrum | Instelling ingericht voor onderwijs en educatie | rJRFUqmd6EiqTD4c7HS90w |
 | Sportcentrum | Locatie met infrastructuur voor lichamelijke oefening van vaardigheid en kracht. | eBwaUAAhw0ur0Z02i5ttnw |
+| Theater | Theaterzaal | 8.70.0.0.0 |
 | Thema of pretpark | Amusementsoord waar, meestal tegen één toegangsprijs, grote attracties zijn opgesteld. | 0.41.0.0.0 |
 | Winkel | Plaats waar koopwaren in het klein worden verkocht. | VRC6HX0Wa063sq98G5ciqw  |
 | Zaal of expohal | Overdekte plaats waar veel verschillende soorten van evenementen kunnen plaatsvinden. Vb. concertzalen, fuifzalen, evenementenhallen. | OyaPaf64AEmEAYXHeLMAtA |
+
+

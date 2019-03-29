@@ -139,6 +139,8 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Voeding |	1.65.0.0.0 |
 |  |  | Milieu en natuur |	1.64.0.0.0 |
 |  |  | Omnisport en andere |	1.51.12.0.0 |
+|  |  | Themakamp | 1.11.2.0.0 |
+|  |  | Taal en communicatie | 1.11.1.0.0 | 
 | Markt of braderie | 0.37.0.0.0 |  |  |
 |  |  | Antiek en brocante | 1.17.0.0.0 |
 |  |  | Economie |	1.66.0.0.0 |
@@ -193,7 +195,7 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Samenleving |	1.37.2.0.0 |
 |  |  | Schilderkunst |	1.3.1.0.0 |
 |  |  | Wetenschap |	1.25.0.0.0 |
-| Theatervoorstelling | 1.3.5.0.0 |  |  |
+| Theatervoorstelling | 0.55.0.0.0 |  |  |
 |  |  | Circus | 0.52.0.0.0 |
 |  |  | Figuren- en poppentheater | 1.3.4.0.0 |
 |  |  | Humor en comedy | 1.3.10.0.0 |

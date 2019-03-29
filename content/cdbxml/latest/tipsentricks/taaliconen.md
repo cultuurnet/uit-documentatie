@@ -42,4 +42,4 @@ Taaliconen kunnen als labels ('keywords') meegestuurd worden onder ``` //event/k
 </keywords>
 ```
 
-Meer achtergrondinformatie over taalpromotie en taaliconen vind je [hier](http://huisnederlandsbrussel.be/content/duidelijk-nederlands-en-taaliconen).
+Meer achtergrondinformatie over taalpromotie en taaliconen vind je [hier](https://www.publiq.be/nl/nieuws/taaliconen-cultuur-en-vrije-tijd-als-taaloefenkans).

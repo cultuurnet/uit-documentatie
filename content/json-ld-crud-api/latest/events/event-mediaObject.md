@@ -7,7 +7,7 @@
 * `@type` is optional: defaults to `schema:ImageObject` (it is not possible to add videos)
 * the main image is automatically set to the first mediaObject in the array
 
-See JSON-LD api documentation to [create a mediaObject](http://documentatie.uitdatabank.be/content/json-ld/latest/images/image-post/).
+See JSON-LD api documentation to [create a mediaObject]({% link content/json-ld/latest/images/image-post.md %}).
 
 **Example**
 

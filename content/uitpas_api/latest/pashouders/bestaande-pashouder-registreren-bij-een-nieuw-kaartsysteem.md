@@ -11,9 +11,9 @@ _URL_
 
 Parameters:
 
-| Naam                      | Type     | Omschrijving                                                                                                                                                                                                           | Verplicht                           |
-|---------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| cardSystemId              | Long     | Id van het nieuwe kaartsysteem, waarvan de pashouder lid van wilt worden (er moet OFWEL een chipnummer OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide)                                  | x                                   |
+| **Naam** | **Type** | **Omschrijving** | **Verplicht** |
+| --- | --- | --- | --- |
+| cardSystemId | Long | Id van het nieuwe kaartsysteem, waarvan de pashouder lid van wilt worden (er moet OFWEL een chipnummer OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide) | x |
 | uitpasNumber              | String   | uitpasNumber van de nieuwe kaart van het nieuwe kaartsysteem waarvan de pashouder lid van wilt worden (er moet OFWEL een uitpasNumber OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide)   | x                                   |
 | kansenStatuutEndDate      | W3C Date | einddatum van het kansenstatuut indien het een pashouder met kansenstatuut betreft. Mag niet na het einde (31/12) van het volgende jaar.                                                                               | Verplicht indien kansenStatuut=true |
 | voucherNumber             | String   | Eventuele voucher number die korting geeft.                                                                                                                                                                            |                                     |
@@ -22,8 +22,10 @@ Parameters:
 | legalTermsDigital         | boolean  | true indien de pashouder de gebruikersvoorwaarden via e-mail heeft ontvangen                                                                                                                                           |                                     |
 | parentalConsent           | boolean  | true indien de er toestemming is van een ouder of voogd bij registratie van een minderjarige pashouder                                                                                                                 |                                     |
 | emailPreference (Removed) | String   | Opgelet: Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen                                                                                                                                 |                                     |
-| smsPreference (Removed)   | String   | Opgelet: Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen                                                                                                                                 |                                     |
+| smsPreference (Removed)   | String   | Opgelet: Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen                                                                                                                   |                                     |
+
 _Authenticatie_
+
 UserAccessToken van een balie medewerker
 
 **Response**
@@ -34,9 +36,17 @@ HTTP 200 OK met een response body in XML formaat
 <u>Bij fouten</u>
 HTTP 400 met een response body in XML formaat:
 
-| code | ErrorCode van de fout:<br>MISSING_REQUIRED_FIELDS<br>INVALID_PARAMETERS<br>UNKNOWN_PASSHOLDER_ID<br>UNKNOWN_VOUCHER<br>UNKNOWN_CARD<br>INVALID_DATE_CONSTRAINTS (bijv. indien ongeldige kansenStatuutEndDate)<br>UNKNOWN_CARD_SYSTEM |
+| code | ErrorCode van de fout:
+MISSING_REQUIRED_FIELDS
+INVALID_PARAMETERS
+UNKNOWN_PASSHOLDER_ID
+UNKNOWN_VOUCHER
+UNKNOWN_CARD
+INVALID_DATE_CONSTRAINTS (bijv. indien ongeldige kansenStatuutEndDate)
+UNKNOWN_CARD_SYSTEM |
 | message | Beschrijving van de fout |
 | requiredPermission | Indien code = ACCESS_DENIED, dan bevat dit veld de vereiste permissie. |
+
 
 _Voorbeeld request_
 

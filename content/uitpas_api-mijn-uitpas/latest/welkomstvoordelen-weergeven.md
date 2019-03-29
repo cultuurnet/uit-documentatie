@@ -2,7 +2,7 @@
 ---
 
 # Welkomstvoordelen van een gebruiker weergeven
-Welkomstvoordelen zijn voordelen die de gebruiker krijgt bij aansluiting op een kaartsysteem (bij aankoop van een UiTPAS, of bij upgrade van de UiTPAS met een ander kaartsysteem). 
+Welkomstvoordelen zijn voordelen die de gebruiker krijgt bij aansluiting op een kaartsysteem (bij aankoop van een UiTPAS, of bij upgrade van de UiTPAS met een ander kaartsysteem).
 
 O.b.v. het UiTPAS-nummer kunnen we de beschikbare welkomstvoordelen voor een gebruiker ophalen.
 
@@ -47,7 +47,7 @@ Voorbeeld
 </promotion>
 ~~~
 
-[Voorbeeld response in XML (volledig)](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-welkomstvoordelen-voor-pashouder/) 
+[Voorbeeld response in XML (volledig)]({% link content/uitpas_api/latest/pashouders/ophalen-welkomstvoordelen-voor-pashouder.md %})
 
 Volgende velden heb je nodig:
 
@@ -58,8 +58,8 @@ Volgende velden heb je nodig:
 | Kaartsyste(e)m(en) | promotion > applicableCardSystems | Lijst van de kaartsystemen waar het voordeel toepasbaar is. |
 | Status omruil | promotion > cashedIn | Geeft aan op het voordeel werd opgenomen of niet. true of false. |
 
-[Overzicht van alle velden van de entiteit ‘welcomeadvantages’](http://documentatie.uitdatabank.be/content/uitpas_api/latest/entiteiten/welcomeadvantage-entiteit/) 
+[Overzicht van alle velden van de entiteit ‘welcomeadvantages’]({% link content/uitpas_api/latest/entiteiten/welcomeadvantage-entiteit.md %})
 
 **Referentie UiTPAS API v3.0**
 
-[Ophalen welkomstvoordelen van een pashouder](http://documentatie.uitdatabank.be/content/uitpas_api/latest/pashouders/ophalen-welkomstvoordelen-voor-pashouder/)
+[Ophalen welkomstvoordelen van een pashouder]({% link content/uitpas_api/latest/pashouders/ophalen-welkomstvoordelen-voor-pashouder.md %})

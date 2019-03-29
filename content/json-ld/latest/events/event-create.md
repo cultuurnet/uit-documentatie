@@ -71,28 +71,19 @@ X-Api-Key: {apiKey}
     "label": "Jazz en blues",
     "domain": "theme"
   },
-  "activeCalendarLabel": "Eén of meerdere dagen",
-  "calendarType": "multiple",
-  "timestamps": [
-    {
-      "date": "2018-05-04T22:00:00.000Z",
-      "startHour": "20:00",
-      "startHourAsDate": "2018-05-05T18:00:00.000Z",
-      "showStartHour": true,
-      "endHour": "23:00",
-      "endHourAsDate": "2018-05-05T21:00:00.000Z",
-      "showEndHour": true
-    },
-    {
-      "date": "2018-05-11T22:00:00.000Z",
-      "startHour": "20:00",
-      "startHourAsDate": "2018-05-12T18:00:00.000Z",
-      "showStartHour": true,
-      "endHour": "23:00",
-      "endHourAsDate": "2018-05-12T21:00:00.000Z",
-      "showEndHour": true
-    }
-  ],
+  "calendar": {
+    "calendarType": "multiple",
+    "timeSpans": [
+      {
+        "start": "2018-05-05T18:00:00.000Z",
+        "end": "2018-05-05T21:00:00.000Z"
+      },
+      {
+        "start": "2018-05-12T18:00:00.000Z",
+        "end": "2018-05-12T21:00:00.000Z"
+      }
+    ]
+  },
   "workflowStatus": "DRAFT",
   "audienceType": "everyone"
 }

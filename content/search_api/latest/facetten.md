@@ -26,10 +26,10 @@ Je kan elk veld uit de UiTdatabank gebruiken als ```facetField``` en er zijn dri
 Zoek volgens facet “stad”
 
 ```
-{{site.search_api_server}}/searchv2/search?q=Speelgoed&rows=10&facetField=city
+{{site.search_api_server}}/search?q=Speelgoed&rows=10&facetField=city
 ```
 
-Bekijk de volledige [lijst van geïndexeerde velden](../referentiegids).
+Bekijk de volledige [lijst van geïndexeerde velden]({% link content/search_api/latest/referentiegids.md %}).
 
 ## Facet “datetype”
 
@@ -49,7 +49,7 @@ Het facettype “datetype” bevat volgende facetten:
 - permanent
 
 ```
-{{site.search_api_server}}/searchv2/search?q=Speelgoed&rows=10&facetField=datetype
+{{site.search_api_server}}/search?q=Speelgoed&rows=10&facetField=datetype
 ```
 
 
@@ -60,7 +60,7 @@ Category is geen zoekveld, maar wel een geldig ```facetField```.
 Ieder document behoort tot één of meerdere categorieën. Een categorie behoort tot een domein.
 
 ```
-{{site.search_api_server}}/searchv2/search/?q=*:*&rows=2&facetField=category
+{{site.search_api_server}}/search/?q=*:*&rows=2&facetField=category
 ```
 
 Een specifieke toevoeging voor de UiTdatabank maakt het mogelijk om alle documenten te vinden waaraan een categorie is toegekend EN de documenten waaraan een onderliggende categorie is toegekend.
@@ -70,16 +70,16 @@ D.m.v. de velden category_id en category_name kan gezocht worden op de categorie
 Deze query geeft geen resultaten:
 
 ```
-{{site.search_api_server}}/searchv2/search?q=exact_category_name:Doen
+{{site.search_api_server}}/search?q=exact_category_name:Doen
 ```
 
 Deze query toont wel alle events die in een subcategorie van “Doen” zitten terug (workshops, quizzen, …):
 
 ```
-{{site.search_api_server}}/searchv2/search?q=category_name:Doen
+{{site.search_api_server}}/search?q=category_name:Doen
 ```
 
-Een overzicht van alle categorieën en een uitleg over hoe de UiTdatabank categorisatieservice te consulteren vind je [hier](http://tools.uitdatabank.be/docs/uitdatabank-categorisatie-service).
+Een overzicht van alle categorieën en een uitleg over hoe de UiTdatabank categorisatieservice te consulteren vind je [hier]({% link content/categorisatie/latest/start.md %}).
 
 ## Facet “categorie dimensie”
 
@@ -96,5 +96,5 @@ Het overzicht van alle dimensies is hier te vinden: http://taxonomy.uitdatabank.
 Alle events in Gent thematisch gefacetteerd
 
 ```
-{{site.search_api_server}}/searchv2/search?q=*.*&rows=0&group=event&facetField=category_theme_name&fq=city:Gent
+{{site.search_api_server}}/search?q=*.*&rows=0&group=event&facetField=category_theme_name&fq=city:Gent
 ```

@@ -5,6 +5,13 @@
 
 Add or remove a specific label from an offer. If the specified label is not yet available in UiTdatabank a new label will be created and linked to the offer
 
+## Label guidelines
+
+* Labels should only start with a letter or number
+* Labels should have a minimum length of 2 characters
+* Labels should have a maximum length of 50 characters
+* Labels should only contain letters, numbers, dash `-` or underscores `_`
+
 ## HTTP request
 
 ```

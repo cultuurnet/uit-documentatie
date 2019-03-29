@@ -3,7 +3,7 @@
 
 # Update event type
 
-One of the event types available at http://taxonomy.uitdatabank.be/api/domain/eventtype/classification. This list contains all offer-types: both for events and places. For an overview of all types appropriate for offer-type 'event': [http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_aanbod/](http://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_aanbod/)
+One of the event types available at http://taxonomy.uitdatabank.be/api/domain/eventtype/classification. This list contains all offer-types: both for events and places. For an overview of all types appropriate for offer-type 'event', see [here]({% link content/uitdatabank/latest/categorisatie/type_aanbod.md %})
 
 Type is required for every event and an event can only have one typeid.
 

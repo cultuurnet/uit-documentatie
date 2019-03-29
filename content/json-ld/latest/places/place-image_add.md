@@ -2,7 +2,7 @@
 ---
 
 # Add mediaObject to an offer
-Add an existing image to an existing offer. To create a new mediaObject, see [add mediaObject](/images/image-post).
+Add an existing image to an existing offer. To create a new mediaObject, see [add mediaObject]({% link content/json-ld/latest/images/image-post.md %}).
 
 ## HTTP request
 

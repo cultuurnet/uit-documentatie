@@ -5,10 +5,13 @@
 
 The main image is the only image shown in search-result listviews and the image more prominently displayed on offer-details, when the offer has multiple mediaObjects
 
+**Note**
+ Requests to the JSON-LD api are handled asynchronously. Adding an image to an offer and immediately setting this image as main image, may result in a race condition. Check your event projection to verify the mediaObject is present before setting this mediaObjectId as main image.
+
 ## HTTP request
 
 ```
-PUT /events/{cdbid}/images/main
+PUT /events/{eventId}/images/main
 ```
 
 ## Request headers

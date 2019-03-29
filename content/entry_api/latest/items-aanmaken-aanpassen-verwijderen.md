@@ -11,7 +11,7 @@
 
 Waarbij server =
 
-- testomgeving: ```https://acc.uitid.be/uitid/rest/entry/test.rest.uitdatabank.be```
+- testomgeving: ```https://test.uitid.be/uitid/rest/entry/test.rest.uitdatabank.be```
 - live omgeving: ```https://www.uitid.be/uitid/rest/entry/rest.uitdatabank.be```
 
 

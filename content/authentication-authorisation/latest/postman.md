@@ -10,24 +10,24 @@ Therefore, it is better to use this[repository](https://github.com/cultuurnet/ph
 To do a Consumer Request via Postman Chrome Rest Extension you will need:
 
 * POSTMAN: https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
-* Consumer Key & Secret, this can be obtained from CultuurNet or using the demo consumer in [authentication and authorisation](http://documentatie.uitdatabank.be/content/uitid/latest/index.html)
+* Consumer Key & Secret, this can be obtained from CultuurNet or using the demo consumer in [environments]({% link content/omgevingen/latest/endpoints.md %})
 
 Then you also need an endpoint of the API you want to address:
 
-* [UiTiD documentation](http://tools.uitdatabank.be/docs/functionaliteiten)
-* [Search API-documentation](http://documentatie.uitdatabank.be/content/search_api/latest/index.html)
+* [UiTiD documentation]({% link content/uitid/latest/start.md %})
+* [Search API-documentation]({% link content/search_api/latest/start.md %})
 
 ## OAuth 1.0 Consumer Request
 
 You can easily simulate a request (on events for example) By completing the following in the Postman Request Builder:
 
 1. Indentify GET method
-2. Complete endpoint (available endpoints can be found here), eg https://acc.uitid.be/uitid/rest/searchv2/search
+2. Complete endpoint (available endpoints can be found here), eg https://test.uitid.be/search/rest/search
 3. Add URL parameters, eg q = :
 4. Select OAuth 1.0 in the Authorization tab
 5. Enter Consumer Key & Secret (Test Consumer Key & Secret)
 6. Check "Add Params to Header"
-7. Check "Auto add parameters" 
+7. Check "Auto add parameters"
 8. Optionally: Add application / json header in the Header tab
 
 
@@ -41,7 +41,7 @@ Example:
 You can complete the following items in the Postman Request Builder:
 
 1. POST method
-2. Complete endpoint (available endpoints can be found here), eg https://acc.uitid.be/uitid/rest/requestToken
+2. Complete endpoint (available endpoints can be found here), eg https://test.uitid.be/uitid/rest/requestToken
 3. Select OAuth 1.0 in the Authorization tab
 4. Enter Consumer Key & Secret
 5. "Check "Add Params to Header"
