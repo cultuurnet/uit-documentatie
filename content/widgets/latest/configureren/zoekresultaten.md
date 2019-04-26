@@ -45,7 +45,8 @@ Bepaal welke elementen (informatie) zichtbaar zijn op de detailpagina van je eve
 * UiTPAS-voordelen
 * Taalwisselaar
 * Deelknoppen voor social media
-* Terugknop, en de URL daarvan
+* Terugknop, en de URL daarvan. 
+Wanneer een surfer op de terugknop klikt, wordt hij default naar de laatst bezochte pagina gestuurd. De laatst bezochte pagina kan een andere pagina zijn dan het agendaoverzicht. Wil je dat de terugknop steeds naar het agendaoverzicht terugkeert, dan kan je die URL instellen bij de optie terugknop.
 
 De overige elementen zijn identiek aan de lijstelementen.
 
