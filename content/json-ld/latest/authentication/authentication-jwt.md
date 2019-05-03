@@ -7,7 +7,7 @@
 
 ### Connect your UiTiD
 ```
-http://<udb-jwt-provider>/culturefeed/oauth/connect?destination=<your url>
+https://<udb-jwt-provider>/culturefeed/oauth/connect?destination=<your url>
 ```
 
 **JSON WebToken provider (udb-jwt-provider)**
@@ -16,7 +16,7 @@ http://<udb-jwt-provider>/culturefeed/oauth/connect?destination=<your url>
 
 Example request using the test environment:
 
-1/ Use your browser to navigate to: `http://jwtprovider-test.uitdatabank.be/culturefeed/oauth/connect?destination=oob`
+1/ Use your browser to navigate to: `https://jwtprovider-test.uitdatabank.be/culturefeed/oauth/connect?destination=oob`
 
 2/ Login with your UiTiD credentials
 
