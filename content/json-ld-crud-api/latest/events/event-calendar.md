@@ -8,7 +8,7 @@
 1. Possible values: `single`, `multiple`, `periodic`, `permanent`.
 * `single`: must be combined with `startDate` and `endDate`, can contain 1 `subEvent`
 * `multiple`: must be combined with `startDate`, `endDate` and at least 2 `subEvent`s
-* `periodic`: must be combined with `startDate`, `endDate` and `subEvents`, can contain `openingHours`
+* `periodic`: must be combined with `startDate`, `endDate`, can contain `openingHours`
 * `permanent`: can contain `openingHours` (this calendarType is not preferred for events, use offertype `place` instead)
 
 **Example**
