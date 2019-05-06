@@ -21,7 +21,7 @@ Kant en klare html-modules die je in je website kan inpassen.
 - Geschikt voor basisoplossingen
 - Zelf of door publiq in te stellen
 
-Voorbeeld: de agenda's van [Natuurpunt Brussel](http://natuurpuntbrussel.be/activiteiten/) en [Klara](https://klara.be/klaras-uitagenda)
+Voorbeeld: de agenda's van [SeniorenNet](https://www.seniorennet.be/page/info/agenda) en [Indiestyle](http://www.indiestyle.be/agenda)
 
 ## Culturefeed
 
