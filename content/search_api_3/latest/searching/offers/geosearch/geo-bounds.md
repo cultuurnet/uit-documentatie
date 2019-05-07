@@ -16,4 +16,4 @@ GET https://search.uitdatabank.be/offers/?bounds=34.172684,-118.604794|34.236144
 
 The coordinates should be decimal representations of latitude & longitude \(in that order\), separated by a comma.
 
-**Note! **It's important that you pass the south-west coordinates first, and the north-east coordinates second.
+**Note! **It's important that you pass the south-west coordinates first, and the north-east coordinates second.**
