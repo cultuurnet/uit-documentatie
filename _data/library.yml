@@ -1030,6 +1030,8 @@
                 href: "searching/offers/geosearch/list_of_shapes"
               - title: "Search by distance"
                 href: "searching/offers/geosearch/distance"
+              - title: "Search by bounds"
+                href: "searching/offers/geosearch/geo-bounds"
             - title: "Id"
               href: "searching/offers/id"
             - title: "Labels"

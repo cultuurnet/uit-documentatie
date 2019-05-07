@@ -10,6 +10,7 @@
 | allAges | Boolean (true/false/*) | allAges=false <br/> See [Age]({% link content/search_api_3/latest/searching/offers/age.md %}) |
 | availableFrom | ISO-8601 datetime (default = current date)| availableFrom=2017-04-01T00:00:00+01:00 <br/> See [Availability]({% link content/search_api_3/latest/searching/offers/availability.md %}) |
 | availableTo | ISO-8601 datetime (default = current date) | availableTo=2017-04-30T23:59:59+01:00 <br/> See [Availability]({% link content/search_api_3/latest/searching/offers/availability.md %}) |
+| bounds | decimal representations of latitude & longitude \(in that order\), separated by a comma, for both the south-west and north-east coordinates | bounds=34.172684,-118.604794|34.236144,-118.500938 <br/> See [Geo bounds]({% link content/search_api_3/latest/searching/offers/geosearch/geo-bounds.md %}) |
 | calendarType | permanent, periodic, multiple, single | calendarType=single,multiple <br/> See [Calendar type]({% link content/search_api_3/latest/searching/offers/calendar-type.md %}) |
 | createdFrom | ISO-8601 datetime | createdFrom=2017-01-01T00:00:00+01:00 <br/> See [Created and modified]({% link content/search_api_3/latest/searching/offers/created-and-modified.md %}) |
 | createdTo | ISO-8601 datetime | createdTo=2017-01-01T00:00:00+01:00 <br/> See [Created and modified]({% link content/search_api_3/latest/searching/offers/created-and-modified.md %}) |
@@ -44,7 +45,7 @@
 | q | Query string syntax| q=(wandeling OR wandelen) AND femma <br/> See [Advanced queries]({% link content/search_api_3/latest/reference/advanced-queries.md %}) and [offers/free-text-search]({% link content/search_api_3/latest/searching/offers/free-text-search.md %}) and [organizers/free-text-search]({% link content/search_api_3/latest/searching/organizers/free-text-search.md %}) |
 | regions | region id | regions=nis-24062 <br/> See [Geosearch]({% link content/search_api_3/latest/searching/offers/geosearch.md %}) |
 | start | integer | start=10 <br/> See [Pagination]({% link content/search_api_3/latest/getting-started/pagination.md %}) |
-| sort | supported values: score, availableTo / order: asc, desc | sort[availableTo]=asc <br/> See [Sorting]({% link content/search_api_3/latest/searching/offers/sorting.md %}) |
+| sort | supported values: score, availableTo, created, modified / order: asc, desc | sort[availableTo]=asc <br/> See [Sorting]({% link content/search_api_3/latest/searching/offers/sorting.md %}) |
 | termIds | UiTdatabank taxonomy | termIds[]=0.55.0.0.0 <br/> See See See [Terms]({% link content/search_api_3/latest/searching/offers/terms.md %}) |
 | termLabels | UiTdatabank taxonomy | termLabels[]=Theatervoorstelling <br/> See [Terms]({% link content/search_api_3/latest/searching/offers/terms.md %}) |
 | text | Query string syntax | text=(wandeling OR wandelen) AND femma <br/> See [Free text search]({% link content/search_api_3/latest/searching/offers/free-text-search.md %}) |

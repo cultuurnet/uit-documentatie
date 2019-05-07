@@ -3,7 +3,12 @@
 
 # Sorting
 
-You can sort events and places either by `score` \(relevance\), or by their `availableTo` date \(most commonly used to show events that will be ending soon first\).
+You can sort events and places by a combination of:
+
+* `score` \(relevance\)
+* `availableTo` \(most commonly used to show events that will be ending soon first\)
+* `created`
+* `modified`
 
 It is possible to change the sort `order`:
 
