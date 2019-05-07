@@ -72,7 +72,7 @@ X-Api-Key: {apiKey}
     "category": "tariff",
     "name": {
       "nl": "Jongeren",
-      "en": "Youth",
+      "en": "Youth"
     },
     "price": 0,
     "priceCurrency": "EUR"
@@ -81,7 +81,7 @@ X-Api-Key: {apiKey}
     "category": "tariff",
     "name": {
       "nl": "Senioren",
-      "en": "Elderly",
+      "en": "Elderly"
     },
     "price": 6,
     "priceCurrency": "EUR"
