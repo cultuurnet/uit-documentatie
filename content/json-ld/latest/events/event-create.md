@@ -25,7 +25,7 @@ To create a new event the object-body must contain the following properties:
 - name: don't specify a language, the mainLanguage will be used to add a language property for the name
 - type
 - theme
-- location
+- location: must contain `id`, `name` and complete `address`
 - calendar
 
 The initial POST request must contain a JSON body with (at least) all mandatory fields. These fields can be edited separately with individual PUT requests.
@@ -40,14 +40,9 @@ If successful, this method returns a `200` response code and a eventId and url i
 
 **request**
 
-The following is an example of the request
+The following is an example of the request payload
 
 ```
-POST https://io-test.uitdatabank.be/events/
-Content-Type: application/json
-Authorization: Bearer {token}
-X-Api-Key: {apiKey}
-
 {
   "mainLanguage": "nl",
   "name": "name example",
