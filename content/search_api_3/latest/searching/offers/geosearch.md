@@ -7,6 +7,7 @@ You can search offers by their geo-information:
 
 * Using pre-indexed geographical shapes [search by shape]({% link content/search_api_3/latest/searching/offers/geosearch/shape.md %})
 * Using coordinates, in combination with a distance [search by geo-distance]({% link content/search_api_3/latest/searching/offers/geosearch/distance.md %})
+* Using a geo bounds query [search by geo-bounds]({% link content/search_api_3/latest/searching/offers/geosearch/geo-bounds.md %})
 
 Alternatively, you can search offers by their address-information
 
