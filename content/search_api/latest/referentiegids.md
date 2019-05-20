@@ -734,7 +734,7 @@ Tags gekoppeld aan het item. Geldig voor: events, actors.
 Tijdstip waarop het item laatst aangepast werd. Geldig voor: events, actors.
 
 ~~~
-{BaseUrl}search?q=*:*&rows=1&transform=list&sort=lastupdated%20desc
+{BaseUrl}search?q=*:*&rows=1&sort=lastupdated%20desc
 ~~~
 
 [Terug naar index](#index)

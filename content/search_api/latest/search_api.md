@@ -24,7 +24,6 @@ Om de Search API aan te spreken, moet je gebruik maken van OAuth via een **consu
 | sfield | [Geografisch zoeken]({% link content/search_api/latest/geografisch_zoeken.md %}) |  sfield=physical_gis |
 | d | [Geografisch zoeken]({% link content/search_api/latest/geografisch_zoeken.md %})|  d=5 |
 | facetField | [Gefacetteerde classificatie]({% link content/search_api/latest/facetten.md %}) |  facetField=category |
-| transform | Standaard worden zoekresultaten als volledige CdbXML 3.2 documenten teruggegeven. Indien slechts een beperkt aantal velden nodig is, typisch voor weergave van zoekresultaten in lijsten, wordt de parameter transform gebruikt. Zie [Output formaat]({% link content/search_api/latest/output_formaten.md %}). |  transform=list |
 | past | Standaard worden evenementen uit het verleden uit de zoekresultaten gefilterd. Default: false | past=true |
 | datetype | Een extra veld om eenvoudig te filteren op veelgebruikte tijd ranges, en als facetFilter. Volgende mogelijkheden bestaan: today,tomorrow, thisweekend, nextweekend, next7days, next14days, next30days, next3months, next6months, next12months, permanent. |  datetype=today |
 
