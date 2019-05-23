@@ -5,7 +5,7 @@
 
 De Search API van UiTdatabank is gebouwd op **Apache Solr** versie 4.4. De Search API geeft de zoekresultaten standaard terug in het documentformaat **CdbXML 3.2**.
 
-Om de Search API aan te spreken, moet je gebruik maken van OAuth via een **consumer request** met key en secret. Het verkrijgen van een testkey is gratis en is beschreven in de gids ['Een project aanvragen']({% link content/integratie-op-je-eigen-website/latest/start.md %}).
+Om de Search API aan te spreken, moet je gebruik maken van OAuth via een **consumer request** met key en secret. 
 
 ## Basis syntax
 
