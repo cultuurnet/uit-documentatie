@@ -22,14 +22,3 @@ Kant en klare html-modules die je in je website kan inpassen.
 - Zelf of door publiq in te stellen
 
 Voorbeeld: de agenda's van [SeniorenNet](https://www.seniorennet.be/page/info/agenda) en [Indiestyle](http://www.indiestyle.be/agenda)
-
-## Culturefeed
-
-Modules waarmee je een UiTagenda integreert in een Drupal-site.
-
-- Van agenda tot een volledige (campagne)website
-- Fijngestelde SEO
-
-Voorbeeld: de agenda van [Maasmechelen](https://www.uitinmaasmechelen.be/agenda/search) en de campagnewebsite voor het [Europees Erfgoedjaar](http://www.europeeserfgoedjaar2018.be/)
-
-> Aan de slag met [Culturefeed]({% link content/culturefeed/latest/start.md %})
