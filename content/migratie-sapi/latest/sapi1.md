@@ -58,54 +58,6 @@ De volledige lijst van mogelijke nieuwe inputparameters is te vinden op https://
 
 ### ZOEKEN OP GEOGRAFISCHE INFORMATIE
 
-| Naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
-| zip | Postcode van de locatie | Number | zip=2020 |
-| city | Stad van de locatie | Text | city=Antwerpen |
-| cityid | CityID van de stad van locatie | Text (0000_CITY) | cityid=2520_RANST |
-| regio | ID of naam van een regio | Text or Number | regio=32
-regio=Provincie Limburg |
-| latlng | GIS-coördinaten van een item. Je kan alle evenementen opvragen die plaatsvinden in een radius rond de vastgestelde coördinaten door een "!" te plaatsen voor de radius. | Decimal;Decimal!Number | latlng=51.022350;4.547600!5km |
-
-### ZOEKEN OP METADATA
-
-| Naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
-| createdby | UiTdatabank usernaam die het item heeft aangemaakt | Text | createdby=syximport |
-| changedsince | Alle evenementen versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.
-Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation). | Date (yyyy-m-d; yyyy-m-dTH.m) | changedsince=2010-01-19T20.00 |
-| hasimage | Alle evenementen met één of meerdere afbeeldingen. | Boolean | hasimage=true |
-
-## Actors
-
-### ZOEKEN OP WIE / WAT
-
-| Naam parameter | Beschrijving | Datatype voor input | Voobeeld |
-| q | Een vrije zoekterm. De UiTdatabank full-text index bevat volgende attributen: titel, korte beschrijving, organisatietype, ID. Standaard - indien geen operator wordt meegegeven - worden meerdere woorden gecombineerd met de "AND" operator. Volgende operatoren zijn beschikbaar: OR en dubbele aanhalingstekens voor exacte zoekopdrachten
-| Text | q=Kunstencentrum Vooruit, q="Kunstencentrum Vooruit", q=Kunstencentrum OR Vooruit |
-
-### ZOEKEN OP KRUISVERWIJZINGEN EN KEYWORDS
-
-| Naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
-| k | Keywords toegevoegd aan de actorfiche van de locatie. | Text | k=UiTinVlaanderen filmlocatie |
-
-### ZOEKEN OP CATEGORIEËN
-
-| Naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
-| type | bijv. kunstencentrum, bibliotheek,... Om een bepaald locatietype uit te sluiten, voeg je een "!" toe. Je kan zowel de ID van een categorie gebruiken als het label. | Text (x.x.x.x.x) | locationtype=8.6.0.0.0 |
-
-### ZOEKEN OP GEOGRAFISCHE INFORMATIE
-
-| Naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
-| zip | Postcode van de locatie | Number | zip=2020 |
-| city | Stad van de locatie | Text | city=Antwerpen |
-| cityid | CityID van de stad van locatie | Text (0000_CITY) | cityid=2520_RANST |
-| regio | ID of naam van een regio | Text or Number | regio=32
-regio=Provincie Limburg |
-| latlng | GIS-coördinaten van een item. Je kan alle locaties opvragen die zich in een radius situeren rond de vastgestelde coördinaten door een "!" te plaatsen voor de radius. | Decimal;Decimal!Number | latlng=51.022350;4.547600!5km |
-
-### ZOEKEN OP METADATA
-
-| Naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
-| changedsince | Alle evenementen versturen die sinds een bepaald tijdstip aangemaakt of aangepast waren.
-Noteer de datum/tijd notatie (":" is gereserveerd in http URI notation). | Date (yyyy-m-d; yyyy-m-dTH.m) | changedsince=2010-01-19T20.00 |
-| hasimage | Alle evenementen met één of meerdere afbeeldingen. | Boolean | hasimage=true |
-
+| Oude naam parameter | Nieuwe naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
+| zip | postalCode | Postcode van de locatie | Number | postalCode=2020 |
+| city | address.\*.addressLocality | Stad van de locatie | Text | address.\*.addressLocality:Antwerpen |
