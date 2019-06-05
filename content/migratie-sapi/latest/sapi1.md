@@ -11,8 +11,6 @@ Om lijsten te kunnen opvragen met de UiTdatabank Search API moet je drie zaken o
 
 3) Een API-key. Deze dien je mee te geven in de header. 
 
-Dus: om zoekopdrachten te lanceren selecteer je een outputtype (method) en stuur je één of meerdere vragen (input parameters) naar de verzameling 'events', 'actors' of 'productions' (collection). Je moet deze definiëren in de URL build.uitdatabank.be/api/collection/method?.
-
 Bijvoorbeeld:
 
 - om een full text query binnen de search method in de events collection te lanceren stuur je volgende request:
