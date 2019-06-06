@@ -1062,8 +1062,6 @@
     - name: "latest"
       path: "content/migratie-sapi/latest/"
       summary:
-        - title: "SAPI 2"
-          href: "sapi2"
         - title: "SAPI 1"
           href: "sapi1"
 #
