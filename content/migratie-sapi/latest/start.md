@@ -23,7 +23,7 @@ Om bestaande integraties op basis van de oudste versie van de Search API (SAPI1)
 
         1. Ontwikkel een custom-implementatie op basis van de nieuwe JSON LD-API
 
-Voor een bestaande integratie op basis van SAPI1 kan opnieuw een custom-integratie ontwikkeld worden met de nieuwste versie van de Search API. Deze API op basis van het JSON LD-fomaat is performanter en beter doorzoekbaar op basis van Elastic Search. Het lightweigth Linked Data-formaat en de open standaarden van schema.org (http://schema.org/Event) maken hem bovendien SEO-vriendelijk. 
+Voor een bestaande integratie op basis van SAPI1 kan opnieuw een custom-integratie ontwikkeld worden met de nieuwste versie van de Search API. Deze API op basis van het JSON LD-fomaat is performanter en beter doorzoekbaar op basis van Elastic Search. Het lightweigth Linked Data-formaat en de open standaarden van <a href="http://schema.org/Event">schema.org</a> maken hem bovendien SEO-vriendelijk. 
 
 De uitgebreide documentatie over de nieuwe Search API vind je onder <a href="https://documentatie.uitdatabank.be/content/search_api_3/latest/start.html">'UiTdatabank doorzoeken met Search API 3 (JSON)'</a>. 
 Om te helpen bij het vertalen van de oude SAPI1-zoekqueries naar het nieuwe formaat, werd ook <a href="https://documentatie.uitdatabank.be/content/migratie-sapi/latest/sapi1.html">een handleiding</a> voorzien. 
@@ -38,7 +38,7 @@ De documentatie over de widgets vind je onder <a href="https://documentatie.uitd
 
 
 
-, kan je terecht op https://projectaanvraag.uitdatabank.be voor het verkrijgen van test- en productiecredentials voor de nieuwe API of een widget-implementatie. 
+, kan je terecht op <a href="https://projectaanvraag.uitdatabank.be">projectaanvraag.uitdatabank.be</a> voor het verkrijgen van test- en productiecredentials voor de nieuwe API of een widget-implementatie. 
 
 
 
