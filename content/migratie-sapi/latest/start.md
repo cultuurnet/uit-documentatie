@@ -1,7 +1,7 @@
 ---
 ---
 
-# 
+# TITEL
 
 publiq wil zijn gebruikers, partners en leveranciers kwalitatieve tools en een toekomstgerichte dienstverlening bieden. Technologieën die verouderen lopen echter tegen de limieten aan van wat mogelijk is qua performantie en functionaliteiten. Dit valt niet te rijmen met de service die publiq wenst te garanderen. publiq investeert daarom enerzijds in de ontwikkeling van futureproof alternatieven, en plant anderzijds de stelselmatige afbouw van verouderde tools. 
 
@@ -9,8 +9,8 @@ publiq wil zijn gebruikers, partners en leveranciers kwalitatieve tools en een t
 
 Welke technologieën wanneer uitgefaseerd worden, vind je terug in onderstaande tabel. Deze toont de timings wat betreft de stopzetting van (ondersteuning op) de producten, en welke de voorziene futureproof alternatieven zijn. De tabel wordt in de toekomst verder aangevuld voor alle tools die partners en leveranciers gebruiken voor het aanleveren en ophalen van UiTdatabank-activiteitendata. 
 
-| Product | Releasedatum | Einde ontwikkelingen | Einde support | Einde gebruik | Technisch alternatief | 
-| --- | --- | --- | --- | --- |
+| Product | Releasedatum | Einde ontwikkelingen | Einde support | Einde gebruik | Technisch alternatief |
+| --- | --- | --- | --- | --- | --- |
 | Oudste versie Search API (SAPI1) | ???? | ????? | 1/11/2019 | 1/11/2019 | widgets & nieuwe Search API (SAPI3) |
 
 # Hoe je integraties futureproof maken?
