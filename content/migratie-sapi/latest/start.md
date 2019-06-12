@@ -19,14 +19,23 @@ publiq voorziet ter omkadering van haar partners en leveranciers de nodige docum
 
 ## SAPI1 - Migratiescenario's voor de oudste versie van de Search API (SAPI1) 
 
-In november 2019 wordt de oudste versie van de Search API (SAPI1) stopgezet. Om bestaande integraties te migreren naar de nieuwe API, zijn er twee scenario's:
+Om bestaande integraties op basis van de oudste versie van de Search API (SAPI1) voor te bereiden op de stopzetting van de service tegen november 2019, zijn er twee scenario's:
 
         1. Ontwikkel een custom-implementatie op basis van de nieuwe JSON LD-API
 
+Voor een bestaande integratie op basis van SAPI1 kan opnieuw een custom-integratie ontwikkeld worden met de nieuwste versie van de Search API. Deze API op basis van het JSON LD-fomaat is performanter en beter doorzoekbaar op basis van Elastic Search. Het lightweigth Linked Data-formaat en de open standaarden van schema.org (http://schema.org/Event) maken hem bovendien SEO-vriendelijk. 
 
-Handleiding om je oude zoekqueries over te zetten  naar ons nieuwste formaat.
+De uitgebreide documentatie over de nieuwe Search API vind je onder <a href="https://documentatie.uitdatabank.be/content/search_api_3/latest/start.html">'UiTdatabank doorzoeken met Search API 3 (JSON)'</a>. 
+Om te helpen bij het vertalen van de oude SAPI1-zoekqueries naar het nieuwe formaat, werd ook <a href="https://documentatie.uitdatabank.be/content/migratie-sapi/latest/sapi1.html">een handleiding</a> voorzien. 
 
-        2. Implementeer een agenda op basis van onze gebruiksvriendelijke widgets
+        2. Implementeer een agenda op basis van gebruiksvriendelijke widgets
+
+Voor een bestaande custom-integratie op basis van SAPI1 bestaat ook de mogelijkheid om over te schakelen naar agenda-widgets. Op basis van de JSON LD-API werden nieuwe kant-en-klare html-modules ontwikkeld voor makkelijke integratie van een mobile-friendly activiteitenkalender. De widgets bieden filter- en zoekmogelijkheden op maat en uitgebreide configuratiemogelijkheden (HTML, CSS, JS) waardoor deze naadloos in een website ingepast kunnen worden. 
+
+De documentatie over de widgets vind je onder <a href="https://documentatie.uitdatabank.be/content/widgets/latest/start.html">'Aan de slag met widgets'</a>.
+
+
+
 
 
 , kan je terecht op https://projectaanvraag.uitdatabank.be voor het verkrijgen van test- en productiecredentials voor de nieuwe API of een widget-implementatie. 
