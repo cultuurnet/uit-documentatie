@@ -3,6 +3,8 @@
 
 # Add mediaObject
 
+Add mediaObjects, which you can later link to one or more offers. Only images up to 5 MB are allowed. 
+
 ## HTTP request
 
 ```
