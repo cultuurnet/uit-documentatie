@@ -7,15 +7,15 @@ publiq wil zijn gebruikers, partners en leveranciers kwalitatieve tools en een t
 
 ## Overzicht end-of-life status producten
 
-Welke technologieën wanneer uitgefaseerd worden, vind je terug in onderstaande tabel. Deze toont de timings wat betreft de stopzetting van (ondersteuning op) de producten, en welke de voorziene futureproof alternatieven zijn. De tabel wordt in de toekomst verder aangevuld voor alle tools die partners en leveranciers gebruiken voor het aanleveren en ophalen van UiTdatabank-activiteitendata.
+Welke technologieën wanneer uitgefaseerd worden, vind je terug in onderstaande tabel. Deze toont de timings wat betreft de stopzetting van (ondersteuning op) de producten, en welke de voorziene volwaardige alternatieven zijn. De tabel wordt in de toekomst verder aangevuld voor alle tools die partners en leveranciers gebruiken voor het aanleveren en ophalen van UiTdatabank-activiteitendata.
 
 | Product | Release | Einde support | Einde gebruik | Technisch alternatief |
 | --- | --- | --- | --- | --- |
-| [Oudste versie Search API (SAPI1)](#sapi1---migratiescenarios-voor-de-oudste-versie-van-de-search-api-sapi1) | 2007 | 1/11/2019 | 1/11/2019 | widgets & nieuwe Search API (SAPI3) |
+| [Oudste versie Search API (SAPI1)](#migratiescenarios-voor-de-oudste-versie-van-de-search-api-sapi1) | 2007 | 1/11/2019 | 1/11/2019 | widgets & nieuwe Search API (SAPI3) |
 
 # Hoe je integraties futureproof maken?
 
-publiq voorziet ter omkadering van haar partners en leveranciers de nodige documentatie en migratiescenario's om verouderde integraties futureproof te maken. Voor de producten waarvan de end-of-life datum vastligt, worden de mogelijke alternatieven hieronder opgelijst.
+Voor de producten waarvan de end-of-life datum vastligt, worden de mogelijke alternatieven hieronder opgelijst.
 
   ## Migratiescenario's voor de oudste versie van de Search API (SAPI1)
 
