@@ -11,7 +11,7 @@ Welke technologieën wanneer uitgefaseerd worden, vind je terug in onderstaande 
 
 | Product | Release | Einde support | Einde gebruik | Technisch alternatief |
 | --- | --- | --- | --- | --- |
-| [Oudste versie Search API (SAPI1)]({% link content/migratie-sapi/latest/start.md#sapi1---migratiescenarios-voor-de-oudste-versie-van-de-search-api-sapi1 %}) | 2007 | 1/11/2019 | 1/11/2019 | widgets & nieuwe Search API (SAPI3) |
+| [Oudste versie Search API (SAPI1)](#sapi1---migratiescenarios-voor-de-oudste-versie-van-de-search-api-sapi1) | 2007 | 1/11/2019 | 1/11/2019 | widgets & nieuwe Search API (SAPI3) |
 
 # Hoe je integraties futureproof maken?
 
@@ -28,7 +28,7 @@ Voor een bestaande integratie op basis van SAPI1 kan opnieuw een integratie op m
 De uitgebreide documentatie over de nieuwe Search API vind je onder [UiTdatabank doorzoeken met Search API 3 (JSON)]({% link content/search_api_3/latest/start.md %}).
 Om te helpen bij het vertalen van de oude SAPI1-zoekqueries naar het nieuwe formaat, werd ook [een handleiding]({% link content/migratie-sapi/latest/sapi1.md %}) voorzien.
 
-Voor het aanvragen van test-en productiecredentials voor de nieuwe API, kan je terecht op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). Geef bij de beschrijving van je project aan dat het gaat over de migratie van een SAPI1-integratie. Zo kunnen we je bij eventuele vragen beter omkaderen. 
+Voor het aanvragen van test-en productiecredentials voor de nieuwe API, kan je terecht op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). Geef bij de beschrijving van je project aan dat het gaat over de migratie van een SAPI1-integratie. Zo kunnen we je bij eventuele vragen beter omkaderen.
 
 ### 2. Implementeer een agenda op basis van gebruiksvriendelijke widgets
 
@@ -36,4 +36,4 @@ Voor een bestaande SAPI1-integratie bestaat ook de mogelijkheid om over te schak
 
 De documentatie over de widgets vind je onder ['Aan de slag met widgets']({% link content/widgets/latest/start.md %}).
 
-Om een widget-implementatie op te starten, kan je terecht op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). Als je bij de beschrijving van je project aangeeft dat het over een SAPI1-migratie gaat, kunnen we je bij vragen beter verder helpen. 
+Om een widget-implementatie op te starten, kan je terecht op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). Als je bij de beschrijving van je project aangeeft dat het over een SAPI1-migratie gaat, kunnen we je bij vragen beter verder helpen.
