@@ -1023,18 +1023,18 @@
 #
 # Migratie
 #
-#- title: "Migreren naar onze nieuwe SAPI"
-#  description: "Vertaal je oude zoekqueries naar onze nieuwste SAPI"
-#  path: "content/migratie-sapi/"
-#  category: "Migratie"
-#  icon: "sapi3"
-#  weight: 10
-#  versions:
-#    - name: "latest"
-#      path: "content/migratie-sapi/latest/"
-#      summary:
-#        - title: "SAPI 1"
-#          href: "sapi1"
+- title: "Migreren naar onze nieuwe SAPI"
+  description: "Vertaal je oude zoekqueries naar onze nieuwste SAPI"
+  path: "content/migratie-sapi/"
+  category: "Migratie"
+  icon: "sapi3"
+  weight: 10
+  versions:
+    - name: "latest"
+      path: "content/migratie-sapi/latest/"
+      summary:
+        - title: "SAPI 1"
+          href: "sapi1"
 #
 # Legacy
 #
