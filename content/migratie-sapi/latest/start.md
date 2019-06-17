@@ -11,7 +11,7 @@ Welke technologieën wanneer uitgefaseerd worden, vind je terug in onderstaande 
 
 | Product | Release | Einde support | Einde gebruik | Technisch alternatief |
 | --- | --- | --- | --- | --- |
-| Oudste versie Search API (SAPI1) | 2007 | 1/11/2019 | 1/11/2019 | widgets & nieuwe Search API (SAPI3) |
+| [Oudste versie Search API (SAPI1)]({% link content/migratie-sapi/latest/start.md#sapi1---migratiescenarios-voor-de-oudste-versie-van-de-search-api-sapi1 %}) | 2007 | 1/11/2019 | 1/11/2019 | widgets & nieuwe Search API (SAPI3) |
 
 # Hoe je integraties futureproof maken?
 
