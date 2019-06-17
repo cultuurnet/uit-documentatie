@@ -17,23 +17,23 @@ Welke technologieën wanneer uitgefaseerd worden, vind je terug in onderstaande 
 
 publiq voorziet ter omkadering van haar partners en leveranciers de nodige documentatie en migratiescenario's om verouderde integraties futureproof te maken. Voor de producten waarvan de end-of-life datum vastligt, worden de mogelijke alternatieven hieronder opgelijst.
 
-## SAPI1 - Migratiescenario's voor de oudste versie van de Search API (SAPI1)
+## Migratiescenario's voor de oudste versie van de Search API (SAPI1)
 
 Om bestaande integraties op basis van de oudste versie van de Search API (SAPI1) voor te bereiden op de stopzetting van de service tegen november 2019, zijn er twee scenario's:
 
-### 1. Ontwikkel een custom implementatie op basis van de nieuwe JSON LD-API
+### 1. Ontwikkel een implementatie op basis van de nieuwe JSON LD-API
 
 Voor een bestaande integratie op basis van SAPI1 kan opnieuw een integratie op maat ontwikkeld worden met de nieuwste versie van de Search API. Deze API op basis van het JSON LD-formaat is performanter en beter doorzoekbaar op basis van Elasticsearch. Het lightweight Linked Data-formaat en de open standaarden van [schema.org](http://schema.org/Event) maken hem bovendien SEO-vriendelijk.
 
 De uitgebreide documentatie over de nieuwe Search API vind je onder [UiTdatabank doorzoeken met Search API 3 (JSON)]({% link content/search_api_3/latest/start.md %}).
 Om te helpen bij het vertalen van de oude SAPI1-zoekqueries naar het nieuwe formaat, werd ook [een handleiding]({% link content/migratie-sapi/latest/sapi1.md %}) voorzien.
 
-Voor het aanvragen van test-en productiecredentials voor de nieuwe API, kan je terecht op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). Geef bij de beschrijving van je project aan dat het gaat over de migratie van een SAPI1-integratie. Zo kunnen we je bij eventuele vragen beter omkaderen.
+Voor het aanvragen van test-en productiecredentials voor de nieuwe API, kan je terecht op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). 
 
-### 2. Implementeer een agenda op basis van gebruiksvriendelijke widgets
+### 2. Maak een agenda op basis van gebruiksvriendelijke widgets
 
 Voor een bestaande SAPI1-integratie bestaat ook de mogelijkheid om over te schakelen naar agenda-widgets. Op basis van de JSON LD-API werden nieuwe kant-en-klare html-modules ontwikkeld voor makkelijke integratie van een mobile-friendly activiteitenkalender. De widgets bieden filter- en zoekmogelijkheden op maat en uitgebreide configuratiemogelijkheden (HTML, CSS, JS) waardoor deze naadloos in een website ingepast kunnen worden.
 
 De documentatie over de widgets vind je onder ['Aan de slag met widgets']({% link content/widgets/latest/start.md %}).
 
-Om een widget-implementatie op te starten, kan je terecht op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). Als je bij de beschrijving van je project aangeeft dat het over een SAPI1-migratie gaat, kunnen we je bij vragen beter verder helpen.
+Om een widget-implementatie op te starten, kan je terecht op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). 
