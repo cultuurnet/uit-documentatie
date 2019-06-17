@@ -25,8 +25,8 @@ Om bestaande integraties op basis van de oudste versie van de Search API (SAPI1)
 
 Voor een bestaande integratie op basis van SAPI1 kan opnieuw een integratie op maat ontwikkeld worden met de nieuwste versie van de Search API. Deze API op basis van het JSON LD-formaat is performanter en beter doorzoekbaar op basis van Elasticsearch. Het lightweight Linked Data-formaat en de open standaarden van [schema.org](http://schema.org/Event) maken hem bovendien SEO-vriendelijk.
 
-De uitgebreide documentatie over de nieuwe Search API vind je onder [UiTdatabank doorzoeken met Search API 3 (JSON)]({% link content/search_api_3/latest/start.md %}).
-Om te helpen bij het vertalen van de oude SAPI1-zoekqueries naar het nieuwe formaat, werd ook [een handleiding]({% link content/migratie-sapi/latest/sapi1.md %}) voorzien.
+De documentatie over de nieuwe Search API vind je onder [UiTdatabank doorzoeken met Search API 3 (JSON)]({% link content/search_api_3/latest/start.md %}).
+Om te helpen bij het vertalen van oude SAPI1-zoekqueries naar het nieuwe formaat, werd ook [een handleiding]({% link content/migratie-sapi/latest/sapi1.md %}) voorzien.
 
 Voor het aanvragen van test-en productiecredentials voor de nieuwe API, kan je terecht op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). 
 
