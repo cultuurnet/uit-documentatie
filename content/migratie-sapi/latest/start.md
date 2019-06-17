@@ -1,7 +1,7 @@
 ---
 ---
 
-# publiq investeert in een toekomstgerichte werking en producten 
+# publiq investeert in een toekomstgerichte service & producten 
 
 publiq wil zijn gebruikers, partners en leveranciers kwalitatieve tools en een toekomstgerichte dienstverlening bieden. Technologieën die verouderen lopen echter tegen de limieten aan van wat mogelijk is qua performantie en functionaliteiten. Dit valt niet te rijmen met de service die publiq wenst te garanderen. publiq investeert daarom enerzijds in de ontwikkeling van futureproof alternatieven, en plant anderzijds de stelselmatige afbouw van verouderde tools.
 
@@ -9,7 +9,7 @@ publiq wil zijn gebruikers, partners en leveranciers kwalitatieve tools en een t
 
 Welke technologieën wanneer uitgefaseerd worden, vind je terug in onderstaande tabel. Deze toont de timings wat betreft de stopzetting van (ondersteuning op) de producten, en welke de voorziene futureproof alternatieven zijn. De tabel wordt in de toekomst verder aangevuld voor alle tools die partners en leveranciers gebruiken voor het aanleveren en ophalen van UiTdatabank-activiteitendata.
 
-| Product | Releasedatum | Einde support | Einde gebruik | Technisch alternatief |
+| Product | Release | Einde support | Einde gebruik | Technisch alternatief |
 | --- | --- | --- | --- | --- |
 | Oudste versie Search API (SAPI1) | 2007 | 1/11/2019 | 1/11/2019 | widgets & nieuwe Search API (SAPI3) |
 
@@ -37,6 +37,3 @@ Voor een bestaande SAPI1-integratie bestaat ook de mogelijkheid om over te schak
 De documentatie over de widgets vind je onder ['Aan de slag met widgets']({% link content/widgets/latest/start.md %}).
 
 Om een widget-implementatie op te starten, kan je terecht op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). Als je bij de beschrijving van je project aangeeft dat het over een SAPI1-migratie gaat, kunnen we je bij vragen beter verder helpen. 
-
-
-
