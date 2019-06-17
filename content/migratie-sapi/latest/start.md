@@ -1,7 +1,7 @@
 ---
 ---
 
-# publiq investeert in een toekomstgerichte dienstverlening en plant het uitfaseren van verouderde producten
+# publiq investeert in een toekomstgerichte werking en producten 
 
 publiq wil zijn gebruikers, partners en leveranciers kwalitatieve tools en een toekomstgerichte dienstverlening bieden. Technologieën die verouderen lopen echter tegen de limieten aan van wat mogelijk is qua performantie en functionaliteiten. Dit valt niet te rijmen met de service die publiq wenst te garanderen. publiq investeert daarom enerzijds in de ontwikkeling van futureproof alternatieven, en plant anderzijds de stelselmatige afbouw van verouderde tools.
 
