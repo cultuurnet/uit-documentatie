@@ -23,8 +23,9 @@ Je kan meerdere prijzen importeren aan de hand van key-value pairs. Hierbij is h
 <price> 
 <pricevalue>X.XX</pricevalue> (prijs dient aangegeven met punt voor decimalen)
 <pricedescription>Basistarief: € X,XX; key: € value; key: € value; key: € value</pricedescription>
-</price> (! prijs hier aangegeven met komma voor decimalen)
+</price> 
 ~~~
+(! prijs hier aangegeven met komma voor decimalen)
 
 Pricedescription moet voldoen aan volgende voorwaarden, vooraleer deze te interpreteren als basis om prijsinfo te importeren 
 - Eerste key/value pair begint met "Basistarief" als key 
