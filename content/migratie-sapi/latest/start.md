@@ -17,7 +17,7 @@ Welke technologieën wanneer uitgefaseerd worden, vind je terug in onderstaande 
 
 Voor de producten waarvan de end-of-life datum vastligt, worden de mogelijke alternatieven hieronder opgelijst.
 
-  ## Migratiescenario's voor de oudste versie van de Search API (SAPI1)
+## Migratiescenario's voor de oudste versie van de Search API (SAPI1)
 
 Om bestaande integraties op basis van de oudste versie van de Search API (SAPI1) voor te bereiden op de stopzetting van de service tegen november 2019, zijn er twee scenario's:
 
@@ -30,7 +30,7 @@ Om te helpen bij het vertalen van oude SAPI1-zoekqueries naar het nieuwe formaat
 
 Voor het aanvragen van test-en productiecredentials voor de nieuwe API, kan je terecht op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). 
 
-   ### 2. Maak een agenda op basis van gebruiksvriendelijke widgets
+### 2. Maak een agenda op basis van gebruiksvriendelijke widgets
 
 Voor een bestaande SAPI1-integratie bestaat ook de mogelijkheid om over te schakelen naar agenda-widgets. Op basis van de JSON LD-API werden nieuwe kant-en-klare html-modules ontwikkeld voor makkelijke integratie van een mobile-friendly activiteitenkalender. De widgets bieden filter- en zoekmogelijkheden op maat en uitgebreide configuratiemogelijkheden (HTML, CSS, JS) waardoor deze naadloos in een website ingepast kunnen worden.
 
