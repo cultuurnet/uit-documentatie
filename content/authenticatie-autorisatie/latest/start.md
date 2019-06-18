@@ -3,7 +3,11 @@
 
 # Authenticatie en autorisatie
 
-UiTiD gebruikt de open standaard oAuth voor authenticatie.
+UiTiD gebruikt de open standaard oAuth voor authenticatie op volgende producten:
+* Entry API v2 (cdbXML)
+* Search API v2 (cdbXML)
+* Culturefeed 
+* UiTPAS API
 
 Er zijn 2 manieren om als UiTiD Service Consumer toegang te verkrijgen tot de API:
 
