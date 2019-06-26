@@ -24,6 +24,7 @@ Bepaal welke elementen (informatie) zichtbaar zijn in de lijstweergave van je ev
 * Vlieg-logo
 * UiTPAS-logo
 * Beschrijving en aantal karakters van de beschrijving. Als je het aantal karakters invult dient de waarde minstens 1 te zijn.
+* Prijsinformatie: basisprijs, UiTPAS-kansentarief en eventuele andere tarieven
 * Waar
 * Organisatie
 * Wanneer
