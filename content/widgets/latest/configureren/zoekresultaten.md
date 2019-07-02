@@ -14,6 +14,7 @@ Via zoekresultaten bouw je een lijst van (gevonden) activiteiten. Dit blok bevat
   -   langlopend aanbod: alle evenementen die voor een bepaalde periode lopen, al dan niet met openingsuren (bv. een tijdelijke tentoonstelling)
   -   permanente activiteiten: alle evenementen zonder start of eindddatum, al dan niet met openingsuren (bv. een momument)
 Je kan deze filters aan- of uitvinken.
+* **Labels altijd weergeven als iconen** bepaalt of detaillabels (wat / waar / wanneer / ...) voluitgeschreven getoond worden, of als icoon.
 
 ## Header
 Bepaal welke tekst en/of afbeelding er in de header verschijnt.
