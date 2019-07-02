@@ -26,6 +26,7 @@ Bepaal welke elementen (informatie) zichtbaar zijn in de lijstweergave van je ev
 * UiTPAS-logo
 * Beschrijving en aantal karakters van de beschrijving. Als je het aantal karakters invult dient de waarde minstens 1 te zijn.
 * Prijsinformatie: basisprijs, UiTPAS-kansentarief en eventuele andere tarieven
+* Reserveringen: link naar ticketing ('koop tickets') of reservatie van plaats ('reserveer plaatsen')
 * Waar
 * Organisatie
 * Wanneer
@@ -42,9 +43,9 @@ Bepaal welke elementen (informatie) zichtbaar zijn in de lijstweergave van je ev
 Bepaal welke elementen (informatie) zichtbaar zijn op de detailpagina van je evenementen. Je kan deze elementen aan -of afvinken:
 * Google Maps kaart
 * Prijsinformatie: basisprijs, UiTPAS-kansentarief en eventuele andere tarieven
-* Reserveringen
+* Reserveringen: link naar ticketing ('koop tickets') of reservatie van plaats ('reserveer plaatsen')
 * Contact
-* UiTPAS-voordelen
+* UiTPAS-voordelen: de UiTPAS-omruilvoordelen die de organisator van het evenement aanbiedt. 
 * Taalwisselaar
 * Deelknoppen voor social media
 * Terugknop, en de URL daarvan. 
