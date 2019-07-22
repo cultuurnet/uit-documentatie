@@ -18,7 +18,7 @@ Je kan deze filters aan- of uitvinken.
 * **Weergave van evenementen**
   - Lijstweergave: de evenementen in je widget worden verticaal onder mekaar weergegeven.
   - Tegelweergave: de evenementen in je widget worden in 3 kolommen weergegeven. Om een overzichtelijke en logische weergave te verzekeren, raden we aan om bij het aantal resultaten per pagina bij tegelweergave een veelvoud van 3 te nemen.
-* **Aantal resultaten per pagina** bepaalt hoeveel evenementen er per pagina weergegeven worden. Er geldt geen minimum of maximumlimiet. 
+* **Aantal resultaten per pagina** bepaalt hoeveel evenementen er per pagina weergegeven worden. Er geldt geen minimum- of maximumlimiet. 
 
 ## Header
 Bepaal welke tekst en/of afbeelding er in de header verschijnt.
