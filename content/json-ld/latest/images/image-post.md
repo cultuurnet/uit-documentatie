@@ -3,7 +3,7 @@
 
 # Add mediaObject
 
-Add mediaObjects, which you can later link to one or more offers. Only images up to 5 million bytes (4.76 MB) are allowed. 
+Add mediaObjects, which you can later link to one or more offers. Only images up to 5 million bytes (4.76 MB) are allowed.
 
 ## HTTP request
 
@@ -29,7 +29,7 @@ To create a new image the object-body must contain the following properties:
 
 ## Response
 
-If successful, this method returns a `200` response code and a imageId and commandId in the response body.
+If successful, this method returns a `200` response code and a imageId in the response body.
 
 ## Example
 
@@ -56,7 +56,6 @@ The following is an example of the response.
 200 OK
 
 {
-  "commandId": "a9d5a5f86572c0c2a275acb73ea49c94",
   "imageId": "373dcebd-dce5-4fee-8e31-45458b2f6735"
 }
 ```

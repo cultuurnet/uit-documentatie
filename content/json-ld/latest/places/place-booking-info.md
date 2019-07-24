@@ -58,7 +58,9 @@ It is advised to use the following combo's for adding urlLabels to a bookingInfo
 
 ## Response
 
-If successful, this method returns a `200` response code and a commandId in the response body.
+* `204 No Content` : request successful
+* `400 Bad Request` : incorrect method, payload or URI
+* `401 Unauthorized` : expired JWT or the user behind the JWT does not have permission to perform this request
 
 ## Example
 
@@ -86,5 +88,51 @@ X-Api-Key: {apiKey}
     "availabilityStarts": "2015-05-01T00:00:00+00:00",
     "availabilityEnds": "2015-07-01T00:00:00+00:00"
   }
+}
+```
+
+**Response**
+
+The following are example responses.
+
+```
+204 No Content
+```
+
+```
+400 Bad Request
+
+{
+    "title": "No route found for \"POST /places/7986d132-8800-4da6-adc6-ca89f24b01c2/bookingInfo\": Method Not Allowed (Allow: PUT, OPTIONS)",
+    "type": "about:blank",
+    "status": 400
+}
+```
+
+```
+400 Bad request
+
+{
+    "validation_messages": {
+        "bookingInfo": "Required but could not be found."
+    },
+    "title": "Invalid payload.",
+    "type": "about:blank"
+}
+```
+
+```
+401 Unauthorized
+
+Token claims validation failed. This most likely means the token is expired.
+```
+
+```
+401 Unauthorized
+
+{
+    "title": "User with id: 12345678-abcd-1234-12ab-123abc123abc has no permission: \"Aanbod bewerken\" on item: 12345678-abcd-1234-12ab-123abc123abc when executing command: CultuurNet\\UDB3\\Place\\Commands\\UpdateBookingInfo",
+    "type": "about:blank",
+    "status": 401
 }
 ```
