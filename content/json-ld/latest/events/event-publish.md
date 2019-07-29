@@ -50,7 +50,7 @@ If successful, this method returns a `200` response code and a commandId in the 
 The following is an example of the request
 
 ```
-PATCH https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09
+PATCH https://io-test.uitdatabank.be/event/03116768-1abc-405a-93d7-ba6ede52fe09
 Content-Type: application/ld+json;domain-model=Publish
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
