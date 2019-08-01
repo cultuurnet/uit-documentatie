@@ -15,7 +15,7 @@ At the moment of writing, `creator` can contain a nickname or emailaddress, depe
 You can filter by an exact match with the `creator`  URL parameter.
 
 ```
-GET https://search.uitdatabank.be/offers/?creator=janedoe
+GET https://search.uitdatabank.be/offers/?creator=86a02c65-696d-5b12-a9b1-9e3bc8e6303c
 ```
 
 ## Advanced queries
@@ -25,7 +25,7 @@ Using the `q` parameter, you can execute more [advanced queries]({% link content
 For example:
 
 ```
-GET https://search.uitdatabank.be/offers/?q=creator:janedoe OR creator:john*
+GET https://search.uitdatabank.be/offers/?q=creator:86a02c65-696d-5b12-a9b1-9e3bc8e6303c OR creator:86a02c65-696d-5b12-a9b1-9*
 ```
 
 For more info, see the [advanced queries documentation]({% link content/search_api_3/latest/reference/advanced-queries.md %}).

@@ -56,8 +56,7 @@ Check below for comments on deprecated data and possible exceptions.
       },
       "created": "2017-11-28T11:32:26+00:00",
       "modified": "2017-11-28T11:32:26+00:00",
-      "creator": "Stiksels",
-      "creatorId": "86a02c65-696d-5b12-a9b1-9e3bc8e6303c",
+      "creator": "86a02c65-696d-5b12-a9b1-9e3bc8e6303c",
       "name": {
         "en": "Discover Horst Castle - for families",
         "nl": "Ontdek het Kasteel van Horst - familieparcours!"
@@ -129,8 +128,7 @@ Check below for comments on deprecated data and possible exceptions.
         ],
         "created": "2016-07-29T14:58:27+02:00",
         "modified": "2016-08-09T14:25:14+02:00",
-        "creator": "Kasteelvanhorst",
-        "creatorId": "47f3c7c9-931b-7568-836b-de3b47e5efdd",
+        "creator": "47f3c7c9-931b-7568-836b-de3b47e5efdd",
         "name": {
           "en": "Horst Castle",
           "nl": "Kasteel Van Horst"
@@ -233,8 +231,7 @@ Check below for comments on deprecated data and possible exceptions.
           "url": []
         },
         "created": "2017-11-28T11:28:45+00:00",
-        "creator": "Stiksels",
-        "creatorId": "86a02c65-696d-5b12-a9b1-9e3bc8e6303c",
+        "creator": "86a02c65-696d-5b12-a9b1-9e3bc8e6303c",
         "labels": [
           "heritage",
           "erfgoed"
