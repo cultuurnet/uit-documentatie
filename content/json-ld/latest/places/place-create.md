@@ -31,7 +31,7 @@ See specific update requests for definitions of each property
 
 ## Response
 
-If successful, this method returns a `200` response code and a placeId and url in the response body.
+If successful, this method returns a `201` response code and a placeId and url in the response body.
 
 ## Example
 
@@ -109,7 +109,7 @@ X-Api-Key: {apiKey}
 The following is an example of the response.
 
 ```
-200 OK
+201 Created
 
 {
   "placeId": "03116768-1abc-405a-93d7-ba6ede52fe78",
