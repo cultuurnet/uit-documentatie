@@ -55,5 +55,6 @@ GET https://search.uitdatabank.be/offers/?q=terms.label:"Begeleide rondleiding" 
 For more info, see the [advanced queries documentation]({% link content/search_api_3/latest/reference/advanced-queries.md %}).
 
 For a list of available terms, see [UiTdatabank taxonomy](http://taxonomy.uitdatabank.be/api/domain):
-* All available domains: http://taxonomy.uitdatabank.be/api/domain
-* All terms in domain 'eventtype': http://taxonomy.uitdatabank.be/api/domain/eventtype/classification
+* All terms in domain 'eventtype': https://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/type_aanbod.html
+* All terms in domain 'theme': https://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/themas.html
+* Recommended combinations between eventtypes and themes: https://documentatie.uitdatabank.be/content/uitdatabank/latest/categorisatie/combinatie_type_thema.html
