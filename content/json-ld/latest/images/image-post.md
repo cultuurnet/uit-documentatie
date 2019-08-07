@@ -29,7 +29,7 @@ To create a new image the object-body must contain the following properties:
 
 ## Response
 
-If successful, this method returns a `200` response code and a imageId in the response body.
+If successful, this method returns a `201` response code and a imageId in the response body.
 
 ## Example
 
@@ -53,7 +53,7 @@ X-Api-Key: {apiKey}
 The following is an example of the response.
 
 ```
-200 OK
+201 Created
 
 {
   "imageId": "373dcebd-dce5-4fee-8e31-45458b2f6735"
