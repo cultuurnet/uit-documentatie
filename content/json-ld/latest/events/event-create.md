@@ -25,7 +25,7 @@ To create a new event the object-body must contain the following properties:
 - name: don't specify a language, the mainLanguage will be used to add a language property for the name
 - type
 - theme
-- location: must contain `id`, `name` and complete `address`
+- location: must contain `id`
 - calendar
 
 The initial POST request must contain a JSON body with (at least) all mandatory fields. These fields can be edited separately with individual PUT requests.
@@ -47,14 +47,7 @@ The following is an example of the request payload
   "mainLanguage": "nl",
   "name": "name example",
   "location": {
-    "id": "6f072ba8-c510-40ac-b387-51f582650e27",
-    "name": "Café Den Hemel",
-    "address": {
-      "addressCountry": "BE",
-      "addressLocality": "Scherpenheuvel-Zichem",
-      "postalCode": "3271",
-      "streetAddress": "Hoornblaas 107"
-    }
+    "id": "6f072ba8-c510-40ac-b387-51f582650e27"
   },
   "type": {
     "id": "0.50.4.0.0",
