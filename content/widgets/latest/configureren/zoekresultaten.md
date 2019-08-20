@@ -54,6 +54,8 @@ Bepaal welke elementen (informatie) zichtbaar zijn op de detailpagina van je eve
 * Deelknoppen voor social media
 * Terugknop, en de URL daarvan. 
 Wanneer een surfer op de terugknop klikt, wordt hij default naar de laatst bezochte pagina gestuurd. De laatst bezochte pagina kan een andere pagina zijn dan het agendaoverzicht. Wil je dat de terugknop steeds naar het agendaoverzicht terugkeert, dan kan je die URL instellen bij de optie terugknop.
+* Toon gerelateerde artikels
+Verschillende mediakanalen linken hun redactionele content (aankondigingen van evenementen, reviews) aan de evenementen in UiTdatabank. Je kan op de detailpagina gelinkte artikels ophalen en weergeven. Standaard worden de artikels opgehaald van elke curator. Wil je enkel de content van specifieke curatoren tonen, dan kan je aanvinken welke. 
 
 De overige elementen zijn identiek aan de lijstelementen.
 
