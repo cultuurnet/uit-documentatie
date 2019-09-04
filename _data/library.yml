@@ -925,6 +925,8 @@
               href: "searching/organizers/creator"
             - title: "Url"
               href: "searching/organizers/url"
+            - title: "Sorting"
+              href: "searching/organizers/sorting"
         - title: "Reference"
           href: "reference"
           summary:
