@@ -1022,6 +1022,20 @@
           href: "geavanceerd"
         - title: "Browsercompatibiliteit"
           href: "browsercompatibiliteit"
+- title: "Een agenda bouwen op search API 3"
+  description: "Er zijn 3 mogelijkheden om agenda-informatie te integreren."
+  path: "content/integreren-met-searchv3/"
+  category: "Integreren"
+  icon: "json"
+  weight: 60
+  versions:
+      - name: "latest"
+        path: "/integreren-met-searchv3/latest/"
+        summary:
+          - title: "Afbeeldingen croppen"
+            href: "afbeeldingen-croppen"
+          - title: "Kalendersamenvatting"
+            href: "calendarsummary"
 #
 # Migratie
 #
