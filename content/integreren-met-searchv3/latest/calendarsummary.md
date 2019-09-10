@@ -2,7 +2,6 @@
 ---
 
 # Calendar summary
-## Context
 The JSON body of each event contains a property _calendar summary_, but this property is deprecated. The calendar summary is now accessible on a specific endpoint (see below).
 
 ## Use
