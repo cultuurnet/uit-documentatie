@@ -1023,7 +1023,7 @@
         - title: "Browsercompatibiliteit"
           href: "browsercompatibiliteit"
 - title: "Een agenda bouwen op search API 3"
-  description: "Tips & tricks om je frontend af te stemmen op search API 3"
+  description: "Tips & tricks for your frontend when integrating with search api 3"
   path: "content/integreren-met-searchv3/"
   category: "Integreren"
   icon: "json"
