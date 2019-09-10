@@ -1032,9 +1032,9 @@
       - name: "latest"
         path: "/integreren-met-searchv3/latest/"
         summary:
-          - title: "Afbeeldingen croppen"
-            href: "afbeeldingen-croppen"
-          - title: "Kalendersamenvatting"
+          - title: "Resize images"
+            href: "resizing-images"
+          - title: "Calendar summary"
             href: "calendarsummary"
 #
 # Migratie
