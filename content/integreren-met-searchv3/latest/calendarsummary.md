@@ -13,7 +13,7 @@ You can use the calendar summary to display the calendar information in your sea
 We distinguish 3 types of calendar summary: small, medium and large. 
 
 For every event, all 3 types are available. You can request the calendar summary for each event individually, by using the following base url, and by adding the calsum-parameter
-```https://io.uitdatabank.be/events/{cdbid}/```
+Base URL: ```https://io.uitdatabank.be/events/{cdbid}/```
 
 | Size | Description | Parameter | Example | 
 | --- | --- | --- | --- | 
