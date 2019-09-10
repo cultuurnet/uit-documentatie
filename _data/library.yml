@@ -1030,7 +1030,7 @@
   weight: 60
   versions:
       - name: "latest"
-        path: "/integreren-met-searchv3/latest/"
+        path: "content/integreren-met-searchv3/latest/"
         summary:
           - title: "Resize images"
             href: "resizing-images"
