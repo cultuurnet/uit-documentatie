@@ -1022,7 +1022,7 @@
           href: "geavanceerd"
         - title: "Browsercompatibiliteit"
           href: "browsercompatibiliteit"
-- title: "Build an agenda on search API 3"
+- title: "Build an agenda with search API 3"
   description: "Tips & tricks for your frontend when integrating with search api 3"
   path: "content/integreren-met-searchv3/"
   category: "Integreren"
