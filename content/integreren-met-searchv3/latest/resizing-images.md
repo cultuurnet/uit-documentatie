@@ -10,7 +10,7 @@ This vhost contains a mapping table that converts the old parameters to imgix pa
 
 ## Mapping table
 | Original parameters | Imgix parameters | Description |
-| --- | --- | --- |
+| -- | -- | -- |
 | bgcolor=123456 | bg=123456 | Hex code (6-char). Sets the background/whitespace color |
 | crop=auto | fit=crop&crop=entropy | Crop the image to the size specified by width and height. Centers and minimally crops to preserve aspect ratio |
 | format=png | fm=png | Change format |
