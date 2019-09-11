@@ -9,6 +9,7 @@ When adding (resize-)parameters to images in UiTdatabank, you will first be redi
 This vhost contains a mapping table that converts the old parameters to imgix parameters and returns a redirect to imgix. Mapping is done using the following table:
 
 ## Mapping table
+
 | Original parameters            	| Imgix parameters                  	| Description                                                                                                    	|
 |--------------------------------	|-----------------------------------	|----------------------------------------------------------------------------------------------------------------	|
 | bgcolor=123456                 	| bg=123456                         	| Hex code (6-char). Sets the background/whitespace color                                                        	|
