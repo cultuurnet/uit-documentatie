@@ -49,10 +49,41 @@ Not every output format is supported for every calendarType!
 
 Using an unsupported format will throw an exception.
 
+#### Examples
+
+**large**
+```
+GET https://io-test.uitdatabank.be/events/4ddcd176-5c1a-412d-b5d8-2398c10468aa/calsum?format=lg
+
+vrijdag 28 juli 2017 van 22:00 tot 23:59
+zaterdag 29 juli 2017 van 22:00 tot 23:59
+zondag 30 juli 2017 van 17:00 tot 19:00
+maandag 31 juli 2017 van 11:30 tot 13:30
+```
+
+**Medium**
+```
+GET https://io-test.uitdatabank.be/events/4ddcd176-5c1a-412d-b5d8-2398c10468aa/calsum?format=md
+
+vrijdag 28 juli 2017
+zaterdag 29 juli 2017
+zondag 30 juli 2017
+maandag 31 juli 2017
+```
+
+**Small**
+```
+GET https://io-test.uitdatabank.be/events/4ddcd176-5c1a-412d-b5d8-2398c10468aa/calsum?format=sm
+
+Van 28 juli 2017 tot 31 juli 2017
+```
+
 ### style
 It is possible to style the response in html or plaintext
 
-**Examples**
+#### Examples
+
+**text**
 ```
 GET  https://io-test.uitdatabank.be/events/4ddcd176-5c1a-412d-b5d8-2398c10468aa/calsum?format=lg&style=text
 
@@ -62,6 +93,7 @@ zondag 30 juli 2017 van 17:00 tot 19:00
 maandag 31 juli 2017 van 11:30 tot 13:30
 ```
 
+**html**
 ```
 GET https://io-test.uitdatabank.be/events/4ddcd176-5c1a-412d-b5d8-2398c10468aa/calsum?format=lg&style=html
 
