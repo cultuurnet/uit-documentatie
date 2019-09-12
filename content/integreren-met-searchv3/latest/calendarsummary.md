@@ -34,6 +34,7 @@ The Event or Place object has a calendarType property which can have one of the 
 | timeZone  | optional | string  | Default: 'Europe/Brussels' | ?timeZone=America/Detroit |
 
 ### format
+(string) - required
 
 We distinguish 4 output formats: extra small, small, medium and large.
 
@@ -79,6 +80,8 @@ Van 28 juli 2017 tot 31 juli 2017
 ```
 
 ### style
+(string) - optional - Default value: text
+
 It is possible to style the response in html or plaintext
 
 #### Examples
@@ -118,13 +121,18 @@ GET https://io-test.uitdatabank.be/events/4ddcd176-5c1a-412d-b5d8-2398c10468aa/c
 ```
 
 ### langCode
+(string) - optional - Default value: 'nl_BE'
 
 You can use this parameter to change the language of the output that the formatter will produce.
 
 Currently works in nl, fr, de and en. The format here is standard PHP locales. For example 'fr_BE' or 'de_BE'.
 
 ### hidePastDates
+(boolean) - optional - Default value: false
+
 This parameter (when true) will only be used on offers with a calendarType 'multiple'. When 'true', dates in the past won't be included in the response.
 
 ### timeZone
+(string) - optional - Default value: 'Europe/Brussels'
+
 You can set a different timezone with this parameter. Supported timezones can be found in [this list](https://www.php.net/manual/en/timezones.php).
