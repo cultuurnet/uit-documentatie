@@ -334,6 +334,8 @@
           href: "flow"
         - title: "API documentation"
           href: "api-documentation"
+        - title: "Content management"
+          href: "content-management"
 - title: "JSON-LD"
   description: "This document describes the UiTdatabank v3 native JSON-LD format"
   path: "content/json-ld/"
