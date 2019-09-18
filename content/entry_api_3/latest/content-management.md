@@ -1,7 +1,8 @@
 ---
 ---
 # Content management
-This book provides more detailed instructions about managing the content of your events:
+
+This book provides more detailed instructions on how to manage the content of your events when using the JSON-LD (CRUD) API for creating events in UiTdatabank.
 
 **Topics in this book**
 * Creation of school events
@@ -9,5 +10,4 @@ This book provides more detailed instructions about managing the content of your
 * ...
 
 **Documentation**
-
 > [Content management with JSON-LD](https://documentatie.uitdatabank.be/content/content-management/latest/school-offers/start.html)
