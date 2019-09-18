@@ -10,4 +10,4 @@ This book provides more detailed instructions about managing the content of your
 
 **Documentation**
 
-> [Content management with JSON-LD]()
+> [Content management with JSON-LD](https://documentatie.uitdatabank.be/content/content-management/latest/school-offers/start.html)
