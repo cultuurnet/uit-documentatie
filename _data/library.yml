@@ -338,7 +338,7 @@
           href: "content-management"
           summary:
             - title: "School offers"
-              href: "content/content-manageent/school-offers/latest/"
+              href: "content/content-management/school-offers/latest/"
 - title: "JSON-LD"
   description: "This document describes the UiTdatabank v3 native JSON-LD format"
   path: "content/json-ld/"
