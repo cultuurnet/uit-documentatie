@@ -561,8 +561,8 @@
         - title: "School offers"
           href: "school-offers"
           summary:
-            - title: "sorts"
-              href: "school-offers/sorts"
+            - title: "types"
+              href: "school-offers/types"
             - title: "mandatory fields"
               href: "school-offers/mandatory-fields"
         - title: "UiTPAS"
