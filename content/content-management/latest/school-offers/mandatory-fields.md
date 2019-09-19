@@ -88,6 +88,9 @@ Level 1 label: ```cultuurkuur_basisonderwijs```
 |  | cultuurkuur_Buitengewoon-lager-onderwijs |  |
 
 #### Secundair onderwijs
+
+Level 1 label: ```cultuurkuur_Secundair-onderwijs```
+
 | Level 2 | Level 3 | Level 4 |
 |--|--|--|
 | cultuurkuur_Voltijds-gewoon-secundair-onderwijs |  |  |
