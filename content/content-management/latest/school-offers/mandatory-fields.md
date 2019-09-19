@@ -67,51 +67,69 @@ Note that there is a hierarchy (levels) in the labels, and that this hierarchy s
 
 Cultuurkuur distinguishes the following labels:
 
-| Level 1 | Level 2 | Level 3 | Level 4 |
-|------------------------------------------|-------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------|
-| cultuurkuur_basisonderwijs |  |  |  |
-|  | cultuurkuur_Gewoon-basisonderwijs |  |  |
-|  |  | cultuurkuur_Gewoon-kleuteronderwijs |  |
-|  |  |  | cultuurkuur_Kleuter-2-3-jaar |
-|  |  |  | cultuurkuur_Kleuter-3-4-jaar |
-|  |  |  | cultuurkuur_Kleuter-4-5-jaar |
-|  |  | cultuurkuur_Gewoon-lager-onderwijs |  |
-|  |  |  | cultuurkuur_1ste-graad |
-|  |  |  | cultuurkuur_2de-graad |
-|  |  |  | cultuurkuur_3de-graad |
-|  |  | cultuurkuur_Onthaalonderwijs-voor-anderstalige-nieuwkomers (OKAN) |  |
-|  | cultuurkuur_Buitengewoon-basisonderwijs |  |  |
-|  |  | cultuurkuur_Buitengewoon-kleuteronderwijs |  |
-|  |  | cultuurkuur_Buitengewoon-lager-onderwijs |  |
-| cultuurkuur_Secundair-onderwijs |  |  |  |
-|  | cultuurkuur_Voltijds-gewoon-secundair-onderwijs |  |  |
-|  |  | cultuurkuur_eerste-graad |  |
-|  |  |  | cultuurkuur_1ste-leerjaar-A |
-|  |  |  | cultuurkuur_1ste-leerjaar-B |
-|  |  |  | cultuurkuur_2de leerjaar |
-|  |  |  | cultuurkuur_beroepsvoorbereidend-leerjaar |
-|  |  | cultuurkuur_tweede-graad |  |
-|  |  |  | cultuurkuur_tweede-graad-ASO |
-|  |  |  | cultuurkuur_tweede-graad-BSO |
-|  |  |  | cultuurkuur_tweede-graad-KSO |
-|  |  |  | cultuurkuur_tweede-graad-TSO |
-|  |  | cultuurkuur_derde-graad |  |
-|  |  |  | cultuurkuur_derde-graad-ASO |
-|  |  |  | cultuurkuur_derde-graad-BSO |
-|  |  |  | cultuurkuur_derde-graad-KSO |
-|  |  |  | cultuurkuur_derde-graad-TSO |
-|  |  |  | cultuurkuur_3de-graad-BSO-specialisatiejaar |
-|  |  |  | cultuurkuur_derde-graad-Voorbereidend-jaar-HO |
-|  |  | cultuurkuur_Secundair-na-secundair-(Se-n-Se) |  |
-|  |  | cultuurkuur_Onthaalonderwijs-voor-anderstalige-nieuwkomers-OKAN |  |
-|  | cultuurkuur_Buitengewoon-secundair-onderwijs |  |  |
-|  | cultuurkuur_Deeltijds-leren-en-werken |  |  |
-| cultuurkuur_Hoger-onderwijs |  |  |  |
-| cultuurkuur_Volwassenenonderwijs |  |  |  |
-| cultuurkuur_Deeltijds-kunstonderwijs-DKO |  |  |  |
-|  | cultuurkuur_Beeldende-en-audiovisuele-kunst |  |  |
-|  | cultuurkuur_muziek |  |  |
-|  | cultuurkuur_Woordkunst-drama |  |  |
-|  | cultuurkuur_dans |  |  |
+#### Basisonderwijs
+
+Level 1 label: ```cultuurkuur_basisonderwijs```
+
+| Level 2 | Level 3 | Level 4 |
+|--|--|--|
+| cultuurkuur_Gewoon-basisonderwijs |  |  |
+|  | cultuurkuur_Gewoon-kleuteronderwijs |  |
+|  |  | cultuurkuur_Kleuter-2-3-jaar |
+|  |  | cultuurkuur_Kleuter-3-4-jaar |
+|  |  | cultuurkuur_Kleuter-4-5-jaar |
+|  | cultuurkuur_Gewoon-lager-onderwijs |  |
+|  |  | cultuurkuur_1ste-graad |
+|  |  | cultuurkuur_2de-graad |
+|  |  | cultuurkuur_3de-graad |
+|  | cultuurkuur_Onthaalonderwijs-voor-anderstalige-nieuwkomers (OKAN) |  |
+| cultuurkuur_Buitengewoon-basisonderwijs |  |  |
+|  | cultuurkuur_Buitengewoon-kleuteronderwijs |  |
+|  | cultuurkuur_Buitengewoon-lager-onderwijs |  |
+
+#### Secundair onderwijs
+| Level 2 | Level 3 | Level 4 |
+|--|--|--|
+| cultuurkuur_Voltijds-gewoon-secundair-onderwijs |  |  |
+|  | cultuurkuur_eerste-graad |  |
+|  |  | cultuurkuur_1ste-leerjaar-A |
+|  |  | cultuurkuur_1ste-leerjaar-B |
+|  |  | cultuurkuur_2de leerjaar |
+|  |  | cultuurkuur_beroepsvoorbereidend-leerjaar |
+|  | cultuurkuur_tweede-graad |  |
+|  |  | cultuurkuur_tweede-graad-ASO |
+|  |  | cultuurkuur_tweede-graad-BSO |
+|  |  | cultuurkuur_tweede-graad-KSO |
+|  |  | cultuurkuur_tweede-graad-TSO |
+|  | cultuurkuur_derde-graad |  |
+|  |  | cultuurkuur_derde-graad-ASO |
+|  |  | cultuurkuur_derde-graad-BSO |
+|  |  | cultuurkuur_derde-graad-KSO |
+|  |  | cultuurkuur_derde-graad-TSO |
+|  |  | cultuurkuur_3de-graad-BSO-specialisatiejaar |
+|  |  | cultuurkuur_derde-graad-Voorbereidend-jaar-HO |
+|  | cultuurkuur_Secundair-na-secundair-(Se-n-Se) |  |
+|  | cultuurkuur_Onthaalonderwijs-voor-anderstalige-nieuwkomers-OKAN |  |
+| cultuurkuur_Buitengewoon-secundair-onderwijs |  |  |
+| cultuurkuur_Deeltijds-leren-en-werken |  |  |
+
+#### Hoger onderwijs
+
+Level 1 label: ```cultuurkuur_Hoger-onderwijs```
 
 
+#### Volwassenenonderwijs
+
+Level 1 label: ```cultuurkuur_Volwassenenonderwijs```
+
+
+#### Deeltijds kunstonderwijs
+
+Level 1 label: ```cultuurkuur_Deeltijds-kunstonderwijs-DKO```
+
+| Level 2 |
+|--|
+| cultuurkuur_Beeldende-en-audiovisuele-kunst |
+| cultuurkuur_muziek |
+| cultuurkuur_Woordkunst-drama |
+| cultuurkuur_dans |
