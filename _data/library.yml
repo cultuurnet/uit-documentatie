@@ -547,6 +547,19 @@
               href: "places/place-priceInfo"
             - title: "typicalAgeRange"
               href: "places/place-typicalAgeRange"
+- title: "Content management"
+  description: "Instructions on content management when using the JSON-LD (CRUD) API"
+  path: "content/content-management/"
+  category: "UiTdatabank"
+  weight: 120
+  icon: "json"
+  hidden: true
+  versions:
+    - name: "latest"
+      path: "content/content-management/latest"
+      summary:
+        - title: "School offers"
+          href: "school-offers"
 - title: "UiTPAS API 3.0 : how-to 'Mijn UiTPAS' omgeving"
   description: "Handleiding voor de ontwikkeling van een 'Mijn UiTPAS' omgeving."
   path: "content/uitpas_api-mijn-uitpas/"
