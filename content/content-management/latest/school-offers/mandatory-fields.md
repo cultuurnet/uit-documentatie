@@ -100,3 +100,10 @@ The education level is mandatory for school offers. These education levels must 
 | Onthaalonderwijs voor anderstalige nieuwkomers (OKAN) | cultuurkuur_Onthaalonderwijs-voor-anderstalige-nieuwkomers-OKAN |
 | Secundair na Secundair (Se-n-Se) | cultuurkuur_Secundair-na-secundair-(Se-n-Se)|
 | Volwassenenonderwijs | cultuurkuur_Volwassenenonderwijs |
+
+## 3. Link to Cultuurkuur page
+Each organizer has it own page on Cultuurkuur. Every school event should be linked to an organizer page. Therefore, the organizer field is mandatory for school events:
+- Add a valid and existing organizer to your event using the [JSON-LD API](https://documentatie.uitdatabank.be/content/json-ld/latest/events/event-organizer.html) 
+- Add a valid and existing organizer to your event using the [JSON-LD CRUD API](https://documentatie.uitdatabank.be/content/json-ld-crud-api/latest/events/event-organizer.html)
+
+In the case the organizer of your event does not already have its own page on Cultuurkuur yet, you should contact ```content.cultuurkuur@publiq.be```.
