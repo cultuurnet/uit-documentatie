@@ -1,11 +1,11 @@
 ---
 ---
-# Sorts of school offers
+# Types of school offers
 
 We distinguish 3 sorts of school offers:
-- **School performances** both have a date and a location. ```Example```: a theater performance aimed at a fourth degree.
-- **Guided tours** do not have a specific date, but they do have a location. ```Example```: a guided tour in a museum.
-- **Bookable offers** have no specific time, nor do they have a location. Both date and location are determined in mutual agreement between the organizer / artist and the consumer (school). ```Example```: As a school you can book Stijn Meuris for a school performance at your school, or at the local cultural center. 
+1. **School performances** both have a date and a location. ```Example```: a theater performance aimed at a fourth degree.
+2. **Guided tours** do not have a specific date, but they do have a location. ```Example```: a guided tour in a museum.
+3. **Bookable offers** have no specific time, nor do they have a location. Both date and location are determined in mutual agreement between the organizer / artist and the consumer (school). ```Example```: As a school you can book Stijn Meuris for a school performance at your school, or at the local cultural center. 
 
 | Type | Date | Place | 
 | -- | -- | -- |
@@ -14,7 +14,7 @@ We distinguish 3 sorts of school offers:
 | Bookable events  |  |  | 
 
 
-## Creation of school performances
+## 1. Creation of school performances
 School performances both have a date and a location. F.e. a theater performance aimed at a fourth degree
 
 | Type | Date | Place | 
@@ -25,7 +25,7 @@ Since school performances both have a date and a location, these sort of school 
 - With calendarInfo
 - With a valid and existing location in UiTdatabank
 
-## Creation of guided tours
+## 2. Creation of guided tours
 Guided tours do not have a specific date, but they do have a location. F.e. a guided tour in a museum.
 
 | Type | Date | Place | 
@@ -38,7 +38,7 @@ Since the exact date for the event is not known yet, your event should contain t
 
 > !You can only use the calendarType permanent for guided school tours, bookable school events and for locations!
 
-## Creation of bookable events
+## 3. Creation of bookable events
 Bookable offers have no specific date, nor they have a location. Both date and location are determined by mutual agreement between the organizer / artist and the consumer (school).
 
 | Type | Date | Place | 
