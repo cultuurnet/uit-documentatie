@@ -556,10 +556,15 @@
   hidden: true
   versions:
     - name: "latest"
-      path: "content/content-management/latest"
+      path: "content/content-management/latest/"
       summary:
         - title: "School offers"
           href: "school-offers"
+          summary:
+            - title: "sorts"
+              href: "sorts"
+            - title: "mandatory fields"
+              href: "mandatory-fields"              
 - title: "UiTPAS API 3.0 : how-to 'Mijn UiTPAS' omgeving"
   description: "Handleiding voor de ontwikkeling van een 'Mijn UiTPAS' omgeving."
   path: "content/uitpas_api-mijn-uitpas/"
