@@ -72,7 +72,7 @@ Cultuurkuur distinguishes the following labels:
 
 Level 1 label: ```cultuurkuur_basisonderwijs```
 
-| Level 2 | Level 3 | Level 4 |
+| Level 2 label | Level 3 label | Level 4 label |
 |--|--|--|
 | cultuurkuur_Gewoon-basisonderwijs |  |  |
 |  | cultuurkuur_Gewoon-kleuteronderwijs |  |
@@ -92,7 +92,7 @@ Level 1 label: ```cultuurkuur_basisonderwijs```
 
 Level 1 label: ```cultuurkuur_Secundair-onderwijs```
 
-| Level 2 | Level 3 | Level 4 |
+| Level 2 label | Level 3 label | Level 4 label |
 |--|--|--|
 | cultuurkuur_Voltijds-gewoon-secundair-onderwijs |  |  |
 |  | cultuurkuur_eerste-graad |  |
@@ -128,7 +128,7 @@ Level 1 label: ```cultuurkuur_Volwassenenonderwijs```
 
 Level 1 label: ```cultuurkuur_Deeltijds-kunstonderwijs-DKO```
 
-| Level 2 |
+| Level 2 label |
 |--|
 | cultuurkuur_Beeldende-en-audiovisuele-kunst |
 | cultuurkuur_muziek |
