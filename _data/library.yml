@@ -565,7 +565,7 @@
               href: "school-offers/sorts"
             - title: "mandatory fields"
               href: "school-offers/mandatory-fields"
-        - title: "Uitpas"
+        - title: "UiTPAS"
           href: "uitpas"              
 - title: "UiTPAS API 3.0 : how-to 'Mijn UiTPAS' omgeving"
   description: "Handleiding voor de ontwikkeling van een 'Mijn UiTPAS' omgeving."
