@@ -60,7 +60,8 @@ Each school offers should have at least one subject (learning objective).
 The education level is mandatory for school offers. These education levels must be sent as a label. 
 
 Note that there is a hierarchy (levels) in the labels, and that this hierarchy should be followed.
-```For example```
+
+**For example:**
 - If a level 4-label (f.e. ```cultuurkuur_Kleuter-2-3-jaar```) is applicable for an event, the corresponding level 3, level 2 and level 1-label should be added to the event: ```cultuurkuur_Gewoon-kleuteronderwijs```, ```cultuurkuur_Gewoon-basisonderwijs```, ```cultuurkuur_basisonderwijs```
 - If a level 1-label is applicable (f.e. ```cultuurkuur_Volwassenenonderwijs```), only the level 1-label should be added 
 
