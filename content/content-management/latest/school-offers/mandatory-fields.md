@@ -57,55 +57,61 @@ Each school offers should have at least one subject (learning objective).
 | Woordkunst en drama | cultuurkuur_Woordkunst-drama | 
 
 ### Education level labels
-The education level is mandatory for school offers. These education levels must be sent as a label. We distinguish the following labels:
+The education level is mandatory for school offers. These education levels must be sent as a label. 
 
-| Subject | Label | 
-| -- | -- | 
-| Gewoon kleuteronderwijs | cultuurkuur_Gewoon-kleuteronderwijs | 
-| Kleuter (2-3 jaar) | cultuurkuur_Kleuter-2-3-jaar  | 
-| Kleuter (3-4 jaar) | cultuurkuur_Kleuter-3-4-jaar   | 
-| Kleuter (4-5 jaar) | cultuurkuur_Kleuter-4-5-jaar  | 
-| Basisonderwijs | cultuurkuur_basisonderwijs | 
-| Gewoon basisonderwijs | cultuurkuur_Gewoon-basisonderwijs | 
-| Gewoon lager onderwijs | cultuurkuur_Gewoon-lager-onderwijs | 
-| Gewoon lager onderwijs | cultuurkuur_gewoon-lageronderwijs | 
-| Eerste leerjaar A | cultuurkuur_1ste-leerjaar-A | 
-| Eerste leerjaar B | cultuurkuur_1ste-leerjaar-B | 
-| Tweede leerjaar | cultuurkuur_2de leerjaar | 
-| Derde leerjaar | cultuurkuur_3de leerjaar | 
-| Vierde leerjaar | cultuurkuur_4de leerjaar | 
-| Vijfde leerjaar | cultuurkuur_5de leerjaar | 
-| Zesde leerjaar | cultuurkuur_6de leerjaar | 
-| Beroepsvoorbereidend leerjaar | cultuurkuur_beroepsvoorbereidend-leerjaar | 
-| Buitengewoon kleuteronderwijs | cultuurkuur_Buitengewoon-kleuteronderwijs | 
-| Buitengewoon basisonderwijs | cultuurkuur_Buitengewoon-basisonderwijs | 
-| Buitengewoon lager onderwijs | cultuurkuur_Buitengewoon-lager-onderwijs | 
-| Buitengewoon secundair onderwijs | cultuurkuur_Buitengewoon-secundair-onderwijs | 
-| Deeltijds kunstonderwijs (DKO) | cultuurkuur_Deeltijds-kunstonderwijs-DKO | 
-| Deeltijds leren en werken | cultuurkuur_Deeltijds-leren-en-werken | 
-| Voltijds gewoon secundair onderwijs | cultuurkuur_Voltijds-gewoon-secundair-onderwijs | 
-| Secundair onderwijs | cultuurkuur_Secundair-onderwijs | 
-| Eerste graad | cultuurkuur_1ste-graad | 
-| Eerste graad | cultuurkuur_eerste graad | 
-| Tweede graad | cultuurkuur_2de-graad | 
-| Tweede graad | cultuurkuur_tweede graad | 
-| Tweede graad | cultuurkuur_tweede-graad |
-| Tweede graad ASO | cultuurkuur_tweede-graad-ASO |
-| Tweede graad BSO | cultuurkuur_tweede-graad-BSO |
-| Tweede graad KSO | cultuurkuur_tweede-graad-KSO |
-| Tweede graad TSO | cultuurkuur_tweede-graad-TSO |
-| Derde graad | cultuurkuur_3de-graad |
-| Derde graad | cultuurkuur_derde graad |
-| Derde graad BSO (specialisatiejaar) | cultuurkuur_3de-graad-BSO-specialisatiejaar |
-| Derde graad ASO | cultuurkuur_derde-graad-ASO |
-| Derde graad BSO | cultuurkuur_derde-graad-BSO |
-| Derde graad KSO | cultuurkuur_derde-graad-KSO |
-| Derde graad TSO | cultuurkuur_derde-graad-TSO |
-| Derde graad (voorbereidend hoger onderwijs) | cultuurkuur_derde-graad-Voorbereidend-jaar-HO |
-| Hoger onderwijs | cultuurkuur_Hoger-onderwijs |
-| Onthaalonderwijs voor anderstalige nieuwkomers (OKAN) | cultuurkuur_Onthaalonderwijs-voor-anderstalige-nieuwkomers (OKAN)|
-| Onthaalonderwijs voor anderstalige nieuwkomers (OKAN) | cultuurkuur_Onthaalonderwijs-voor-anderstalige-nieuwkomers-OKAN |
-| Secundair na Secundair (Se-n-Se) | cultuurkuur_Secundair-na-secundair-(Se-n-Se)|
-| Volwassenenonderwijs | cultuurkuur_Volwassenenonderwijs |
+Note that there is a hierarchy (levels) in the labels, and that this hierarchy should be followed.
+```For example```
+- If a level 4-label (f.e. ```cultuurkuur_Kleuter-2-3-jaar```) is applicable for an event, the corresponding level 3, level 2 and level 1-label should be added to the event: ```cultuurkuur_Gewoon-kleuteronderwijs```, ```cultuurkuur_Gewoon-basisonderwijs```, ```cultuurkuur_basisonderwijs```
+- If a level 1-label is applicable (f.e. ```cultuurkuur_Volwassenenonderwijs```), only the level 1-label should be added 
+
+
+Cultuurkuur distinguishes the following labels:
+
+| Level 1 | Level 2 | Level 3 | Level 4 |
+|------------------------------------------|-------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------|
+| cultuurkuur_basisonderwijs |  |  |  |
+|  | cultuurkuur_Gewoon-basisonderwijs |  |  |
+|  |  | cultuurkuur_Gewoon-kleuteronderwijs |  |
+|  |  |  | cultuurkuur_Kleuter-2-3-jaar |
+|  |  |  | cultuurkuur_Kleuter-3-4-jaar |
+|  |  |  | cultuurkuur_Kleuter-4-5-jaar |
+|  |  | cultuurkuur_Gewoon-lager-onderwijs |  |
+|  |  |  | cultuurkuur_1ste-graad |
+|  |  |  | cultuurkuur_2de-graad |
+|  |  |  | cultuurkuur_3de-graad |
+|  |  | cultuurkuur_Onthaalonderwijs-voor-anderstalige-nieuwkomers (OKAN) |  |
+|  | cultuurkuur_Buitengewoon-basisonderwijs |  |  |
+|  |  | cultuurkuur_Buitengewoon-kleuteronderwijs |  |
+|  |  | cultuurkuur_Buitengewoon-lager-onderwijs |  |
+| cultuurkuur_Secundair-onderwijs |  |  |  |
+|  | cultuurkuur_Voltijds-gewoon-secundair-onderwijs |  |  |
+|  |  | cultuurkuur_eerste-graad |  |
+|  |  |  | cultuurkuur_1ste-leerjaar-A |
+|  |  |  | cultuurkuur_1ste-leerjaar-B |
+|  |  |  | cultuurkuur_2de leerjaar |
+|  |  |  | cultuurkuur_beroepsvoorbereidend-leerjaar |
+|  |  | cultuurkuur_tweede-graad |  |
+|  |  |  | cultuurkuur_tweede-graad-ASO |
+|  |  |  | cultuurkuur_tweede-graad-BSO |
+|  |  |  | cultuurkuur_tweede-graad-KSO |
+|  |  |  | cultuurkuur_tweede-graad-TSO |
+|  |  | cultuurkuur_derde-graad |  |
+|  |  |  | cultuurkuur_derde-graad-ASO |
+|  |  |  | cultuurkuur_derde-graad-BSO |
+|  |  |  | cultuurkuur_derde-graad-KSO |
+|  |  |  | cultuurkuur_derde-graad-TSO |
+|  |  |  | cultuurkuur_3de-graad-BSO-specialisatiejaar |
+|  |  |  | cultuurkuur_derde-graad-Voorbereidend-jaar-HO |
+|  |  | cultuurkuur_Secundair-na-secundair-(Se-n-Se) |  |
+|  |  | cultuurkuur_Onthaalonderwijs-voor-anderstalige-nieuwkomers-OKAN |  |
+|  | cultuurkuur_Buitengewoon-secundair-onderwijs |  |  |
+|  | cultuurkuur_Deeltijds-leren-en-werken |  |  |
+| cultuurkuur_Hoger-onderwijs |  |  |  |
+| cultuurkuur_Volwassenenonderwijs |  |  |  |
+| cultuurkuur_Deeltijds-kunstonderwijs-DKO |  |  |  |
+|  | cultuurkuur_Beeldende-en-audiovisuele-kunst |  |  |
+|  | cultuurkuur_muziek |  |  |
+|  | cultuurkuur_Woordkunst-drama |  |  |
+|  | cultuurkuur_dans |  |  |
 
 
