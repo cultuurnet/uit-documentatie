@@ -4,8 +4,8 @@
 
 For the creation of school offers you’ll have to take the following rules into account:
 1. Set the audienceType of your event to ```education``` 
-2. Add education labels to your event
-3. Link the event with a cultuurkuur-page
+2. Link the event with a cultuurkuur-page
+3. Add education labels to your event
 
 ## 1. audienceType
 For school offers it is necessary to set the value of audienceType to ```education```.
@@ -13,7 +13,14 @@ For school offers it is necessary to set the value of audienceType to ```educati
 - Set your audienceType using the [CRUD API](https://documentatie.uitdatabank.be/content/json-ld-crud-api/latest/events/event-audience.html)
 - Set your audienceType using the [JSON-LD API](https://documentatie.uitdatabank.be/content/json-ld/latest/events/event-audience.html)
 
-## 2. Education labels
+## 2. Link to Cultuurkuur page
+Each organizer has it own page on Cultuurkuur. Every school event should be linked to an organizer page. Therefore, the organizer field is mandatory for school events:
+- Add a valid and existing organizer to your event using the [JSON-LD API](https://documentatie.uitdatabank.be/content/json-ld/latest/events/event-organizer.html) 
+- Add a valid and existing organizer to your event using the [JSON-LD CRUD API](https://documentatie.uitdatabank.be/content/json-ld-crud-api/latest/events/event-organizer.html)
+
+In the case the organizer of your event does not already have its own page on Cultuurkuur yet, you should contact ```content.cultuurkuur@publiq.be```.
+
+## 3. Education labels
 In addition to the mandatory fields for ‘regular’ events, there are specific, cultuurkuur-related labels applicable.
 
 - Adding labels using the [CRUD API](https://documentatie.uitdatabank.be/content/json-ld-crud-api/latest/events/event-labels.html)
@@ -101,9 +108,4 @@ The education level is mandatory for school offers. These education levels must 
 | Secundair na Secundair (Se-n-Se) | cultuurkuur_Secundair-na-secundair-(Se-n-Se)|
 | Volwassenenonderwijs | cultuurkuur_Volwassenenonderwijs |
 
-## 3. Link to Cultuurkuur page
-Each organizer has it own page on Cultuurkuur. Every school event should be linked to an organizer page. Therefore, the organizer field is mandatory for school events:
-- Add a valid and existing organizer to your event using the [JSON-LD API](https://documentatie.uitdatabank.be/content/json-ld/latest/events/event-organizer.html) 
-- Add a valid and existing organizer to your event using the [JSON-LD CRUD API](https://documentatie.uitdatabank.be/content/json-ld-crud-api/latest/events/event-organizer.html)
 
-In the case the organizer of your event does not already have its own page on Cultuurkuur yet, you should contact ```content.cultuurkuur@publiq.be```.
