@@ -10,6 +10,8 @@ You can sort events and places by a combination of:
 * `created`
 * `modified`
 
+By default, events are sorted by `score`.
+
 It is possible to change the sort `order`:
 
 * Ascending order \(from smallest to biggest value\) by using `asc`
