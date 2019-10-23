@@ -3,9 +3,9 @@
 
 # Update address
 
-Update the address information of a place.
+Update the address information of a place in a given language.
 
-Address is not required, an organizer can only have one address.
+Address is not required, an organizer can only have one address for each language.
 
 
 ## HTTP request

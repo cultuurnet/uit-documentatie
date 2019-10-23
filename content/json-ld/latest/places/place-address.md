@@ -5,7 +5,7 @@
 
 Update the address information of a place in a given language.
 
-Address is required, a place can only have one address.
+Address is required, a place can only have one address for each language.
 
 
 ## HTTP request
