@@ -11,7 +11,7 @@ Address is not required, an organizer can only have one address.
 ## HTTP request
 
 ```
-PUT /organizers/{organizerId}/address
+PUT /organizers/{organizerId}/address/{lang}
 ```
 
 **HTTP DELETE**
@@ -31,6 +31,7 @@ Not supported: once an address is added, it is only possible to update the addre
 | Property	| Type | Description | Example |
 |--|--|--|--|
 | organizerId	| uuid | unique identifier for an organizer | d595414a-13e0-4dd2-b4bd-706599427351 |
+| lang	| string | 2-character language reference | nl |
 
 
 ## Request body
@@ -55,7 +56,7 @@ Not supported: once an address is added, it is only possible to update the addre
 The following is an example of the request
 
 ```
-PUT  https://io-test.uitdatabank.be/organizers/6d330801-41ac-43da-a4dd-7a97e5b3248a/address
+PUT  https://io-test.uitdatabank.be/organizers/6d330801-41ac-43da-a4dd-7a97e5b3248a/address/nl
 Content-Type: application/json
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
@@ -80,7 +81,7 @@ The following are example responses.
 400 Bad Request
 
 {
-    "title": "No route found for \"POST /organizers/6d330801-41ac-43da-a4dd-7a97e5b3248a/address\": Method Not Allowed (Allow: PUT, OPTIONS)",
+    "title": "No route found for \"POST /organizers/6d330801-41ac-43da-a4dd-7a97e5b3248a/address/nl\": Method Not Allowed (Allow: PUT, OPTIONS)",
     "type": "about:blank",
     "status": 400
 }
