@@ -101,22 +101,30 @@ maandag 31 juli 2017 van 11:30 tot 13:30
 GET https://io-test.uitdatabank.be/events/4ddcd176-5c1a-412d-b5d8-2398c10468aa/calsum?format=lg&style=html
 
 <ul class="cnw-event-date-info">
-	<li><time itemprop="startDate" datetime="2017-07-28T22:00:00+02:00"><span class="cf-weekday cf-meta">vrijdag</span>
-			<span class="cf-date">28 juli 2017</span> <span class="cf-from cf-meta">van</span>
-			<span class="cf-time">22:00</span></time> <span class="cf-to cf-meta">tot</span> <time itemprop="endDate"
-			datetime="2017-07-28T23:59:00+02:00"><span class="cf-time">23:59</span></time></li>
-	<li><time itemprop="startDate" datetime="2017-07-29T22:00:00+02:00"><span class="cf-weekday cf-meta">zaterdag</span>
-			<span class="cf-date">29 juli 2017</span> <span class="cf-from cf-meta">van</span>
-			<span class="cf-time">22:00</span></time> <span class="cf-to cf-meta">tot</span> <time itemprop="endDate"
-			datetime="2017-07-29T23:59:00+02:00"><span class="cf-time">23:59</span></time></li>
-	<li><time itemprop="startDate" datetime="2017-07-30T17:00:00+02:00"><span class="cf-weekday cf-meta">zondag</span>
-			<span class="cf-date">30 juli 2017</span> <span class="cf-from cf-meta">van</span>
-			<span class="cf-time">17:00</span></time> <span class="cf-to cf-meta">tot</span> <time itemprop="endDate"
-			datetime="2017-07-30T19:00:00+02:00"><span class="cf-time">19:00</span></time></li>
-	<li><time itemprop="startDate" datetime="2017-07-31T11:30:00+02:00"><span class="cf-weekday cf-meta">maandag</span>
-			<span class="cf-date">31 juli 2017</span> <span class="cf-from cf-meta">van</span>
-			<span class="cf-time">11:30</span></time> <span class="cf-to cf-meta">tot</span> <time itemprop="endDate"
-			datetime="2017-07-31T13:30:00+02:00"><span class="cf-time">13:30</span></time></li>
+    <li>
+        <time itemprop="startDate" datetime="2017-07-28T22:00:00+02:00"><span class="cf-weekday cf-meta">vrijdag</span>
+            <span class="cf-date">28 juli 2017</span> <span class="cf-from cf-meta">van</span>
+            <span class="cf-time">22:00</span></time> <span class="cf-to cf-meta">tot</span>
+        <time itemprop="endDate" datetime="2017-07-28T23:59:00+02:00"><span class="cf-time">23:59</span></time>
+    </li>
+    <li>
+        <time itemprop="startDate" datetime="2017-07-29T22:00:00+02:00"><span class="cf-weekday cf-meta">zaterdag</span>
+            <span class="cf-date">29 juli 2017</span> <span class="cf-from cf-meta">van</span>
+            <span class="cf-time">22:00</span></time> <span class="cf-to cf-meta">tot</span>
+        <time itemprop="endDate" datetime="2017-07-29T23:59:00+02:00"><span class="cf-time">23:59</span></time>
+    </li>
+    <li>
+        <time itemprop="startDate" datetime="2017-07-30T17:00:00+02:00"><span class="cf-weekday cf-meta">zondag</span>
+            <span class="cf-date">30 juli 2017</span> <span class="cf-from cf-meta">van</span>
+            <span class="cf-time">17:00</span></time> <span class="cf-to cf-meta">tot</span>
+        <time itemprop="endDate" datetime="2017-07-30T19:00:00+02:00"><span class="cf-time">19:00</span></time>
+    </li>
+    <li>
+        <time itemprop="startDate" datetime="2017-07-31T11:30:00+02:00"><span class="cf-weekday cf-meta">maandag</span>
+            <span class="cf-date">31 juli 2017</span> <span class="cf-from cf-meta">van</span>
+            <span class="cf-time">11:30</span></time> <span class="cf-to cf-meta">tot</span>
+        <time itemprop="endDate" datetime="2017-07-31T13:30:00+02:00"><span class="cf-time">13:30</span></time>
+    </li>
 </ul>
 ```
 
