@@ -63,12 +63,12 @@ The following is an example of the request payload
     "calendarType": "multiple",
     "timeSpans": [
       {
-        "start": "2018-05-05T18:00:00.000Z",
-        "end": "2018-05-05T21:00:00.000Z"
+        "start": "2022-05-05T18:00:00.000Z",
+        "end": "2022-05-05T21:00:00.000Z"
       },
       {
-        "start": "2018-05-12T18:00:00.000Z",
-        "end": "2018-05-12T21:00:00.000Z"
+        "start": "2022-05-12T18:00:00.000Z",
+        "end": "2022-05-12T21:00:00.000Z"
       }
     ]
   },
