@@ -112,6 +112,10 @@ Level 1 label: ```cultuurkuur_Secundair-onderwijs```
 |  |  | cultuurkuur_derde-graad-TSO |
 |  |  | cultuurkuur_3de-graad-BSO-specialisatiejaar |
 |  |  | cultuurkuur_derde-graad-Voorbereidend-jaar-HO |
+|  | cultuurkuur_Secundair-na-secundair-(Se-n-Se) |  |
+|  | cultuurkuur_Onthaalonderwijs-voor-anderstalige-nieuwkomers-OKAN |  |
+| cultuurkuur_Buitengewoon-secundair-onderwijs |  |  |
+| cultuurkuur_Deeltijds-leren-en-werken |  |  |
 
 
 #### Hoger onderwijs
