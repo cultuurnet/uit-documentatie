@@ -3,7 +3,7 @@
 
 # Introduction Entry API v3
 
-Welcome to the UiTdatabank Entry API documentation!
+Welcome to documentation of the award winning UiTdatabank entry API!
 
 This is the place to be if you want to import your events in UiTdatabank, so they are automatically published on [UiT in Vlaanderen](https://www.uitinvlaanderen.be) and many [other agenda's](https://www.publiq.be/nl/publicatiekanalen).
 
