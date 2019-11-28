@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This documentation provides an overview of all public features available in publiq's Search API v3 for UiTdatabank.
+This documentation provides an overview of all public features available in publiq's award winning Search API v3 for UiTdatabank.
 
 In the Getting started section you'll learn all about the different environments with their specific datasets and how to make authenticated requests. It also covers basics about the api: which results are excluded by default, how to escape specific characters and how to limit the search results.
 
