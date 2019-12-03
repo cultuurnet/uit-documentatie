@@ -18,7 +18,7 @@ Define your path:
 - Events & places: ```/offers/```
 - Events: ```/events/```
 - Places: ```/places/```
-- Organizers: ```/organizers```
+- Organizers: ```/organizers/```
 
 ![http-method](/img/http-method.png "htthp-method")
 
