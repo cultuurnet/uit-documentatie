@@ -42,7 +42,7 @@ If succesful, this method returns a `200` response code and the JSON-LD document
 		"distributionKeys": {
 			"22": {
 				"id": 22,
-				"name": "25% meerdaags "
+				"name": "25% meerdaags"
 			}
 		}
 	},
