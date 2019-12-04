@@ -35,6 +35,21 @@ If succesful, this method returns a `200` response code and the JSON-LD document
 **Example response**
 
 ```
-{"1":{"id":1,"name":"UiTPAS Dender","distributionKeys":{"22":{"id":22,"name":"25%
-meerdaags"}}},"5":{"id":5,"name":"UiTPAS Regio Gent","distributionKeys":[]}}
+{
+	"1": {
+		"id": 1,
+		"name": "UiTPAS Dender",
+		"distributionKeys": {
+			"22": {
+				"id": 22,
+				"name": "25% meerdaags "
+			}
+		}
+	},
+	"5": {
+		"id": 5,
+		"name": "UiTPAS Regio Gent",
+		"distributionKeys": []
+	}
+}
 ```
