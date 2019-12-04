@@ -3,7 +3,6 @@
 
 # Get organizer cardsystems
 
-
 ## Host
 
  For documentation on UiTPAS base url, go [here]({% link content/json-ld/latest/authentication/authentication-baseUrl.md %})

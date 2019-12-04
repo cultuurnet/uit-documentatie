@@ -30,7 +30,7 @@ View the card systems coupled to the cultural event.
 
 ## Response
 
-If succesful, this method returns a `200` response code and the JSON-LD document in the response body.
+If succesful, this method returns a `200` response code and a JSON-LD document in the response body.
 
 **Example response**
 

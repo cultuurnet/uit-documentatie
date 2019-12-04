@@ -57,15 +57,11 @@ Do not supply a request body for this method
 The following is an example of the request
 
 ```
-PUT /events/de343e38-d656-4928-96bc-55578e0d94ec/cardSystems/ HTTP/1.1
+PUT /events/de343e38-d656-4928-96bc-55578e0d94ec/cardSystems/1 HTTP/1.1
 Host: uitpas-test.uitdatabank.be
 Authorization: Bearer {token}
 x-api-key: {apikey}
 Content-Type: text/plain
-
-[
-  "5"
-]
 ```
 
 **Response**
@@ -100,7 +96,7 @@ The following are example responses.
 400 Bad Request
 
 {
-    "title": "cardsystem 123456 is not known in uitpas",
+    "title": "cardsystem with id [123456] not found.",
     "type": "about:blank",
     "status": 400
 }

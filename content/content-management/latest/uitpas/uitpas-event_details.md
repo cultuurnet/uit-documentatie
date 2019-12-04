@@ -30,7 +30,7 @@ View the UiTPAS details of a cultural event.
 
 ## Response
 
-If succesful, this method returns a `200` response code and the JSON-LD document in the response body.
+If succesful, this method returns a `200` response code and a JSON-LD document in the response body.
 
 **Example response**
 
@@ -42,4 +42,4 @@ If succesful, this method returns a `200` response code and the JSON-LD document
 }
 ```
 
-Important note: if the value of `hasTicketSales` is `true`, it is not possible to update the cardsystems of this event
+Important note: if the value of `hasTicketSales` is `true`, it is not possible to update the cardsystems for this event
