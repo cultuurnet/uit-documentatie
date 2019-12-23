@@ -5,6 +5,8 @@
 
 ## HTTP request
 
+It is important to re-use existing organizers and avoid creating duplicates. UiTdatabank is continuously monitored and duplicate entries will be removed. To search for existing organizers, [see here]({% link content/json-ld/latest/organizers/organizer-list.md %})
+
 ```
 POST /organizers/
 ```

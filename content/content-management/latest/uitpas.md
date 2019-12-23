@@ -1,7 +1,7 @@
 ---
 ---
 # UiTPAS
-In order to have your event automatically recognized and registered as an UiTPAS-event, a number of additional fields are required:
+In order to have your event automatically registered as an UiTPAS-event, a number of additional fields are required:
 - Organizer
 - Price
 
@@ -9,7 +9,7 @@ Also make sure your calendar info corresponds with the actual (opening) hours of
 
 
 ## Organizer
-The organizer field is mandatory for UiTPAS events. Therefore you should use an existing UiTPAS-organizer. For a list of all organizers, see [list organizers](https://documentatie.uitdatabank.be/content/json-ld/latest/organizers/organizer-list.html) documentation.
+The organizer field is mandatory for UiTPAS events. Therefore you should use an existing UiTPAS-organizer, identifiable by a specific [UiTPAS label](https://uitpas.uitdatabank.be/labels). For a list of all organizers, see [search organizers](https://documentatie.uitdatabank.be/content/search_api_3/latest/searching-organizers.html) documentation.
 
 Update the organizer of an event:
 - using the [JSON-LD API](https://documentatie.uitdatabank.be/content/json-ld/latest/events/event-organizer.html)

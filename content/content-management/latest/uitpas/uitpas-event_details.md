@@ -10,7 +10,7 @@
 ## HTTP request
 
 ```
-GET events/{eventId}
+GET /events/{eventId}
 ```
 View the UiTPAS details of a cultural event.
 

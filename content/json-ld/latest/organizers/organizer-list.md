@@ -3,6 +3,10 @@
 
 # List organizers
 
+It is important to re-use existing organizers and avoid creating duplicates. UiTdatabank is continuously monitored and duplicate entries will be removed.
+
+The following documentation is deprecated: to search for organizers, it is better to use the [JSON-LD Search API]({% link content/search_api_3/latest/searching-organizers.md %). 
+
 ## HTTP request
 
 ```

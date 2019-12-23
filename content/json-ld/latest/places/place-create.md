@@ -5,6 +5,8 @@
 
 ## HTTP request
 
+It is important to re-use existing places and avoid creating duplicates. UiTdatabank is continuously monitored and duplicate entries will be removed. To search for existing places, [see here]({% link content/json-ld/latest/places/place-list.md %})
+
 ```
 POST /places/
 ```
