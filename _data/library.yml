@@ -578,6 +578,8 @@
         - title: "UiTPAS"
           href: "uitpas"
           summary:
+            - title: "List active cardsystems"
+              href: "uitpas/uitpas-cardsystem_label_mapping"
             - title: "Get organizer cardsystems"
               href: "uitpas/uitpas-organizer_cardsystems"
             - title: "Get event cardsystems"
