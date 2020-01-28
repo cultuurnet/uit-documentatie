@@ -24,7 +24,8 @@ Parameters:
 | ~~number~~ (Deprecated) | String | huisnummer pashouder |  |
 | ~~box~~ (Deprecated) | String | postbus pashouder |  |
 | postalCode | String | postcode pashouder | x |
-| city | String | gemeente pashouder. indien geldige deelgemeente opgegeven wordt, wordt deze automatisch omgezet naar de hoofdgemeente. de postcode blijft behouden. | x |
+| city | String | gemeente pashouder: een geldige Belgische gemeente of "Buitenland". Belgische deelgemeenten worden automatisch omgezet naar de hoofdgemeente.  | x |
+| foreignCity | String | gemeente pashouder in het buitenland: indien city = "Buitenland" dan wordt dit veld opgevuld met de effectieve gemeente van de buitenlandse pashouder. Verplicht indien city = "Buitenland". |  |
 | telephone | String | telefoonnummer pashouder |  |
 | gsm | String | GSM nummer pashouder |  |
 | nationality | String | nationaliteit pashouder |  |

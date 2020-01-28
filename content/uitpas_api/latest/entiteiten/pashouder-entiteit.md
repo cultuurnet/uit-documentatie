@@ -14,7 +14,8 @@
 | <span class="line-through">number</span> <span class="blue">(Deprecated)</span> | String | huisnummer van de pashouder |
 | <span class="line-through">box</span> <span class="blue">(Deprecated)</span> | String | bus van de pashouder |
 | postalCode | String | postcode van de pashouder |
-| city | String | woonplaats van de pashouder |
+| city | String | woonplaats van de pashouder: geldige Belgische gemeente of "Buitenland" |
+| foreignCity | String | woonplaats van de pashouder indien city = "Buitenland" |
 | telephone | String | telefoonnummer van de pashouder |
 | nationality | String | nationaliteit van de pashouder |
 | placeOfBirth | String | geboorteplaats van de pashouder |
