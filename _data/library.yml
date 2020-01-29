@@ -1067,6 +1067,8 @@
               href: "na_publicatie/je_widget_aanpassen_dupliceren_of_verwijderen"
         - title: "Geavanceerd"
           href: "geavanceerd"
+        - title: "Taalinstellingen"
+          href: "taalinstellingen"
         - title: "Browsercompatibiliteit"
           href: "browsercompatibiliteit"
 - title: "Build an agenda with search API 3"
