@@ -109,20 +109,19 @@ The key, the regions-parameter in the URL, is based on the alphanumeric code for
 | Heindonk (Willebroek)| nis-12040B |
 | Blaasveld (Willebroek)| nis-12040C |
 | Tisselt (Willebroek)| nis-12040D |
-| Puurs + deelgemeenten| nis-12030 |
-| Breendonk (Puurs)| nis-12030C |
-| Liezele (Puurs)| nis-12030D |
-| Puurs (Puurs)| nis-12030A |
-| Ruisbroek (Puurs)| nis-12030B |
+| Puurs-Sint-Amands + deelgemeenten| nis-12041 |
+| Breendonk (Puurs-Sint-Amands)| nis-12030C |
+| Liezele (Puurs-Sint-Amands)| nis-12030D |
+| Puurs (Puurs-Sint-Amands)| nis-12030A |
+| Ruisbroek (Puurs-Sint-Amands)| nis-12030B |
+| Sint-Amands (Puurs-Sint-Amands)| nis-12034A |
+| Lippelo (Puurs-Sint-Amands)| nis-12034C |
+| Oppuurs (Puurs-Sint-Amands)| nis-12034B |
 | Bornem + deelgemeenten| nis-12007 |
 | Bornem (Bornem)| nis-12007A |
 | Hingene (Bornem)| nis-12007B |
 | Weert (Bornem)| nis-12007D |
 | Mariekerke (Bornem)| nis-12007C |
-| Sint-Amands + deelgemeenten| nis-12034 |
-| Sint-Amands (Sint-Amands)| nis-12034A |
-| Lippelo (Sint-Amands)| nis-12034C |
-| Oppuurs (Sint-Amands)| nis-12034B |
 | Provincie Vlaams-Brabant| nis-20001 |
 | Regio Groene Gordel| reg-groene-gordel |
 | Vilvoorde + deelgemeenten| nis-23088 |
@@ -882,7 +881,7 @@ The key, the regions-parameter in the URL, is based on the alphanumeric code for
 | Mariakerke (Gent)| nis-44021L |
 | Wondelgem (Gent)| nis-44021M |
 | Regio Leiestreek Oost-Vlaanderen| reg-leiestreek-oost-vlaanderen |
-| Deinze + deelgemeenten| nis-44011 |
+| Deinze + deelgemeenten| nis-44083 |
 | Deinze (Deinze)| nis-44011A |
 | Astene (Deinze)| nis-44011B |
 | Grammene (Deinze)| nis-44011E |
@@ -894,6 +893,12 @@ The key, the regions-parameter in the URL, is based on the alphanumeric code for
 | Wontergem (Deinze)| nis-44011G |
 | Bachte-Maria-Leerne (Deinze)| nis-44011K |
 | Sint-Martens-Leerne (Deinze)| nis-44011L |
+| Nevele (Deinze)| nis-44049A |
+| Poesele (Deinze)| nis-44049B |
+| Hansbeke (Deinze)| nis-44049C |
+| Merendree (Deinze)| nis-44049D |
+| Landegem (Deinze)| nis-44049E |
+| Vosselare (Deinze)| nis-44049F |
 | Nazareth + deelgemeenten| nis-44048 |
 | Nazareth (Nazareth)| nis-44048A |
 | Eke (Nazareth)| nis-44048B |
@@ -932,24 +937,20 @@ The key, the regions-parameter in the URL, is based on the alphanumeric code for
 | Adegem (Maldegem)| nis-43010C |
 | Wachtebeke + deelgemeenten| nis-44073 |
 | Wachtebeke (Wachtebeke)| nis-44073A |
-| Nevele + deelgemeenten| nis-44049 |
-| Nevele (Nevele)| nis-44049A |
-| Poesele (Nevele)| nis-44049B |
-| Hansbeke (Nevele)| nis-44049C |
-| Merendree (Nevele)| nis-44049D |
-| Landegem (Nevele)| nis-44049E |
-| Vosselare (Nevele)| nis-44049F |
-| Aalter + deelgemeenten| nis-44001 |
+| Aalter + deelgemeenten| nis-44084 |
 | Aalter (Aalter)| nis-44001A |
 | Bellem (Aalter)| nis-44001B |
 | Lotenhulle (Aalter)| nis-44001C |
 | Poeke (Aalter)| nis-44001D |
-| Knesselare + deelgemeenten| nis-44029 |
-| Knesselare (Knesselare)| nis-44029A |
-| Ursel (Knesselare)| nis-44029B |
-| Lovendegem + deelgemeenten| nis-44036 |
-| Lovendegem (Lovendegem)| nis-44036A |
-| Vinderhoute (Lovendegem)| nis-44036B |
+| Knesselare (Aalter)| nis-44029A |
+| Ursel (Aalter)| nis-44029B |
+| Lievegem + deelgemeenten| nis-44085 |
+| Lovendegem (Lievegem)| nis-44036A |
+| Vinderhoute (Lievegem)| nis-44036B |
+| Zomergem (Lievegem)| nis-44080A |
+| Ronsele (Lievegem)| nis-44080B |
+| Oostwinkel (Lievegem)| nis-44080C |
+| Waarschoot (Lievegem)| nis-44072A |
 | Zomergem + deelgemeenten| nis-44080 |
 | Zomergem (Zomergem)| nis-44080A |
 | Ronsele (Zomergem)| nis-44080B |
@@ -959,8 +960,6 @@ The key, the regions-parameter in the URL, is based on the alphanumeric code for
 | Kluizen (Evergem)| nis-44019C-II |
 | Sleidinge (Evergem)| nis-44019B |
 | Ertvelde (Evergem)| nis-44019C-I |
-| Waarschoot + deelgemeenten| nis-44072 |
-| Waarschoot (Waarschoot)| nis-44072A |
 | Regio Vlaamse Ardennen| reg-vlaamse-ardennen |
 | Geraardsbergen + deelgemeenten| nis-41018 |
 | Geraardsbergen (Geraardsbergen)| nis-41018A |
@@ -1061,14 +1060,13 @@ The key, the regions-parameter in the URL, is based on the alphanumeric code for
 | Mater (Oudenaarde)| nis-45035D |
 | Melden (Oudenaarde)| nis-45035E |
 | Mullem (Oudenaarde)| nis-45035F |
-| Zingem + deelgemeenten| nis-45057 |
-| Huise (Zingem)| nis-45057C |
-| Ouwegem (Zingem)| nis-45057B |
-| Zingem (Zingem)| nis-45057A |
-| Kruishoutem + deelgemeenten| nis-45017 |
-| Kruishoutem (Kruishoutem)| nis-45017-Z |
-| Wannegem-Lede (Kruishoutem)| nis-45017C |
-| Nokere (Kruishoutem)| nis-45017D |
+| Kruisem + deelgemeenten| nis-45068 |
+| Huise (Kruisem)| nis-45057C |
+| Ouwegem (Kruisem)| nis-45057B |
+| Zingem (Kruisem)| nis-45057A |
+| Kruishoutem (Kruisem)| nis-45017-Z |
+| Wannegem-Lede (Kruisem)| nis-45017C |
+| Nokere (Kruisem)| nis-45017D |
 | Wortegem-Petegem + deelgemeenten| nis-45061 |
 | Petegem-aan-de-Schelde (Wortegem-Petegem)| nis-45061A |
 | Elsegem (Wortegem-Petegem)| nis-45061D |
@@ -2511,17 +2509,10 @@ The key, the regions-parameter in the URL, is based on the alphanumeric code for
 | Houthalen-Helchteren + deelgemeenten| nis-72039 |
 | Helchteren (Houthalen-Helchteren)| nis-72039B |
 | Houthalen (Houthalen-Helchteren)| nis-72039A |
-| Meeuwen-Gruitrode + deelgemeenten| nis-72040 |
-| Wijshagen (Meeuwen-Gruitrode)| nis-72040B |
-| Meeuwen (Meeuwen-Gruitrode)| nis-72040A |
-| Ellikom (Meeuwen-Gruitrode)| nis-72040C |
-| Neerglabbeek (Meeuwen-Gruitrode)| nis-72040E |
-| Gruitrode (Meeuwen-Gruitrode)| nis-72040D |
-| Overpelt + deelgemeenten| nis-72029 |
-| Overpelt (Overpelt)| nis-72029A |
-| Neerpelt + deelgemeenten| nis-72025 |
-| Sint-Huibrechts-Lille (Neerpelt)| nis-72025B |
-| Neerpelt (Neerpelt)| nis-72025A |
+| Pelt + deelgemeenten| nis-72043 |
+| Overpelt (Pelt)| nis-72029A |
+| Sint-Huibrechts-Lille (Pelt)| nis-72025B |
+| Neerpelt (Pelt)| nis-72025A |
 | Lommel + deelgemeenten| nis-72020 |
 | Lommel (Lommel)| nis-72020A |
 | Hamont-Achel + deelgemeenten| nis-72037 |
@@ -2563,8 +2554,13 @@ The key, the regions-parameter in the URL, is based on the alphanumeric code for
 | Diepenbeek (Diepenbeek)| nis-71011A |
 | Genk + deelgemeenten| nis-71016 |
 | Genk (Genk)| nis-71016-Z |
-| Opglabbeek + deelgemeenten| nis-71047 |
-| Opglabbeek (Opglabbeek)| nis-71047A |
+| Oudsbergen + deelgemeenten| nis-71047 |
+| Opglabbeek (Oudsbergen)| nis-71047A |
+| Wijshagen (Oudsbergen)| nis-72040B |
+| Meeuwen (Oudsbergen)| nis-72040A |
+| Ellikom (Oudsbergen)| nis-72040C |
+| Neerglabbeek (Oudsbergen)| nis-72040E |
+| Gruitrode (Oudsbergen)| nis-72040D |
 | As + deelgemeenten| nis-71002 |
 | As (As)| nis-71002A |
 | Niel-bij-As (As)| nis-71002B |
