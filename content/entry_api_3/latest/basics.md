@@ -10,7 +10,7 @@
 * **organizer**: a unique organizer. Organizers are specifically used for the UiTPAS project
 * **label**: a unique keyword used to combine specific resources with similar traits. A label can be public or private, visible or hidden.
 * **mediaObject**: to add an image to an offer, you first create a unique mediaObject for the image and then add this mediaObject to the offer.
-* **user**: all requests on the UiTdatabank APIs need a valid JWT from an authenticated user. UiTdatabank uses a specific permission model to see which user can update which content.
+* **user**: all requests on the UiTdatabank APIs need a valid Access Token from an authenticated user. UiTdatabank uses a specific permission model to see which user can update which content.
 
 ## UiTdatabank permission model
 * Every authenticated user can create content in UiTdatabank

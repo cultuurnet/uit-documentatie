@@ -332,6 +332,19 @@
           href: "basics"
         - title: "Project flow from TEST to PRODUCTION"
           href: "flow"
+        - title: "Authentication"
+          href: "authentication"
+          summary:
+          - title: "Base URLs"
+            href: "authentication/authentication-baseUrl"
+          - title: "Request a valid API Key"
+            href: "authentication/authentication-apiKey"
+          - title: "Perform Authenticated Requests"
+            href: "authentication/authentication-jwt"
+          - title: "Use Refresh Tokens to renew Access Token"
+            href: "authentication/authentication-jwt-refreshToken"
+          - title: "Postman setup for authenticated requests"
+            href: "authentication/authentication-postman"
         - title: "API documentation"
           href: "api-documentation"
         - title: "Content management"
@@ -349,15 +362,6 @@
       summary:
         - title: "Authentication"
           href: "authentication"
-          summary:
-            - title: "Base URL"
-              href: "authentication/authentication-baseUrl"
-            - title: "Get a valid API Key"
-              href: "authentication/authentication-apiKey"
-            - title: "Generate JSON Web Token"
-              href: "authentication/authentication-jwt"
-            - title: "Postman setup"
-              href: "authentication/authentication-postman"
         - title: "Manage events"
           href: "events"
           summary:
@@ -484,15 +488,6 @@
       summary:
         - title: "Authentication"
           href: "authentication"
-          summary:
-            - title: "Base URL"
-              href: "authentication/authentication-baseUrl"
-            - title: "Get a valid API Key"
-              href: "authentication/authentication-apiKey"
-            - title: "Generate JSON Web Token"
-              href: "authentication/authentication-jwt"
-            - title: "Postman setup"
-              href: "authentication/authentication-postman"
         - title: "Add and update events"
           href: "events"
           summary:

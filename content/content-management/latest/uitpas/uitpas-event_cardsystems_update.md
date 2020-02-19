@@ -5,8 +5,8 @@
 
 ## Host
 
- For documentation on UiTPAS base url, go [here]({% link content/json-ld/latest/authentication/authentication-baseUrl.md %})
- 
+ For documentation on UiTPAS base url, go [here]({% link content/entry_api_3/latest/authentication/authentication-baseUrl.md %})
+
 ## HTTP request
 
 ```

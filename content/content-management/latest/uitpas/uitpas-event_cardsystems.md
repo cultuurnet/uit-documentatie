@@ -5,7 +5,7 @@
 
 ## Host
 
- For documentation on UiTPAS base url, go [here]({% link content/json-ld/latest/authentication/authentication-baseUrl.md %})
+ For documentation on UiTPAS base url, go [here]({% link content/entry_api_3/latest/authentication/authentication-baseUrl.md %})
 
 ## HTTP request
 
@@ -35,12 +35,12 @@ If succesful, this method returns a `200` response code and a JSON-LD document i
 **Example response**
 
 ```json
-{ 
-   "5":{ 
+{
+   "5":{
       "id":5,
       "name":"UiTPAS Regio Gent",
-      "distributionKeys":{ 
-         "44":{ 
+      "distributionKeys":{
+         "44":{
             "id":44,
             "name":"standaard"
          }
@@ -48,5 +48,3 @@ If succesful, this method returns a `200` response code and a JSON-LD document i
    }
 }
 ```
-
-
