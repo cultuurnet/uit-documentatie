@@ -1081,10 +1081,10 @@
       - name: "latest"
         path: "content/integreren-met-searchv3/latest/"
         summary:
-          - title: "Resize images"
-            href: "resizing-images"
           - title: "Calendar summary"
             href: "calendarsummary"
+          - title: "Resize images"
+            href: "resizing-images"
 #
 # Migratie
 #
