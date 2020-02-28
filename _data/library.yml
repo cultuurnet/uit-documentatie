@@ -1083,6 +1083,8 @@
         summary:
           - title: "Calendar summary"
             href: "calendarsummary"
+          - title: "Date & time"
+            href: "date-time"
           - title: "Resize images"
             href: "resizing-images"
 #
