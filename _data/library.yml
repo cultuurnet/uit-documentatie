@@ -21,7 +21,12 @@
               - title: "Postman setup"
                 href: "postman"
           - title: "JSON API's"
-            href: "authenticatie-JSON-apis"  
+            href: "authenticatie-JSON-apis"
+            summary:
+              - title: "Entry API"
+                href: "entry-api"
+              - title: "Search API"
+                href: "search-api"
 - title: "Overzicht omgevingen"
   description: "Via deze omgevingen kan je gebruik maken van onze services."
   path: "content/omgevingen/"
