@@ -1,7 +1,7 @@
 ---
 ---
 
-# Authentication
+# Authentication for Search API v3
 
 To use Search API v3, you need to authenticate using an API key on every request.
 
