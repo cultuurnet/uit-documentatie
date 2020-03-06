@@ -1015,7 +1015,7 @@
           - title: "Gebruiksvoorwaarden"
             href: "gebruiksvoorwaarden"
 - title: "Aan de slag met Culturefeed"
-  category: "Integreren"
+  category: "Legacy"
   description: "Maak gebruik van onze PHP-bibliotheken en Drupal-modules."
   path: "content/culturefeed/"
   weight: 50
