@@ -28,9 +28,10 @@ Om bestaande integraties op basis van de Search API v1 en Search API v2 voor te 
 
 Je kan opnieuw een integratie op maat ontwikkelen, met de nieuwste versie van de Search API. Deze API op basis van het JSON LD-formaat is performanter en beter doorzoekbaar op basis van Elasticsearch. Het lightweight Linked Data-formaat en de open standaarden van [schema.org](http://schema.org/Event) maken hem bovendien SEO-vriendelijk. Deze API won in 2019 de prijs voor [API van het jaar](https://www.publiq.be/nl/nieuws/de-uitdatabank-wint-de-award-voor-api-van-het-jaar) 
 
-De documentatie over de nieuwe Search API vind je onder [UiTdatabank doorzoeken met Search API 3 (JSON)]({% link content/search_api_3/latest/start.md %}).
-
-Om te helpen bij het vertalen van oude SAPI 1-zoekqueries naar het nieuwe formaat, werd ook [een handleiding]({% link content/migratie-sapi/latest/sapi1.md %}) voorzien.
+#### Documentatie:
+- [Documentatie Search API 3](https://documentatie.uitdatabank.be/content/search_api_3/latest/start.html)
+- [Vertaaltabel zoekqueries SAPI 1 naar SAPI 3](https://documentatie.uitdatabank.be/content/migratie-sapi/latest/sapi1.html)
+- [Vertaaltabel zoekqueries SAPI 2 naar SAPI 3](https://documentatie.uitdatabank.be/content/migratie-sapi/latest/sapi2.html)
 
 Je krijgt toegang tot onze API door een project aan te maken op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). 
 
@@ -38,7 +39,8 @@ Je krijgt toegang tot onze API door een project aan te maken op [projectaanvraag
 
 Je kan ook gebruik maken van widgets, kant-en-klare HTML-modules waarmee je in enkele klikken een performante en mobile-friendly activiteitenkalender samenstelt. Je hebt geen technische kennis nodig om een widget te configureren. De widgets bieden filter- en zoekmogelijkheden op maat en uitgebreide configuratiemogelijkheden (HTML, CSS, JS) waardoor deze naadloos in een website ingepast kunnen worden.
 
-De documentatie over de widgets vind je onder ['Aan de slag met widgets']({% link content/widgets/latest/start.md %}).
+#### Documentatie:
+- [Widgets](https://documentatie.uitdatabank.be/content/widgets/latest/start.html)
 
 Je kan je widget volledig zelf configureren na het aanmaken van een project op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). 
 
@@ -48,7 +50,9 @@ Je kan je widget volledig zelf configureren na het aanmaken van een project op [
 
 Voor een bestaande integratie op basis van SAPI 1 of SAPI 2 kan opnieuw een integratie op maat ontwikkeld worden met de nieuwste versie van de Search API. Deze API op basis van het JSON LD-formaat is performanter en beter doorzoekbaar op basis van Elasticsearch. Het lightweight Linked Data-formaat en de open standaarden van [schema.org](http://schema.org/Event) maken hem bovendien SEO-vriendelijk.
 
+#### Documentatie:
+- [Entry API via JSON](https://documentatie.uitdatabank.be/content/entry_api_3/latest/start.html)
+
 ### 2. Je evenementen handmatig invoeren op www.uitdatabank.be
 
 Organiseer je minder dan 100 activiteiten per jaar? Dan raden we je aan je evenementen in te voeren via www.uitdatabank.be. Je evenementen worden vervolgens meteen op UiTinVlaanderen en tal van onze andere kanalen gepubliceerd.
-
