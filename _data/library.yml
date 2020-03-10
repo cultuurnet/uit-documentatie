@@ -1100,8 +1100,8 @@
 #
 # Migratie
 #
-- title: "Migreren naar onze nieuwe SAPI"
-  description: "Vertaal je oude zoekqueries naar onze nieuwste SAPI"
+- title: "Migreren naar de JSON API's"
+  description: "We helpen je op weg bij de overstap van XML naar JSON"
   path: "content/migratie-sapi/"
   category: "Migratie"
   icon: "sapi3"
@@ -1110,10 +1110,12 @@
     - name: "latest"
       path: "content/migratie-sapi/latest/"
       summary:
-        - title: "SAPI 1"
+        - title: "Van SAPI 1 naar SAPI 3"
           href: "sapi1"
-        - title: "SAPI 2"
+        - title: "Van SAPI 1 naar SAPI 3"
           href: "sapi2"
+        - title: "Van Entry API 2 naar Entry API 3"
+          href: "entry3"
 #
 # Legacy
 #
