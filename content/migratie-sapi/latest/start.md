@@ -46,7 +46,9 @@ Je kan je widget volledig zelf configureren na het aanmaken van een project op [
 
 ### 1. Evenementen in UiTdatabank importeren met Entry API 3
 
-
 Voor een bestaande integratie op basis van SAPI 1 of SAPI 2 kan opnieuw een integratie op maat ontwikkeld worden met de nieuwste versie van de Search API. Deze API op basis van het JSON LD-formaat is performanter en beter doorzoekbaar op basis van Elasticsearch. Het lightweight Linked Data-formaat en de open standaarden van [schema.org](http://schema.org/Event) maken hem bovendien SEO-vriendelijk.
+
 ### 2. Je evenementen handmatig invoeren op www.uitdatabank.be
+
+Organiseer je minder dan 100 activiteiten per jaar? Dan raden we je aan je evenementen in te voeren via www.uitdatabank.be. Je evenementen worden vervolgens meteen op UiTinVlaanderen en tal van onze andere kanalen gepubliceerd.
 
