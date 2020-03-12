@@ -9,13 +9,14 @@ Dit boek begeleid je in de overstap van SAPI 1 naar SAPI 3.
 
 Om lijsten te kunnen opvragen met de UiTdatabank Search API moet je drie zaken opgeven:
 
-1. De ```collection``` waarin moet gezocht worden. Deze zijn gewijzigd tegenover vroeger: voortaan zijn het events, places of organizers. Producties worden niet langer ondersteund.
+1. De ```collection``` waarin moet gezocht worden. Deze zijn gewijzigd ten opzichte van API 1. API 3 onderscheidt volgende collections: events, places, organizers. Producties worden niet langer ondersteund.
 2. De ```inputparameter(s)```: de parameters waarmee je de geselecteerde collectie wil gaan bevragen. Dit kan een vrije zoekterm zijn, een categorisatiefacet, een definitie van een aantal zoekresultaten, etc. Sommige parameters kunnen worden gebruikt als negatie of worden gecombineerd (zie verder).
 3. Een ```API-key```. Deze dien je mee te geven in de header.
 
 **Voorbeelden**
 - om een full text query binnen de search method in de events collection te lanceren stuur je volgende request: ```https://search.uitdatabank.be/events/?```
-- om items van het type ‘bibliotheek’ binnen de xmlview method in de actors collection op te halen stuur je volgende request ```https://search.uitdatabank.be/places/?q=terms.label:”Bibliotheek”```
+- om items van het type ‘bibliotheek’ binnen de xmlview method in de actors collection op te halen stuur je volgende request:
+```https://search.uitdatabank.be/places/?q=terms.label:”Bibliotheek”```
 
 ## Input parameters
 
