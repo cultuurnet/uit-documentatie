@@ -27,8 +27,9 @@ De volledige lijst van mogelijke nieuwe inputparameters is te vinden op https://
 
 #### ZOEKEN OP WIE / WAT
 
-| Oude naam parameter | Nieuwe naam parameter | Beschrijving | Datatype voor input | Voobeeld |
-| q | q | Een vrije zoekterm.  | Text | q=Puppet Shadows, q="Last shadow puppets" |
+| Oude naam parameter | Nieuwe naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
+| -- | -- | -- | -- | -- | 
+| q | q | Een vrije zoekterm. | Text | q=Puppet Shadows q="Last shadow puppets" |
 | agebetween | minAge=..&maxAge=.. | Minimum leeftijd tussen deze twee waarden  | Number Number | minAge=12&maxAge=16 |
 | age | minAge | Minimum leeftijd | Number | minAge=18 |
 | isfree | maxPrice=0 | Gratis events | Fixed | maxPrice=0 |
@@ -36,9 +37,9 @@ De volledige lijst van mogelijke nieuwe inputparameters is te vinden op https://
 
 #### ZOEKEN OP KRUISVERWIJZINGEN EN KEYWORDS
 
-| Oude naam parameter | Nieuwe naam parameter | Beschrijving |
-| -- | -- | -- |
-| k | labels:uitpas | Keywords en tags |
+| Oude naam parameter | Nieuwe naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
+| -- | -- | -- | -- | -- |
+| k | labels | labels, keywords of tags | text | labels:UiTPAS* |
 
 
 #### ZOEKEN OP CATEGORIEËN
