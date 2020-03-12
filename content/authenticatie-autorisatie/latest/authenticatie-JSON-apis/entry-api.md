@@ -1,7 +1,7 @@
 ---
 ---
 
-# Authentication for Entry API v3
+# Authenticatie voor Entry API v3
 
 Om evenementen te posten naar Entry API v3, moet je je authenticeren met een API Key en een JSON-webtoken. Je kan een persoonlijke API-key aanvragen via het [UiTdatabank projectaanvraag platform](https://projectaanvraag.uitdatabank.be).
 
