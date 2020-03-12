@@ -3,7 +3,7 @@
 
 # Van SAPI 1 naar SAPI 3 
 
-Dit boek begeleid je in de overstap van SAPI 1 naar SAPI 3.
+Dit boek begeleidt je in de overstap van SAPI 1 naar SAPI 3.
 
 ## Constructie query
 
