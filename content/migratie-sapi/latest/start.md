@@ -11,10 +11,10 @@ Welke technologieën wanneer uitgefaseerd worden, vind je terug in onderstaande 
 
 | Product | Release | Einde support | Einde gebruik | Technisch alternatief |
 | --- | --- | --- | --- | --- |
-| [Search API 1] | 2007 | 1/11/2019 | 1/11/2019 |  Widgets v3 of Search API 3 |
-| [Search API 2] | yyyy | dd/mm/yyyy | dd/mm/yyyy | Widgets v3 of Search API 3 |
-| [FTP import] | yyyy | dd/mm/yyyy | dd/mm/yyyy | Entry API v3 of manuele invoer op www.uitdatabank.be |
-| [Entry API 2] | yyyy | dd/mm/yyyy | dd/mm/yyyy | Entry API v3 of manuele invoer op www.uitdatabank.be |
+| Search API 1 | 2007 | 1/11/2019 | 1/11/2019 |  Widgets v3 of Search API 3 |
+| Search API 2 | yyyy | dd/mm/yyyy | dd/mm/yyyy | Widgets v3 of Search API 3 |
+| FTP import | yyyy | dd/mm/yyyy | dd/mm/yyyy | Entry API v3 of manuele invoer op www.uitdatabank.be |
+| Entry API 2 | yyyy | dd/mm/yyyy | dd/mm/yyyy | Entry API v3 of manuele invoer op www.uitdatabank.be |
 
 # Hoe je integraties futureproof maken?
 
