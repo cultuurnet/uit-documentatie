@@ -20,7 +20,7 @@ Om lijsten te kunnen opvragen met de UiTdatabank Search API moet je drie zaken o
 
 ## Input parameters
 
-Onderstaande tabel biedt een mapping van oude inputparameters naar advanced query's binnen SAPI 3.
+Onderstaande tabel biedt een mapping van oude inputparameters naar [advanced query's](https://documentatie.uitdatabank.be/content/search_api_3/latest/reference/advanced-queries.html) binnen SAPI 3.
 De volledige lijst van mogelijke nieuwe inputparameters is te vinden op https://documentatie.uitdatabank.be/content/search_api_3/start.html
 
 ### Events
@@ -30,9 +30,8 @@ De volledige lijst van mogelijke nieuwe inputparameters is te vinden op https://
 | Oude naam parameter | Nieuwe naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
 | -- | -- | -- | -- | -- | 
 | q | q | Een vrije zoekterm. | Text | q=Puppet Shadows q="Last shadow puppets" |
-| agebetween | minAge=..&maxAge=.. | Minimum leeftijd tussen deze twee waarden  | Number Number | minAge=12&maxAge=16 |
-| age | minAge | Minimum leeftijd | Number | minAge=18 |
-| isfree | maxPrice=0 | Gratis events | Fixed | maxPrice=0 |
+| agebetween | minAge=..&maxAge=.. | Minimum leeftijd tussen deze twee waarden  | Number Number | typicalAgeRange:[0 TO 12] |
+| isfree | maxPrice=0 | Gratis events | Fixed | price:0 |
 | permanent | calendarType:permanent | Permanente events (vb. vaste collecties, monumenten, etc.) | Fixed | calendarType:permanent |
 
 #### ZOEKEN OP KRUISVERWIJZINGEN EN KEYWORDS
@@ -51,15 +50,14 @@ De volledige lijst van mogelijke nieuwe inputparameters is te vinden op https://
 
 #### ZOEKEN OP KALENDERINFORMATIE
 
-| Oude naam parameter | Nieuwe naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
-| -- | -- | -- | -- | -- | 
-| daterange | Alle evenementen die tussen een bepaalde start- en een bepaalde einddatum plaatsvinden. | Date..Date (yyyy-m-d..yyyy-m-dTH.m) | daterange=2010-04-21..2010-04-28 |
-| date | Alle evenementen die plaatsvinden op één of meerdere tijdstippen | Date (yyyy-m-d; yyyy-m-dTH.m) | date=2008-09-19;2008-09-20;2008-09-21 |
-| datetype | (d.i. de snelste methode) alle evenementen die tijdens een vastgestelde periode plaatsvinden. | Text (today, tomorrow, thisweek, nextweekend, thismonth, next30days, next3months, next6months, next12months) | datetype=today |
+| Oude naam parameter | Nieuwe naam parameter | Beschrijving | Voorbeeld |
+| -- | -- | -- | -- | 
+| daterange | Alle evenementen die tussen een bepaalde start- en een bepaalde einddatum plaatsvinden. | Date..Date (yyyy-m-d..yyyy-m-dTH.m) | dateRange:[2020-01-01T00:00:00+01:00 TO 2020-01-01T23:59:59+01:00] |
+| date | Alle evenementen die plaatsvinden op één of meerdere tijdstippen | Date (yyyy-m-d; yyyy-m-dTH.m) |  dateRange:2020-01-01T00:00:00+01:00 |
 
 #### ZOEKEN OP GEOGRAFISCHE INFORMATIE
 
 | Oude naam parameter | Nieuwe naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
 | -- | -- | -- | -- | -- | 
-| zip | postalCode | Postcode van de locatie | Number | postalCode=2020 of q=address.\*.postalCode:2020 |
+| zip | postalCode | Postcode van de locatie | Number | address.\*.postalCode:2020 |
 | city | address.\*.addressLocality | Stad van de locatie | Text | address.\*.addressLocality:Antwerpen |
