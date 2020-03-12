@@ -60,5 +60,5 @@ De volledige lijst van mogelijke nieuwe inputparameters is te vinden op https://
 
 | Oude naam parameter | Nieuwe naam parameter | Beschrijving | Datatype voor input | Voorbeeld |
 | -- | -- | -- | -- | -- | 
-| zip | postalCode | Postcode van de locatie | Number | postalCode=2020 |
+| zip | postalCode | Postcode van de locatie | Number | postalCode=2020 of q=address.\*.postalCode:2020 |
 | city | address.\*.addressLocality | Stad van de locatie | Text | address.\*.addressLocality:Antwerpen |
