@@ -52,7 +52,7 @@ Je kan je widget volledig zelf configureren na het aanmaken van een project op [
 
 Je kan evenementen importeren via de JSON-LD REST API's. Deze API's laten je toe eventdata vanuit je eigen website (databank) te synchroniseren met UiTdatabank, waardoor je activiteiten op UiTinVlaanderen en tal van onze andere kanalen verschijnen.
 
-Deze API won in 2019 de prijs voor [API van het jaar](https://www.publiq.be/nl/nieuws/de-uitdatabank-wint-de-award-voor-api-van-het-jaar) 
+Deze API won in 2019 de prijs voor [API van het jaar](https://www.publiq.be/nl/nieuws/de-uitdatabank-wint-de-award-voor-api-van-het-jaar).
 
 #### Documentatie:
 > [Entry API via JSON](https://documentatie.uitdatabank.be/content/entry_api_3/latest/start.html)
