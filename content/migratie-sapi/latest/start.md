@@ -26,7 +26,7 @@ Om bestaande integraties op basis van de Search API v1 en Search API v2 voor te 
 
 ### 1. Ontwikkel een implementatie op basis van Search API v3
 
-Je kan opnieuw een integratie op maat ontwikkelen, met de nieuwste versie van de Search API. Deze API op basis van het JSON LD-formaat is performanter en beter doorzoekbaar op basis van Elasticsearch. Het lightweight Linked Data-formaat en de open standaarden van [schema.org](http://schema.org/Event) maken hem bovendien SEO-vriendelijk. Deze API won in 2019 de prijs voor [API van het jaar](https://www.publiq.be/nl/nieuws/de-uitdatabank-wint-de-award-voor-api-van-het-jaar) 
+Je kan opnieuw een integratie op maat ontwikkelen, met de nieuwste versie van de Search API. Deze API op basis van het JSON LD-formaat is performanter en beter doorzoekbaar op basis van Elasticsearch. Het lightweight Linked Data-formaat en de open standaarden van schema.org maken hem bovendien SEO-vriendelijk. Deze API won in 2019 de prijs voor [API van het jaar](https://www.publiq.be/nl/nieuws/de-uitdatabank-wint-de-award-voor-api-van-het-jaar) 
 
 #### Documentatie:
 > [Documentatie Search API 3](https://documentatie.uitdatabank.be/content/search_api_3/latest/start.html)
@@ -50,7 +50,9 @@ Je kan je widget volledig zelf configureren na het aanmaken van een project op [
 
 ### 1. Evenementen in UiTdatabank importeren met Entry API 3
 
-Voor een bestaande integratie op basis van SAPI 1 of SAPI 2 kan opnieuw een integratie op maat ontwikkeld worden met de nieuwste versie van de Search API. Deze API op basis van het JSON LD-formaat is performanter en beter doorzoekbaar op basis van Elasticsearch. Het lightweight Linked Data-formaat en de open standaarden van [schema.org](http://schema.org/Event) maken hem bovendien SEO-vriendelijk.
+Je kan evenementen importeren via de JSON-LD REST API's. Deze API's laten je toe eventdata vanuit je eigen website (databank) te synchroniseren met UiTdatabank, waardoor je activiteiten op UiTinVlaanderen en tal van onze andere kanalen verschijnen.
+
+Deze API won in 2019 de prijs voor [API van het jaar](https://www.publiq.be/nl/nieuws/de-uitdatabank-wint-de-award-voor-api-van-het-jaar) 
 
 #### Documentatie:
 > [Entry API via JSON](https://documentatie.uitdatabank.be/content/entry_api_3/latest/start.html)
