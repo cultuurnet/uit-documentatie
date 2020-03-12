@@ -52,8 +52,8 @@ De volledige lijst van mogelijke nieuwe inputparameters is te vinden op https://
 
 | Parameter SAPI 1 | Parameter SAPI 2 | Parameter SAPI 3 | Beschrijving | Datatype voor input | Voorbeeld |
 | -- | -- | -- | -- | -- | -- |
-| ```daterange``` | | dateRange:[2020-01-01T00:00:00+01:00 TO 2020-01-01T23:59:59+01:00] | Alle evenementen die tussen een bepaalde start- en een bepaalde einddatum plaatsvinden. | dateRange:[yyyy-mm-ddThh:mm:ss+0h:00 TO yyyy-mm-ddThh:mm:ss+0h:00] | dateRange:[2020-01-01T00:00:00+01:00 TO 2020-01-01T23:59:59+01:00] |
-| ```date``` | Alle evenementen die plaatsvinden op één of meerdere tijdstippen | dateRange:yyyy-mm-ddThh:mm:ss+0h:00 | dateRange:2020-01-01T00:00:00+01:00|
+| ```daterange``` | ```startdate, enddate```| ```dateRange``` | dateRange:[2020-01-01T00:00:00+01:00 TO 2020-01-01T23:59:59+01:00] | Alle evenementen die tussen een bepaalde start- en een bepaalde einddatum plaatsvinden. | dateRange:[yyyy-mm-ddThh:mm:ss+0h:00 TO yyyy-mm-ddThh:mm:ss+0h:00] | dateRange:[2020-01-01T00:00:00+01:00 TO 2020-01-01T23:59:59+01:00] |
+| ```date``` | ```startdate, enddate```| ```dateRange``` | Alle evenementen die plaatsvinden op één of meerdere tijdstippen | dateRange:yyyy-mm-ddThh:mm:ss+0h:00 | dateRange:2020-01-01T00:00:00+01:00|
 
 #### ZOEKEN OP GEOGRAFISCHE INFORMATIE
 
