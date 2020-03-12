@@ -86,6 +86,7 @@ GET https://search.uitdatabank.be/offers/?q=dateRange:[2017-01-01T00\:00\:00%2B0
 
 Same as the URL parameters, the expected value is an `ISO-8601` datetime including a timezone offset.
 
-## Date formatting
+## Date formatting & timezone offsets
 
-Formatting dates can be complex. Therefore we provide a calendar summary on a separate endpoint. Read all about it [over here](https://documentatie.uitdatabank.be/content/integreren-met-searchv3/latest/calendarsummary.html)
+Formatting dates can be complex. Therefore we provide a calendar summary on a separate endpoint. Read all about it [over here](https://documentatie.uitdatabank.be/content/integreren-met-searchv3/latest/calendarsummary.html). 
+If you want to format dates yourself, we advice you to check the documentation about [timezone offsets](https://documentatie.uitdatabank.be/content/integreren-met-searchv3/latest/date-time.html).
