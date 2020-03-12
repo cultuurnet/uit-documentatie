@@ -31,9 +31,7 @@ Je kan opnieuw een integratie op maat ontwikkelen, met de nieuwste versie van de
 #### Documentatie:
 > [Documentatie Search API 3](https://documentatie.uitdatabank.be/content/search_api_3/latest/start.html)
 
-> [Vertaaltabel zoekqueries SAPI 1 naar SAPI 3](https://documentatie.uitdatabank.be/content/migratie-sapi/latest/sapi1.html)
-
-> [Vertaaltabel zoekqueries SAPI 2 naar SAPI 3](https://documentatie.uitdatabank.be/content/migratie-sapi/latest/sapi2.html)
+> [Vertaaltabel zoekqueries SAPI 1 en SAPI 2 naar SAPI 3](https://documentatie.uitdatabank.be/content/migratie-sapi/latest/sapiupgrade.html)
 
 Je krijgt toegang tot onze API door een project aan te maken op [projectaanvraag.uitdatabank.be](https://projectaanvraag.uitdatabank.be). 
 
