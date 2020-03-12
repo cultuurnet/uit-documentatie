@@ -14,8 +14,8 @@ Om lijsten te kunnen opvragen met de UiTdatabank Search API moet je drie zaken o
 3. Een ```API-key```. Deze dien je mee te geven in de header.
 
 **Voorbeelden**
-- om een full text query binnen de search method in de events collection te lanceren stuur je volgende request: https://search.uitdatabank.be/events/?
-- om items van het type ‘bibliotheek’ binnen de xmlview method in de actors collection op te halen stuur je volgende request https://search.uitdatabank.be/places/?q=terms.label:”Bibliotheek”
+- om een full text query binnen de search method in de events collection te lanceren stuur je volgende request: ```https://search.uitdatabank.be/events/?```
+- om items van het type ‘bibliotheek’ binnen de xmlview method in de actors collection op te halen stuur je volgende request ```https://search.uitdatabank.be/places/?q=terms.label:”Bibliotheek”```
 
 ## Input parameters
 
