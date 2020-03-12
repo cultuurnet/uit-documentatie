@@ -1,7 +1,7 @@
 ---
 ---
 
-# Authenticatin for Entry API v3
+# Authentication for Entry API v3
 
 To use Entry API v3, you need to authenticate using an API key and a JSON Web Token on every request. To apply for you personal API key you must register via the [UiTdatabank projectaanvraag platform](https://projectaanvraag.uitdatabank.be).
 
