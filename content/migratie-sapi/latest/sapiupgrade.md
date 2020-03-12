@@ -3,7 +3,7 @@
 
 # Van SAPI 1 & 2 naar SAPI 3 
 
-Dit boek begeleidt je in de overstap van SAPI 1 naar SAPI 3.
+Dit boek begeleidt je in de overstap van SAPI 1 of SAPI 2 naar SAPI 3.
 
 ## Constructie query
 
@@ -12,6 +12,7 @@ Om lijsten te kunnen opvragen met de UiTdatabank Search API moet je drie zaken o
 1. De ```collection``` waarin moet gezocht worden. Deze zijn gewijzigd ten opzichte van API 1. API 3 onderscheidt volgende collections: events, places, organizers. Producties worden niet langer ondersteund.
 2. De ```inputparameter(s)```: de parameters waarmee je de geselecteerde collectie wil gaan bevragen. Dit kan een vrije zoekterm zijn, een categorisatiefacet, een definitie van een aantal zoekresultaten, etc. Sommige parameters kunnen worden gebruikt als negatie of worden gecombineerd (zie verder).
 3. Een ```API-key```. Deze dien je mee te geven in de header.
+
 
 **Voorbeelden**
 - om een full text query binnen de search method in de events collection te lanceren stuur je volgende request: ```https://search.uitdatabank.be/events/?```
@@ -30,7 +31,7 @@ De volledige lijst van mogelijke nieuwe inputparameters is te vinden op https://
 | Parameter SAPI 1 | Parameter SAPI 2 | Parameter SAPI 3 | Beschrijving | Datatype voor input | Voorbeeld |
 | -- | -- | -- | -- | -- | -- |
 | ```q``` | ```q``` | ```q``` | Een vrije zoekterm. | Text | q=Puppet Shadows q="Last shadow puppets" |
-| ```agebetween``` | ```agefrom``` | typicalAgeRange | Minimum leeftijd tussen deze twee waarden  | Number Number | typicalAgeRange:[0 TO 12] |
+| ```agebetween``` | ```agefrom``` | ```typicalAgeRange``` | Minimum leeftijd tussen deze twee waarden  | Number Number | typicalAgeRange:[0 TO 12] |
 | ```isfree``` | ```price:0``` | ```price:0``` | Gratis events | Fixed | price:0 |
 | ```permanent``` | ```datetype=permanent``` | ```calendarType:permanent``` | Permanente events (vb. vaste collecties, monumenten, etc.) | Fixed | calendarType:permanent |
 
@@ -52,7 +53,7 @@ De volledige lijst van mogelijke nieuwe inputparameters is te vinden op https://
 
 | Parameter SAPI 1 | Parameter SAPI 2 | Parameter SAPI 3 | Beschrijving | Datatype voor input | Voorbeeld |
 | -- | -- | -- | -- | -- | -- |
-| ```daterange``` | ```startdate, enddate```| ```dateRange``` | dateRange:[2020-01-01T00:00:00+01:00 TO 2020-01-01T23:59:59+01:00] | Alle evenementen die tussen een bepaalde start- en een bepaalde einddatum plaatsvinden. | dateRange:[yyyy-mm-ddThh:mm:ss+0h:00 TO yyyy-mm-ddThh:mm:ss+0h:00] | dateRange:[2020-01-01T00:00:00+01:00 TO 2020-01-01T23:59:59+01:00] |
+| ```daterange``` | ```startdate, enddate```| ```dateRange``` |  Alle evenementen die tussen een bepaalde start- en een bepaalde einddatum plaatsvinden.| dateRange:[2020-01-01T00:00:00+01:00 TO 2020-01-01T23:59:59+01:00] | dateRange:[2020-01-01T00:00:00+01:00 TO 2020-01-01T23:59:59+01:00] | dateRange:[yyyy-mm-ddThh:mm:ss+0h:00 TO yyyy-mm-ddThh:mm:ss+0h:00] | dateRange:[2020-01-01T00:00:00+01:00 TO 2020-01-01T23:59:59+01:00] |
 | ```date``` | ```startdate, enddate```| ```dateRange``` | Alle evenementen die plaatsvinden op één of meerdere tijdstippen | dateRange:yyyy-mm-ddThh:mm:ss+0h:00 | dateRange:2020-01-01T00:00:00+01:00|
 
 #### ZOEKEN OP GEOGRAFISCHE INFORMATIE
