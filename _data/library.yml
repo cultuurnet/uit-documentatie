@@ -1110,12 +1110,8 @@
     - name: "latest"
       path: "content/migratie-sapi/latest/"
       summary:
-        - title: "Van SAPI 1 naar SAPI 3"
-          href: "sapi1"
-        - title: "Van SAPI 1 naar SAPI 3"
-          href: "sapi2"
-        - title: "Van Entry API 2 naar Entry API 3"
-          href: "entry3"
+        - title: "Van SAPI 1 of 2 naar SAPI 3"
+          href: "sapiupgrade"
 #
 # Legacy
 #
