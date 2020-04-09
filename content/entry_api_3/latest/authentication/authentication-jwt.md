@@ -5,7 +5,7 @@
 
 ## Request Access Token Flow
 
-![Request Access Token Flow](/img/request-access-token-flow.png "Request Access Token Flow")
+![Request Access Token Flow](/img/request-access-token-v2.png "Request Access Token Flow")
 
 * Step 1: **API client** sends a request with user credentials
 * Step 2: **publiq server** validates credentials and redirects to API Client URL with **Access Token**. API Client can now make HTTP requests to the server using the Access token for authorization
