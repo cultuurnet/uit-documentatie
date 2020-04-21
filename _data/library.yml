@@ -11,12 +11,22 @@
       - name: "latest"
         path: "content/authenticatie-autorisatie/latest/"
         summary:
-          - title: "Authenticatie via User Access Token"
-            href: "authenticatie-via-useraccesstoken"
-          - title: "Authenticatie via Consumer Request"
-            href: "authenticatie-via-consumerrequest"
-          - title: "Postman"
-            href: "postman"
+          - title: "XML API's"
+            href: "authenticatie-XML-apis"  
+            summary:
+              - title: "Authenticatie via User Access Token"
+                href: "authenticatie-via-useraccesstoken"
+              - title: "Authenticatie via Consumer Request"
+                href: "authenticatie-via-consumerrequest"
+              - title: "Postman setup"
+                href: "postman"
+          - title: "JSON API's"
+            href: "authenticatie-JSON-apis"
+            summary:
+              - title: "Entry API"
+                href: "entry-api"
+              - title: "Search API"
+                href: "search-api"
 - title: "Overzicht omgevingen"
   description: "Via deze omgevingen kan je gebruik maken van onze services."
   path: "content/omgevingen/"
@@ -1000,7 +1010,7 @@
           - title: "Gebruiksvoorwaarden"
             href: "gebruiksvoorwaarden"
 - title: "Aan de slag met Culturefeed"
-  category: "Integreren"
+  category: "Legacy"
   description: "Maak gebruik van onze PHP-bibliotheken en Drupal-modules."
   path: "content/culturefeed/"
   weight: 50
@@ -1085,8 +1095,8 @@
 #
 # Migratie
 #
-- title: "Migreren naar onze nieuwe SAPI"
-  description: "Vertaal je oude zoekqueries naar onze nieuwste SAPI"
+- title: "Migreren naar de JSON API's"
+  description: "We helpen je op weg bij de overstap van XML naar JSON"
   path: "content/migratie-sapi/"
   category: "Migratie"
   icon: "sapi3"
@@ -1095,8 +1105,8 @@
     - name: "latest"
       path: "content/migratie-sapi/latest/"
       summary:
-        - title: "SAPI 1"
-          href: "sapi1"
+        - title: "Van SAPI 1 of 2 naar SAPI 3"
+          href: "sapiupgrade"
 #
 # Legacy
 #
