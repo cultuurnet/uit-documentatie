@@ -15,7 +15,8 @@ Afhankelijk van het soort request moet al dan niet een UserAccessToken gebruikt 
 
 Voor bijna alle programmeertalen zijn er [verschillende libraries](http://oauth.net/code) beschikbaar.
 
-Voor authenticatie via php met de publiq-services kan je ook [dit voorbeeld]({% link content/authenticatie-autorisatie/latest/authenticatie-via-consumerrequest.md %}) bekijken.
+
+Voor authenticatie via php met de publiq-services kan je ook [dit voorbeeld]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-consumerrequest.md %}) bekijken.
 
 ## Verklarende woordenlijst
 
