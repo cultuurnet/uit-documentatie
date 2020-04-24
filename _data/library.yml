@@ -12,7 +12,7 @@
         path: "content/authenticatie-autorisatie/latest/"
         summary:
           - title: "XML API's"
-            href: "content/authenticatie-autorisatie/latest/authenticatie-XML-apis"  
+            href: "authenticatie-XML-apis"  
             summary:
               - title: "Authenticatie via User Access Token"
                 href: "authenticatie-via-useraccesstoken"
@@ -24,9 +24,9 @@
             href: "authenticatie-JSON-apis"
             summary:
               - title: "Entry API"
-                href: "entry-api"
+                href: "authenticatie-JSON-apis/entry-api"
               - title: "Search API"
-                href: "search-api"
+                href: "authenticatie-JSON-apis/search-api"
 - title: "Overzicht omgevingen"
   description: "Via deze omgevingen kan je gebruik maken van onze services."
   path: "content/omgevingen/"
