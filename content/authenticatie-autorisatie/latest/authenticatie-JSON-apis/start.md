@@ -3,4 +3,4 @@
 
 # Authentication
 
-Everything you need to know to obtain a valid API Key, generate a User Access token and perform authenticated requests against our JSON-LD APIs.
+In dit boek vind je alles wat je moeten weten om een API key te verkrijgen, een User Access Token te genereren en geauthenticeerde request te sturen naar onze JSON-LD API's.
