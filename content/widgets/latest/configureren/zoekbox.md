@@ -13,7 +13,7 @@ In een zoekbox kan je, naast een header een footer, verschillende elementen sele
 
 | Setting | Beschrijving | Waarde | Voorbeeld | 
 | -- | ---- | -- | ---- |
-| Je selecteerde | Bepaal de naam van het geselecteerde blok. | Tekst | ```zoekbox-1```| 
+| Je selecteerde | Bepaal de naam van het geselecteerde blok. | Tekst | ```zoekbox-1```|
 
 
 
@@ -21,9 +21,9 @@ In een zoekbox kan je, naast een header een footer, verschillende elementen sele
 
 
 | Setting | Beschrijving | Waarde | Voorbeeld | 
-| -- | ---- | -- | ---------------- |
+| -- | -- | -- | -- |
 | URL resultatenpagina | Deze instelling is enkel relevant wanneer je de zoekbox op een andere pagina plaats dan de zoekresultaten. In dat geval geef je hier hardcoded het pad van de pagina op waarop de zoekresultatenlijst staan. | URL | ```https://www.uitinvlaanderen.be/agenda/e/x/``` | 
-| Label zoekknop | Bepaal de tekst die op zoek-knop moet verschijnen | Tekst | ```Zoeken``` | 
+| Label zoekknop | Bepaal de tekst die op zoek-knop moet verschijnen | Tekst | ```Zoeken``` |
 
 
 
