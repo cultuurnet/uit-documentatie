@@ -6,79 +6,87 @@ Met een zoekbox bouw je een zoekformulier waarmee je surfers op je eigen site ac
 
 In een zoekbox kan je, naast een header een footer, verschillende elementen selecteren die naast of onder elkaar verschijnen, afhankelijk van de beschikbare schermbreedte.
 
+
 ## Configuratieopties
 ### Naam zoekbox
 
-| Setting | Beschrijving | Voorbeeld |
-| -- | -- | -- | 
-| Je selecteerde | Bepaal de naam van het geselecteerde blok. | ```zoekbox-1```| 
+
+| Setting | Beschrijving | Waarde | Voorbeeld | 
+| -- | ---- | -- | ---- |
+| Je selecteerde | Bepaal de naam van het geselecteerde blok. | Tekst | ```zoekbox-1```| 
+
+
 
 ### Algemeen
 
-| Setting | Beschrijving | Voorbeeld |
-| -- | -- | -- | 
-| URL resultatenpagina | Deze instelling is enkel relevant wanneer je de zoekbox op een andere pagina plaats dan de zoekresultaten. In dat geval geef je hier hardcoded het pad van de pagina op waarop de zoekresultatenlijst staan. | ```https://www.uitinvlaanderen.be/agenda/e/x/``` |
-| Label zoekknop | Bepaal de tekst die op zoek-knop moet verschijnen | ```zoeken``` |
+
+| Setting | Beschrijving | Waarde | Voorbeeld | 
+| -- | ---- | -- | ---------------- |
+| URL resultatenpagina | Deze instelling is enkel relevant wanneer je de zoekbox op een andere pagina plaats dan de zoekresultaten. In dat geval geef je hier hardcoded het pad van de pagina op waarop de zoekresultatenlijst staan. | URL | ```https://www.uitinvlaanderen.be/agenda/e/x/``` | 
+| Label zoekknop | Bepaal de tekst die op zoek-knop moet verschijnen | Tekst | ```Zoeken``` | 
+
+
 
 ### Header
 
-| Setting | Beschrijving | Voorbeeld |
-| -- | -- | -- | 
-| Header | Bepaal welke tekst en/of afbeelding in de header verschijnt. | ```UiTinZerkegem``` | 
+
+| Setting | Beschrijving | Waarde | Voorbeeld | 
+| -- | -- | -- | -- |
+| Header | Bepaal welke tekst en/of afbeelding in de header verschijnt. | Tekst + afbeelding | ```UiTinZerkegem``` | 
 
 ### Soort
 Dit is de eerste kolom of rij van je zoekbox en laat toe een surfer toe te zoeken op een trefwoord. 
 
-| Setting | Beschrijving | Voorbeeld of waarde |
-| -- | -- | -- | 
-| Zoeken op trefwoord | Bepaal of je de surfer de mogelijkheid wilt geven om te zoeken op trefwoord | ```[x] Zoeken op trefwoord``` |
+| Setting | Beschrijving | Waarde | Voorbeeld | 
+| -- | -- | -- | -- | 
+| Zoeken op trefwoord | Bepaal of je de surfer de mogelijkheid wilt geven om te zoeken op trefwoord | [  ] / [x] | ```[x] Zoeken op trefwoord``` |
 
 Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Zoeken op trefwoord’ afvinken.
 
 Wanneer je de setting ```Zoeken op trefwoord``` aanduidt, zijn ook volgende settings van toepassing:
 
-| Setting | Beschrijving | Voorbeeld of waarde |
-| -- | -- | -- | 
-| Label | Bepaal welke tekst en/of afbeelding in de header verschijnt. | ```Wat``` | 
-| Suggestie | Bepaal de voorbeeldtekst die in de zoekbox verschijnt | ```Zoek op trefwoord``` | 
+| Setting | Beschrijving | Waarde | Voorbeeld | 
+| -- | -- | -- | -- | 
+| Label | Bepaal welke tekst en/of afbeelding in de header verschijnt. | Tekst | ```Wat``` | 
+| Suggestie | Bepaal de voorbeeldtekst die in de zoekbox verschijnt | Tekst | ```Zoek op trefwoord``` | 
 
 Daarnaast kan je in deze kolom ook [extra groepfilters]({% link content/widgets/latest/configureren/groepfilters.md %}) toevoegen. Deze laten je toe eigen filters te maken op maat van je doelgroep.
 
 ### Plaats
 Dit is de tweede kolom of rij van je zoekbox en laat een surfer toe te zoeken op een gemeente en regio's
 
-| Setting | Beschrijving | Voorbeeld of waarde |
-| -- | -- | -- | 
-| Zoeken op plaats | Bepaal of je de surfer de mogelijkheid wilt geven om te zoeken op gemeente en regio's | ```[x] Zoeken op plaats``` |
+| Setting | Beschrijving | Waarde | Voorbeeld | 
+| -- | -- | -- | -- | 
+| Zoeken op plaats | Bepaal of je de surfer de mogelijkheid wilt geven om te zoeken op gemeente en regio's | [  ] / [x] | ```[x] Zoeken op plaats``` |
 
 Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Zoeken op plaats’ afvinken.
 
 Wanneer je de setting ```Zoeken op plaats``` aanduidt, zijn ook volgende settings van toepassing:
 
-| Setting | Beschrijving | Voorbeeld of waarde |
-| -- | -- | -- | 
-| Label | Bepaal welke tekst en/of afbeelding in de header verschijnt. | ```Waar``` | 
-| Suggestie | Bepaal de voorbeeldtekst die in de zoekbox verschijnt | ```Zoek op plaats``` | 
+| Setting | Beschrijving | Waarde | Voorbeeld | 
+| -- | -- | -- | -- | 
+| Label | Bepaal welke tekst en/of afbeelding in de header verschijnt. | Tekst | ```Waar``` | 
+| Suggestie | Bepaal de voorbeeldtekst die in de zoekbox verschijnt | Tekst | ```Zoek op plaats``` | 
 
 Ook hier kan je [extra groepfilters]({% link content/widgets/latest/configureren/groepfilters.md %})  toevoegen
 
 ### Tijd
 Dit is de derde kolom van je zoekbox en laat een surfer toe zijn zoekopdracht te beperken tot een periode. 
 
-| Setting | Beschrijving | Voorbeeld of waarde |
-| -- | -- | -- | 
-| Zoeken op datum | Bepaal of je de surfer de mogelijkheid wilt geven om te zoeken op één of meerdere data | ```[x] Zoeken op datum``` |
+| Setting | Beschrijving | Waarde | Voorbeeld | 
+| -- | -- | -- | -- | 
+| Zoeken op datum | Bepaal of je de surfer de mogelijkheid wilt geven om te zoeken op één of meerdere data | [  ] / [x] | ```[x] Zoeken op datum``` |
 
 Deze functionaliteit staat standaard aangevinkt. Als je dit niet wilt, kan je checkbox ‘Zoeken op datum’ afvinken.
 
 Wanneer je de setting ```Zoeken op datum``` aanduidt, zijn ook volgende settings van toepassing:
 
-| Setting | Beschrijving | Voorbeeld of waarde |
-| -- | -- | -- | 
-| Label | Bepaal welke tekst en/of afbeelding in de header verschijnt. | ```Waar``` | 
-| Suggestie | Bepaal de voorbeeldtekst die in de zoekbox verschijnt | ```Zoek op plaats``` | 
-| Opties | Bepaal welke keuzeopties er getoond mogen worden | ```[x] Vandaag``` | 
-| Standaardkeuze | Bepaal welke van de gekozen opties de standaardkeuze is | ```Specifieke datum```| 
+| Setting | Beschrijving | Waarde | Voorbeeld | 
+| -- | -- | -- | -- | 
+| Label | Bepaal welke tekst en/of afbeelding in de header verschijnt. | Tekst | ```Waar``` | 
+| Suggestie | Bepaal de voorbeeldtekst die in de zoekbox verschijnt | Tekst | ```Zoek op plaats``` | 
+| Opties | Bepaal welke keuzeopties er getoond mogen worden | [ ] / [x] | ```[x] Vandaag``` | 
+| Standaardkeuze | Bepaal welke van de gekozen opties de standaardkeuze is | Keuze uit dropdownmenu | ```Specifieke datum```| 
  
 Tot slot kan je extra groepfilters toevoegen.
 
@@ -100,19 +108,19 @@ Wanneer je de setting ```Extra groepfilters``` activeert, zijn ook volgende sett
 
 **Groepen**
 
-| Setting | Beschrijving | Voorbeeld of waarde |
-| -- | -- | -- | 
-| Label | Bepaal welke tekst boven de dropdown (lijst met één keuze) of checkboxlijst (meerdere keuzes) verschijnt | ```Concertzalen``` | 
-| Suggestie | Bepaal de tekst die binnen de selectielijst verschijnt. De suggestie is niet van toepassing wanneer je bij ‘weergave’ voor ‘selectie (meerdere keuzes)’ kiest | ```Selecteer een concertzaal``` | 
-| Weergave | Bepaal of de filteropties verschijnen in een dropdown (lijst met één keuze) of een checkboxlijst (meerdere keuzes). | ```(x) Lijst (één keuze)``` | 
+| Setting | Beschrijving | Waarde | Voorbeeld | 
+| -- | -- | -- | -- | 
+| Label | Bepaal welke tekst boven de dropdown (lijst met één keuze) of checkboxlijst (meerdere keuzes) verschijnt | Tekst | ```Concertzalen``` | 
+| Suggestie | Bepaal de tekst die binnen de selectielijst verschijnt. De suggestie is niet van toepassing wanneer je bij ‘weergave’ voor ‘selectie (meerdere keuzes)’ kiest | Tekst | ```Selecteer een concertzaal``` | 
+| Weergave | Bepaal of de filteropties verschijnen in een dropdown (lijst met één keuze) of een checkboxlijst (meerdere keuzes). | ( ) / (X) | ```(x) Lijst (één keuze)``` | 
 
 
 **Filters**
 
-| Setting | Beschrijving | Voorbeeld of waarde |
-| -- | -- | -- | 
-| Label | Bepaal de tekst van je eigen gemaakte filter(s) | ```Handelsbeurs Concertzaal```, ```Ancienne Belgique``` | 
-| Query | Bepaal welk aanbod opgehaald moet worden aan de hand van een query. Dit is voor elke filter verplicht. Query's kan je bouwen aan de hand van [SAPI 3 syntax]({% link content/json-ld/latest/start.md %}). | ```Handelsbeurs Concertzaal```, ```Ancienne Belgique``` | 
+| Setting | Beschrijving | Waarde | Voorbeeld | 
+| -- | -- | -- | -- | 
+| Label | Bepaal de tekst van je eigen gemaakte filter(s) | Tekst | ```Handelsbeurs Concertzaal```, ```Ancienne Belgique``` | 
+| Query | Bepaal welk aanbod opgehaald moet worden aan de hand van een query. Dit is voor elke filter verplicht. Query's kan je bouwen aan de hand van [SAPI 3 syntax]({% link content/json-ld/latest/start.md %}). | Query volgens SAPI 3 syntax | ```location.label:"Handelsbeurs" Concertzaal```, ```location.label:"Ancienne Belgique"``` | 
 
 
 ### Toegankelijkheid
