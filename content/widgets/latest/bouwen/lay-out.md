@@ -21,14 +21,14 @@ Om een rij te verwijderen klik je op het prullenmand-icoon rechtsbovenaan de rij
 ![een rij verwijderen](https://github.com/cultuurnet/uit-documentatie/raw/master/img/widgets-rij-verwijderen.png)
 
 ## Blokken
-# Een blok toevoegen 
+### Een blok toevoegen 
 Per kolom plaats je één of meerdere blokken. Je hebt keuze uit volgende componenten:
 
 ![een blok toevoegen](https://github.com/cultuurnet/uit-documentatie/raw/master/img/widgets-blok-toevoegen.png)
 
 Een blok kan je configureren door het element aan te klikken en op het tandwiel-icoontje erboven te klikken.
 
-# Een blok verwijderen
+###  Een blok verwijderen
 Om een blok te verwijderen klik je op het prullenmand-icoon rechtsbovenaan het blok.
 
 ![een blok verwijderen](https://github.com/cultuurnet/uit-documentatie/raw/master/img/widgets-blok-verwijderen.png)
