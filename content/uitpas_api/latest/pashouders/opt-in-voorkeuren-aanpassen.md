@@ -3,7 +3,7 @@
 
 # Opt-In voorkeuren aanpassen
 
-CAUTION > Vanaf UiTPAS versie 3.3.0 is de manier van opt-in voorkeuren voor pashouders gewijzigd. Vanaf dan zijn de velden emailPreference en smsPreference deprecated. In de API endpoints waarin deze velden gemanipuleerd konden worden, is de parameter zelfs volledig verwijderd, en zal de API een foutboodschap geven (INVALID_PARAMETERS) indien deze toch nog gebruikt worden. Alle opt-in voorkeuren worden nu bewaard op het gekoppelde UiTID van de pashouder met onderstaande end-point
+CAUTION > Vanaf UiTPAS versie 3.3.0 is de manier van opt-in voorkeuren voor pashouders gewijzigd. Vanaf dan zijn de velden emailPreference en smsPreference deprecated. In de API endpoints waarin deze velden gemanipuleerd konden worden, is de parameter zelfs volledig verwijderd, en zal de API een foutboodschap geven (INVALID_PARAMETERS) indien deze toch nog gebruikt worden. Alle opt-in voorkeuren worden nu bewaard op de pashouder entiteit met onderstaande end-point
 
 Method
 POST
@@ -61,4 +61,4 @@ Voorbeeld response
 </response>
 ~~~
 
-NOTE > Deze voorkeuren kunnen ook door de UiTID gebruiker zelf aangepast worden via de UiTID API.
+NOTE > Deze voorkeuren konden eerder ook door de UiTID gebruiker zelf aangepast worden via de UiTID API, maar sinds de UITPAS-splitsing is dit niet meer het geval.
