@@ -19,7 +19,7 @@
 | nationality | String | nationaliteit van de pashouder |
 | placeOfBirth | String | geboorteplaats van de pashouder |
 | gender | Gender | geslacht van de pashouder |
-| uitIdUser | UitIdUser | de bijhorende UitId User gekoppeld aan deze pashouder (voor meer informatie zie CultureFeed API documentation) |
+| uitIdUser | UitIdUser | de bijhorende UitId User gekoppeld aan deze pashouder (zie hieronder) |
 | registrationBalieConsumerKey | String | consumerKey van de balie waar de pashouder werd geregistreerd |
 | schoolConsumerKey | String | consumerKey van de school (balie) van deze pashouder |
 | schoolName | String | naam van de school (balie) van deze pashouder |
@@ -31,3 +31,28 @@
 | points | int | totaal aantal gespaarde punten van de pashouder |
 | memberships | List<Membership> | lidmaatschappen van de pashouder |
 | cardSystemSpecific | List<PassHolderCardSystemLink> | Lijst van kaartspecifieke velden |
+
+
+
+## UitIdUser entiteit
+
+| **Parameter** | **Type** | **Beschrijving** |
+| id | String | ID van de UitID gebruiker |
+| nick | String | nick van de UitID gebruiker |
+| depiction | String | url naar de profielfoto van de UiTID user |
+| optInPreferences | OptInPreferenes | object met de opt-in voorkeuren van deze pashouder (zie hieronder) |
+
+
+## OptInPreferences entiteit
+
+| **Parameter** | **Type** | **Beschrijving** |
+| optInServiceMails   | boolean | true indien de pashouder service mails wil ontvangen, anders false                                                  | 
+| optInMilestoneMails | boolean | true indien de pashouder milestone mails wil ontvangen, anders false |
+| optInInfoMails      | boolean | true indien de pashouder info mails wil ontvangen, anders false | 
+| optInSms            | boolean | true indien de pashouder sms wil ontvangen, anders false | 
+| optInPost           | boolean | true indien de pashouder post wil ontvangen, anders false |
+
+
+
+
+
