@@ -28,7 +28,7 @@ GET https://<SERVER_URL>/connect?apiKey=<API_KEY>&destination=<YOUR_URL>
 **Parameters**
 
 * SERVER_URL: See [authentication/base url]({% link content/entry_api_3/latest/authentication/authentication-baseUrl.md %})
-* API_KEY: your apiKey needs a specific permission to request a refresh token. Contact publiq vzw for configuration
+* API_KEY
 * YOUR_URL: your redirect url
 
 Example usage:
