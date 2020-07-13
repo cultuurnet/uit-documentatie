@@ -8,6 +8,8 @@ You can search by term id\(s\) and term label\(s\) using two methods:
 * URL parameter
 * Advanced queries
 
+> ! The label of a term might change over time, so we strongly advice to search by termIds / terms.id. 
+
 ## Url parameter
 
 You can filter by one or more term ids or term labels using the `termIds` and/or `termLabels` URL parameters.
