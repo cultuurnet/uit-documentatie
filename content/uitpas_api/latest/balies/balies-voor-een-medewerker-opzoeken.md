@@ -22,7 +22,7 @@ Parameters:
 | uid | String | UID van de CultureFeed gebruiker. | x |
 
 _Authenticatie_
-User access token van de gebruiker die de actie uitvoert.
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de gebruiker die de actie uitvoert.
 
 _Required permission_
 Uid moet gelijk zijn aan de uid van de culturefeed gebruiker die ingelogd is.

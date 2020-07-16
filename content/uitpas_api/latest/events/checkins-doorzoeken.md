@@ -27,8 +27,8 @@ Parameters:
 | max | int | aantal zoekresultaten |  |
 
 _Authenticatie_
-UserAccessToken van de balie medewerker die de actie uitvoert of van de pashouder zelf.
-Consumer Request (doorzoekt alle publieke checkins)
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de balie medewerker die de actie uitvoert of van de pashouder zelf.
+[Consumer Request]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-consumerrequest.md %}) (doorzoekt alle publieke checkins)
 
 _Required permission_
 In geval van balie medewerker: **PERMISSION_CHECKIN - ACTION_READ**

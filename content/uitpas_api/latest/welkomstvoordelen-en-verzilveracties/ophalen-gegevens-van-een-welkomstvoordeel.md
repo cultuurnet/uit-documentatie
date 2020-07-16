@@ -10,7 +10,7 @@ _URL_
 {prefix}/uitpas/promotion/welcomeAdvantage/{welcomeAdvantageId}
 
 _Authenticatie_
-Consumer request van de service consumer die het opvragen uitvoert
+[Consumer Request]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-consumerrequest.md %}) van de service consumer die het opvragen uitvoert
 
 _Required permission_
 **PERMISSION_WELCOMEADVANTAGE - ACTION_READ**

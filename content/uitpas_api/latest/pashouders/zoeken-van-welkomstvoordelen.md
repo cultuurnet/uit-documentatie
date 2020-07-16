@@ -29,7 +29,9 @@ Parameters:
 | order | String | volgorde sortering, ASC (oplopend, default), DESC (aflopend) |
 
 _Authenticatie_
-Consumer request of UserAccessToken van de eigenaar van de uitpas zelf
+[Consumer Request]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-consumerrequest.md %})
+_of_
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de eigenaar van de uitpas zelf
 
 _Required permission_
 In geval van Consumer request: **PERMISSION_WELCOMEADVANTAGE - ACTION_READ**

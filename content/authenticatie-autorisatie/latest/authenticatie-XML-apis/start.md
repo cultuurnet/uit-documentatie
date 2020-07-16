@@ -3,15 +3,15 @@
 
 # Authenticatie en autorisatie
 
-UiTiD gebruikt de open standaard oAuth voor authenticatie.
+De UiTPAS API en de legacy UiTID API gebruiken de open standaard oAuth voor authenticatie.
 
 Er zijn 2 manieren om als UiTiD Service Consumer toegang te verkrijgen tot de API:
 
-1. UserAccessToken: een UserAccessToken geeft de Service Consumer toegangsrechten tot de UiTiD API namens de gebruiker.
+1. [User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}): een User Access Token geeft de Service Consumer toegangsrechten tot de UiTiD API namens de gebruiker.
 
-2. Consumer Access: via een Consumer Request kan de Service Consumer bepaalde acties uitvoeren die typisch niet gelinkt zijn aan 1 gebruiker, zoals bv. een zoekopdracht.
+2. [Consumer Request]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-consumerrequest.md %}): via een Consumer Request kan de Service Consumer bepaalde acties uitvoeren die typisch niet gelinkt zijn aan 1 gebruiker, zoals bv. een zoekopdracht.
 
-Afhankelijk van het soort request moet al dan niet een UserAccessToken gebruikt worden. Dit staat steeds zo in de documentatie beschreven.
+Afhankelijk van het soort request moet al dan niet een User Access Token gebruikt worden. Dit staat steeds zo in de documentatie beschreven.
 
 Voor bijna alle programmeertalen zijn er [verschillende libraries](http://oauth.net/code) beschikbaar.
 
@@ -40,7 +40,7 @@ Voor authenticatie via php met de publiq-services kan je ook [dit voorbeeld]({% 
 
 * Service Provider: Een webapplicatie die toegang tot OAuth verschaft.
 
-* Signature Method :  Er bestaan vershchillende methods om Signatures mee te genereren. OAuth legt geen method op, maar laat de keuze uit drie methodes: HMAC-SHA1, RSA-SHA1, en PLAINTEXT, Service Providers kunnen eventueel eigen methodes toevoegen.
+* Signature Method:  Er bestaan verschillende methods om Signatures te genereren. OAuth legt geen method op, maar laat de keuze uit drie methodes: HMAC-SHA1, RSA-SHA1, en PLAINTEXT, Service Providers kunnen eventueel eigen methodes toevoegen.
 
 * Signature: Alle Token Requests en communicatie met de Protected Resources moeten ondertekend worden met een Signature die wordt gegeneerd door de key of token te combineren met het bijhorende secret. Dit proces zorgt ervoor dat niet geautoriseerde partijen geen gebruik kunnen maken van de uitgewisselde keys en tokens.
 

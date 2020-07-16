@@ -19,7 +19,7 @@ Parameters:
 | priceClass | String | prijs klasse gebruikt bij de ticketsale |
 
 _Authenticatie_
-UserAccessToken van de balie medewerker die de actie uitvoert.
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de balie medewerker die de actie uitvoert.
 
 **Response**
 
