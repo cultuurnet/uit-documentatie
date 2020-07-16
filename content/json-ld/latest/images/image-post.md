@@ -4,6 +4,7 @@
 # Add mediaObject
 
 Add mediaObjects, which you can later link to one or more offers. Only images up to 5 million bytes (4.76 MB) are allowed.
+The expected image format is `.png`, `.jpeg` or `.gif`.
 
 ## HTTP request
 

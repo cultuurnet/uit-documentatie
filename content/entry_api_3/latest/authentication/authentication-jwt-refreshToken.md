@@ -3,7 +3,7 @@
 
 # Refresh token
 
-For specific API Clients, it is not ideal to request new Access Tokens as described in the [Request Access Token Flow](% link content/entry_api_3/latest/authentication/authentication-jwt.md %), because a manual authorization is needed when entering the UiTiD credentials. In the past, we provided so-called "long-lived" Access tokens for these clients.
+For specific API Clients, it is not ideal to request new Access Tokens as described in the [Request Access Token Flow]({% link content/entry_api_3/latest/authentication/authentication-jwt.md %}), because a manual authorization is needed when entering the UiTiD credentials. In the past, we provided so-called "long-lived" Access tokens for these clients.
 
 In order to maintain this “long-lived token” functionality, we are introducing a ​**new​ ​refresh​ endpoint**, that will allow API Clients to renew their tokens regularly, hence providing an equivalent of the long-lived token.
 
@@ -28,7 +28,7 @@ GET https://<SERVER_URL>/connect?apiKey=<API_KEY>&destination=<YOUR_URL>
 **Parameters**
 
 * SERVER_URL: See [authentication/base url]({% link content/entry_api_3/latest/authentication/authentication-baseUrl.md %})
-* API_KEY: your apiKey needs a specific permission to request a refresh token. Contact publiq vzw for configuration
+* API_KEY
 * YOUR_URL: your redirect url
 
 Example usage:

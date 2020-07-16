@@ -1,7 +1,7 @@
 ---
 ---
 
-# Create Event
+# Delete Event
 
 ## HTTP request
 
