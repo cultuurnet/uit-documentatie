@@ -23,7 +23,7 @@ Parameters:
 | cashedIn | Boolean | Geef enkel welkomstvoordelen terug die reeds verzilverd zijn (true) of nog niet verzilverd zijn (false). Indien deze parameter niet meegegeven wordt, worden zowel verzilverde als niet verzilverde welkomstvoordelen teruggegeven. |
 
 _Authenticatie_
-UserAccessToken van de Balie medewerker die de actie uitvoert of van de eigenaar van de uitpas zelf
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert of van de eigenaar van de uitpas zelf
 
 _Required permission_
 In geval van balie medewerker: geen extra permissie nodig

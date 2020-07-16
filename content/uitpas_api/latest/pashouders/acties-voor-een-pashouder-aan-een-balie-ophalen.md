@@ -25,7 +25,7 @@ _Opmerking_
 Het is verplicht om ofwel uitpasNumber of chipNumber of identification mee te geven. Het is niet toegelaten beide mee te geven.
 
 _Authenticatie_
-UserAccessToken van een balie medewerker.
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van een balie medewerker.
 
 **Response**
 

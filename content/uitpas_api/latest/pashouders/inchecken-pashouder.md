@@ -23,7 +23,7 @@ Het is verplicht om ofwel uitpasNumber of chipNumber mee te geven. Het is niet t
 Er kan gezocht worden op checkins via _/uitpas/cultureevent/searchCheckins_
 
 _Authenticatie_
-UserAccessToken van de Balie medewerker die de actie uitvoert
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert
 
 **Response**
 

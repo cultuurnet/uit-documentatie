@@ -11,7 +11,7 @@ _URL_
 
 Parameters:
 
-Geen 
+Geen
 
 _Authenticatie_
 Consumer request van de service consumer die het opvragen uitvoert

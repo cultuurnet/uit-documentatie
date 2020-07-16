@@ -23,9 +23,9 @@ Parameters:
 | cardSystemId | long | zoek enkel balies die gekoppeld zijn aan dit kaartsysteem | x |
 
 _Authenticatie_
-Consumer Request van de Service Consumer die deze actie uitvoert
+[Consumer Request]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-consumerrequest.md %}) van de Service Consumer die deze actie uitvoert
 _of_
-UserAccessToken van de gebruker (parameter userId) waarvoor de POS opgezocht worden
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de gebruker (parameter userId) waarvoor de POS opgezocht worden
 
 **Response**
 

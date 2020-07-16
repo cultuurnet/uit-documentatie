@@ -18,7 +18,7 @@ Parameters:
 | endDate | W3C Date | Einddatum van de ticket sales die in het rapport komen. De datum wordt omgezet naar het einde van de dag. | x |
 
 _Authenticatie_
-User access token van de balie medewerker die de actie uitvoert
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de balie medewerker die de actie uitvoert
 
 _Optional permission_
 De volgende permissie kan aan een groep worden toegekend om de volledige namen in het rapport weer te geven: “namen weergeven in financiële rapporten”

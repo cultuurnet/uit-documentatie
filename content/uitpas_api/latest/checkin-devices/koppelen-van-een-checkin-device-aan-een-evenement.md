@@ -20,7 +20,7 @@ Parameters:
 | cidConsumerKey | String | identificatie van het checkin device | x |
 
 _Authenticatie_
-User access token van de balie medewerker die de actie uitvoert
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de balie medewerker die de actie uitvoert
 
 **Response**
 
