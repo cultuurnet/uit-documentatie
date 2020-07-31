@@ -814,6 +814,8 @@
                 href: "rapportering/status-opvragen-financieel-rapport"
               - title: "Download financieel rapport"
                 href: "rapportering/download-financieel-rapport"
+              - title: "Opvragen rapporteringsperiodes"
+                href: "rapportering/rapporterings-periodes-opvragen"
           - title: "End user API"
             href: "end-user-api"
             summary:
