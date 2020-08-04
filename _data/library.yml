@@ -826,7 +826,7 @@
           - title: "Entiteiten"
             href: "entiteiten"
             summary:
-              - title: "Agegrange entiteit"
+              - title: "AgeRange entiteit"
                 href: "entiteiten/agerange-entiteit"
               - title: "Association entiteit"
                 href: "entiteiten/association-entiteit"
