@@ -23,10 +23,10 @@ Parameters:
 | optInPost           | boolean | true indien de pashouder post wil ontvangen, anders false                                                                                                                                                              |           |
 | balieConsumerKey    | String  | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |           |
 
-Authenticatie
-UserAccessToken van een balie medewerker
+_Authenticatie_
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van een balie medewerker
 
-Response
+_Response_
 
 Bij succes
 HTTP 200 OK met een response body in XML formaat
@@ -41,11 +41,11 @@ HTTP 400 met een response body in XML formaat:
 | requiredPermission | Indien code = ACCESS_DENIED, dan bevat dit veld de vereiste permissie. |
 
 
-Voorbeeld request
+_Voorbeeld request_
 
 POST /uitpas/passholder/0b58caf7-5663-4058-99b3-d1a982d260c9/optinpreferences optinMilestoneMails=true&optinInfoMails=true&optinSms=false
 
-Voorbeeld response
+_Voorbeeld response_
 
 ~~~xml
 <?xml version="1.0" encoding="UTF-8"?>

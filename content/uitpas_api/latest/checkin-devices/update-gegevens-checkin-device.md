@@ -20,7 +20,7 @@ Parameters:
 | status | String | status van het checkin device |  |
 
 _Authenticatie_
-User access token van de balie medewerker die de actie uitvoert
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de balie medewerker die de actie uitvoert
 
 _Required permission_
 De gebruiker die de actie uitvoert moet Admin zijn van de opgegeven balie.

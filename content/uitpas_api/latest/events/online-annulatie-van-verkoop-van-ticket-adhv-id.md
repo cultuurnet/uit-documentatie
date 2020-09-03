@@ -16,7 +16,7 @@ Parameters:
 Geen
 
 _Authenticatie_
-ConsumerRequest met een consumer met rechten op ticketsales.
+[Consumer Request]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-consumerrequest.md %}) met een consumer met rechten op ticketsales.
 
 **Response**
 

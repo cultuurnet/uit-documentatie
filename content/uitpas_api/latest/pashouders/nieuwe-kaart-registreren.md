@@ -20,7 +20,7 @@ Parameters:
 | kansenStatuutEndDate | W3CDate | einddatum kansenstatuut, verplicht indien reason ‘OBTAIN_KANSENSTATUUT’. Mag niet na het einde (31/12) van het volgende jaar. |  |
 
 _Authenticatie_
-UserAccessToken van de Balie medewerker die de actie uitvoert
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert
 
 _Required permission_
 In geval van balie medewerker: **PERMISSION_PASSHOLDER - ACTION_CREATE** in het kaartsysteem van de meegegeven uitpasnummer.
