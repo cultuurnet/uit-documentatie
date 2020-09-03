@@ -13,7 +13,7 @@ Parameters:
 
 | **Naam** | **Type** | **Omschrijving** | **Verplicht** |
 | uid | String | identificatie van de pashouder | x |
-| reason | ‘LOSS_THEFT’, ‘REMOVAL’, ‘LOSS_KANSENSTATUUT’, ‘OBTAIN_KANSENSTATUUT’, ‘CARD_UPGRADE’ or ‘EXTRA_CARD’ | reden voor registratie van een nieuwe kaart. | x |
+| reason | ‘LOSS_THEFT’, ‘DEFECT’, ‘LOSS_KANSENSTATUUT’, ‘OBTAIN_KANSENSTATUUT’, ‘CARD_UPGRADE’ or ‘EXTRA_CARD’ | reden voor registratie van een nieuwe kaart. | x |
 | uitpasNumber | String | uitpasnummer van nieuwe kaart | x |
 | voucherNumber | String | vouchernummer voor registratie van nieuwe kaart |  |
 | balieConsumerKey | String | ConsumerKey van de balie die de nieuwe kaart registreert |  |
