@@ -13,14 +13,14 @@ Parameters:
 
 | **Naam** | **Type** | **Omschrijving** | **Verplicht** |
 | uid | String | identificatie van de pashouder | x |
-| reason | ‘LOSS_THEFT’, ‘REMOVAL’, ‘LOSS_KANSENSTATUUT’, ‘OBTAIN_KANSENSTATUUT’, ‘CARD_UPGRADE’ or ‘EXTRA_CARD’ | reden voor registratie van een nieuwe kaart. | x |
+| reason | ‘LOSS_THEFT’, ‘DEFECT’, ‘LOSS_KANSENSTATUUT’, ‘OBTAIN_KANSENSTATUUT’, ‘CARD_UPGRADE’ or ‘EXTRA_CARD’ | reden voor registratie van een nieuwe kaart. | x |
 | uitpasNumber | String | uitpasnummer van nieuwe kaart | x |
 | voucherNumber | String | vouchernummer voor registratie van nieuwe kaart |  |
 | balieConsumerKey | String | ConsumerKey van de balie die de nieuwe kaart registreert |  |
 | kansenStatuutEndDate | W3CDate | einddatum kansenstatuut, verplicht indien reason ‘OBTAIN_KANSENSTATUUT’. Mag niet na het einde (31/12) van het volgende jaar. |  |
 
 _Authenticatie_
-UserAccessToken van de Balie medewerker die de actie uitvoert
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert
 
 _Required permission_
 In geval van balie medewerker: **PERMISSION_PASSHOLDER - ACTION_CREATE** in het kaartsysteem van de meegegeven uitpasnummer.

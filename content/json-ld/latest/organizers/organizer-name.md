@@ -35,7 +35,7 @@ PUT /organizers/{organizerId}/name/{lang}
 
 ## Response
 
-If successful, this method returns a `200` response code and a commandId in the response body.
+If successful, this method returns a `200` response code.
 
 ## Example
 
@@ -44,7 +44,7 @@ If successful, this method returns a `200` response code and a commandId in the 
 The following is an example of the request
 
 ```
-PUT  https://io-test.uitdatabank.be/organizers/{organizerId}/url
+PUT  https://io-test.uitdatabank.be/organizers/6d330801-41ac-43da-a4dd-7a97e5b3248a/name/nl
 Content-Type: application/json
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
@@ -56,12 +56,44 @@ X-Api-Key: {apiKey}
 
 **Response**
 
-The following is an example of the response.
+The following are example responses.
 
 ```
-200 OK
+204 No Content
+```
+
+```
+400 Bad Request
 
 {
-  "commandId": "a55486283a53a1e45041002c4887580f"
+    "title": "No route found for \"POST /organizers/6d330801-41ac-43da-a4dd-7a97e5b3248a/name/nl\": Method Not Allowed (Allow: PUT, OPTIONS)",
+    "type": "about:blank",
+    "status": 400
+}
+```
+
+```
+400 Bad request
+
+{
+    "title": "Missing value for \"name\".",
+    "type": "about:blank",
+    "status": 400
+}
+```
+
+```
+401 Unauthorized
+
+Token claims validation failed. This most likely means the token is expired.
+```
+
+```
+401 Unauthorized
+
+{
+    "title": "User with id: 12345678-abcd-1234-12ab-123abc123abc has no permission: \"Organisaties bewerken\" on item: 12345678-abcd-1234-12ab-123abc123abc when executing command: CultuurNet\\UDB3\\Organizer\\Commands\\UpdateTitle",
+    "type": "about:blank",
+    "status": 401
 }
 ```

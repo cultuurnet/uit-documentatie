@@ -25,7 +25,7 @@ _Multipart data_
 Deze request verwacht ruwe multipart data, wat wil zeggen dat de request header _Content-Type_ op _multipart/form-data_ gezet moet worden.
 
 _Authenticatie_
-UserAccessToken van de Balie medewerker die de actie uitvoert
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert
 
 _Required permission_
 **PERMISSION_PASSHOLDER - ACTION_UPDATE** in een kaartsysteem waarvan de pashouder lid is.

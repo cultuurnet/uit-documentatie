@@ -5,6 +5,8 @@
 
 ## HTTP request
 
+It is important to re-use existing organizers and avoid creating duplicates. UiTdatabank is continuously monitored and duplicate entries will be removed. To search for existing organizers, [see here]({% link content/json-ld/latest/organizers/organizer-list.md %})
+
 ```
 POST /organizers/
 ```
@@ -32,7 +34,7 @@ See specific PUT requests for definitions of each property
 
 ## Response
 
-If successful, this method returns a `200` response code and a organizerId and url in the response body.
+If successful, this method returns a `201` response code and a organizerId and url in the response body.
 
 ## Example
 
@@ -70,7 +72,7 @@ X-Api-Key: {apiKey}
 The following is an example of the response.
 
 ```
-200 OK
+201 Created
 
 {
   "organizerId": "6b476d79-c404-425f-8b1c-357e39a60410",

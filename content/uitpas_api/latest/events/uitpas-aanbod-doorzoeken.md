@@ -29,7 +29,7 @@ Parameters
 | datetype | String | mogelijke waarden: today, tomorrow, thisweekend, nextweekend, next7days, next14days, next30days, next3months, next6months, next12months |  |
 
 _Authenticatie_
-Consumer request van de service consumer die het opvragen uitvoert
+[Consumer Request]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-consumerrequest.md %}) van de service consumer die het opvragen uitvoert
 
 _Required permission_
 In geval van consumer request: **PERMISSION_EVENT - ACTION_READ**

@@ -10,7 +10,7 @@ De API geeft default XML terug. Indien je dat wil kan de API ook JSON teruggeven
 De API maakt gebruik van de open standaard OAuth (1.0) voor authenticatie:
 
 * [Authenticatie en autorisatie]({% link content/authenticatie-autorisatie/latest/start.md %})
-* [Gebruik van via Postman]({% link content/authenticatie-autorisatie/latest/postman.md %} )
+* [Gebruik van via Postman]({% link content/authenticatie-autorisatie/latest/start.md %} )
 
 ## Overzicht omgevingen
 

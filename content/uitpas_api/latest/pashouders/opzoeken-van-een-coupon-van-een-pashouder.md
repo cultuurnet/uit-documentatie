@@ -17,7 +17,7 @@ Parameters:
 | balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
 
 _Authenticatie_
-UserAccessToken van een balie medewerker of de eigenaar van de uitpas
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van een balie medewerker of de eigenaar van de uitpas
 
 **Response**
 

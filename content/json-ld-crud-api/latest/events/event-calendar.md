@@ -5,11 +5,20 @@
 
 ## calendarType
 
-1. Possible values: `single`, `multiple`, `periodic`, `permanent`.
+Possible values: `single`, `multiple`, `periodic`, `permanent`.
 * `single`: must be combined with `startDate` and `endDate`, can contain 1 `subEvent`
 * `multiple`: must be combined with `startDate`, `endDate` and at least 2 `subEvent`s
 * `periodic`: must be combined with `startDate`, `endDate`, can contain `openingHours`
 * `permanent`: can contain `openingHours` (this calendarType is not preferred for events, use offertype `place` instead)
+
+**Guidelines for using the correct calendarType:**
+
+| calendarType | when to use | events | places |
+| -- | -- | -- | -- |
+| `single` | for events that take place at one single day (f.e. a concert of Radiohead) and events with only one start and enddate (f.e. camping from monday until sunday) | x |  |
+| `multiple` | for events that take place on several occasions, whether or not contiguous (f.e. a festival) | x |  |
+| `periodic`  | for offers that take places on recurring moments (f.e. a course watercolor painting, each wednesday evening | x | x |
+| `permanent`  | for places you can visit permanently (f.e. de Grote Markt in Brussels) |  | x |
 
 **Example**
 

@@ -25,7 +25,7 @@ To create a new event the object-body must contain the following properties:
 - name: don't specify a language, the mainLanguage will be used to add a language property for the name
 - type
 - theme
-- location: must contain `id`, `name` and complete `address`
+- location: must contain `id`
 - calendar
 
 The initial POST request must contain a JSON body with (at least) all mandatory fields. These fields can be edited separately with individual PUT requests.
@@ -34,7 +34,7 @@ See individual PUT requests for definitions of each property.
 
 ## Response
 
-If successful, this method returns a `200` response code and a eventId and url in the response body.
+If successful, this method returns a `201` response code and a eventId and url in the response body.
 
 ## Example
 
@@ -47,14 +47,7 @@ The following is an example of the request payload
   "mainLanguage": "nl",
   "name": "name example",
   "location": {
-    "id": "6f072ba8-c510-40ac-b387-51f582650e27",
-    "name": "Café Den Hemel",
-    "address": {
-      "addressCountry": "BE",
-      "addressLocality": "Scherpenheuvel-Zichem",
-      "postalCode": "3271",
-      "streetAddress": "Hoornblaas 107"
-    }
+    "id": "6f072ba8-c510-40ac-b387-51f582650e27"
   },
   "type": {
     "id": "0.50.4.0.0",
@@ -70,12 +63,12 @@ The following is an example of the request payload
     "calendarType": "multiple",
     "timeSpans": [
       {
-        "start": "2018-05-05T18:00:00.000Z",
-        "end": "2018-05-05T21:00:00.000Z"
+        "start": "2022-05-05T18:00:00.000Z",
+        "end": "2022-05-05T21:00:00.000Z"
       },
       {
-        "start": "2018-05-12T18:00:00.000Z",
-        "end": "2018-05-12T21:00:00.000Z"
+        "start": "2022-05-12T18:00:00.000Z",
+        "end": "2022-05-12T21:00:00.000Z"
       }
     ]
   },
@@ -89,7 +82,7 @@ The following is an example of the request payload
 The following is an example of the response.
 
 ```
-200 OK
+201 Created
 
 {
   "eventId": "03116768-1abc-405a-93d7-ba6ede52fe78",

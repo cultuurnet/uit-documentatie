@@ -14,7 +14,7 @@ Parameters:
 geen
 
 _Authenticatie_
-Consumer request
+[Consumer Request]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-consumerrequest.md %})
 
 _Required permission_
 De consumer die de actie uitvoert moet "pashouder punten ophalen" rechten hebben.

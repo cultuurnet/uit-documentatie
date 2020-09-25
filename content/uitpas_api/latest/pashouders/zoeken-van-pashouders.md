@@ -45,7 +45,9 @@ Parameters:
 | max                       | Integer              | maximum aantal pashouders in het resultaat (paging)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 _Authenticatie_
-Consumer Request van de Service Consumer die de actie uitvoert of UserAccessToken van de eigenaar van de uitpas zelf
+[Consumer Request]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-consumerrequest.md %}) van de Service Consumer die de actie uitvoert
+_of_
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de eigenaar van de uitpas zelf
 
 _Required permission_
 In geval van consumer request: de opgegeven balie (balieConsumerKey parameter) moet **PERMISSION_PASSHOLDER - ACTION_READ** hebben in 1 van zijn kaartsystemen. Indien er ENKEL gezocht wordt op uitpasNumber, dan wordt het resultaat niet gefilterd. Indien er ook op andere velden gezocht wordt, dan wordt het resultaat gefilterd op pashouders die een lidmaatschap hebben met 1 van de kaartsystemen van de balie.

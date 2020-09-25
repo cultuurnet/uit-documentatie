@@ -17,7 +17,7 @@ _Parameter_
 | registerPermission | Boolean | Indien true worden verenigingen waarop de balie registratie-rechten heeft opgehaald. |
 
 _Authenticatie_
-UserAccessToken van de Balie medewerker die de actie uitvoert
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert
 
 _Required permission_
 Balie: **PERMISSION_ASSOCIATION - ACTION_READ**

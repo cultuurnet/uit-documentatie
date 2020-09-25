@@ -22,7 +22,7 @@ Parameters:
 | ticketSaleCouponId | long | Ticket sale coupon Id die gebruikt moet worden bij de ticketsale |  |
 
 _Authenticatie_
-UserAccessToken van een balie medewerker
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van een balie medewerker
 
 **Response**
 

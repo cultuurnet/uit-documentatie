@@ -48,3 +48,7 @@ GET https://search.uitdatabank.be/offers/?q=mediaObjectsCount:[5 TO 10]
 ```
 
 For more info, see [advanced queries]({% link content/search_api_3/latest/reference/advanced-queries.md %}).
+
+## Resize images
+
+To enhance the performance of your agenda, we highly recommend to resize images when integrating with our search API. All about formatting and resizing images can be found in [this book](https://documentatie.uitdatabank.be/content/integreren-met-searchv3/latest/resizing-images.html)
