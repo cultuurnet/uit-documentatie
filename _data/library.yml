@@ -12,7 +12,7 @@
         path: "content/authenticatie-autorisatie/latest/"
         summary:
           - title: "XML API's"
-            href: "content/authenticatie-autorisatie/latest/authenticatie-XML-apis"
+            href: "authenticatie-XML-apis"
             summary:
               - title: "Authenticatie via User Access Token"
                 href: "authenticatie-via-useraccesstoken"
