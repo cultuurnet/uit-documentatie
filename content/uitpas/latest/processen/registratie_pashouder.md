@@ -82,9 +82,9 @@ De pashouder zal binnen het geblokkeerde systeem geen voordelen meer kunnen omru
 
 ## Nieuwe kaart toekennen aan een bestaande pashouder
 Een baliemedewerker van een systeem kan een pashouder die reeds lid is van zijn systeem om verschillende redenen een nieuwe kaart uit het systeem toekennen.
-* De kaart van de pashouder is geblokkeerd en de baliemedewerker geeft een nieuwe kaart om 1 van volgende redenen
+* De kaart van de pashouder is geblokkeerd en de baliemedewerker geeft een nieuwe kaart om een van volgende redenen
 	* Pashouder is de geblokkeerde kaart verloren of hij werd gestolen (loss_theft)
-	* Pashouder verhuist naar een andere gemeente binnen het kaartsysteem en moet hierdoor een nieuwe kaart krijgen (removal)
+	* De kaart van Pashouder functioneert niet meer (defect)
 	* Pashouder heeft kansenstatuut verloren en krijgt een niet-kansenpas (loss_kansenstatuut)
 	* Pashouder heeft kansenstatuut verkregen en krijgt een kansenpas (obtain_kansenstatuut)
 * De pashouder is lid van het systeem maar heeft geen kaart uit dit systeem (extra_card).

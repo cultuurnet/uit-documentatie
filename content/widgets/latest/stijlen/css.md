@@ -1,7 +1,7 @@
 ---
 ---
 
-# Stijlgids
+# Stijlen via CSS
 
 Voor het stijlen van je widget maak je gebruik van CSS. Een CSS-regel bestaat steeds uit twee onderdelen:
 * **Een selector:** het element dat je wil stijlen (vb. ```a```). 
@@ -20,12 +20,17 @@ color: red;
 Alle eventtiels van de widget worden groter, vet en in het rood gestijld.
 Let er op dat je steeds de juiste widget-klasse meegeeft in de stijling. Wanneer de klasse ontbreekt wordt de meegegeven stijling ook toegepast op andere elementen van de pagina.
 
+## Stijlhulp
 
-## Selectors
+We helpen je graag door met het schrijven van de css-regels door de voornaamste kleuren en lettertypes op te sommen. 
+Geef het websiteadres in waarop je de kalender wil integreren en klik op *stijlen ophalen*.
+
+## Stijlgids
+### Selectors
 
 Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een overzicht van de meest voorkomende selectors (en hun bijhorende klasse).
 
-### Zoekbox
+#### Zoekbox
 
 | Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
@@ -60,7 +65,7 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 | Pager | li | .cnw_page-item |
 | Pager (eerste, volgende, laatste) | li | .cnw_page-link |
 
-### Zoekverfijningen
+#### Zoekverfijningen
 
 | Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
@@ -71,11 +76,11 @@ Om je op weg te helpen met het stijlen geven we hieronder per widgetblok een ove
 | Lijstitems | li | .cnw_facet-label  |
 | Logo UIV | img | .cultuurnet-logo-uiv  |
 
-### HTML
+#### HTML
 
 Het HTML-blok is standaard een paragraaf (selector = p), maar door zelf HTML in het block te schrijven kan je hier van afwijken.
 
-### Tips
+#### Tips
 
 | Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
@@ -83,7 +88,7 @@ Het HTML-blok is standaard een paragraaf (selector = p), maar door zelf HTML in 
 
 De overige selectors voor het tipsblok zijn identiek aan die van de [zoekresultaten](#zoekresultaten).
 
-### Detailpagina
+#### Detailpagina
 
 | Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
@@ -99,13 +104,13 @@ De overige selectors voor het tipsblok zijn identiek aan die van de [zoekresulta
 | Lijstelementen (info) | dd |  | 
 | Terug-knop | p | .cnw_searchresult-detail-back-button |
 
-### Overige
+#### Overige
 
 | Onderdeel | Selector | Klasse |
 | -- | -- | -- | 
 | Laadelement (geheel) | div | .widget-loader--block | 
 | Laadelement (tekst) | div | .widget-loader--text | 
 
-## Definities
+### Definities
 
 Voor een overzicht van de verschillende eigenschappen en hun waarden verwijzen we naar [W3Schools](https://www.w3schools.com/css/default.asp).

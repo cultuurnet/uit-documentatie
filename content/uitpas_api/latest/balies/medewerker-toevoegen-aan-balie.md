@@ -18,7 +18,7 @@ Parameters:
 | uid | String | UID van de CultureFeed gebruiker. | x |
 
 _Authenticatie_
-User access token van de Balie Admin die de actie uitvoert
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie Admin die de actie uitvoert
 
 _Required permission_
 De gebruiker die de actie uitvoert moet Admin zijn van de opgegeven balie.

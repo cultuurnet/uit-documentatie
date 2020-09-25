@@ -15,7 +15,7 @@ Parameters:
 | dob | W3CDate | geboortedatum van de pashouder | x |
 
 _Authenticatie_
-ConsumerRequest van de service consumer die deze request uitvoert
+[Consumer Request]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-consumerrequest.md %}) van de service consumer die deze request uitvoert
 
 _Required permission_
 **PERMISSION_PASSHOLDER - ACTION_ACTIVATE**

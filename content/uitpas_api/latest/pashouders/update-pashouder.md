@@ -37,7 +37,7 @@ Parameters:
 | balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |
 
 _Authenticatie_
-UserAccessToken van de Balie medewerker die de actie uitvoert of van de eigenaar van de uitpas zelf
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert of van de eigenaar van de uitpas zelf
 
 _Required permission_
 In geval van balie medewerker: **PERMISSION_PASSHOLDER - ACTION_UPDATE** in een kaartsysteem waarvan de pashouder lid is.

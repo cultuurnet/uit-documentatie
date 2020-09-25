@@ -34,7 +34,7 @@ Parameters:
 | inSpotlight | boolean | Filter op In de kijker voordelen |  |
 
 _Authenticatie_
-ConsumerRequest van een Service Consumer met de vereiste rechten.
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van een Service Consumer met de vereiste rechten.
 
 _Required permission_
 In geval van balie medewerker: **PERMISSION_POINTSPROMOTION - ACTION_READ**

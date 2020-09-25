@@ -32,7 +32,7 @@ De prijs die voor een UiTPAS registratie aangerekend wordt. Er kunnen prijzen in
 * CARD_UPGRADE - van toepassing als een kaarthouder dezelfde kaart in een andere regio wil gebruiken.
 * EXTRA_CARD - van toepassing als de kaarthouder al over een UiTPAS beschikt maar voor een andere regio ook een aparte UiTPAS wil (verplicht igv kansenstatuut)
 * LOSS_THEFT - van toepassing als een kaarthouder een nieuwe kaart wil omdat de vorige kaart gestolen of verloren werd.
-* REMOVAL - van toepassing als de pashouder een nieuwe kaart nodig heeft omdat hij verhuisd is
+* DEFECT - van toepassing als de pashouder een nieuwe kaart nodig heeft
 * LOSS_KANSENSTATUUT - indien een pashouder geen recht meer heeft op het kansenstatuut moet hij een nieuwe kaart ontvangen.
 * OBTAIN_KANSENSTATUUT - indien een pashouder recht krijgt op het kansenstatuut moet hij een nieuwe kaart ontvangen.
 

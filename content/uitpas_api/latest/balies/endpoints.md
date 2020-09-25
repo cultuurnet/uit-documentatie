@@ -12,3 +12,5 @@
 | 5 | /uitpas/balie/list | GET | Balies voor een medewerker opzoeken | UserAccessToken |
 | 6 | /uitpas/balie/listEmployees | GET | Medewerkers voor een balie opzoeken | Balie medewerker |
 | 7 | /uitpas/balie/countCards | GET | Opvragen voorraadtellers uitpassen | Balie medewerker |
+| 8 | /uitpas/balie/terms | GET | Opvragen status gebruiksvoorwaarden baliemedewerker | Balie medewerker |
+| 9 | /uitpas/balie/terms | POST | Aanvaarden gebruiksvoorwaarden baliemedewerker | Balie medewerker |

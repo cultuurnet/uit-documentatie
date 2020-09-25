@@ -151,19 +151,6 @@ Fields marked with an `*` are not yet indexed under the `completeLanguages` prop
 "creatorId": "86a02c65-696d-5b12-a9b1-9e3bc8e6303c"
 ```
 
-## address without language property
-
-* It is possible that an address does not have a language property yet.
-
-```
-"address": {
-  "addressCountry": "BE",
-  "addressLocality": "Holsbeek",
-  "postalCode": "3220",
-  "streetAddress": "Horststraat 28"
-}
-  ```
-
 
 ## Missing geo-coordinates
 

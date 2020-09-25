@@ -3,7 +3,7 @@
 
 # Opt-In voorkeuren aanpassen
 
-CAUTION > Vanaf UiTPAS versie 3.3.0 is de manier van opt-in voorkeuren voor pashouders gewijzigd. Vanaf dan zijn de velden emailPreference en smsPreference deprecated. In de API endpoints waarin deze velden gemanipuleerd konden worden, is de parameter zelfs volledig verwijderd, en zal de API een foutboodschap geven (INVALID_PARAMETERS) indien deze toch nog gebruikt worden. Alle opt-in voorkeuren worden nu bewaard op het gekoppelde UiTID van de pashouder met onderstaande end-point
+CAUTION > Vanaf UiTPAS versie 3.3.0 is de manier van opt-in voorkeuren voor pashouders gewijzigd. Vanaf dan zijn de velden emailPreference en smsPreference deprecated. In de API endpoints waarin deze velden gemanipuleerd konden worden, is de parameter zelfs volledig verwijderd, en zal de API een foutboodschap geven (INVALID_PARAMETERS) indien deze toch nog gebruikt worden. Alle opt-in voorkeuren worden nu bewaard op de pashouder entiteit met onderstaande end-point
 
 Method
 POST
@@ -23,10 +23,10 @@ Parameters:
 | optInPost           | boolean | true indien de pashouder post wil ontvangen, anders false                                                                                                                                                              |           |
 | balieConsumerKey    | String  | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |           |
 
-Authenticatie
-UserAccessToken van een balie medewerker
+_Authenticatie_
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van een balie medewerker
 
-Response
+_Response_
 
 Bij succes
 HTTP 200 OK met een response body in XML formaat
@@ -41,11 +41,11 @@ HTTP 400 met een response body in XML formaat:
 | requiredPermission | Indien code = ACCESS_DENIED, dan bevat dit veld de vereiste permissie. |
 
 
-Voorbeeld request
+_Voorbeeld request_
 
 POST /uitpas/passholder/0b58caf7-5663-4058-99b3-d1a982d260c9/optinpreferences optinMilestoneMails=true&optinInfoMails=true&optinSms=false
 
-Voorbeeld response
+_Voorbeeld response_
 
 ~~~xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -61,4 +61,4 @@ Voorbeeld response
 </response>
 ~~~
 
-NOTE > Deze voorkeuren kunnen ook door de UiTID gebruiker zelf aangepast worden via de UiTID API.
+NOTE > Deze voorkeuren konden eerder ook door de UiTID gebruiker zelf aangepast worden via de UiTID API, maar sinds de UITPAS-splitsing is dit niet meer het geval.

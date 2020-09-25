@@ -23,7 +23,7 @@ Parameters:
 | max | int | aantal zoekresultaten. Default 20 |  |
 
 _Authenticatie_
-UserAccessToken van de balie medewerker die de actie uitvoert of van de pashouder zelf.
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de balie medewerker die de actie uitvoert of van de pashouder zelf.
 
 _Opmerking_
 Indien de opzoeking gebeurt door een balie medewerker worden enkel de ticket sales getoond die door de balie werden uitgevoerd, waarvan de balie organisator van het evenement is of waarvan de balie de locatie van het evenement is.

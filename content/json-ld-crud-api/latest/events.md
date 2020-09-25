@@ -75,8 +75,8 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
      -H 'Content-Type: application/json; charset=utf-8' \
      -d $'{
     "bookingInfo": {
-    "availabilityEnds": "2019-12-30T01:02:03+01:00",
-    "availabilityStarts": "2018-12-30T01:02:03+01:00",
+    "availabilityEnds": "2022-12-30T01:02:03+01:00",
+    "availabilityStarts": "2022-12-30T01:02:03+01:00",
     "email": "test@test.com",
     "phone": "123",
     "url": "https://www.test.com",
@@ -140,23 +140,23 @@ curl -X "POST" "https://io-test.uitdatabank.be/imports/events/" \
     }
   ],
   "calendarType": "multiple",
-  "startDate": "2019-04-01T14:45:00+01:00",
-  "endDate": "2019-06-01T18:45:00+01:00",
+  "startDate": "2022-04-01T14:45:00+01:00",
+  "endDate": "2022-06-01T18:45:00+01:00",
   "subEvent": [
     {
       "@type": "Event",
-      "endDate": "2019-04-01T18:45:00+01:00",
-      "startDate": "2019-04-01T14:45:00+01:00"
+      "endDate": "2022-04-01T18:45:00+01:00",
+      "startDate": "2022-04-01T14:45:00+01:00"
     },
     {
       "@type": "Event",
-      "endDate": "2019-05-01T18:45:00+01:00",
-      "startDate": "2019-05-01T14:45:00+01:00"
+      "endDate": "2022-05-01T18:45:00+01:00",
+      "startDate": "2022-05-01T14:45:00+01:00"
     },
     {
       "@type": "Event",
-      "endDate": "2019-06-01T18:45:00+01:00",
-      "startDate": "2019-06-01T14:45:00+01:00"
+      "endDate": "2022-06-01T18:45:00+01:00",
+      "startDate": "2022-06-01T14:45:00+01:00"
     }
   ],
   "terms": [

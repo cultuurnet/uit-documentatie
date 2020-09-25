@@ -33,3 +33,4 @@
 | 26 | /uitpas/passholder/{uid}/{cardSystemId} | POST | Kaartsysteem specifieke pashouder gegevens aanpassen | Balie Medewerker |
 | 27 | /uitpas/passholder/{uitpasNumber}/coupons | GET | Opzoeken van coupons | Balie Medewerker of eigenaar uitpas |
 | 28 | /uitpas/passholder/{uitpasNumber}/coupons/{couponId} | GET | Opzoeken van een coupon | Balie Medewerker of eigenaar uitpas |
+| 29 | {prefix}/uitpas/passholder/{uid}/optinpreferences | POST | Opt-In voorkeuren aanpassen |

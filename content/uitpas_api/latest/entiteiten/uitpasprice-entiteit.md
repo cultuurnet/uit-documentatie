@@ -5,7 +5,7 @@
 
 | **Parameter** | **Type** | **Beschrijving** |
 | id | Long | identificatie |
-| reason | String | UitpasStatusChangeReason: bijv. REMOVAL, FIRST_CARD,…​ |
+| reason | String | UitpasStatusChangeReason: bijv. DEFECT, FIRST_CARD,…​ |
 | cardType | String | type nfc drager waarvoor de prijs geldig is |
 | voucherType | VoucherType | vouchertype waarvoor de prijs geldig is |
 | ageRange |  | leeftijd waarvoor de prijs geldig is |

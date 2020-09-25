@@ -68,7 +68,9 @@ Not supported: to remove specific facilities, perform PUT request with empty arr
 
 ## Response
 
-If successful, this method returns a `200` response code and a commandId in the response body.
+* `204 No Content` : request successful
+* `400 Bad Request` : incorrect method, payload or URI
+* `401 Unauthorized` : expired JWT or the user behind the JWT does not have permission to perform this request
 
 ## Example
 
@@ -85,7 +87,6 @@ X-Api-Key: {apiKey}
 {
 "facilities": [
    "3.23.2.0.0",
-   "3.13.3.0.0",
    "3.17.3.0.0"
   ]
 }
@@ -93,12 +94,45 @@ X-Api-Key: {apiKey}
 
 **Response**
 
-The following is an example of the response.
+The following are example responses.
 
 ```
-200 OK
+204 No Content
+```
+
+```
+400 Bad Request
 
 {
-  "commandId": "a55486283a53a1e45041002c4887580f"
+    "title": "No route found for \"PUT /events/6e46cf33-dd9b-4bf9-9c32-259eab5b6cbd/facilities\": Method Not Allowed (Allow: POST, OPTIONS)",
+    "type": "about:blank",
+    "status": 400
 }
+```
+
+```
+400 Bad request
+
+{
+    "validation_messages": {
+        "facilities": "Required but could not be found."
+    },
+    "title": "Invalid payload.",
+    "type": "about:blank"
+}
+```
+```
+400 Bad request
+
+{
+    "title": "Unknown facility id '3.13.3.0.0'",
+    "type": "about:blank",
+    "status": 400
+}
+```
+
+```
+401 Unauthorized
+
+Token claims validation failed. This most likely means the token is expired.
 ```

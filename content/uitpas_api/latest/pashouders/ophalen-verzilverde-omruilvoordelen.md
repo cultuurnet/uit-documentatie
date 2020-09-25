@@ -21,7 +21,7 @@ Parameters:
 | start | Integer | Results offset. Default: 0 |  |
 
 _Authenticatie_
-UserAccessToken van de Balie medewerker die de actie uitvoert of van de pashouder zelf.
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert of van de pashouder zelf.
 
 _Required permission_
 In geval van balie medewerker: geen extra permissie nodig

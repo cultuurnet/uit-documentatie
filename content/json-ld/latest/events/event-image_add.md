@@ -34,7 +34,9 @@ Add an image to an offer
 
 ## Response
 
-If successful, this method returns a `200` response code and a commandId in the response body.
+* `204 No Content` : request successful
+* `400 Bad Request` : incorrect method, payload or URI
+* `401 Unauthorized` : expired JWT or the user behind the JWT does not have permission to perform this request
 
 ## Example
 
@@ -55,12 +57,43 @@ X-Api-Key: {apiKey}
 
 **Response**
 
-The following is an example of the response.
+The following are example responses.
 
 ```
-200 OK
+204 No Content
+```
+
+```
+400 Bad Request
 
 {
-  "commandId": "a55486283a53a1e45041002c4887580f"
+    "title": "No route found for \"PUT /events/6e46cf33-dd9b-4bf9-9c32-259eab5b6cbd/images/\": Method Not Allowed (Allow: POST, OPTIONS)",
+    "type": "about:blank",
+    "status": 400
+}
+
+```
+
+```
+400 Bad request
+
+{
+    "error": "media object id required"
+}
+```
+
+```
+401 Unauthorized
+
+Token claims validation failed. This most likely means the token is expired.
+```
+
+```
+401 Unauthorized
+
+{
+    "title": "User with id: 12345678-abcd-1234-12ab-123abc123abc has no permission: \"Aanbod bewerken\" on item: 12345678-abcd-1234-12ab-123abc123abc when executing command: CultuurNet\\UDB3\\Event\\Commands\\AddImage",
+    "type": "about:blank",
+    "status": 401
 }
 ```

@@ -14,21 +14,21 @@ Je gaat als volgt te werk:
 
 ![widgets-imageupload1](/img/widgets-imageupload1.png "widgets-imageupload1")
 
-2. Ga naar het tabblad *upload*.
-3. Via *Bestand kiezen* kan je een bestand selecteren van je eigen computer.
-4. Klik vervolgens op *Send it to the server*
+2. Ga naar het tabblad ```upload```.
+3. Via ```Bestand kiezen``` kan je een bestand selecteren van je eigen computer.
+4. Klik vervolgens op ```Send it to the server```
 Na het opladen verspring je automatisch naar het tabblad Image Info waar de URL is ingevuld
-5. Klik op *OK*
+5. Klik op ```OK```
 
 ![widgets-imageupload2](/img/widgets-imageupload2.png "widgets-imageupload2")
 
 
 ## Extra's
 
-Onder het tabblad *Image info* kan je de afmetingen van je afbeelding wijzigen. Wanneer je de breedte aanpast, past de editor automatisch de hoogte aan (en vice versa), zodat de verhouding van de afbeelding dezelfde blijft.
+Onder het tabblad ```Image info``` kan je de afmetingen van je afbeelding wijzigen. Wanneer je de breedte aanpast, past de editor automatisch de hoogte aan (en vice versa), zodat de verhouding van de afbeelding dezelfde blijft.
 Je kan hier ook kiezen om de afbeeldingn links of rechts uit te lijnen.
 
-Onder het tabblad *Link* is het mogelijk een link achter je afbeelding te steken. 
+Onder het tabblad ```Link``` is het mogelijk een link achter je afbeelding te steken. 
 
 ## Copyright
 

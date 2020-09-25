@@ -17,10 +17,10 @@ Parameters:
 | dateOfBirth | W3CDate | Geboortedatum van de pashouder |  |
 | postalCode | String | postcode van de pashouder |  |
 | voucherNumber | String | identificatie van een voucher |  |
-| reason | String | Reden van kaartverkoop. De mogelijke waarden zijn:<br>FIRST_CARD<br>CARD_UPGRADE<br>EXTRA_CARD<br>LOSS_THEFT<br>REMOVAL<br>LOSS_KANSENSTATUUT<br>OBTAIN_KANSENSTATUUT | x |
+| reason | String | Reden van kaartverkoop. De mogelijke waarden zijn:<br>FIRST_CARD<br>CARD_UPGRADE<br>EXTRA_CARD<br>LOSS_THEFT<br>DEFECT<br>LOSS_KANSENSTATUUT<br>OBTAIN_KANSENSTATUUT | x |
 
 _Authenticatie_
-User access token van de balie medewerker die de actie uitvoert
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de balie medewerker die de actie uitvoert
 
 _Required permission_
 De gebruiker die de actie uitvoert moet medewerkter zijn van de opgegeven balie. De opgegeven balie moet pashouders kunnen registereren.
