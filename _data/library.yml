@@ -15,11 +15,11 @@
             href: "authenticatie-XML-apis"
             summary:
               - title: "Authenticatie via User Access Token"
-                href: "authenticatie-via-useraccesstoken"
+                href: "authenticatie-XML-apis/authenticatie-via-useraccesstoken"
               - title: "Authenticatie via Consumer Request"
-                href: "authenticatie-via-consumerrequest"
+                href: "authenticatie-XML-apis/authenticatie-via-consumerrequest"
               - title: "Postman setup"
-                href: "postman"
+                href: "authenticatie-XML-apis/postman"
           - title: "JSON API's"
             href: "authenticatie-JSON-apis"
             summary:
