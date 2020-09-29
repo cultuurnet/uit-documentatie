@@ -3,7 +3,7 @@
 
 # Resizing images
 ## Why resize images?
-Images in UiTdatabank can have a size up to 5MB. Therefore, we highly recommend to resize these images for your own web page. When using the right parameters, resizing images will positively impact page speed withou any los of visible quality.
+Images in UiTdatabank can have a size up to 5MB. Therefore, we highly recommend to resize these images for your own web page. When using the right parameters, resizing images will positively impact page speed without any los of visible quality.
 
 When adding (resize-)parameters to images in UiTdatabank, you will first be redirected to a "parameter mapping" vhost, which will resemble the old image resizing parameters to parameters that can be processed by imgix (parameters documented at ```https://docs.imgix.com/apis/url```).
 This vhost contains a mapping table that converts the old parameters to imgix parameters and returns a redirect to imgix. Mapping is done using the following table:
