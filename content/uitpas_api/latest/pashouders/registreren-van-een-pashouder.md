@@ -17,7 +17,7 @@ Parameters:
 | firstName | String | voornaam pashouder | x |
 | secondName | String | tweede naam pashouder |  |
 | email | String | email adres pashouder |  |
-| inszNumber | String | nationaal nummer van pashouder. Dit moet een geldig Belgisch rijksregisternummer zijn. | x (voor niet-geauthoriseerde balies) |
+| inszNumber | String | nationaal nummer van pashouder. Dit moet een geldig Belgisch rijksregisternummer zijn. <br><br>* Verplicht behalve indien:<br>- de balie een geauthoriseerde MIA balie is<br>- indien city=BUITENLAND en de balie rechten heeft om pashouders uit het buitenland te registreren<br>- de balie rechten heeft om pashouders zonder INSZ te registreren| * |
 | dateOfBirth | String | geboortedatum van pashouder (in w3c format, YYYY-MM-DD) | x |
 | gender | String | Toegelaten waarden:<br>M, MALE: man<br>V: vrouw<br>F, FEMALE: vrouw |  |
 | street | String | straat pashouder |  |
