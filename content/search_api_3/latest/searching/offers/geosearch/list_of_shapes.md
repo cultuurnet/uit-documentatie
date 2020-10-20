@@ -9,7 +9,9 @@ The key, the regions-parameter in the URL, is based on the alphanumeric code for
 * When multiple submunicipalities are collected in one NIS-code, a Roman numeral (I, II, III, IV,...) is added to the NIS-code.
 * When a submunicipality has multiple NIS-codes, a character (-Z, -Y, -X,...) is added to the NIS-code.
 
-> Download the [list in json format](https://search.uitdatabank.be/autocomplete.json).
+You can find this list in JSON format at https://search.uitdatabank.be/autocomplete.json
+
+We recommend you request this list from code and only cache it locally for a specific period of time after which you request it again, since **it's possible that the data changes** when municipalities merge for example.
 
 | Name(dutch)| Key |
 | :--- | :--- |
