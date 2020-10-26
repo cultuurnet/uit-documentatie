@@ -30,11 +30,12 @@
 | Nr | Label | Scope note | Identifier |
 | --- | --- | --- | --- |
 | 1 | Begeleide rondleiding | Vb. (Excursies): groepsbezoek, reis, rondleiding, toer, boottocht of rondvaart, rondvlucht of vlucht | 0.7.0.0.0 |
-| 2 | Lessenreeks | Een reeks lessen, een les, of een werkgroep die gericht is op het overdragen van specifieke kennis of het aanleren van bepaalde vaardigheden die behoren tot een bepaald vakgebied of een bepaalde discipline. | 0.3.1.0.0 |
-| 3 | Kamp of vakantie | Georganiseerd tijdelijk groepsverblijf, doorgaans op verplaatsing, voor plezier (vakantie) of onderricht (bijv. taalkamp, werkkamp, muziekkamp) | 0.57.0.0.0 |
-| 4 | Festiviteit | Tijdelijk feestelijk dorp of viering met attracties en randanimatie. | 0.28.0.0.0 |
-| 5 | Route | Uitgestippeld vast traject, meestal gericht op wandelen of fietsen. | 0.17.0.0.0 |
-| 6 | Party of fuif | Omvat ook clubevents | 0.49.0.0.0 |
-| 7 | Eet- of drankfestijn | Omvat de horeca, eet- en drankgelegenheden. | 1.50.0.0.0 |
-| 8 | Spel of quiz | Van kwissen tot gaming events. | 0.50.21.0.0 |
-| 9 | Sport en beweging | Deelnemen aan een sportieve activiteit. | 0.59.0.0.0  |
+| 2 | Lessenreeks | Een reeks lessen, een les, of een werkgroep die gericht is op het overdragen van specifieke kennis of het aanleren van bepaalde vaardigheden die behoren tot een bepaald vakgebied of een bepaalde discipline. Deelnemers kunnen na de start van de lessenreeks niet meer vrij instappen (bv. omdat inschrijvingen afgesloten zijn, of doorheen de lessenreeks kennis wordt opgebouwd waardoor je niet meer op een later moment kan instappen). | 0.3.1.0.0 |
+| 3 | Cursus met open sessies | Een les of workshop die doorgaat op één dag of meerdere dagen en waarbij de deelnemers op een vrij moment (bv. sessie 3) kunnen instappen. | 0.3.1.0.1 |
+| 4 | Kamp of vakantie | Georganiseerd tijdelijk groepsverblijf, doorgaans op verplaatsing, voor plezier (vakantie) of onderricht (bijv. taalkamp, werkkamp, muziekkamp) | 0.57.0.0.0 |
+| 5 | Festiviteit | Tijdelijk feestelijk dorp of viering met attracties en randanimatie. | 0.28.0.0.0 |
+| 6 | Route | Uitgestippeld vast traject, meestal gericht op wandelen of fietsen. | 0.17.0.0.0 |
+| 7 | Party of fuif | Omvat ook clubevents | 0.49.0.0.0 |
+| 8 | Eet- of drankfestijn | Omvat de horeca, eet- en drankgelegenheden. | 1.50.0.0.0 |
+| 9 | Spel of quiz | Van kwissen tot gaming events. | 0.50.21.0.0 |
+| 10 | Sport en beweging | Deelnemen aan een sportieve activiteit. | 0.59.0.0.0  |
