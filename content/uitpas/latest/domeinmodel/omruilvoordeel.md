@@ -35,7 +35,7 @@ Voordelen worden in de publiekssite gefilterd zodat ze alleen binnen de publicat
 de periode waarbinnen de pashouder het voordeel kan omruilen.
 
 **Geldig voor inwoners van {gemeente}** ```Verplicht```
-indien geen gemeente gespecificeerd dan geldt het omruilvoordeel voor inwoners uit eender welke gemeente)
+indien geen gemeente gespecificeerd dan geldt het omruilvoordeel voor inwoners uit alle gemeentes in het kaartsysteem)
 
 **Kaartsystemen waar dit omruilvoordeel op toepasbaar is** ```Verplicht```
 

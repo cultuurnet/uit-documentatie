@@ -8,7 +8,7 @@ Coupons zijn geïntroduceerd om tegemoet te komen aan de vereiste om meer flexib
 Coupons laten meer vrijheidsgraden.
 Een pashouder met een coupon, zal recht hebben op een overeenkomstige korting.
 
-Een coupon heeft volgende eigenschappen: 
+Een coupon heeft volgende eigenschappen:
 
 **Naam**
 
@@ -21,13 +21,9 @@ Aantal maal dat een coupon door éénzelfde pashouder kan worden ingezet (over a
 
 Aantal maal dat een coupon op éénzelfde event kan worden ingezet.
 
-**Geldigheidsperiode**
+**Geldigheidsperiode**: Van ... tot..
 
-Van ... tot..
-
-**Verdeling** 
-
-verdeelsleutel die wordt gebruikt als de coupon wordt omgeruild
+**Verdeling**: verdeelsleutel die wordt gebruikt als de coupon wordt omgeruild
 
 **Condities**
 Deze bepalen op welk(e) event(s) de coupon kan ingezet worden.

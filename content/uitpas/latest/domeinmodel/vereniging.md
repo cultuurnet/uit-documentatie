@@ -19,21 +19,18 @@ Een vereniging heeft volgende eigenschappen:
 De periode voorafgaand aan de vervaldatum van het lidmaatschap vanaf wanneer het lidmaatschap van de pashouder verlengd kan worden. Alleen van toepassing op verenigingen met berekeningswijze “Vrij” of “Obv registratiedatum”
 
 **Balie(s) met registratierechten**
-Dit zijn de balies die een pashouder lid kunnen maken voor een bepaalde vereniging. 
+Dit zijn de balies die een pashouder lid kunnen maken voor een bepaalde vereniging.
 
 **Balie(s) met leesrechten**
 Dit zijn de balies die de lidmaatschappen van een pashouder voor de vereniging kunnen zien.
 
-Een lidmaatschap van een pashouder heeft volgende eigenschappen:
+## Een lidmaatschap van een pashouder heeft volgende eigenschappen:
 
 **Einddatum**
 
-**Expired**
-Boolean
+**Expired** ```Boolean```
 
-**Renewdate**.
-De datum vanaf wanneer het lidmaatschap verlengd kan worden.
+**Renewdate** De datum vanaf wanneer het lidmaatschap verlengd kan worden.
 Alleen van toepassing op verenigingen met berekeningswijze “Vrij” of “Obv registratiedatum”
 
-**renewable**
-Boolean
+**Renewable** ```Boolean```
