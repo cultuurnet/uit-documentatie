@@ -42,7 +42,7 @@ calendar type | buy constraint
 -- | --
 1 timestamp | 1 absoluut
 meerdere timestamps | 1 absoluut
-periode | 1 absoluuti
+periode | 1 absoluut
 permanent | 1/week
 
 Aandachtspunt: buy constraints zijn globaal, niet systeemspecifiek. Als een KSB de constraint van een event aanpast, zal deze voor dit event aangepast worden in alle kaartsystemen.

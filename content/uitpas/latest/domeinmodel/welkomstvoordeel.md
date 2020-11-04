@@ -35,6 +35,6 @@ De periode waarbinnen de pashouder zich moet registreren om aanspraak te maken o
 De periode waarbinnen de pashouder het voordeel kan opnemen.
 
 **Geldig voor inwoners van {gemeente}** ```Verplicht```
-Indien geen gemeente gespecificeerd dan geldt het welkomstvoordeel voor inwoners uit eender welke gemeente.
+Indien geen gemeente gespecificeerd dan geldt het welkomstvoordeel voor inwoners uit alle gemeentes in het kaartsysteem)
 
-Kaartsystemen waar deze welkomstactie op toepasbaar is ```Verplicht```
+**Kaartsystemen waar deze welkomstactie op toepasbaar is** ```Verplicht```

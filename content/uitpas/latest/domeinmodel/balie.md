@@ -17,10 +17,11 @@ Een balie behoort tot één of meerdere permissiegroepen (“UiTPAS groepen”).
 deze balies kunnen pashouders met en zonder kansenstatuut registreren. Zij hebben ook het recht om pashouders zonder INSZ te registreren.
 * **Niet-geautoriseerde registratiebalies**  
 deze balies kunnen pashouders registreren, maar alleen deze zonder kansenstatuut.
-* **Mag personen uit andere gemeentes registreren**
-alleen balies binnen deze permissiegroep mogen pashouders registreren met woonplaats buiten de gemeente van de balie.
+* **Mag MiA-pashouders van een andere gemeente aanmaken**
+alleen balies binnen deze permissiegroep mogen pashouders met kansenstatuut registreren met woonplaats buiten de gemeente van de balie.
 * **Checkin- en ticketbalies**  
 deze balies kunnen pashouders inchecken, voordelen omruilen, en ticket sales doen.
+* **Mag pashouders uit buitenland registreren**
 
 **Baliemedewerkers** ```Optioneel```
 Baliemedewerkers zijn personen die kunnen inloggen op de UiTPAS balie applicatie en naargelang de permissies van de groep waartoe de balie behoort overeenkomstige taken uitvoeren zoals punten toekennen en voordelen omruilen.
