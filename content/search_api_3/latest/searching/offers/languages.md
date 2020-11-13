@@ -41,7 +41,7 @@ GET https://search.uitdatabank.be/offers/?q=languages:fr OR languages:de
 Note that while you can combine this with [free text search]({% link content/search_api_3/latest/searching/offers/free-text-search.md %}), you will probably not get the intended results:
 
 ```
-GET https://search.uitdatabank.be/offers/?q=languages:en the worst band ever
+GET https://search.uitdatabank.be/offers/?q=languages:en AND the worst band ever
 ```
 
 In the example above we're filtering documents to only search through those that have an EN translation and one or more matches with the words "the worst band ever". However, the word "worst" is also a Dutch word, and while we filtered the documents to only return results that have an English translation, the free text search will still look for text matches in all available languages on those \(filtered\) documents. So we might have an event that includes the word "worst" in Dutch and that also has an English translation, and it would be a valid result.
