@@ -14,14 +14,13 @@ waarbij {uid} de UID is van de gekoppelde UiTID gebruiker.
 
 Parameters:
 
-| Naam                | Type    | Omschrijving                                                                                                                                                                                                           | Verplicht |
-|---------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| optInServiceMails   | boolean | true indien de pashouder service mails wil ontvangen, anders false                                                                                                                                                     |           |
-| optInMilestoneMails | boolean | true indien de pashouder milestone mails wil ontvangen, anders false                                                                                                                                                   |           |
-| optInInfoMails      | boolean | true indien de pashouder info mails wil ontvangen, anders false                                                                                                                                                        |           |
-| optInSms            | boolean | true indien de pashouder sms wil ontvangen, anders false                                                                                                                                                               |           |
-| optInPost           | boolean | true indien de pashouder post wil ontvangen, anders false                                                                                                                                                              |           |
-| balieConsumerKey    | String  | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |           |
+| **Naam** | **Type** | **Omschrijving** | **Verplicht**
+| optInServiceMails   | boolean | true indien de pashouder service mails wil ontvangen, anders false  |           |
+| optInMilestoneMails | boolean | true indien de pashouder milestone mails wil ontvangen, anders false  |           |
+| optInInfoMails      | boolean | true indien de pashouder info mails wil ontvangen, anders false |           |
+| optInSms            | boolean | true indien de pashouder sms wil ontvangen, anders false |           |
+| optInPost           | boolean | true indien de pashouder post wil ontvangen, anders false  |           |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | x |
 
 _Authenticatie_
 [User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van een balie medewerker

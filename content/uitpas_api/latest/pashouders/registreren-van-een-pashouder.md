@@ -46,7 +46,7 @@ Parameters:
 | legalTermsPaper | boolean | true indien de pashouder de gebruikersvoorwaarden op papier heeft ontvangen |  |
 | legalTermsDigital | boolean | true indien de pashouder de gebruikersvoorwaarden via e-mail heeft ontvangen |  |
 | parentalConsent | boolean | true indien de er toestemming is van een ouder of voogd bij registratie van een minderjarige pashouder |  |
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze pashouder wordt geregistreerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | x |
 
 _Authenticatie_
 [User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert

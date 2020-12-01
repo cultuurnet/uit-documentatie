@@ -11,12 +11,11 @@ _URL_
 
 Parameters:
 
-| Naam                      | Type   | Omschrijving                                                                                                                                                                                                           | Verplicht |
-|---------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| emailPreference (Removed) | String | Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen.                                                                                                                                         |           |
-| smsPreference (Removed)   | String | Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen.                                                                                                                                         |           |
-| kansenStatuutEndDate      | String | Datum in W3C formaat, mag enkel meegegeven worden in de context van een baliemedewerker. Mag niet na het einde (31/12) van het volgende jaar.                                                                          |           |
-| balieConsumerKey          | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |           |
+| **Naam** | **Type** | **Omschrijving** | **Verplicht** |
+| emailPreference (Removed) | String | Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen. |
+| smsPreference (Removed)   | String | Deze parameter mag niet meer gebruikt worden. Zie Opt-In voorkeuren aanpassen. |           |
+| kansenStatuutEndDate      | String | Datum in W3C formaat, mag enkel meegegeven worden in de context van een baliemedewerker. Mag niet na het einde (31/12) van het volgende jaar. |           |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | verplicht |
 
 _Authenticatie_
 [User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van een balie medewerker

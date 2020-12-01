@@ -15,7 +15,7 @@ Parameters:
 | max | Integer | Max. aantal resultaten in response (default 20) |  |
 | start | Integer | Start van resultaten in response (default 0) |  |
 | excludeExpired | Boolean | Indien false worden de vervallen ticketsalecoupons getoond (default true) |  |
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. Verplicht indien uitgevoerd door een balie medewerker | - |
 
 _Authenticatie_
 [User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van een balie medewerker of de eigenaar van de uitpas

@@ -17,7 +17,7 @@ Parameters:
 | uitpasNumber              | String   | uitpasNumber van de nieuwe kaart van het nieuwe kaartsysteem waarvan de pashouder lid van wilt worden (er moet OFWEL een uitpasNumber OFWEL een cardSystemId meegegeven worden, niet allebei, en ook geen van beide)<br> Opgelet: uitpasNumber is eveneens verplicht indien de bestaande pashouder nog geen kaart heeft zonder kansenstatuut. Foutcode MISSING_REQUIRED_FIELDS indien dit toch geprobeerd wordt. | x |
 | kansenStatuutEndDate      | W3C Date | einddatum van het kansenstatuut indien het een pashouder met kansenstatuut betreft. Mag niet na het einde (31/12) van het volgende jaar.   | Verplicht indien kansenStatuut=true |
 | voucherNumber             | String   | Eventuele voucher number die korting geeft  |       |
-| balieConsumerKey          | String   | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |     |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | verplicht |
 | legalTermsPaper           | boolean  | true indien de pashouder de gebruikersvoorwaarden op papier heeft ontvangen      |     |
 | legalTermsDigital         | boolean  | true indien de pashouder de gebruikersvoorwaarden via e-mail heeft ontvangen     |     |
 | parentalConsent           | boolean  | true indien de er toestemming is van een ouder of voogd bij registratie van een minderjarige pashouder     |     |

@@ -18,7 +18,7 @@ Parameters:
 | actionBuyTicket | boolean | zet op “true” wanneer de pashouder een ticket koopt voor het opgegeven event. een ticket wordt enkel gekocht wanneer ook cdbid wordt meegegeven. default waarde is “false” |  |
 | pointsPromotionIds | String | ids van de verzilveracties die de pashouder wil verzilveren. Gescheiden door een komma. |  |
 | welcomeAdvantageIds | String | ids van de welkomstvoordelen die de pashouder wil verzilveren. Gescheiden door een komma. |  |
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | verplicht |
 | ticketSaleCouponId | long | Ticket sale coupon Id die gebruikt moet worden bij de ticketsale |  |
 
 _Authenticatie_

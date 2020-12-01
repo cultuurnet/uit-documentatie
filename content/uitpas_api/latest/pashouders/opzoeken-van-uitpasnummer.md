@@ -14,8 +14,8 @@ Parameters:
 | **Naam** | **Type** | **Omschrijving** |
 | chipNumber | String | chip nummer waarvoor de uitpas nummer gezocht zal worden |
 | x ofwel chipnumber ofwel uitpasNumber) | uitpasNumber | String |
-| uitpasnummer van de kaart | x (ofwel chipnumber ofwel uitpasNumber) | balieConsumerKey |
-| String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| uitpasnummer van de kaart | x (ofwel chipnumber ofwel uitpasNumber) | 
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. Verplicht. |
 
 _Authenticatie_
 [User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert

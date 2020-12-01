@@ -15,7 +15,7 @@ Parameters:
 
 | **Naam** | **Type** | **Omschrijving** | **Verplicht** |
 | --- | --- | --- | --- |
-| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uigevoerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | verplicht |
 | cdbid | String | identificatie van het evenement. Wanneer een lege waarde wordt meegegeven is er geen evenement meer gekoppeld aan het checkin device. |  |
 | cidConsumerKey | String | identificatie van het checkin device | x |
 

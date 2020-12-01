@@ -13,7 +13,7 @@ Parameters:
 
 | **Naam** | **Type** | **Omschrijving** | **Verplicht** |
 | --- | --- | --- | --- |
-| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | x |
 | startDate | W3C Date | Begindatum van de ticket sales die in het rapport komen. De datum wordt omgezet naar het begin van de dag. | x |
 | endDate | W3C Date | Einddatum van de ticket sales die in het rapport komen. De datum wordt omgezet naar het einde van de dag. | x |
 
