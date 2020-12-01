@@ -7,7 +7,7 @@ _Method_
 GET
 
 _URL_
-{prefix}/uitpas/passholder/{uid}
+{prefix}/uitpas/passholder/uid/{uid}
 waarbij {uid} de uitId identificatie van de pashouder
 
 Parameters:
