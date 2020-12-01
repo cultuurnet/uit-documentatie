@@ -13,7 +13,7 @@ Parameters:
 
 | **Naam** | **Type** | **Omschrijving** | **Verplicht** |
 | --- | --- | --- | --- |
-| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uigevoerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | verplicht |
 | cidConsumerKey | String | identificatie van het checkin device | x |
 | name | String | naam van het checkin device |  |
 | assignedBalieConsumerKey | List<String> | lijst met consumerKeys van de balie waaraan het checkin device wordt toegekend |  |

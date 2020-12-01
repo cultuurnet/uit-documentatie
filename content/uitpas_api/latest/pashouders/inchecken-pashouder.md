@@ -15,7 +15,7 @@ Parameters:
 | cdbid | String | cdbid van event | x |
 | uitpasNumber | String | uitpas nummer 13 cijfers (i.e. zonder ISO-code) | x (zie opmerking) |
 | chipNumber | String | NFC card chip number | x (zie opmerking) |
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | verplicht |
 
 _Opmerking_
 Het is verplicht om ofwel uitpasNumber of chipNumber mee te geven. Het is niet toegelaten beide mee te geven.

@@ -11,15 +11,15 @@ _URL_
 
 Parameters:
 
-| Naam                  | Type    | Omschrijving                                                                                                                                                                                                           | Verplicht         |
-|-----------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| identification        | String  | identificatie van een pashouder                                                                                                                                                                                        | x (zie opmerking) |
-| chipNumber            | String  | NFC card chip number                                                                                                                                                                                                   | x (zie opmerking) |
-| uitpasNumber          | String  | uitpas nummer 13 cijfers                                                                                                                                                                                               | x (zie opmerking) |
-| cdbid                 | String  | id van een event                                                                                                                                                                                                       |                   |
-| autocheckin           | boolean | default waarde: false                                                                                                                                                                                                  |                   |
-| includeProfilePicture | boolean | default waarde: false, indien true wordt de base64 encoded profile picture ook teruggegeven als deze gezet is.                                                                                                         |                   |
-| balieConsumerKey      | String  | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |                   |
+| **Naam** | **Type** | **Omschrijving** | **Verplicht** |
+
+| identification        | String  | identificatie van een pashouder | x (zie opmerking) |
+| chipNumber            | String  | NFC card chip number | x (zie opmerking) |
+| uitpasNumber          | String  | uitpas nummer 13 cijfers | x (zie opmerking) |
+| cdbid                 | String  | id van een event | |
+| autocheckin           | boolean | default waarde: false | |
+| includeProfilePicture | boolean | default waarde: false, indien true wordt de base64 encoded profile picture ook teruggegeven als deze gezet is. |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | verplicht |
 
 _Opmerking_
 Het is verplicht om ofwel uitpasNumber of chipNumber of identification mee te geven. Het is niet toegelaten beide mee te geven.

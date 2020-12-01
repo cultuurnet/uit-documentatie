@@ -13,7 +13,7 @@ waarbij {eventCdbid} de cdbid van een event is {uitpasNumber} de uitpas nummer v
 
 Parameters:
 
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | verplicht |
 | ticketSaleCouponId | Long | Ticket sale coupon Id die gebruikt moet worden bij de ticketsale |
 | amountOfTickets | Integer | Aantal tickets. Deze parameter is verplicht voor een groepspas, maar mag niet gebruikt worden bij pashouders |
 | priceClass | String | prijs klasse gebruikt bij de ticketsale |

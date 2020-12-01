@@ -13,10 +13,10 @@ Parameters:
 
 | **Naam** | **Type** | **Omschrijving** |
 | identification | String | Uitpasnummer, chipnummer, INSZ of INSZ barcode van de pashouder die gezocht wordt. De server detecteert zelf om welk soort ID het gaat. |
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. Verplicht indien uitgevoerd door een balie medewerker |
 
 _Authenticatie_
-[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert
+[User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie medewerker die de actie uitvoert of een consumer request met een consumer met rechten op 'identificatie van pashouders'
 
 In geval van balie medewerker: geen extra permissie nodig.
 De lidmaatschappen waarvoor de balie lees- en/of registratierechten worden getoond.

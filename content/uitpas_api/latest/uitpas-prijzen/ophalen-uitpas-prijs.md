@@ -12,7 +12,7 @@ _URL_
 Parameters:
 
 | **Naam** | **Type** | **Omschrijving** | **Verplicht** |
-| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uigevoerd. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | x |
 | uitpasNumber | String | identificatie van een kaart | x |
 | dateOfBirth | W3CDate | Geboortedatum van de pashouder |  |
 | postalCode | String | postcode van de pashouder |  |

@@ -11,7 +11,7 @@ _URL_
 
 _Parameter_
 
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | x |
 | cardSystemId | List<long> | Een lijst van ids van een of meerdere kaartsystemen. Deze parameter is niet verplicht. Standaard worden alle kaartsystemen terug gegeven. Indien de parameter wel wordt opgegeven, worden enkel de kaartsystemen teruggegeven die in de lijst voorkomen. |
 | readPermission | Boolean | Indien true worden verenigingen waarop de balie leesrechten heeft opgehaald. |
 | registerPermission | Boolean | Indien true worden verenigingen waarop de balie registratie-rechten heeft opgehaald. |

@@ -16,7 +16,7 @@ Parameters:
 | reason | ‘LOSS_THEFT’, ‘DEFECT’, ‘LOSS_KANSENSTATUUT’, ‘OBTAIN_KANSENSTATUUT’, ‘CARD_UPGRADE’ or ‘EXTRA_CARD’ | reden voor registratie van een nieuwe kaart. | x |
 | uitpasNumber | String | uitpasnummer van nieuwe kaart | x |
 | voucherNumber | String | vouchernummer voor registratie van nieuwe kaart |  |
-| balieConsumerKey | String | ConsumerKey van de balie die de nieuwe kaart registreert |  |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | verplicht |
 | kansenStatuutEndDate | W3CDate | einddatum kansenstatuut, verplicht indien reason ‘OBTAIN_KANSENSTATUUT’. Mag niet na het einde (31/12) van het volgende jaar. |  |
 
 _Authenticatie_

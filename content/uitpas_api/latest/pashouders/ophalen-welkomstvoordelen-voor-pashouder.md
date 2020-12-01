@@ -14,7 +14,7 @@ waarbij {uitpasNumber} de uitpas nummer
 Parameters:
 
 | **Naam** | **Type** | **Omschrijving** |
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt (enkel nodig voor de permission check). Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. Verplicht indien uitgevoerd door een balie medewerker | - |
 | cashingPeriodBegin | W3CDate | Verzilver periode vanaf |
 | cashingPeriodEnd | W3CDate | Verzilver periode tot |
 | cashInBalieConsumerKey | String | Consumer key van de balie waarop de welkomstvoordelen verzilderd kunnen worden |

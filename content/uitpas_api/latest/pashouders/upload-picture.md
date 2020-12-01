@@ -19,7 +19,7 @@ Parameters:
 | **Naam** | **Type** | **Omschrijving** | **Verplicht** |
 | --- | --- | --- | --- |
 | picture | bytes | de bytes van de afbeelding | x |
-| balieConsumerKey | String | ConsumerKey van de balie waarop deze request gebeurt. Deze parameter is niet verplicht. Standaard wordt de consumer key uit de oauth request gebruikt. Zie gebruik van andere balies door Service Consumer in punt 2.4 |  |
+| balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | x |
 
 _Multipart data_
 Deze request verwacht ruwe multipart data, wat wil zeggen dat de request header _Content-Type_ op _multipart/form-data_ gezet moet worden.
