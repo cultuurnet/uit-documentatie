@@ -24,6 +24,5 @@ Een baliemedewerker kan tickets aan kansentarief kopen voor een pashouder
 ```
 
 
-De uitpas api documentatie kan gevonden worden op 
-http://www.uitid.be/uitid/apidoc/uitpas-api.html
-
+De uitpas api documentatie kan gevonden worden op
+<https://documentatie.uitdatabank.be/content/uitpas_api/latest/start.html>
