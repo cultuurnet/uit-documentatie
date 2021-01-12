@@ -40,6 +40,7 @@ Bepaal welke elementen (informatie) zichtbaar zijn in de lijstweergave van je ev
 | Setting | Beschrijving | Waarde | Voorbeeld | 
 |--|--|--|--|
 | Type | Bepaal of per evenement het eventtype (bv. concert) getoond mag worden | [x] / [ ] | ```[x] Type``` |
+| Type | Bepaal of per evenement het thema (bv. pop en rock) getoond mag worden | [x] / [ ] | ```[x] Thema``` |
 | Vlieglogo | Bepaal of het vlieglogo getoond mag worden bij evenementen voor kinderen | [x] / [ ] | ```[x] Vlieglogo``` |
 | UiTPAS-logo | Bepaal of het UiTPAS-logo getoond mag worden bij evenementen voor UiTPAS -en Paspartoe | [x] / [ ] | ```[x] UiTPAS-logo``` |
 | Beschrijving | Bepaal of de beschrijving van een evenement getoond mag worden | [x] / [ ] | ```[x] Beschrijving``` |
