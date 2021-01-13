@@ -3,7 +3,7 @@
 
 # Integratie van UiT-data
 
-publiq biedt 3 methodes waarmee je agenda-informatie op je website integreert.
+publiq biedt 2 methodes waarmee je agenda-informatie op je website integreert.
 
 De agenda-informatie komt uit de UiTdatabank en wordt gefilterd op maat van jouw doelgroep.
 
