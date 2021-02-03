@@ -25,7 +25,9 @@ It is possible to set the status on top event level for all calendarTypes: `sing
 ## Set status on subEvent level
 
 Since only events with calendarType `single` and `multiple` have subEvents, it is only possible to set the status on subEvent level for these calendarTypes. 
-The status on top event level will be derived from the statusses on the subEvent level:
+The status on top event level will be derived from the statusses on the subEvent level.
+
+When UiTdatabank calculates the status for the top event level, the following logic is being applied:
 
 | status subEvents | Derived status on top event level |
 | ------------- | ---------------- | 
