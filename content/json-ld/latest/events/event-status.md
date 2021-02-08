@@ -67,11 +67,11 @@ Content-Type: application/json
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
 
-"status": {
-    "type": "TemporarilyUnavailable",
-    "reason": {
-        "nl": "Het concert is tijdelijk uitgesteld"
-    }
+{
+   "type":"TemporarilyUnavailable",
+   "reason":{
+      "nl":"Het concert is tijdelijk uitgesteld"
+   }
 }
 ```
 
