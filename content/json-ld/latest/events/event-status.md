@@ -122,7 +122,7 @@ When UiTdatabank calculates the status for the top event level, the following lo
 ## HTTP request
 
 ```
-PATCH /events/{eventId}/status
+PATCH /events/{eventId}/subEvents
 ```
 
 Update the status of one or more subEvents and optionally also the reason for the new status.
@@ -144,7 +144,12 @@ Update the status of one or more subEvents and optionally also the reason for th
 
 ## Request body
 
-
+| Property	| Type | Description | Example |
+|--|--|--|--|
+| id	| integer | a zerob-based number of the subEvent you want to set the status for | 2 (this corresponds with the 3th subEvent of your event) |
+| status	| object | object containing one or more properties |  |
+| type	| string | status of the event. possible vallues: `Available`, `TemporarilyUnavailable`, `Unavailable` | Unavailable |
+| reason	| object with language properties | only to be used in combination with type, must contain at least one language. | Omwille van preventieve coronamaatregelen is het concert geannuleerd |
 
 
 ### Response
@@ -156,9 +161,111 @@ Update the status of one or more subEvents and optionally also the reason for th
 ### Example
 
 **request**
+Event with calendarType `single` (containing one subEvent)
+
+```
+PATCH https://io-test.uitdatabank.be/events/6ecadd49-ca7b-4204-a8a6-46f786cd3c1e/subEvents
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
+[
+  {
+    "id": 0,
+	"status": {
+	  "type": "Unavailable",
+	  "reason": {
+	    "nl": "Omwille van preventieve coronamaatregelen is het concert geannuleerd",
+	    "en": "The concert has been canceled due to preventive corona measures"
+	  }
+	}
+  }
+]
+```
 
 
+Or, without including a reason:
+```
+PATCH https://io-test.uitdatabank.be/events/6ecadd49-ca7b-4204-a8a6-46f786cd3c1e/subEvents
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
+[
+  {
+    "id": 0,
+	"status": {
+	  "type": "Unavailable"
+	  }
+  }
+]
+```
+For events with calendarType `single`, the derived status and reason (if applicable) for the top event will always be equal to the status (and reason) of the subEvent. Thus, in the example above the derived status for the top event will become `Unavailable`
+
+Event with calendarType `multiple` (containing 3 subEvents)
+```
+PATCH https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/subEvents
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
+
+[
+  {
+    "id": 0,
+	"status": {
+	  "type": "Unavailable",
+	  "reason": {
+	    "nl": "Door ziekte van de artiest is de show van 10/11 geannuleerd"
+	    "fr": "En raison de maladie de l'artiste, le spectacle du 10/11 a été annulé"
+	  }
+	}
+  },
+  {
+    "id": 1,
+	"status": {
+	  "type": "Unavailable",
+	  "reason": {
+	    "nl": "Door ziekte van de artiest is de show van 11/11 geannuleerd"
+	    "fr": "En raison de maladie de l'artiste, le spectacle du 11/11 a été annulé"
+	  }
+	}
+  },
+    {
+    "id": 2,
+	"status": {
+	  "type": "TemporarilyUnavailable",
+	  "reason": {
+	    "nl": "Door ziekte van de artiest is de show van 15/11 uitgesteld"
+	    "fr": "En raison de la maladie de l'artiste, le spectacle du 15/11 a été reporté"
+	  }
+	}
+  }
+]
+```
+Since 2 subEvents have the status `Unavailable` and one subEvent `temporarilyUnavailable`, the derived status for the top event will become `temporarilyUnavailable`
 
 **Response**
+The following are example responses.
 
+```
+204 No Content
+```
+
+```
+400 Bad Request
+
+{
+    "validation_messages": {
+        "type": "Invalid type provided"
+    },
+    "title": "Invalid payload.",
+    "type": "about:blank"
+}
+```
+
+```
+401 Unauthorized
+
+Token claims validation failed. This most likely means the token is expired.
+```
 
