@@ -28,7 +28,7 @@ It is possible to set the status on top event level for all calendarTypes: `sing
 PUT /events/{eventId}/status
 ```
 
-Update the status and optionally also the reason for the new status.
+Update the status of the top event and optionally also the reason for the new status.
 
 
 ### Request headers
@@ -85,6 +85,25 @@ The following are example responses.
 204 No Content
 ```
 
+```
+400 Bad Request
+
+{
+    "validation_messages": {
+        "type": "Invalid type provided"
+    },
+    "title": "Invalid payload.",
+    "type": "about:blank"
+}
+```
+
+```
+401 Unauthorized
+
+Token claims validation failed. This most likely means the token is expired.
+```
+
+
 ## Set status on subEvent level
 
 For calendarTypes `single` and `multiple` it is also possible to set the status on subEvent level.
@@ -106,11 +125,8 @@ When UiTdatabank calculates the status for the top event level, the following lo
 PATCH /events/{eventId}/status
 ```
 
-Update the status and optionally also the reason for the new status.
+Update the status of one or more subEvents and optionally also the reason for the new status.
 
-**HTTP DELETE**
-
-Not supported: to remove a (specific) status on an event or subEvent perform a PATCH request with empty properties
 
 ### Request headers
 
