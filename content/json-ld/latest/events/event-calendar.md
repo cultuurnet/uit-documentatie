@@ -182,9 +182,7 @@ An event can have one of the following calendarTypes:
 - single: one timestamp
 - multiple: multiple timestamps
 - periodic: a period with startdate and enddate
-
-calendarType 'permanent' is reserved for offertype 'place'!
-
+- permanent (! we highly recommend not to use this calendarType for events, but use periodic instead)
 
 ```
   "calendarType": "periodic"
