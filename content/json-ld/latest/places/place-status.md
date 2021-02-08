@@ -15,7 +15,7 @@ When the status is set back to `available`, the reasons (if present) will be aut
 ## HTTP request
 
 ```
-PUT /places/{eventId}/status
+PUT /places/{placeId}/status
 ```
 
 Update the status of the place and optionally also the reason for the new status.
