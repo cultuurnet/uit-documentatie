@@ -68,6 +68,12 @@ In deze stap moet de browser van de gebruiker geredirect worden naar:
 {server}/auth/authorize
 ~~~
 
+*Methode*
+
+~~~
+POST
+~~~
+
 Het {server} gedeelte van de URL is afhankelijk van de omgeving. De beschikbare omgevingen vind je [hier]({% link content/omgevingen/latest/start.md %}) terug
 
 *Parameters*
