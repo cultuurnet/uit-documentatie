@@ -26,8 +26,8 @@ It is possible to set the status on top event level for all calendarTypes: `sing
 "status":{
    "type":"Unavailable",
    "reason":{
-      "nl":"Het concert van 01/04 is afgelast",
-      "fr":"Le concert de 01/04 a été annulé"
+      "nl":"De lessenreeks is omwille van coronamaatregelen geannuleerd",
+      "fr":"Le série de cours a été annulé en raison de mesures corona"
    }
 }
 ```
