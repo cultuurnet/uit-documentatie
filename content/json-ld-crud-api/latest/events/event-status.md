@@ -60,8 +60,8 @@ Event with calendarType `single` (containing one subEvent)
       "status":{
          "type":"TemporarilyUnavailable",
          "reason":{
-            "nl":"Door ziekte van de zanger is het concert van 01/04 uitgesteld. We zoeken samen met de band naar een nieuwe datum",
-            "en":"The concert on 01/04 has been postponed due to illness of the lead vocalist. We are looking for a new date together with the band"
+            "nl":"Door ziekte van de zanger is het concert van 01/04 uitgesteld",
+            "en":"The concert on 01/04 has been postponed due to illness of the lead vocalist."
          }
       }
    }
@@ -82,8 +82,8 @@ Event with calendarType `multiple` (containing 3 subEvents)
       "status":{
          "type":"Unavailable",
          "reason":{
-            "nl":"Door ziekte van de zanger is het concert van 01/04 geannuleerd. We zoeken samen met de band naar een nieuwe datum",
-            "en":"The concert on 01/04 has been canceled due to illness of the lead vocalist. We are looking for a new date together with the band"
+            "nl":"Door ziekte van de zanger is het concert van 01/04 geannuleerd.",
+            "en":"The concert on 01/04 has been canceled due to illness of the lead vocalist."
          }
       }
    },
@@ -94,8 +94,8 @@ Event with calendarType `multiple` (containing 3 subEvents)
       "status":{
          "type":"Unavailable",
          "reason":{
-            "nl":"Door ziekte van de zanger is het concert van 02/04 geannuleerd. We zoeken samen met de band naar een nieuwe datum",
-            "en":"The concert on 02/04 has been canceled due to illness of the lead vocalist. We are looking for a new date together with the band"
+            "nl":"Door ziekte van de zanger is het concert van 02/04 geannuleerd.",
+            "en":"The concert on 02/04 has been canceled due to illness of the lead vocalist."
          }
       }
    },
@@ -106,8 +106,8 @@ Event with calendarType `multiple` (containing 3 subEvents)
       "status":{
          "type":"Unavailable",
          "reason":{
-            "nl":"Door ziekte van de zanger is het concert van 03/04 geannuleerd. We zoeken samen met de band naar een nieuwe datum",
-            "en":"The concert on 03/04 has been canceled due to illness of the lead vocalist. We are looking for a new date together with the band"
+            "nl":"Door ziekte van de zanger is het concert van 03/04 geannuleerd.",
+            "en":"The concert on 03/04 has been canceled due to illness of the lead vocalist."
          }
       }
    }
