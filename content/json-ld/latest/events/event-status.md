@@ -3,10 +3,6 @@
 
 # Event - status
 
-
----
----
-
 The status indicates whether an event takes place as planned, has been postponed or cancelled. The following values for 'status' are applicable:
 * `available`: the event takes place as planned. This is the default value when no status for the event or subEvent is included.
 * `temporarilyUnavailable`: the event has been postponed to a later date yet to be determined.
