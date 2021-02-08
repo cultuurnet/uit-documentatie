@@ -14,6 +14,8 @@ The status indicates whether an event takes place as planned, has been postponed
 
 Optionally, a reason for the new status can be added. 
 
+When the status is set back to `available`, the reasons (if present) will be automatically removed.
+
 It is possible to set the status on top event level or on subEvent level:
 * **top event level**: for the whole event and all its subEvents (occurences). All subEvents will inherit the status from the top event level
 * **subEvent level**: for a one or multiple subEvent(s). The status on top event level will automtically be derived from the (different) statusses on subEvent level.
