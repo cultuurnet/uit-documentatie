@@ -243,6 +243,7 @@ X-Api-Key: {apiKey}
 Since 2 subEvents have the status `Unavailable` and one subEvent `temporarilyUnavailable`, the derived status for the top event will become `temporarilyUnavailable`
 
 **Response**
+
 The following are example responses.
 
 ```
