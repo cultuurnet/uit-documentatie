@@ -159,6 +159,7 @@ Update the status of one or more subEvents and optionally also the reason for th
 ### Example
 
 **request**
+
 Event with calendarType `single` (containing one subEvent)
 
 ```
