@@ -144,7 +144,7 @@ Update the status of one or more subEvents and optionally also the reason for th
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
-| id	| integer | a zerob-based number of the subEvent you want to set the status for | 2 (this corresponds with the 3th subEvent of your event) |
+| id	| integer | a zero-based number of the subEvent you want to set the status for | 2 (this corresponds with the 3th subEvent of your event) |
 | status	| object | object containing one or more properties |  |
 | type	| string | status of the event. possible vallues: `Available`, `TemporarilyUnavailable`, `Unavailable` | Unavailable |
 | reason	| object with language properties | only to be used in combination with type, must contain at least one language. | Omwille van preventieve coronamaatregelen is het concert geannuleerd |
