@@ -59,7 +59,7 @@ Update the status of the top event and optionally also the reason for the new st
 
 ### Example
 
-**request**
+**Request**
 
 ```
 PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/status
