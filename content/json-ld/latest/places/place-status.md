@@ -50,7 +50,7 @@ Update the status of the place and optionally also the reason for the new status
 
 ### Example
 
-**request**
+**Request**
 
 ```
 PUT https://io-test.uitdatabank.be/places/57f6ba66-d67d-488a-bae7-8a89f112d21c/status
