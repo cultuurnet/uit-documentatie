@@ -16,20 +16,7 @@ It is possible to set the status on top event level or on subEvent level:
 * **top event level**: for the whole event and all its subEvents (occurences). All subEvents will inherit the status from the top event level
 * **subEvent level**: for a one or multiple subEvent(s). The status on top event level will automtically be derived from the (different) statusses on subEvent level.
 
-## Set status on top event level
-
-It is possible to set the status on top event level for all calendarTypes: `single`, `multiple`, `permanent`, `periodic`. If the event has subEvents, all subEvents of the event will inherit the status (and reason) from the top event level.
-
-## HTTP request
-
-```
-PUT /events/{eventId}/status
-```
-
-Update the status of the top event and optionally also the reason for the new status.
-
-
-### Request headers
+## Authorization - request headers
 
 | Header        | Value            | Required? |
 | ------------- | ---------------- | --------- |
@@ -37,13 +24,25 @@ Update the status of the top event and optionally also the reason for the new st
 | X-Api-Key     | {apiKey}         | true      |
 | Content-Type  | application/json | false     |
 
+## Set status on top event level
+
+It is possible to set the status on top event level for all calendarTypes: `single`, `multiple`, `permanent`, `periodic`. If the event has subEvents, all subEvents of the event will inherit the status (and reason) from the top event level.
+
+### HTTP request
+
+```
+PUT /events/{eventId}/status
+```
+
+Update the status of the top event and optionally also the reason for the new status.
+
 ### Resource properties
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
 | eventId	| uuid | unique identifier for an event | d595414a-13e0-4dd2-b4bd-706598427351 |
 
-## Request body
+### Request body
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
@@ -117,7 +116,7 @@ When UiTdatabank calculates the status for the top event level, the following lo
 | Mixed, but one or more available | available | 
 | Mixed, but one or more temporarilyUnavailable | temporarilyUnavailable | 
 
-## HTTP request
+### HTTP request
 
 ```
 PATCH /events/{eventId}/subEvents
@@ -125,22 +124,13 @@ PATCH /events/{eventId}/subEvents
 
 Update the status of one or more subEvents and optionally also the reason for the new status.
 
-
-### Request headers
-
-| Header        | Value            | Required? |
-| ------------- | ---------------- | --------- |
-| Authorization | Bearer {token}   | true      |
-| X-Api-Key     | {apiKey}         | true      |
-| Content-Type  | application/json | false     |
-
 ### Resource properties
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
 | eventId	| uuid | unique identifier for an event | d595414a-13e0-4dd2-b4bd-706598427351 |
 
-## Request body
+### Request body
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
