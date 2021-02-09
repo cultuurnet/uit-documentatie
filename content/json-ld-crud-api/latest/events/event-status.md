@@ -14,7 +14,7 @@ When the status is set back to `available`, the reasons (if present) will be aut
 
 It is possible to set the status on top event level or on subEvent level:
 * **top event level**: for the whole event and all its subEvents (occurences). All subEvents will inherit the status from the top event level
-* **subEvent level**: for a one or multiple subEvent(s). The status on top event level will automtically be derived from the (different) statusses on subEvent level.
+* **subEvent level**: for one or multiple subEvent(s). The status on top event level will be automatically derived from the (different) statuses on subEvent level.
 
 ## Set status on top event level
 
