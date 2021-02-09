@@ -189,7 +189,7 @@ X-Api-Key: {apiKey}
    }
 ]
 ```
-For events with calendarType `single`, the derived status and reason (if applicable) for the top event will always be equal to the status (and reason) of the subEvent. Thus, in the example above the derived status for the top event will become `Unavailable`
+For events with calendarType `single`, the derived status for the top event will always be equal to the status of the subEvent. Thus, in the example above the derived status for the top event will become `Unavailable`
 
 Event with calendarType `multiple` (containing 3 subEvents)
 ```
