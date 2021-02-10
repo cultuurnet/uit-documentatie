@@ -3,9 +3,6 @@
 
 # Place - status
 
----
----
-
 The status indicates whether a place is open (for visits for example), temporarily closed or permanently closed. The following values for 'status' are applicable:
 * `available`: the place is 'open' and can be visited during opening hours. This is the default value when no status for the place is included.
 * `temporarilyUnavailable`: the place is temporarily closed (due to renovations for example).
