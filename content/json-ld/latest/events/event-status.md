@@ -104,7 +104,7 @@ Token claims validation failed. This most likely means the token is expired.
 ## Set status on subEvent level
 
 For calendarTypes `single` and `multiple` it is also possible to set the status on subEvent level.
-The status on top event level will be derived from the statusses on the subEvent level.
+The status on top event level will be derived from the statuses on the subEvent level.
 
 When UiTdatabank calculates the status for the top event level, the following logic is being applied:
 
