@@ -114,7 +114,7 @@ When UiTdatabank calculates the status for the top event level, the following lo
 | All unavailable | unavailable | 
 | All temporarilyUnavailable | temporarilyUnavailable | 
 | Mixed, but one or more available | available | 
-| Mixed, but one or more temporarilyUnavailable | temporarilyUnavailable | 
+| Mixed, but one or more temporarilyUnavailable and none available | temporarilyUnavailable | 
 
 ### HTTP request
 
