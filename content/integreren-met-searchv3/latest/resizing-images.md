@@ -14,6 +14,7 @@ This vhost contains a mapping table that converts the old parameters to imgix pa
 |--------------------------------	|-----------------------------------	|----------------------------------------------------------------------------------------------------------------	|
 | bgcolor=123456                 	| bg=123456                         	| Hex code (6-char). Sets the background/whitespace color                                                        	|
 | crop=auto                      	| fit=crop&crop=entropy             	| Crop the image to the size specified by width and height. Centers and minimally crops to preserve aspect ratio 	|
+| crop=edges                      | fit=crop&crop=edges               	| Crop the image to the size specified by width and height. Finds and crops to an area of interest by performing edge detection, looking for objects within the image. 	|
 | format=png                     	| fm=png                            	| Change format                                                                                                  	|
 | flip=h                         	| flip=h                            	| Flips the image (horizontally) after resizing                                                                  	|
 | flip=v                         	| flip=v                            	| Flips the image (vertically) after resizing                                                                    	|
