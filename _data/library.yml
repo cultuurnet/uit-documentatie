@@ -1333,30 +1333,5 @@
             href: "activities/delete_activity"
           - title: "Total Activities"
             href: "activities/total_activities"
-#
-# Contributing
-#
-- title: "Contributing to the documentation"
-  description: "Anyone can contribute to the quality of this documentation. This book shows how to fix small errors or to add new content"
-  path: "content/contributions/"
-  category: "Contributing"
-  weight: 20
-  icon: "authenticatie"
-  versions:
-      - name: "latest"
-        path: "content/contributions/latest/"
-        summary:
-          - title: "Propose fixes..."
-            href: "content/contributions/latest/propose-fixes"
-            summary:
-              - title: "... through GitHub"
-                href: "propose-fixes/through-github"
-              - title: "... through GIT"
-                href: "propose-fixes/through-git"
-          - title: "Propose content"
-            href: "content/contributions/latest/propose-content"
-            summary:
-              - title: "Add a new page to an existing book"
-                href: "propose-content/new-page"
-              - title: "Add a new book to the documentation"
-                href: "propose-content/new-book"
+
+
