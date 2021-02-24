@@ -184,8 +184,9 @@ Events and subEvents can have a 'status'. This status indicates whether the (sub
 * `unavailable`: the event has been cancelled.
 
 **Important notes** 
-* If a (sub)Event has a status other than `Available`, you have to pass the status (`Unavailable` | `TemporarilyUnavailable`) for that (sub)Event in your request (see [status](https://documentatie.uitdatabank.be/content/json-ld/latest/events/event-status.html)).
 * When updating the calendarInfo without including the status of the (sub)Event in your request, UiTdatabank will assume that the status of the (sub)Event is `Available`. 
+* If a (sub)Event has a status other than `Available`, you have to pass the status (`Unavailable` | `TemporarilyUnavailable`) for that (sub)Event in your request when updating the calendarInfo (see [status](https://documentatie.uitdatabank.be/content/json-ld/latest/events/event-status.html)).
+
 
 ## Definitions
 
