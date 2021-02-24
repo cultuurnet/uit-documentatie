@@ -968,6 +968,8 @@
               href: "searching/offers/price"
             - title: "Sorting"
               href: "searching/offers/sorting"
+            - title: "Status"
+              href: "searching/offers/status"
             - title: "Terms"
               href: "searching/offers/terms"
             - title: "UiTPAS"
