@@ -5,7 +5,7 @@
 
 The status indicates whether an offer is still available for visits or not. The following values for ‘status’ are applicable:
 
-| Value | Meaning (events) | Meaning (places |
+| Value | Meaning (events) | Meaning (places) |
 |--|--|--|
 | `Available` | the event takes place as planned | the place is ‘open’ and can be visited during opening hours | 
 | `TemporarilyUnavailable` | the event has been postponed to a later date yet to be determined | the place is temporarily closed (due to renovations for example) | 
