@@ -5,7 +5,7 @@
 The JSON body of each event contains a property _calendar summary_, but this property is deprecated. The calendar summary is now accessible as a microservice on a specific endpoint (see below).
 
 ## Use
-You can use the calendar summary to display the summarized calendar information for an event or place object.
+You can use the calendar summary to display the summarized calendar information for an event or place object. The calendar summary will always include the status if applicable (see [status](https://documentatie.uitdatabank.be/content/search_api_3/latest/searching/offers/status.html)).
 
 For the detail page, we don't recommend to display the calendar summary, but use the detailed calendarInfo from the JSON-LD projection instead.
 
@@ -36,41 +36,36 @@ The Event or Place object has a calendarType property which can have one of the 
 ### format
 (string) - required
 
-We distinguish 4 output formats: extra small, small, medium and large.
-
-**warning**
-Not every output format is supported for every calendarType!
-
-| calendarType  | xs | sm | md | lg |
-| :---: | :---: | :---: | :---: | :---: |
-| `single` | x | x | x | x |
-| `multiple` | - | x | x | x |
-| `periodic` | x | x | x | x |
-| `permanent` | - | - | x | x |
-
-Using an unsupported format will throw an exception.
+We distinguish 4 output formats: 
+* `xs` (extra small)
+* `sm` (small)
+* `md` (medium)
+* `lg` (large) 
 
 #### Examples
 
 **large**
+
+In the example below the status of the event is included in the calendar summary of the event. 
+
 ```
 GET https://io-test.uitdatabank.be/events/4ddcd176-5c1a-412d-b5d8-2398c10468aa/calsum?format=lg
 
-vrijdag 28 juli 2017 van 22:00 tot 23:59
-zaterdag 29 juli 2017 van 22:00 tot 23:59
-zondag 30 juli 2017 van 17:00 tot 19:00
-maandag 31 juli 2017 van 11:30 tot 13:30
+Vrijdag 28 juli 2017 van 22:00 tot 23:59 
+Zaterdag 29 juli 2017 van 22:00 tot 23:59 
+Zondag 30 juli 2017 van 17:00 tot 19:00 
+Maandag 31 juli 2017 van 11:30 tot 13:30
 ```
 
 **Medium**
-```
-GET https://io-test.uitdatabank.be/events/4ddcd176-5c1a-412d-b5d8-2398c10468aa/calsum?format=md
 
-vrijdag 28 juli 2017
-zaterdag 29 juli 2017
-zondag 30 juli 2017
-maandag 31 juli 2017
 ```
+GET https://io-test.uitdatabank.be/events/8015d4dd-ec92-47ee-aa11-4e19685437e5/calsum?format=md
+
+Vrijdag 1 april 2022 (geannuleerd)
+```
+
+In the example above the status of the event is other than 'Available', and thus included in the calendar summary of the event. 
 
 **Small**
 ```
