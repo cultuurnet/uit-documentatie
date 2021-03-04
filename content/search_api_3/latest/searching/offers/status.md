@@ -52,7 +52,7 @@ Example to get results that have the status `Available`:
 GET https://search.uitdatabank.be/offers/?q=status:Available
 ```
 
-Example to get results that have the status `Unavailable` OR `TemporarilyUnavailable`:
+Example to get results that have the status `Available` OR `TemporarilyUnavailable`:
 
 ```
 GET https://search.uitdatabank.be/offers/?q=status:(Available OR TemporarilyUnavailable)
