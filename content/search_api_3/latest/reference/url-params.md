@@ -44,6 +44,7 @@
 | price | numeric | price=5 <br/> See [Price]({% link content/search_api_3/latest/searching/offers/price.md %}) |
 | q | Query string syntax| q=(wandeling OR wandelen) AND femma <br/> See [Advanced queries]({% link content/search_api_3/latest/reference/advanced-queries.md %}) and [offers/free-text-search]({% link content/search_api_3/latest/searching/offers/free-text-search.md %}) and [organizers/free-text-search]({% link content/search_api_3/latest/searching/organizers/free-text-search.md %}) |
 | regions | region id | regions=nis-24062 <br/> See [Geosearch]({% link content/search_api_3/latest/searching/offers/geosearch.md %}) |
+| status | enum | status=Unavailable <br/> See [Status]({% link content/search_api_3/latest/searching/offers/status.md %}) |
 | start | integer | start=10 <br/> See [Pagination]({% link content/search_api_3/latest/getting-started/pagination.md %}) |
 | sort | supported values: score, availableTo, created, modified / order: asc, desc | sort[availableTo]=asc <br/> See [Sorting]({% link content/search_api_3/latest/searching/offers/sorting.md %}) |
 | termIds | UiTdatabank taxonomy | termIds[]=0.55.0.0.0 <br/> See See See [Terms]({% link content/search_api_3/latest/searching/offers/terms.md %}) |
