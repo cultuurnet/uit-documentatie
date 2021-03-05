@@ -11,7 +11,7 @@ Onderstaande lijst van toegankelijkheidsvoorzieningen werd samengesteld in overl
 
 | Categorie | Toelichting | Identifier |
 | --- | --- | --- |
- Assistentie || 3.23.2.0.0 |
+ Assistentie | Assistentie voor personen met een handicap voorzien door de locatie of organisator zelf | 3.23.2.0.0 |
 | Rolstoel ter beschikking || 3.23.3.0.0 |
 | Blindenvoorzieningen | Infrastructuur ten behoeve van blinden en slechtzienden. | 3.13.0.0.0 |
  Voorzieningen voor assistentiehonden | Voorzieningen voor assistentiehonden | 3.13.1.0.0 |
