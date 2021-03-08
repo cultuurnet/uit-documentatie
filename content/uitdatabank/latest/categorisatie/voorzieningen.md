@@ -9,17 +9,31 @@ Binnen de categorisatie van UiTdatabank worden een aantal voorzieningen ondersch
 
 Onderstaande lijst van toegankelijkheidsvoorzieningen werd samengesteld in overleg met INTER. Deze voorzieningen zitten achter een permissiemodel en kunnen enkel toegevoegd worden door de daartoe vertrouwde partners. Organiseer je toegankelijke evenementen en wil je deze informatie ook plaatsen op je evenementen in UiTdatabank, neem dan contact op met vragen@uitdatabank.be.
 
-| Categorie | Toelichting | Identifier |
-| --- | --- | --- |
- Assistentie | Assistentie voor personen met een handicap voorzien door de locatie of organisator zelf | 3.23.2.0.0 |
-| Rolstoel ter beschikking || 3.23.3.0.0 |
+### Toegankelijkheidsvoorzieningen op locatieniveau
+Voorzieningen op locatieniveau zijn voorzieningen die permanent op de locatie aanwezig zijn. Deze voorzieningen zijn beschikbaar voor alle evenementen die doorgaan op de locatie.
+
+| Categorie | Toelichting | Identifier | 
+| --- | --- | --- | 
+| Contactpunt voor personen met een handicap | | 3.25.0.0.0 | 
+| Rolstoel ter beschikking | | 3.23.3.0.0 |
+| Parkeersplaats | Standplaats voor auto's waarvan één of meerdere passagiers een handicap hebben | 3.26.0.0.0 |
+| Voorzieningen voor assistentiehonden | Voorzieningen voor assistentiehonden | 3.13.1.0.0 |
+
+
+### Toegankelijkheidsvoorzieningen op eventniveau
+Voorzieningen die verschillen van event tot event.
+
+| Categorie | Toelichting | Identifier | 
+| --- | --- | --- | 
+| Assistentie | Assistentie voor personen met een handicap voorzien door de locatie of organisator zelf | 3.23.2.0.0 | 
+| Rolstoel ter beschikking | | 3.23.3.0.0 |
 | Blindenvoorzieningen | Infrastructuur ten behoeve van blinden en slechtzienden. | 3.13.0.0.0 |
- Voorzieningen voor assistentiehonden | Voorzieningen voor assistentiehonden | 3.13.1.0.0 |
+| Voorzieningen voor assistentiehonden | Voorzieningen voor assistentiehonden | 3.13.1.0.0 |
 | Audiodescriptie | Beschrijving van de visuele elementen (bv. bij een theaterstuk of sportwedstrijd) | 3.13.2.0.0 |
 | Ringleiding | Extra ondersteuning bij het luisteren naar een geluidsbron (bv. bij een concert) | 3.17.1.0.0 |
 | Voelstoelen | Een voelstoel zet geluid om in trillingen | 3.17.2.0.0 |
 | Boven- of ondertiteling | Boven- of ondertiteling voor doven of slechthorenden | 3.17.3.0.0 |
-| Contactpunt voor personen met een handicap || 3.25.0.0.0 |
+| Contactpunt voor personen met een handicap | | 3.25.0.0.0 |
 | Parkeerplaats | Standplaats voor auto's waarvan één of meerdere passagiers een handicap hebben | 3.26.0.0.0 |
 | Rolstoeltoegankelijk || 3.27.0.0.0 |
 | Alternatieve ingang | Alternatieve, toegankelijke ingang voor rolstoelgebruikers | 3.28.0.0.0 |
