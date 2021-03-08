@@ -9,7 +9,7 @@ Binnen de categorisatie van UiTdatabank worden een aantal voorzieningen ondersch
 
 Onderstaande lijst van toegankelijkheidsvoorzieningen werd samengesteld in overleg met INTER. Deze voorzieningen zitten achter een permissiemodel en kunnen enkel toegevoegd worden door de daartoe vertrouwde partners. Organiseer je toegankelijke evenementen en wil je deze informatie ook plaatsen op je evenementen in UiTdatabank, neem dan contact op met vragen@uitdatabank.be.
 
-### Toegankelijkheidsvoorzieningen op locatieniveau
+### Voorzieningen op locatieniveau
 Voorzieningen op locatieniveau zijn voorzieningen die permanent op de locatie aanwezig zijn. Deze voorzieningen zijn beschikbaar voor alle evenementen die doorgaan op de locatie.
 
 | Categorie | Toelichting | Identifier | 
@@ -20,7 +20,7 @@ Voorzieningen op locatieniveau zijn voorzieningen die permanent op de locatie aa
 | Voorzieningen voor assistentiehonden | Voorzieningen voor assistentiehonden | 3.13.1.0.0 |
 
 
-### Toegankelijkheidsvoorzieningen op eventniveau
+### Voorzieningen op eventniveau
 Voorzieningen die verschillen van event tot event.
 
 | Categorie | Toelichting | Identifier | 
