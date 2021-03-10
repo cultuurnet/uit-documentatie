@@ -67,10 +67,10 @@ a {
 .active > .toc-item-link {
 	color: $brand-primary;
 	font-weight: bold;
-	
-	::marker {
-	  font-weight: bold;
-	}
+}
+
+.toc-list-item.active::marker {
+    font-weight: bold;
 }
 
 .page {
