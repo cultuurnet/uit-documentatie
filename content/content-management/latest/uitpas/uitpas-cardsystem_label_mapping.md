@@ -10,7 +10,7 @@
 ## HTTP request
 
 ```
-GET /labels
+GET /labels/
 ```
 View the active cardSystem IDs and corresponding UiTPAS labels
 
