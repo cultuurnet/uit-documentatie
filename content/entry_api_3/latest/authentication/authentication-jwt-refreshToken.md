@@ -89,6 +89,7 @@ curl_setopt_array( ​$curl​, array(
     CURLOPT_URL =>
 "https://SERVER_URL/refresh?apiKey=API_KEY&refresh=REFRESH_TOKEN"​,
     CURLOPT_CUSTOMREQUEST => ​"GET"​,
+    CURLOPT_RETURNTRANSFER => true,
     CURLOPT_HTTPHEADER => array(
       ​"content-type: application/x-www-form-urlencoded"
     ),
