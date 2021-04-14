@@ -38,11 +38,11 @@ Parameters:
 | schoolConsumerKey | String | consumerKey van de school van deze pashouder |  |
 | ~~emailPreference~~ (REMOVED) | String | Dit veld mag niet meer gebruikt worden. Zie Opt-In Voorkeuren aanpassen |  |
 | ~~smsPreference~~ (REMOVED)| String | Dit veld mag niet meer gebruikt worden. Zie Opt-In Voorkeuren aanpassen |  |
-| optInServiceMails | boolean | true indien de pashouder service mails wil ontvangen, anders false. Let op: deze parameter mag NIET true zijn indien pashouder jongen dan 16 |  |
-| optInMilestoneMails | boolean | true indien de pashouder milestone mails wil ontvangen, anders false. Let op: deze parameter mag NIET true zijn indien pashouder jongen dan 16 |  |
-| optInInfoMails | boolean | true indien de pashouder info mails wil ontvangen, anders false. Let op: deze parameter mag NIET true zijn indien pashouder jongen dan 16 |  |
-| optInSms | boolean | true indien de pashouder sms wil ontvangen, anders false. Let op: deze parameter mag NIET true zijn indien pashouder jongen dan 16 |  |
-| optInPost | boolean | true indien de pashouder post wil ontvangen, anders false. Let op: deze parameter mag NIET true zijn indien pashouder jongen dan 16 |  |
+| optInServiceMails | boolean | true indien de pashouder service mails wil ontvangen, anders false. Let op: deze parameter MOET false zijn indien pashouder jongen dan 16 | *  |
+| optInMilestoneMails | boolean | true indien de pashouder milestone mails wil ontvangen, anders false. Let op: deze parameter MOET false zijn indien pashouder jongen dan 16 | *  |
+| optInInfoMails | boolean | true indien de pashouder info mails wil ontvangen, anders false. Let op: deze parameter MOET false zijn indien pashouder jongen dan 16 | *  |
+| optInSms | boolean | true indien de pashouder sms wil ontvangen, anders false. Let op: deze parameter MOET false zijn indien pashouder jongen dan 16 | *  |
+| optInPost | boolean | true indien de pashouder post wil ontvangen, anders false. Let op: deze parameter MOET false zijn indien pashouder jongen dan 16 | *  |
 | legalTermsPaper | boolean | true indien de pashouder de gebruikersvoorwaarden op papier heeft ontvangen |  |
 | legalTermsDigital | boolean | true indien de pashouder de gebruikersvoorwaarden via e-mail heeft ontvangen |  |
 | parentalConsent | boolean | true indien de er toestemming is van een ouder of voogd bij registratie van een minderjarige pashouder |  |
