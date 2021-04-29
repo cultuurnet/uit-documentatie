@@ -1,7 +1,7 @@
 ---
 ---
 
-# Daterange
+# Date
 ## Url parameters
 
 To search by date and time, you can use the `dateFrom` and `dateTo` URL parameters. Each one accepts an `ISO-8601` datetime, for example `2017-04-11T12:08:01+01:00`. A timezone offset is required, and will be taken into account. Both parameters are optional and have no default value.
