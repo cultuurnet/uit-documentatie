@@ -941,6 +941,7 @@
               href: "searching/offers/creator"
             - title: "Date and time"
               href: "searching/offers/date-time"
+              summary:
               - title: "Date"
                 href: "searching/offers/date-time/date"
               - title: "Time"
