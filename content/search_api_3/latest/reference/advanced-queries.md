@@ -59,10 +59,11 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | calendarType | String | Looks for complete matches |
 | createdRange | DateRange | See [Created and Modified]({% link content/search_api_3/latest/searching/offers/created-and-modified.md %}) |
 | creator | String | See [offers/creator]({% link content/search_api_3/latest/searching/offers/creator.md %}) and [organizers/creator]({% link content/search_api_3/latest/searching/organizers/creator.md %})|
-| dateRange | Date range | See [Date & time]({% link content/search_api_3/latest/searching/offers/date.md %}) |
+| dateRange | Date range | See [Date & time]({% link content/search_api_3/latest/searching/offers/date-time/date.md %}) |
 | description.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
 | labels | String | See [offers/labels]({% link content/search_api_3/latest/searching/offers/labels.md %}) and [organizers/labels]({% link content/search_api_3/latest/searching/organizers/labels.md %}). Looks for complete matches |
 | languages | String | See [Languages]({% link content/search_api_3/latest/searching/offers/languages.md %}) |
+| localTimeRange | Integer range | See [Time]({% link content/search_api_3/latest/searching/offers/date-time/time.md %}) |
 | location.id | String | Looks for complete matches. See [Id]({% link content/search_api_3/latest/searching/offers/id.md %}) |
 | location.name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
 | location.labels | String | Looks for complete matches |
