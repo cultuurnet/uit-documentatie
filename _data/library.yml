@@ -939,7 +939,7 @@
               href: "searching/offers/created-and-modified"
             - title: "Creator"
               href: "searching/offers/creator"
-            - title: "Date & time"
+            - title: "Date and time"
               href: "searching/offers/date-time"
               - title: "Date"
                 href: "searching/offers/date-time/date"
