@@ -29,6 +29,8 @@
 | labels | string | labels[]=paspartoe <br/> See [offers/labels]({% link content/search_api_3/latest/searching/offers/labels.md %}) and See [organizers/labels]({% link content/search_api_3/latest/searching/organizers/labels.md %}) |
 | languages | Supported values: nl, fr, de, en | languages[]=fr <br/> See [Languages]({% link content/search_api_3/latest/searching/offers/languages.md %}) |
 | limit | integer | limit=5 <br/> See [Pagination]({% link content/search_api_3/latest/getting-started/pagination.md %})|
+| localTimeFrom | integer | localTimeFrom=0800 <br/> See [Time]({% link content/search_api_3/latest/searching/offers/date-time/time.md %})|
+| localTimeTo | integer | localTimeTo=2259 <br/> See [Time]({% link content/search_api_3/latest/searching/offers/date-time/time.md %})|
 | locationId | uuid | locationId=b8bff8fa-988a-44db-8dd8-70bef77f3933 <br/> See [Id]({% link content/search_api_3/latest/searching/offers/id.md %}) |
 | locationTermIds | UiTdatabank taxonomy | locationTermIds[]=JCjA0i5COUmdjMwcyjNAFA <br/> See [Terms]({% link content/search_api_3/latest/searching/offers/terms.md %}) |
 | locationTermLabels | UiTdatabank taxonomy | locationTermLabels[]=Jeugdhuis of jeugdcentrum <br/> See [Terms]({% link content/search_api_3/latest/searching/offers/terms.md %}) |
