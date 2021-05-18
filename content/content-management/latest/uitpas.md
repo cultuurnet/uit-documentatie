@@ -25,10 +25,11 @@ Update price information of an event:
 - using the [JSON-LD CRUD API](https://documentatie.uitdatabank.be/content/json-ld-crud-api/latest/events/event-priceInfo.html)
 
 ## Calendar
-It is mandatory to include the start time and end time of the event.
+The UiTPAS check-in devices will take the start and end time of an event into account. 
+Therefore it is highly recommended to include the exact start time and end time of the event.
 
 UiTdatabank will fill up missing start and end hours as follows:
 - missing start time: ```00:00:00```
 - missing end time: ```23:59:59```
 
-The UiTPAS check-in devices will take this information into account.
+
