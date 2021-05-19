@@ -15,7 +15,7 @@ hierna komt u op de desktop van de android tablet uit.
 onder de settings app vind u in de afdeling netwerk een menu wifi, klik dit open en selecteer de wifi war u wenst mee te verbinden 
 ## Static IP 
 als er geen DHCP , kan u een static IP instellen. 
-u kan dit doen door in de settings app onder networks op "more2 te klikken en ethernet te kiezen.
+u kan dit doen door in de settings app onder networks op "more" te klikken en ethernet te kiezen.
 u ziet dan de huidige settings, en onderaan staat het type netwerk "ethernet IP mode" u kan deze aanpassen van DHCP naar static, en dan de nodige settings aanpassen ( IP , gateway, en DNS server) 
  
 
