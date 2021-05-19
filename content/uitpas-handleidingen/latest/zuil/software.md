@@ -3,7 +3,23 @@
 
 # Software architectuur van de UiTPAS-zuil
 
-De CID heeft als OS een Linux systeem (Raspbian, een versie van Debian) waar een Java FX applicatie op draait.
+De huidige CID bestaat uit een android tablet, waar android 7 op geintstaleerd is. 
+Op deze tablet draait dan een aplicatie die het scannen van kaarten regelt. 
+
+bij het opstarten van de tablet moet de balie medewerker de tablet ontsluiten met de code die gecomuniceerd is bij levering en dan de app toetsemming geven om kaarten te scannen door op OK te klikken. 
+
+U kan de tablet beheren door de app te sluiten 
+Men doet dit door in de app op de linkerbovenhoek van het scherm te klikken. dan de code in te geven en te "unpinnen" door tegelijk op direhoekje en vierkante in de benedenbalk te klikken. hierna ontsluit u de tablet (met diezelfde code) en klikt U daarna op het bolletje (in het midden onderaan) 
+hierna komt u op een normale android tablet desktop uit en kan u vie de settings app de verschillende instellinegn beheren. 
+
+
+
+
+
+## oude CID 
+
+
+De vorige versie van de CID heeft als OS een Linux systeem (Raspbian, een versie van Debian) waar een Java FX applicatie op draait.
 
 Het management op OS niveau van de CID gebeurt via ssh (pi@ipadress). Het IP-adres wordt weergegeven tijdens het opstarten van de zuil.
 
