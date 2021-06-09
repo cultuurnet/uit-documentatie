@@ -4,7 +4,7 @@
 # Netwerk vereisten voor de UiTPAS-zuil
 
 
-Achter op het toetsel vind U een ethernet aansluiting, waar U een netwerk-kabel kan aansluiten 
+** Achter op het toetsel vind U een ethernet aansluiting, waar U een netwerk-kabel kan aansluiten ** 
 het toetsel verwacht een netwerk dat via DHCP de nodige instellingen uitdeeld. De overgrote meerderheid netwerken werken met DHCP voor het uitdelen van settings 
 
 om de settings aan te passen moeten we eerst de app verlaten. 
