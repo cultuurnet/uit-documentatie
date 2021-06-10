@@ -2,10 +2,19 @@
 ---
 
 # Event - mediaObject & main image
+Mandatory properties:
+* `@id`
+* `description`
+* `copyrightHolder`
+* `inLanguage`
 
-* Can contain one or more mediaObjects
-* `@type` is optional: defaults to `schema:ImageObject` (it is not possible to add videos)
-* the main image is automatically set to the first mediaObject in the array
+Optional properties:
+* `type`. It defaults to `schema:ImageObject` (it is not possible to add videos)
+* `contentUrl`
+* `thumbnailUrl`
+
+It is possible to include more than one mediaObject.
+The main image is automatically set to the first mediaObject in the array.
 
 See JSON-LD api documentation to [create a mediaObject]({% link content/json-ld/latest/images/image-post.md %}).
 
