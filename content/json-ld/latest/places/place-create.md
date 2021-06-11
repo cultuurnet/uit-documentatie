@@ -34,6 +34,7 @@ See specific update requests for definitions of each property
 ## Response
 
 If successful, this method returns a `201` response code and a placeId and url in the response body.
+Keep this placeId in order to perform other requests on this specific place later on (publish, update or delete).
 
 ## Example
 
