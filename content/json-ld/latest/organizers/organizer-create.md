@@ -35,6 +35,7 @@ See specific PUT requests for definitions of each property
 ## Response
 
 If successful, this method returns a `201` response code and a organizerId and url in the response body.
+Keep this organizerId in order to perform other requests on this specific organizer later on (publish, update or delete).
 
 ## Example
 
