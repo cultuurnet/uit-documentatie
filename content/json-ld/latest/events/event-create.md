@@ -35,6 +35,7 @@ See individual PUT requests for definitions of each property.
 ## Response
 
 If successful, this method returns a `201` response code and a eventId and url in the response body.
+Keep this eventId in order to perform other requests on this specific event later on (publish, update or delete).
 
 ## Example
 
