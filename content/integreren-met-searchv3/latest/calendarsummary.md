@@ -13,6 +13,8 @@ With the calendar summary in Search API 3 you can expand the JSON response with 
 * For one result (offer)
 * For all results (offers) in the reponse
 
+It is possible to request multiple formats at once.
+
 ### Recommended use
 * You can use the `embedCalendarSummaries` parameter with or without `embed=true`
 * We recommend to use the format `md` for the search results (and `lg` for events with calendarType `single`), and always use `lg` for the detailpage.
@@ -32,6 +34,7 @@ https://search.uitdatabank.be/{events|places|offers}
 | embedCalendarSummaries (html) | optional | string  | 'xs-hmtl', 'sm-html', 'md-html' or 'lg-html' | ?embedCalendarSummaries[]=lg-html |
 
 Past dates are hidden by default & the response will always be multilingual.
+Note that is possible to request multiple formats at once (see examples below)
 
 #### Examples
 **xs-text**
