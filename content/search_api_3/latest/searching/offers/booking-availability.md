@@ -25,7 +25,7 @@ GET https://search.uitdatabank.be/offers/?bookingAvailability=Available
 
 If used on its own, it will filter on the top-level status of the events/places.
 
-If used in combination with `dateFrom` and/or `dateTo` (see [date & time](https://documentatie.uitdatabank.be/content/search_api_3/latest/searching/offers/date.html)) it will combine the given status(es) with the given dateFrom and/or dateTo to query on subEvents, so you'll only get results that actually have the given bookingAvailability during the given date range.
+If used in combination with `dateFrom` and/or `dateTo` (see [date & time](https://documentatie.uitdatabank.be/content/search_api_3/latest/searching/offers/date.html)) it will combine the given availability with the given dateFrom and/or dateTo to query on subEvents, so you'll only get results that actually have the given bookingAvailability during the given date range.
 
 Example to get results that have the bookingAvailability `Available` on the 5th of may 2022:
 
