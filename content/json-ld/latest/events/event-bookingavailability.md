@@ -3,7 +3,7 @@
 
 # Event - bookingAvailability
 
-The bookingAvailability indicates whether there are still tickets or seats available for an event The following values for 'bookingAvailability' are applicable:
+The bookingAvailability indicates whether there are still tickets or seats available for an event. The following values for 'bookingAvailability' are applicable:
 * `available`: there are still tickets or seats left for the event, or the capacity for the event is unlimited.
 * `unavailable`: the event is sold out or fully booked.
 
