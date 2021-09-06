@@ -80,21 +80,26 @@ The following are example responses.
 ```
 
 ```
-400 Bad Request
-
 {
-    "validation_messages": {
-        "type": "Invalid type provided"
-    },
-    "title": "Invalid payload.",
-    "type": "about:blank"
+    "type": "https://api.publiq.be/probs/body/invalid-data",
+    "title": "Invalid body data",
+    "status": 400,
+    "schemaErrors": [
+        {
+            "jsonPointer": "/type",
+            "error": "The data should match one item from enum"
+        }
+    ]
 }
 ```
 
 ```
-401 Unauthorized
-
-Token claims validation failed. This most likely means the token is expired.
+{
+    "type": "https://api.publiq.be/probs/auth/unauthorized",
+    "title": "Unauthorized",
+    "status": 401,
+    "detail": "Token expired (or not yet usable)."
+}
 ```
 
 
