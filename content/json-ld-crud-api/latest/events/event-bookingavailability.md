@@ -14,7 +14,7 @@ It is possible to set the bookingAvailability on top event level or on subEvent 
 ## Scope
 
 It is possible to set a bookingAvailability for the calendarTypes `single`or `multiple`. 
-It is **not** possible to set a bookingAvailability for events with calendarType `permanent` or `periodic`. 
+It is **not** possible to change the bookingAvailability for events with calendarType `permanent` or `periodic`. They always have a `bookingAvailability` that is set to `Available`.
 
 ## Set status on top event level
 
