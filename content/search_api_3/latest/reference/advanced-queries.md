@@ -56,6 +56,7 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | allAges | Boolean | See [Age]({% link content/search_api_3/latest/searching/offers/age.md %}) |
 | audienceType | String | See [Audience type]({% link content/search_api_3/latest/searching/offers/audience-type.md %}) |
 | availableRange | Date range | See [Availability]({% link content/search_api_3/latest/searching/offers/availability.md %}) |
+| bookingAvailability | Enum | See [Booking availability]({% link content/search_api_3/latest/searching/offers/booking-availability.md %}) |
 | calendarType | String | Looks for complete matches |
 | createdRange | DateRange | See [Created and Modified]({% link content/search_api_3/latest/searching/offers/created-and-modified.md %}) |
 | creator | String | See [offers/creator]({% link content/search_api_3/latest/searching/offers/creator.md %}) and [organizers/creator]({% link content/search_api_3/latest/searching/organizers/creator.md %})|
