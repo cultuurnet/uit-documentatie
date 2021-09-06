@@ -137,7 +137,8 @@ Update the bookingAvailability of one or more subEvents.
 
 * `204 No Content` : request successful
 * `400 Bad Request` : incorrect method, payload or URI
-* `401 Unauthorized` : expired JWT or the user behind the JWT does not have permission to perform this request
+* `401 Unauthorized` : expired JWT 
+* `403 Forbidden`: the user behind the JWT does not have permission to perform this request
 
 ### Example
 
@@ -202,20 +203,39 @@ The following are example responses.
 ```
 
 ```
-400 Bad Request
-
 {
-    "validation_messages": {
-        "type": "Invalid type provided"
-    },
-    "title": "Invalid payload.",
-    "type": "about:blank"
+    "type": "https://api.publiq.be/probs/body/invalid-data",
+    "title": "Invalid body data",
+    "status": 400,
+    "schemaErrors": [
+        {
+            "jsonPointer": "/0/bookingAvailability",
+            "error": "The required properties (type) are missing"
+        }
+    ]
 }
 ```
 
 ```
-401 Unauthorized
+{
+    "type": "https://api.publiq.be/probs/body/invalid-data",
+    "title": "Invalid body data",
+    "status": 400,
+    "schemaErrors": [
+        {
+            "jsonPointer": "/0/bookingAvailability/type",
+            "error": "The data should match one item from enum"
+        }
+    ]
+}
+```
 
-Token claims validation failed. This most likely means the token is expired.
+```
+{
+    "type": "https://api.publiq.be/probs/auth/unauthorized",
+    "title": "Unauthorized",
+    "status": 401,
+    "detail": "Token expired (or not yet usable)."
+}
 ```
 
