@@ -53,7 +53,8 @@ Update the bookingAvailability of the top event.
 
 * `204 No Content` : request successful
 * `400 Bad Request` : incorrect method, payload or URI
-* `401 Unauthorized` : expired JWT or the user behind the JWT does not have permission to perform this request
+* `401 Unauthorized` : expired JWT 
+* `403 Forbidden`: the user behind the JWT does not have permission to perform this request
 
 ### Example
 
