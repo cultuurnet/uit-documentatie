@@ -47,7 +47,7 @@ Update the bookingAvailability of the top event.
 | Property	| Type | Description | Example |
 |--|--|--|--|
 | bookingAvailability	| object |  |  |
-| type	| string | bookingAvailability of the event. possible vallues: `Available`, `Unavailable` | Unavailable |
+| type	| string | bookingAvailability of the event. possible values: `Available`, `Unavailable` | Unavailable |
 
 ### Response
 
