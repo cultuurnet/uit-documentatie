@@ -9,7 +9,7 @@ The bookingAvailability indicates whether there are still tickets or seats avail
 
 It is possible to set the bookingAvailability on top event level or on subEvent level:
 * **top event level**: for the whole event and all its subEvents (occurences). All subEvents will inherit the bookingAvailability from the top event level
-* **subEvent level**: for a one or multiple subEvent(s). The bookingAvailability on top event level will automtically be derived from the (different) bookingAvailability values on subEvent level.
+* **subEvent level**: for one or multiple subEvent(s). The bookingAvailability on top event level will automatically be derived from the (different) bookingAvailability values on subEvent level.
 
 ## Scope
 
