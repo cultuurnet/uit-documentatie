@@ -4,8 +4,8 @@
 # Event - bookingAvailability
 
 The bookingAvailability indicates whether there are still tickets or seats available for an event. The following values for 'bookingAvailability' are applicable:
-* `available`: there are still tickets or seats left for the event, or the capacity for the event is unlimited.
-* `unavailable`: the event is sold out or fully booked.
+* `Available`: there are still tickets or seats left for the event, or the capacity for the event is unlimited.
+* `Unavailable`: the event is sold out or fully booked.
 
 It is possible to set the bookingAvailability on top event level or on subEvent level:
 * **top event level**: for the whole event and all its subEvents (occurences). All subEvents will inherit the bookingAvailability from the top event level
@@ -36,8 +36,8 @@ When UiTdatabank calculates the bookingAvailability for the top event level, the
 
 | bookingAvailability subEvents | Derived bookingAvailability on top event level |
 | ------------- | ---------------- | 
-| All available | available | 
-| All unavailable | unavailable | 
+| All available | Available | 
+| All unavailable | Unavailable | 
 | Mixed | available | 
 
 
