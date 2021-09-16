@@ -23,3 +23,12 @@ jobs:
 
       - name: Run tests
         run: bundle exec rake test
+
+      - name: Slack notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_CHANNEL: documentatie-github
+          SLACK_COLOR: ${{ job.status }}
+          SLACK_ICON_EMOJI: :octocat:
+          SLACK_USERNAME: Github Actions
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
