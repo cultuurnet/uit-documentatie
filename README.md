@@ -1,4 +1,4 @@
-# [UiT Documentatie](http://documentatie.uitdatabank.be) [![Build Status](https://github.com/cultuurnet/uit-documentatie/actions/workflows/ci.yml/badge.svg)](https://github.com/cultuurnet/uit-documentatie/actions?query=workflow%3ACI
+# [UiT Documentatie](http://documentatie.uitdatabank.be) [![Build Status](https://github.com/cultuurnet/uit-documentatie/actions/workflows/ci.yml/badge.svg)](https://github.com/cultuurnet/uit-documentatie/actions?query=workflow%3ACI)
 
 A Jekyll based site providing documentation for developers to get started using UiTDatabank.
 
