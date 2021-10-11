@@ -175,5 +175,5 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
     "hiddenLabel1",
     "hiddenLabel2"
   ]
-}
+}'
 ```
