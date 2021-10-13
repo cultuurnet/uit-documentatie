@@ -38,7 +38,7 @@ POST /events/{eventId}/videos
 
 ## Request body
 
-Add an image to an offer
+Add a video to an event
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
