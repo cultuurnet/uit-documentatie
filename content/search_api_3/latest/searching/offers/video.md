@@ -16,4 +16,9 @@ For example, all events and places that have at least one video:
 GET https://search.uitdatabank.be/offers/?q=_exists_:videos
 ```
 
+Or, all events and places that don't have video:
+
+```
+GET https://search.uitdatabank.be/offers/?q=!_exists_:videos
+```
 
