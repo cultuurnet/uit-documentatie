@@ -42,7 +42,7 @@ Add an image to a place
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
-| url	| url | url of the video | https://www.youtube.com/watch?v=Xw5AiRVqfqk |
+| url	| url | url of the video | `https://www.youtube.com/watch?v=Xw5AiRVqfqk` |
 | language	| string | 2-character language reference | nl |
 | copyrightHolder	| string | copyrightHolder for the video | BMI - Broadcast Music Inc |
 
