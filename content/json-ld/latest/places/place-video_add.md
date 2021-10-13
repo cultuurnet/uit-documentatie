@@ -38,7 +38,7 @@ POST /places/{placeId}/videos
 
 ## Request body
 
-Add an image to a place
+Add a video to a place
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
