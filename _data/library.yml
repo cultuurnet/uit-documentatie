@@ -549,6 +549,8 @@
               href: "events/event-status"
             - title: "typicalAgeRange"
               href: "events/event-typicalAgeRange"
+            - title: "video"
+              href: "events/event-video"
         - title: "Add and update places"
           href: "places"
           summary:
@@ -582,6 +584,8 @@
               href: "places/place-priceInfo"
             - title: "typicalAgeRange"
               href: "places/place-typicalAgeRange"
+            - title: "video"
+              href: "places/place-video"
 - title: "Content management"
   description: "Instructions on content management when using the JSON-LD (CRUD) API"
   path: "content/content-management/"
