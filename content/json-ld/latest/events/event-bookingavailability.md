@@ -67,7 +67,7 @@ Authorization: Bearer {token}
 X-Api-Key: {apiKey}
 
 {
-   "type":"Unavailable",
+   "type":"Unavailable"
 }
 ```
 
