@@ -3,6 +3,8 @@
 
 # Update specific cardsystem for an event
 
+**!These endpoints may only be used for specific use cases where not every event from the organizer is applicable for all card systems of the organizer!**
+
 ## Host
 
  For documentation on UiTPAS base url, go [here]({% link content/entry_api_3/latest/authentication/authentication-baseUrl.md %})
