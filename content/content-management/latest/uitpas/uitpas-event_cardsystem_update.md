@@ -3,7 +3,9 @@
 
 # Update specific cardsystem for an event
 
-**!These endpoints may only be used for specific use cases where not every event from the organizer is applicable for all card systems of the organizer!**
+According to the philosophy of UiTPAS, all events of an UiTPAS organizer are by default UiTPAS events. With these endpoints you can deviate from that basic principle. 
+
+**!Note that these endpoints may thus only be used for specific use cases where not every event from the organizer is applicable for all card systems of the organizer!**
 
 ## Host
 
