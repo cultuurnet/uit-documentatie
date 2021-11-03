@@ -162,7 +162,7 @@ X-Api-Key: {apiKey}
    {
       "id":0,
       "bookingAvailability":{
-         "type":"Unavailable",
+         "type":"Unavailable"
       }
    }
 ]
@@ -181,19 +181,19 @@ X-Api-Key: {apiKey}
   {
     "id": 0,
 	"bookingAvailability": {
-	  "type": "Unavailable",
+	  "type": "Unavailable"
 	}
   },
   {
     "id": 1,
 	"bookingAvailability": {
-	  "type": "Unavailable",
+	  "type": "Unavailable"
 	}
   },
     {
     "id": 2,
 	"bookingAvailability": {
-	  "type": "Available",
+	  "type": "Available"
 	}
   }
 ]
