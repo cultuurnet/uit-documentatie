@@ -30,7 +30,7 @@ POST /events/{eventId}/videos
 ## Resource properties
 
 | Property	| Type | Description | Example |
-|--|--|--|--|
+| -- | -- | -- | -- |
 | eventId	| uuid | unique identifier for an event | d595414a-13e0-4dd2-b4bd-706599427351 |
 
 ## Request body
@@ -38,8 +38,7 @@ POST /events/{eventId}/videos
 Add a video to an offer
 
 | Property	| Type | Description | Example |
-|--|--|--|--|
-| url	| url | url of the video | https://www.youtube.com/watch?v=Xw5AiRVqfqk |
+| -- | -- | -- | -- |
 | url	| url | url of the video | `https://www.youtube.com/watch?v=Xw5AiRVqfqk` |
 | language	| string | 2-character language reference | nl |
 | copyrightHolder	| string | copyrightHolder for the video | BMI - Broadcast Music Inc |
