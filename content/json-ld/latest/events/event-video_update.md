@@ -1,7 +1,7 @@
 ---
 ---
 
-# Update video
+# Update or remove video
 Update or remove a video from an event
 
 
