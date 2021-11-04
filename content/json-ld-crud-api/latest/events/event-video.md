@@ -16,7 +16,7 @@ Add, update or delete one or more videos from an event:
 
 Note that currently only urls from YouTube or Vimeo are allowed.
 
-## Optional properties:
+## Optional properties
 ### copyrightHolder
 
 If no copyrightHolder is added to the video, UiTdatabank will add a default copyrightHolder, depending on the value of the language property.
