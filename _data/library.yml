@@ -402,7 +402,7 @@
             - title: "Set main image"
               href: "events/event-image_main"
             - title: "Add video"
-              href: "events/event-image_add"
+              href: "events/event-video_add"
             - title: "Update video"
               href: "events/event-video_update"
             - title: "Update target audience"
