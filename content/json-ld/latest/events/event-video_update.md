@@ -8,7 +8,7 @@ Update or remove a video from an event
 ## HTTP request
 
 ```
-PUT /events/{eventId}/videos/{videoId}
+PATCH /events/{eventId}/videos/{videoId}
 ```
 
 Update an existing video
@@ -50,11 +50,27 @@ Delete video from an event
 * `401 Unauthorized` : expired JWT or the user behind the JWT does not have permission to perform this request
 
 ## Example
+### Update video
+```
+PATCH https://io-test.uitdatabank.be/events/bc0256fc-dfce-41b0-9e49-58d4228086b0/videos
+Content-Type: application/json
+Authorization: Bearer {token}
+X-Api-Key: {apiKey}
 
+{
+  "id": "2859b9ee-dac0-4b10-aa51-c76e544a3edd",
+  "url": "https://www.youtube.com/watch?v=III-4241",
+  "language": "nl"
+}
+```
+
+**response**
+```
+204 No Content
+```
+
+### Delete video
 **request**
-
-The following is an example of the request
-
 ```
 DELETE https://io-test.uitdatabank.be/events/bc0256fc-dfce-41b0-9e49-58d4228086b0/videos/31416643-6c5d-4e08-a2a2-2b663bd2443c
 Content-Type: application/json
@@ -63,9 +79,6 @@ X-Api-Key: {apiKey}
 ```
 
 **Response**
-
-The following are example responses.
-
 ```
 204 No Content
 ```
