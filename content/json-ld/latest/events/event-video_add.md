@@ -5,7 +5,8 @@
 Video must contain the following properties:
 * url
 * language
-Not that currently only urls from YouTube or Vimeo are allowed.
+
+Note that currently only urls from YouTube or Vimeo are allowed.
 Optionally, a copyrightHolder can be added. If no copyrightHolder is added to the video, UiTdatabank will add a default copyrightHolder, depending on the value of the language property.
 
 | NL            | FR               | EN        | DE |
@@ -13,11 +14,13 @@ Optionally, a copyrightHolder can be added. If no copyrightHolder is added to th
 | Copyright afgehandeld door {name video platform} | Droits d'auteur gérés par {name video platform} | Copyright handled by {name video platform} | Urheberrecht gehandhabt von {name video platform} |
 
 ## HTTP request
+
 ```
 POST /events/{eventId}/videos
 ```
 
 ## Request headers
+
 | Header        | Value            | Required? |
 | ------------- | ---------------- | --------- |
 | Authorization | Bearer {token}   | true      |
@@ -25,11 +28,13 @@ POST /events/{eventId}/videos
 | Content-Type  | application/json | false     |
 
 ## Resource properties
+
 | Property	| Type | Description | Example |
 |--|--|--|--|
 | eventId	| uuid | unique identifier for an event | d595414a-13e0-4dd2-b4bd-706599427351 |
 
 ## Request body
+
 Add a video to an offer
 
 | Property	| Type | Description | Example |
@@ -40,13 +45,14 @@ Add a video to an offer
 | copyrightHolder	| string | copyrightHolder for the video | BMI - Broadcast Music Inc |
 
 ## Response
+
 * `200 OK` : request successful
 * `400 Bad Request` : incorrect method, payload or URI
 * `401 Unauthorized` : expired JWT or the user behind the JWT does not have permission to perform this request
 
 ## Example
+
 **request**
-The following is an example of the request
 
 ```
 POST 'https://io-test.uitdatabank.be/events/78c80acf-f1ff-4015-a578-25e395b4fc5b/videos
@@ -58,7 +64,7 @@ POST 'https://io-test.uitdatabank.be/events/78c80acf-f1ff-4015-a578-25e395b4fc5b
 ```
 
 **Response**
-The following are example responses.
+
 
 ```
 204 No Content
