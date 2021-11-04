@@ -30,7 +30,7 @@ POST /events/{eventId}/videos
 | eventId	| uuid | unique identifier for an event | d595414a-13e0-4dd2-b4bd-706599427351 |
 
 ## Request body
-Add an image to an offer
+Add a video to an offer
 
 | Property	| Type | Description | Example |
 |--|--|--|--|
@@ -98,11 +98,4 @@ The following are example responses.
 Token claims validation failed. This most likely means the token is expired.
 ```
 
-```
-401 Unauthorized
-{
-    "title": "User with id: 12345678-abcd-1234-12ab-123abc123abc has no permission: \"Aanbod bewerken\" on item: 12345678-abcd-1234-12ab-123abc123abc when executing command: CultuurNet\\UDB3\\Event\\Commands\\AddImage",
-    "type": "about:blank",
-    "status": 401
-}
-```
+
