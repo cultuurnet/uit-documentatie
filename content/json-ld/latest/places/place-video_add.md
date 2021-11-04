@@ -7,7 +7,7 @@ Video must contain the following properties:
 * url
 * language
 
-Not that currently only urls from YouTube or Vimeo are allowed.
+Note that currently only urls from YouTube or Vimeo are allowed.
 Optionally, a copyrightHolder can be added. If no copyrightHolder is added to the video, UiTdatabank will add a default copyrightHolder, depending on the value of the language property.
 
 | NL            | FR               | EN        | DE |
