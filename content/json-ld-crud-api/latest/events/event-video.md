@@ -3,15 +3,20 @@
 
 # Event - video
 
-It is possible to include more than one video.
+Add, update or delete one or more videos from an event:
+* **Add**: Importing a video without an id will create add a new video to the event
+* **Update:** 
+	* Importing a video with an id that does not exist will add a new video to the event
+	* Importing a video with an id that does exist will update the existing video on the event
+* **Deleting:** importing less videos will result in deleting videos from the event
 
-Mandatory properties:
+**Mandatory properties:**
 * url 
 * language
 
 Note that currently only urls from YouTube or Vimeo are allowed.
 
-Optional properties:
+**Optional properties:**
 * copyrightHolder
 * id (but mandatory for updating existing videos)
 
@@ -20,7 +25,6 @@ If no copyrightHolder is added to the video, UiTdatabank will add a default copy
 | NL            | FR               | EN        | DE |
 | ------------- | ---------------- | --------- | --- |
 | Copyright afgehandeld door {name video platform} | Droits d'auteur gérés par {name video platform} | Copyright handled by {name video platform} | Urheberrecht gehandhabt von {name video platform} |
-
 
 **Example**
 
