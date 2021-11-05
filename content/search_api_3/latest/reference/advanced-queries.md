@@ -82,7 +82,7 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | terms.id | String | Looks for complete matches |
 | terms.label | String | Looks for complete matches |
 | typicalAgeRange | Integer range | See [Age]({% link content/search_api_3/latest/searching/offers/age.md %}) |
-| videosCount | Integer  | See [Videos]({% link content/search_api_3/latest/searching/offers/videos.md %}) |
+| videosCount | Integer  | See [Videos]({% link content/search_api_3/latest/searching/offers/video.md %}) |
 | workflowStatus | Enum \(String\) | See [Workflow status]({% link content/search_api_3/latest/searching/offers/workflow-status.md %}) |
 
 ### Notes
