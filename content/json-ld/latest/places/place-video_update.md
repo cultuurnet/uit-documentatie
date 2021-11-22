@@ -8,7 +8,7 @@ Update or remove a video from a place
 ## HTTP request
 
 ```
-PATCH /places/{placeId}/videos/{videoId}
+PATCH /places/{placeId}/videos
 ```
 
 Update an existing video
@@ -57,11 +57,13 @@ Content-Type: application/json
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
 
+[
 {
   "id": "2859b9ee-dac0-4b10-aa51-c76e544a3edd",
   "url": "https://www.youtube.com/watch?v=III-4241",
   "language": "nl"
 }
+]
 ```
 
 **response**
