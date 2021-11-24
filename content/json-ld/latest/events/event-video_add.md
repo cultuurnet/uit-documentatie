@@ -67,6 +67,10 @@ POST 'https://io-test.uitdatabank.be/events/78c80acf-f1ff-4015-a578-25e395b4fc5b
 
 ```
 204 No Content
+
+{
+    "videoId": "10993011-4df3-4111-bc9a-44097799bedf"
+}
 ```
 
 ```
