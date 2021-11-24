@@ -74,6 +74,10 @@ The following are example responses.
 
 ```
 204 No Content
+
+{
+    "videoId": "10993011-4df3-4111-bc9a-44097799bedf"
+}
 ```
 
 ```
