@@ -423,6 +423,8 @@
               href: "events/event-facility"
             - title: "Publish event"
               href: "events/event-publish"
+            - title: "Update publication date"
+              href: "events/update-publication-date"
             - title: "Delete event"
               href: "events/event-delete"
         - title: "Manage places"
@@ -472,6 +474,8 @@
               href: "places/place-facility"
             - title: "Publish place"
               href: "places/place-publish"
+            - title: "Update publication date"
+              href: "places/update-publication-date"
         - title: "Manage organizers"
           href: "organizers"
           summary:
