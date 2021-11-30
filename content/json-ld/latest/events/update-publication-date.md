@@ -3,7 +3,7 @@
 
 # Update the publication date
 
-Once set, it is possible to change the publication date of an event to a date equal to the now-date or a date in the future. 
+It is possible to change the publication date of an event to a date equal to the current date or a date in the future. 
 If a date in the past is used, UiTdatabank will automatically set the publication date to the current date.
 
 
@@ -19,7 +19,7 @@ PUT /events/{eventId}/available-from
 | ------------- | ---------------- | --------- |
 | Authorization | Bearer {token}   | true      |
 | X-Api-Key     | {apiKey}         | true      |
-| Content-Type  | application/ld+json;domain-model=Publish | true |
+| Content-Type  | application/ld+json | true |
 
 The supplied token must be from the creator of the offer!
 
@@ -50,7 +50,7 @@ The following requests are example requests
 
 **date in the past**
 
-In the example below, a date in the past is used, so the new availableFrom will be automatically set to the now-date
+In the example below, a date in the past is used, so the new availableFrom will be automatically set to the current date
 ```
 PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/available-from
 Content-Type: application/ld+json;domain-model=Publish
