@@ -64,7 +64,7 @@ X-Api-Key: {apiKey}
 
 **date in the future**
 
-In the example below, a date in the future is used, meaning that the event will not be published in the API until that date.
+In the example below, a date in the future is used, meaning that the event will not be published until that date.
 ```
 PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/available-from
 Content-Type: application/ld+json;domain-model=Publish
