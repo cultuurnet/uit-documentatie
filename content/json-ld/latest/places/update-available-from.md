@@ -3,7 +3,7 @@
 
 # Update the publication date
 
-Once set, it is possible to change the publication date of a place to a date equal to the now-date or a date in the future. 
+It is possible to change the publication date of a place to a date equal to the current date or a date in the future. 
 If a date in the past is used, UiTdatabank will automatically set the publication date to the current date.
 
 
@@ -64,7 +64,7 @@ X-Api-Key: {apiKey}
 
 **date in the future**
 
-In the example below, a date in the future is used, meaning that the place will not be published in the API until that date.
+In the example below, a date in the future is used, meaning that the place will not be published until that date.
 ```
 PUT https://io-test.uitdatabank.be/places/a848fe38-1008-404f-bade-e0e84e5f23ec/available-from
 Content-Type: application/ld+json;domain-model=Publish
