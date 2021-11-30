@@ -1,10 +1,10 @@
 ---
 ---
 
-# Update the publication date
+# Update the available from
 
 It is possible to change the available from of a place to a date equal to the current date or a date in the future. 
-If a date in the past is used, UiTdatabank will automatically set the publication date to the current date.
+If a date in the past is used, UiTdatabank will automatically set the available from to the current date.
 
 
 ## HTTP request
