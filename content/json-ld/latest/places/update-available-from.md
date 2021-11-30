@@ -19,7 +19,7 @@ PUT /places/{placeId}/available-from
 | ------------- | ---------------- | --------- |
 | Authorization | Bearer {token}   | true      |
 | X-Api-Key     | {apiKey}         | true      |
-| Content-Type  | application/ld+json;domain-model=Publish | true |
+| Content-Type  | application/ld+json | true |
 
 The supplied token must be from the creator of the offer!
 
