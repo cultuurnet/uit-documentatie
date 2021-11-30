@@ -53,7 +53,7 @@ The following requests are example requests
 In the example below, a date in the past is used, so the new availableFrom will be automatically set to the current date
 ```
 PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/available-from
-Content-Type: application/ld+json;domain-model=Publish
+Content-Type: application/ld+json
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
 
@@ -67,7 +67,7 @@ X-Api-Key: {apiKey}
 In the example below, a date in the future is used, meaning that the event will not be published until that date.
 ```
 PUT https://io-test.uitdatabank.be/events/03116768-1abc-405a-93d7-ba6ede52fe09/available-from
-Content-Type: application/ld+json;domain-model=Publish
+Content-Type: application/ld+json
 Authorization: Bearer {token}
 X-Api-Key: {apiKey}
 
