@@ -2,9 +2,10 @@
 ---
 # Taalinstellingen
 Standaard wordt de eventinformatie getoond in het Nederlands. Via de taalinstellingen kan je de taal waarin de eventinformatie getoond wordt aanpassen. 
-Naast het Nederlands bieden we twee andere talen aan:
+Naast het Nederlands bieden we drie andere talen aan:
 - Frans
 - Engels
+- Duits
 
 ## De taalinstellingen van je widget-pagina aanpassen
 De taalinstellingen bevinden zich op pagina-niveau en vind je dus rechts in de dropdown naast elke pagina:
@@ -45,9 +46,9 @@ Zoeken naar events waarvan hoofdtaal Frans is:
 mainLanguage:fr
 ```
 
-Zoeken naar events waarvan de hoofdtaal Engels is:
+Zoeken naar events waarvan de hoofdtaal Duits is:
 ```
-mainLanguage:en
+mainLanguage:de
 ```
 
 Meer informatie over zoeken met language-parameters vind je [hier](https://documentatie.uitdatabank.be/content/search_api_3/latest/searching/offers/languages.html).
