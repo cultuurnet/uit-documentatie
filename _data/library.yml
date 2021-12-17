@@ -993,6 +993,8 @@
               href: "searching/offers/media-objects"
             - title: "Metadata"
               href: "searching/offers/metadata"
+            - title: "Name"
+              href: "searching/offers/name"
             - title: "Price"
               href: "searching/offers/price"
             - title: "Sorting"
