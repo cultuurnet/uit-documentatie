@@ -7,10 +7,11 @@ Using the advanced query parameter `name`, you can search for an exact or partia
 Likewise you can search for `location.name` to find events that take place on a certain location, or `organizer.name` to search events or places that have a certain organizer.
 
 ## Use
+
 |                      | `/offers` | `/events` | `/places` | `/organizers` |
 | -------------------- | --------- | --------- | --------- | ------------- |
 | `name.{lg}`          | x         | x         | x         | x             |
-| `organizer.name.{lg}`  |      x     |     x      |     x      |          |
+| `organizer.name.{lg}`|      x    |     x     |     x     |               |
 | `location.name.{lg}` | x         | x         |           |               |
 
 
