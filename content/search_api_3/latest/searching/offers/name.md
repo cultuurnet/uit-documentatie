@@ -8,11 +8,11 @@ Likewise you can search for `location.name` to find events that take place on a 
 
 ## Use
 
-|                      | `/offers` | `/events` | `/places` | `/organizers` |
-| -------------------- | --------- | --------- | --------- | ------------- |
-| `name.{lg}`          | x         | x         | x         | x             |
-| `organizer.name.{lg}`|      x    |     x     |     x     |               |
-| `location.name.{lg}` | x         | x         |           |               |
+|                        | `/offers` | `/events` | `/places` | `/organizers` |
+| --------------------   | --------- | --------- | --------- | ------------- |
+| `name.{lang}`          | x         | x         | x         | x             |
+| `organizer.name.{lang}`|      x    |     x     |     x     |               |
+| `location.name.{lang}` | x         | x         |           |               |
 
 
 Note: these parameters are not available as a url parameter. 
