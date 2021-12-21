@@ -177,3 +177,7 @@ curl -X "POST" "http://io-test.uitdatabank.be/imports/places/" \
   ]
 }'
 ```
+
+## Including the status in your request
+
+The `status` (if applicable) should always be included in the request payload. Otherwise the status of the place will be reverted to `Available` ([more info](https://documentatie.uitdatabank.be/content/json-ld-crud-api/latest/places/place-status.html))

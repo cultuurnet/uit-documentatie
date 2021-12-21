@@ -7,6 +7,7 @@ The calendar information for a place consists of
 - calendarType 'permanent' with or without openingHours
 - calendarType 'periodic' with or without openingHours
 
+Note that the `status` (if applicable) should always be included in the request payload. Otherwise the status of place will be reverted to `Available` ([more info](#including-the-status-in-your-request))
 
 ## HTTP request
 
@@ -107,6 +108,18 @@ Token claims validation failed. This most likely means the token is expired.
     "status": 401
 }
 ```
+
+## Including the status in your request
+Places can have a 'status'. status indicates whether a place is open (for visits for example), temporarily closed or permanently closed. The following values for ‘status’ are applicable:
+* `available`: the place is ‘open’ and can be visited during opening hours. This is the default value when no status for the place is included.
+* `temporarilyUnavailable`: the place is temporarily closed (due to renovations for example).
+* `unavailable`: the place still exists (physically), but is permanently closed.
+
+**Important notes** 
+* When updating the calendarInfo without including the status of the place in your request, UiTdatabank will assume that the status of the place is `Available`. 
+* If a place has a status other than `Available`, you have to pass the status (`Unavailable` | `TemporarilyUnavailable`) for that place in your request when updating the calendarInfo (see [status](https://documentatie.uitdatabank.be/content/json-ld/latest/events/event-status.html)).
+
+
 
 ## Definitions
 
