@@ -146,6 +146,7 @@
   versions:
     - name: "latest"
       path: "content/uitpas/latest/"
+      status: "UiTPAS-legacy"
       summary:
         - title: "Wat is UiTPAS?"
           href: "uitpas"
@@ -297,6 +298,7 @@
   icon: "uitpas3"
   versions:
     - name: "latest"
+      status: "UiTPAS-legacy"
       path: "content/uitpas-handleidingen/latest/"
       summary:
         - title: "Balie applicatie"
@@ -631,6 +633,7 @@
   icon: "uitpas"
   versions:
       - name: "latest"
+        status: "UiTPAS-legacy"
         path: "content/uitpas_api-mijn-uitpas/latest/"
         summary:
           - title: "Aan de slag"
@@ -655,6 +658,7 @@
   hidden: true
   versions:
       - name: "latest"
+        status: "UiTPAS-legacy"
         path: "content/uitpas_api_ticketing/latest/"
         summary:
           - title: "Authenticatie"
@@ -681,6 +685,7 @@
   icon: "uitpas"
   versions:
       - name: "latest"
+        status: "UiTPAS-legacy"
         path: "content/uitpas_api/latest/"
         summary:
           - title: "UiTPAS"

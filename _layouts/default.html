@@ -1,98 +1,79 @@
 <!DOCTYPE html>
 <html>
 
-	{% assign filename = page.path | split: '/' | last %}
-	{% assign folder = page.path | remove: filename %}
-	{% for book in site.data.library %}
-		{% for version in book.versions %}
-			{% if folder contains version.path %}
-				{% assign selected_book = book %}
-				{% assign selected_version = version %}
-        {% assign selected_status = version.status %}
-        {% break %}
-			{% endif %}
-		{% endfor %}
-	{% endfor %}
+{% assign filename = page.path | split: '/' | last %} {% assign folder = page.path | remove: filename %} {% for book in site.data.library %} {% for version in book.versions %} {% if folder contains version.path %} {% assign selected_book = book %} {%
+assign selected_version = version %} {% assign selected_status = vers ion.status %} {% break %} {% endif %} {% endfor %} {% endfor %} {% include head.html %}
 
-	{% include head.html %}
+<body>
+    {% include gtm.html %} {% include header.html %}
 
-	<body>
-		{% include gtm.html %}
+    <div class="toc">
 
-		{% include header.html %}
+        <div class="toc-inner">
 
-		<div class="toc">
+            <nav role="navigation">
+                {% assign found = false %} {% include toc-item.html collection=selected_version.summary level=0 path=selected_version.path %}
+            </nav>
 
-			<div class="toc-inner">
+        </div>
 
-				<nav role="navigation">
-				{% assign found = false %}
-				{% include toc-item.html collection=selected_version.summary level=0 path=selected_version.path %}
-				</nav>
+    </div>
 
-			</div>
+    <div class="page">
+        <div class="page-inner">
 
-		</div>
+            <a class="menu">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                Inhoud
+            </a>
 
-		<div class="page">
-			<div class="page-inner">
+            <article>
 
-				<a class="menu">
-					<div class="hamburger">
-						 <span></span>
-						 <span></span>
-						 <span></span>
-					</div>
-				 Inhoud
-				</a>
+                {% if selected_status=="deprecated" %}
+                <div class="feedback">
+                    <strong>Deze versie is verouderd en enkel bedoeld als archief. <a href="/{{ selected_book.path }}start.html">Bekijk alle versies.</a></strong>
+                </div>
+                {% endif %} {% if page.status=="UiTPAS-legacy" %}
+                <div class="feedback">
+                    <strong>Deze API is verouderd en enkel bedoeld als naslagwerk voor bestaande XML integraties. Lees onze <a href="https://docs.publiq.be/docs/uitpas/ZG9jOjE-introduction">vernieuwde documentatie</a> om alles over onze nieuwe JSON-API te lezen.</strong>
+                </div>
+                {% endif %} {% if selected_status=="experimental" %}
+                <div class="feedback">
+                    <strong>Let op bij het gebruiken van deze documentatie. Deze informatie kan nog veranderen.</strong>
+                </div>
+                {% endif %} {% if page.status=="deprecated" %}
+                <div class="feedback">
+                    <strong>Deze pagina is verouderd en enkel bedoeld als archief.</strong>
+                </div>
+                {% endif %} {% if page.status=="experimental" %}
+                <div class="feedback">
+                    <strong>Let op bij het gebruiken van deze pagina. Deze informatie kan nog veranderen.</strong>
+                </div>
+                {% endif %} {% if selected_status=="pilot" %}
+                <div class="feedback">
+                    <strong>Vind je fouten of onvolledigheden in deze documentatie, geef ze dan zeker door aan <a href="mailto:vragen@uitdatabank.be">vragen@uitdatabank.be</a>. We verwerken je feedback zo snel mogelijk.</strong>
+                </div>
+                {% endif %}
 
-				<article>
+                <section class="markdown-body">
+                    {{ content }}
+                </section>
 
-          {% if selected_status=="deprecated" %}
-            <div class="feedback">
-              <strong>Deze versie is verouderd en enkel bedoeld als archief. <a href="/{{ selected_book.path }}start.html">Bekijk alle versies.</a></strong>
-            </div>
-          {% endif %}
+                {% include prev-next.html %}
 
-          {% if selected_status=="experimental" %}
-            <div class="feedback">
-              <strong>Let op bij het gebruiken van deze documentatie. Deze informatie kan nog veranderen.</strong>
-            </div>
-          {% endif %}
+            </article>
 
-          {% if page.status=="deprecated" %}
-            <div class="feedback">
-              <strong>Deze pagina is verouderd en enkel bedoeld als archief.</strong>
-            </div>
-          {% endif %}
+            {% include footer.html %}
 
-          {% if page.status=="experimental" %}
-            <div class="feedback">
-              <strong>Let op bij het gebruiken van deze pagina. Deze informatie kan nog veranderen.</strong>
-            </div>
-          {% endif %}
+        </div>
+    </div>
 
-          {% if selected_status=="pilot" %}
-            <div class="feedback">
-              <strong>Vind je fouten of onvolledigheden in deze documentatie, geef ze dan zeker door aan <a href="mailto:vragen@uitdatabank.be">vragen@uitdatabank.be</a>. We verwerken je feedback zo snel mogelijk.</strong>
-            </div>
-          {% endif %}
+    <div class="overlay"></div>
 
-					<section class="markdown-body">
-					{{ content }}
-					</section>
-
-					{% include prev-next.html %}
-
-				</article>
-
-				{% include footer.html %}
-
-			</div>
-		</div>
-
-		<div class="overlay"></div>
-
-	</body>
+</body>
 
 </html>
