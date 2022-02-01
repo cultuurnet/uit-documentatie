@@ -27,7 +27,6 @@ Voorzieningen die verschillen van event tot event.
 | --- | --- | --- | 
 | Assistentie | Assistentie voor personen met een handicap voorzien door de locatie of organisator zelf | 3.23.2.0.0 | 
 | Rolstoel ter beschikking | | 3.23.3.0.0 |
-| Blindenvoorzieningen | Infrastructuur ten behoeve van blinden en slechtzienden. | 3.13.0.0.0 |
 | Voorzieningen voor assistentiehonden | Voorzieningen voor assistentiehonden | 3.13.1.0.0 |
 | Audiodescriptie | Beschrijving van de visuele elementen (bv. bij een theaterstuk of sportwedstrijd) | 3.13.2.0.0 |
 | Ringleiding | Extra ondersteuning bij het luisteren naar een geluidsbron (bv. bij een concert) | 3.17.1.0.0 |
