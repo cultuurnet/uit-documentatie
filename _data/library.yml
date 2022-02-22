@@ -1163,6 +1163,7 @@
   category: "Legacy"
   icon: "xml"
   weight: 20
+  hidden: true
   versions:
     - name: "latest"
       path: "content/cdbxml/latest/"
