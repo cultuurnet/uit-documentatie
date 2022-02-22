@@ -1283,6 +1283,7 @@
   category: "Legacy"
   weight: 30
   icon: "entry"
+  hidden: true
   versions:
     - name: "latest"
       path: "content/entry_api/latest/"
