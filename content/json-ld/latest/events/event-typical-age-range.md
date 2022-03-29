@@ -44,7 +44,7 @@ Add a specific age range to an offer
 |--|--|--|--|
 | typicalAgeRange | string | Specify the lower and upper age range applicable for the offer. Do not use decimals | 3-4 |
 
-To specify that an event is accessible for all ages, add the typicalAgeRange `"-"`
+To specify that an event is suitable for all ages, add the typicalAgeRange `"-"`
 
 
 ## Response
