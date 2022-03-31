@@ -80,3 +80,13 @@ OR
 ```
 GET https://search.uitdatabank.be/events/?q=regions:nis-35013 AND organizer.labels:"UiTPAS Oostende"
 ```
+
+## Exclude certain events
+> show all events with the eventtype "concert" (termId `0.50.4.0.0`) but that do not have the theme "Klassieke muziek" (termId `1.8.1.0.0`)
+
+`q=terms.id:0.50.4.0.0 NOT terms.id:1.8.1.0.0`
+
+
+```
+GET https://search.uitdatabank.be/events/?q=terms.id:0.50.4.0.0 NOT terms.id:1.8.1.0.0
+```
