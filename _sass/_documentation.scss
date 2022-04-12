@@ -510,6 +510,13 @@ a[href^="#"] {
   margin: 0 0 30px 0;
 }
 
+.warning {
+  border: 1px solid #d8b917;
+  padding: 0 15px;
+  background: #fcf8e3;
+  margin: 0 0 30px 0;
+}
+
 .markdown-body pre code {
   word-break: break-all;
   white-space: pre-wrap;
