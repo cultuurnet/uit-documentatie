@@ -78,6 +78,18 @@
             </div>
           {% endif %}
 
+					{% comment %} Show warning on UiTPAS API docs, both on "content/uitpas_api/latest/..." pages and "content/uitpas_api-mijn-uitpas/latest/..." pages. {% endcomment %}
+					{% assign uitpas_api_pages_path = 'content/uitpas_api' %}
+					{% assign uitpas_api_pages_path_size = uitpas_api_pages_path | size %}
+					{% assign current_page_path_slice = page.path | slice: 0, uitpas_api_pages_path_size %}
+					{% if current_page_path_slice == uitpas_api_pages_path %}
+					<div class="warning">
+						<p>Je leest de documentatie voor UiTPAS API v3.0 (XML formaat).</p>
+						<p>Voor <strong>nieuwe integraties</strong> verwijzen we graag naar <strong><a href="https://docs.publiq.be/docs/uitpas">UiTPAS API v4.0 (JSON formaat)</a></strong>, een nieuwe versie die een betere developer experience voorziet gebaseerd op feedback van onze partners.</p>
+						<p>Heb je al een bestaande integratie in XML formaat? Dan kan je onderstaande documentatie nog altijd volgen.</p>
+					</div>
+					{% endif %}
+
 					<section class="markdown-body">
 					{{ content }}
 					</section>
