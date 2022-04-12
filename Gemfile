@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "rake"
+gem "kramdown-parser-gfm"
 
 group :test do
   gem "rspec"
