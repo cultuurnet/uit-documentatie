@@ -19,6 +19,7 @@ status: experimental
 | Openbare ruimte | Publiek toegankelijke plaats, al dan niet overdekt. | 0.8.0.0.0 |
 | Recreatiedomein of centrum | Locatie met infrastructuur en animatie gericht op ontspanning. | 0.53.0.0.0 |
 | School of onderwijscentrum | Instelling ingericht voor onderwijs en educatie | rJRFUqmd6EiqTD4c7HS90w |
+| Speeltuin | Speeltuin | wwjRVmExI0w6xfQwT1KWpx |
 | Sportcentrum | Locatie met infrastructuur voor lichamelijke oefening van vaardigheid en kracht. | eBwaUAAhw0ur0Z02i5ttnw |
 | Theater | Theaterzaal | 8.70.0.0.0 |
 | Thema of pretpark | Amusementsoord waar, meestal tegen één toegangsprijs, grote attracties zijn opgesteld. | 0.41.0.0.0 |
