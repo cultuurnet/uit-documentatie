@@ -1347,7 +1347,7 @@
 # UITID
 #
 - title: "Getting started with UiTiD"
-  category: "UiTiD"
+  category: "UiTid"
   description: "This manual explains how the UiTiD API can be used."
   path: "content/uitid_en/"
   weight: 40
