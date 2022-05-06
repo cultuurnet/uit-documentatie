@@ -1057,7 +1057,7 @@
           - title: "Gebruiksvoorwaarden"
             href: "gebruiksvoorwaarden"
 - title: "Aan de slag met Culturefeed"
-  category: "Legacy"
+  category: "Uitdatabank"
   description: "Maak gebruik van onze PHP-bibliotheken en Drupal-modules."
   path: "content/culturefeed/"
   hidden: true
@@ -1146,7 +1146,7 @@
 - title: "Migreren naar de JSON API's"
   description: "We helpen je op weg bij de overstap van XML naar JSON"
   path: "content/migratie-sapi/"
-  category: "Migratie"
+  category: "UiTdatabank"
   hidden: true
   icon: "sapi3"
   weight: 10
@@ -1162,7 +1162,7 @@
 - title: "Het CdbXML-formaat"
   description: "Dit document beschrijft de XML gegevensstandaard."
   path: "content/cdbxml/"
-  category: "Legacy"
+  category: "UiTdatabank"
   icon: "xml"
   weight: 20
   hidden: true
@@ -1208,7 +1208,7 @@
 - title: "Frontend afstemmen op het CdbXML-formaat"
   description: "Enkele tips & tricks om CdbXML-changes op te vangen sinds 2017."
   path: "content/frontend/"
-  category: "Legacy"
+  category: "UiTdatabank"
   weight: 100
   hidden: true
   icon: "frontend"
@@ -1238,7 +1238,7 @@
 - title: "UiTdatabank doorzoeken met Search API 2 (XML)"
   description: "Leer de querysyntax van de UiTdatabank."
   path: "content/search_api/"
-  category: "Legacy"
+  category: "UiTdatabank"
   hidden: true
   weight: 20
   icon: "sapi2"
@@ -1285,7 +1285,7 @@
 - title: "Entry API via XML"
   description: "Via Entry API kan je items in UiTdatabank aanmaken, aanpassen en verwijderen."
   path: "content/entry_api/"
-  category: "Legacy"
+  category: "UiTdatabank"
   weight: 30
   icon: "entry"
   hidden: true
