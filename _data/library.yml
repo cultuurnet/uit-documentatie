@@ -1057,7 +1057,7 @@
           - title: "Gebruiksvoorwaarden"
             href: "gebruiksvoorwaarden"
 - title: "Aan de slag met Culturefeed"
-  category: "Uitdatabank"
+  category: "UiTdatabank"
   description: "Maak gebruik van onze PHP-bibliotheken en Drupal-modules."
   path: "content/culturefeed/"
   hidden: true
