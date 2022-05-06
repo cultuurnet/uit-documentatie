@@ -1060,6 +1060,7 @@
   category: "Legacy"
   description: "Maak gebruik van onze PHP-bibliotheken en Drupal-modules."
   path: "content/culturefeed/"
+  hidden: true
   weight: 50
   icon: "drupal"
   versions:
@@ -1146,6 +1147,7 @@
   description: "We helpen je op weg bij de overstap van XML naar JSON"
   path: "content/migratie-sapi/"
   category: "Migratie"
+  hidden: true
   icon: "sapi3"
   weight: 10
   versions:
@@ -1208,6 +1210,7 @@
   path: "content/frontend/"
   category: "Legacy"
   weight: 100
+  hidden: true
   icon: "frontend"
   versions:
   - name: "latest"
@@ -1236,6 +1239,7 @@
   description: "Leer de querysyntax van de UiTdatabank."
   path: "content/search_api/"
   category: "Legacy"
+  hidden: true
   weight: 20
   icon: "sapi2"
   versions:
