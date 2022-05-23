@@ -10,7 +10,7 @@ The bookingAvailability indicates whether there are still tickets or seats left 
 | `Available` | there are still tickets and / or seats available for the event | 
 | `Unavailable` | the event is sold out or fully booked | 
 
-You can filter by address-related fields using two methods:
+You can filter by booking availability-related fields using two methods:
 * URL parameter
 * Advanced queries
 
