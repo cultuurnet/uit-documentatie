@@ -961,6 +961,8 @@
               href: "searching/offers/audience-type"
             - title: "Availability"
               href: "searching/offers/availability"
+            - title: "Attendance mode"
+              href: "searching/offers/attendance-mode"
             - title: "Booking availability"
               href: "searching/offers/booking-availability"
             - title: "Calendar type"
