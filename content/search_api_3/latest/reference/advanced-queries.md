@@ -54,6 +54,7 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.postalCode | String |  See [offers/address]({% link content/search_api_3/latest/searching/offers/address.md %}) and [organizers/address]({% link content/search_api_3/latest/searching/organizers/address.md %}) |
 | address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.streetAddress | String | See [offers/address]({% link content/search_api_3/latest/searching/offers/address.md %}) and [organizers/address]({% link content/search_api_3/latest/searching/organizers/address.md %}) |
 | allAges | Boolean | See [Age]({% link content/search_api_3/latest/searching/offers/age.md %}) |
+| attendanceMode | String | See [Attendance mode]({% link content/search_api_3/latest/searching/offers/attendance-mode.md %}) |
 | audienceType | String | See [Audience type]({% link content/search_api_3/latest/searching/offers/audience-type.md %}) |
 | availableRange | Date range | See [Availability]({% link content/search_api_3/latest/searching/offers/availability.md %}) |
 | bookingAvailability | Enum | See [Booking availability]({% link content/search_api_3/latest/searching/offers/booking-availability.md %}) |
