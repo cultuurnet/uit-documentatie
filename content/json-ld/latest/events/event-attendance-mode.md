@@ -37,9 +37,10 @@ PUT /events/{eventId}/attendance-mode
 
 ## Request body
 
-| Property	| Type | Description |
-|--|--|--|
-| attandanceMode | string | attendance mode of the event (online, offline or mixed) |
+| Property	| Required? |  Type | Description |
+|--|--|--|--|
+| attandanceMode | true | string | attendance mode of the event (online, offline or mixed) |
+| location | false | URI | URI of the (real) location |
 
 ## Response
 
