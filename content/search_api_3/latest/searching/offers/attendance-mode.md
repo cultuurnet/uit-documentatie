@@ -15,8 +15,6 @@ You can filter by attendance mode using two methods:
 * URL parameter
 * Advanced queries
 
-Note that places will always have the attendance mode "offline", only events can have a different attendance mode.
-
 ## URL parameter
 
 Using the `attendanceMode` URL parameter, you can limit the results you get back to events with a certain attendance mode.
