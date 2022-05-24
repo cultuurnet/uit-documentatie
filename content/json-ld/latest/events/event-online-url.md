@@ -35,7 +35,7 @@ Deletes the online url of an event
 
 | Property	| Type | Description |
 |--|--|--|
-| onlineUrl | url | url where the online event takes place (e.g. the link of the livestream) |
+| onlineUrl | url | url to join or participate in the event (e.g. the link of the livestream) |
 
 ## Response
 
