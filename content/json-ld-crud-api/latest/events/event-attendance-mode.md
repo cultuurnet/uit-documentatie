@@ -5,7 +5,7 @@
 
 Indicates if an event is happening online, offline, or both (mixed):
 
-* `offline`: the event takes places on a real location
+* `offline`: the event takes places on a physical location
 * `online`: the events takes places on a virtual location
 * `mixed`: the event takes places both on a real location and a virtual location
 
