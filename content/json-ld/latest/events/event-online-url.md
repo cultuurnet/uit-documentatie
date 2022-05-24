@@ -42,6 +42,8 @@ Deletes the online url of an event
 * `204 No Content` : request successful
 * `400 Bad Request` : incorrect method, payload or URI
 * `401 Unauthorized` : expired JWT or the user behind the JWT does not have permission to perform this request
+* `403 Forbidden`: your request was succesfully authenticated but you do not have permission to perform this particular request
+* `404 Not found`: no event found for the given eventId
 
 ## Example requests
 
