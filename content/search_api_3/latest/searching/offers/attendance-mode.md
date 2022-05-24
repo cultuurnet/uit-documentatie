@@ -28,7 +28,7 @@ GET https://search.uitdatabank.be/offers/?attendanceMode=online
 
 ## Advanced queries
 
-You can also search by status using [advanced queries](https://documentatie.uitdatabank.be/content/search_api_3/latest/reference/advanced-queries.md), 
+You can also search by attendance mode using [advanced queries](https://documentatie.uitdatabank.be/content/search_api_3/latest/reference/advanced-queries.md), 
 
 Example to get results that have the attendanceMode `online` or `mixed`:
 
