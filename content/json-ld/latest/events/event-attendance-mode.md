@@ -5,9 +5,9 @@
 
 Indicates if an event is happening online, offline, or both (mixed):
 
-* `offline`: the event takes places on a real location
-* `online`: the events takes places on a virtual location
-* `mixed`: the event takes places both on a real location and a virtual location
+* `offline`: the event takes places on a physical location
+* `online`: the events takes places on a nil location
+* `mixed`: the event takes places both on a physical location but visitors can participate online too. 
 
 When the attendance mode is not set, UiTdatabank will assume the event has the attendance mode `offline`.
 
@@ -40,13 +40,15 @@ PUT /events/{eventId}/attendance-mode
 | Property	| Required? |  Type | Description |
 |--|--|--|--|
 | attandanceMode | true | string | attendance mode of the event (online, offline or mixed) |
-| location | false | URI | URI of the (real) location |
+| location | false | URI | URI of the (physical) location |
 
 ## Response
 
 * `204 No Content` : request successful
 * `400 Bad Request` : incorrect method, payload or URI
 * `401 Unauthorized` : expired JWT or the user behind the JWT does not have permission to perform this request
+* `403 Forbidden`: your request was succesfully authenticated but you do not have permission to perform this particular request
+* `404 Not found`: no event found for the given eventId
 
 ## Example requests
 
