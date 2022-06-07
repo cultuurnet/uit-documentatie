@@ -67,35 +67,34 @@ If succesful, this method returns a `200` response code and a JSON-LD document i
 
 ## Mapping cardsystemID, region & label (production environment)
 
-| cardsystem ID | Region                | UiTPAS label              |
-|---------------|-----------------------|---------------------------|
-| 1             | Dender                | UiTPAS Regio Aalst        |
-| 3             | Brussel               | Paspartoe                 |
-| 5             | Regio Gent            | UiTPAS Gent               |
-| 7             | Oostende              | UiTPAS Oostende           |
-| 8             | Zuidwest              | UiTPAS Zuidwest           |
-| 12            | Kempen                | UiTPAS Kempen             |
-| 13            | Mechelen              | UiTPAS Mechelen           |
-| 14            | Maasmechelen          | UiTPAS Maasmechelen       |
-| 15            | Heist-op-den-Berg     | UiTPAS Heist-op-den-Berg  |
-| 16            | Lier                  | UiTPAS Lier               |
-| 17            | Regio Leuven          | UiTPAS Regio Leuven       |
-| 18            | Westhoek              | UiTPAS Westhoek           |
-| 19            | Meetjesland           | UiTPAS Meetjesland        |
-| 20            | Haspengouw            | UiTPAS Haspengouw         |
-| 22            | Mortsel               | UiTPAS Mortsel            |
-| 23            | Aarschot              | UiTPAS Aarschot           |
-| 24            | Nijlen                | UiTPAS Nijlen             |
-| 25            | Rupel                 | UiTPAS Rupel              |
-| 26            | Hasselt               | UiTPAS Hasselt            |
-| 27            | Sint-Pieters-Leeuw    | UiTPAS Sint-Pieters-Leeuw |
-| 28            | Maldegem              | UiTPAS Maldegem           |
-| 29            | Bornem                | UiTPAS Bornem             |
-| 30            | Herk-de-Stad / Lummen | UiTPAS 30                 |
-| 31            | Druivenstreek         | UiTPAS 31                 |
-| 32            | Noordrand             | UiTPAS 32                 |
-| 33            | Van Polder tot Kempen | UiTPAS 33                 |
-| 34            | Reynaert              | UiTPAS 34                 |
-| 35            | de Merode             | UiTPAS 35                 |
-| 36            | Pelt                  | UiTPAS 36                 |
-| 37            | Beringen              | UiTPAS 37                 |
+| cardsystem ID | Region Name                  | UiTPAS label              |
+|---------------|------------------------------|---------------------------|
+| 1             | UiTPAS Dender                | UiTPAS Regio Aalst        |
+| 3             | Paspartoe Brussel            | Paspartoe                 |
+| 5             | UiTPAS Regio Gent            | UiTPAS Gent               |
+| 7             | UiTPAS Oostende              | UiTPAS Oostende           |
+| 8             | UiTPAS Zuidwest              | UiTPAS Zuidwest           |
+| 12            | UiTPAS Kempen                | UiTPAS Kempen             |
+| 13            | UiTPAS Mechelen              | UiTPAS Mechelen           |
+| 14            | UiTPAS Maasland              | UiTPAS Maasmechelen       |
+| 16            | UiTPAS Lier                  | UiTPAS Lier               |
+| 17            | UiTPAS Regio Leuven          | UiTPAS Leuven             |
+| 18            | UiTPAS Westhoek              | UiTPAS Westhoek           |
+| 19            | UiTPAS Meetjesland           | UiTPAS Meetjesland        |
+| 20            | UiTPAS Haspengouw            | UiTPAS Haspengouw         |
+| 22            | UiTPAS Mortsel               | UiTPAS Mortsel            |
+| 23            | UiTPAS Aarschot              | UiTPAS Aarschot           |
+| 24            | UiTPAS Nijlen                | UiTPAS Nijlen             |
+| 25            | UiTPAS Rupel                 | UiTPAS Rupel              |
+| 26            | UiTPAS Hasselt               | UiTPAS 26                 |
+| 27            | UiTPAS Sint-Pieters-Leeuw    | UiTPAS Sint-Pieters-Leeuw |
+| 28            | UiTPAS Maldegem              | UiTPAS Maldegem           |
+| 29            | UiTPAS Bornem                | UiTPAS Bornem             |
+| 30            | UiTPAS Herk-de-Stad / Lummen | UiTPAS 30                 |
+| 31            | UiTPAS Druivenstreek         | UiTPAS 31                 |
+| 32            | UiTPAS Noordrand             | UiTPAS 32                 |
+| 33            | UiTPAS Van Polder tot Kempen | UiTPAS 33                 |
+| 34            | UiTPAS Reynaert              | UiTPAS 34                 |
+| 35            | UiTPAS de Merode             | UiTPAS 35                 |
+| 36            | UiTPAS Pelt                  | UiTPAS 36                 |
+| 37            | UiTPAS Beringen              | UiTPAS 37                 |
