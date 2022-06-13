@@ -33,7 +33,7 @@ Voor de API is er zowel een testomgeving als een productie-omgeving ter beschikk
 
 Voor de testomgeving is er een directe en gratis toegang.
 
-Op vraag van de gebruiker kan publiq het project omschakelen naar de productie-omgeving. Hieraan is een jaarlijkse administratieve kost verbonden van 80€ excl BTW. Hierbij verwacht publiq  een link naar het project/app die gebruik maakt van de API,  om vrijblijvend feedback en tips te kunnen geven met betrekking tot een optimale inzet van de API.
+Op vraag van de gebruiker kan publiq het project omschakelen naar de productie-omgeving. Hieraan is een jaarlijkse administratieve kost verbonden en dit vanaf 125€ excl BTW. Hierbij verwacht publiq  een link naar het project/app die gebruik maakt van de API,  om vrijblijvend feedback en tips te kunnen geven met betrekking tot een optimale inzet van de API.
 
 publiq stelt ook generieke developer keys die toegang geven tot de productie-omgeving ter beschikking. Deze zijn voor tijdelijk gebruik om een proof of concept uit te werken, veranderen op onregelmatige tijdstippen en geven geen enkel recht op een voortdurend beschikbare dienst.
 
@@ -45,11 +45,7 @@ Alle technische documentatie voor gebruik van de publicatietools is te vinden op
 
 Met betrekking tot het gebruik van de API bieden we geen gratis technische ondersteuning binnen bovenstaand kader
 
-Ad hoc support is beschikbaar als professional service, en wordt aangerekend in manuren, met een minimum van 3u. Neem hiervoor contact op met vragen@uitdatabank.be
-
-Voor de Culturefeed Drupal Modules gelden dezelfde service condities als voor het gebruik van de API.
-
-Voor de widgets  komt er behalve de administratieve kost inzake de access key ook een kost voor de hosting load bij (30€ exclusief btw/jaar).
+Ad hoc support is beschikbaar als professional service, en wordt aangerekend in manuren, met een minimum van 3u. Neem hiervoor contact op met partnerships@publiq.be.
 
 ### Geoorloofd gebruik
 
