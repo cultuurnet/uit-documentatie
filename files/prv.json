@@ -1,0 +1,67 @@
+[{
+    "nis": "01000",
+    "de": "Region Brüssel-Hauptstadt",
+    "fr": "Région de Bruxelles-Capitale",
+    "nl": "Brussels Hoofdstedelijk Gewest"
+  },
+  {
+    "nis": 10000,
+    "de": "Provinz Antwerpen",
+    "fr": "Province d’Anvers",
+    "nl": "Provincie Antwerpen"
+  },
+  {
+    "nis": 20001,
+    "de": "Provinz Flämisch-Brabant",
+    "fr": "Province du Brabant flamand",
+    "nl": "Provincie Vlaams-Brabant"
+  },
+  {
+    "nis": 20002,
+    "de": "Provinz Wallonisch-Brabant",
+    "fr": "Province du Brabant wallon",
+    "nl": "Provincie Waals-Brabant"
+  },
+  {
+    "nis": 30000,
+    "de": "Provinz Westflandern",
+    "fr": "Province de Flandre occidentale",
+    "nl": "Provincie West-Vlaanderen"
+  },
+  {
+    "nis": 40000,
+    "de": "Provinz Ostflandern",
+    "fr": "Province de Flandre orientale",
+    "nl": "Provincie Oost-Vlaanderen"
+  },
+  {
+    "nis": 50000,
+    "de": "Provinz Hennegau",
+    "fr": "Province du Hainaut",
+    "nl": "Provincie Henegouwen"
+  },
+  {
+    "nis": 60000,
+    "de": "Provinz Lüttich",
+    "fr": "Province de Liège",
+    "nl": "Provincie Luik"
+  },
+  {
+    "nis": 70000,
+    "de": "Provinz Limburg",
+    "fr": "Province du Limbourg",
+    "nl": "Provincie Limburg"
+  },
+  {
+    "nis": 80000,
+    "de": "Provinz Luxemburg",
+    "fr": "Province du Luxembourg",
+    "nl": "Provincie Luxemburg"
+  },
+  {
+    "nis": 90000,
+    "de": "Provinz Namur",
+    "fr": "Province de Namur",
+    "nl": "Provincie Namen"
+  }
+]
