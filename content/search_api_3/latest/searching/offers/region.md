@@ -59,7 +59,7 @@ The `regions` property is a cached list, so it may be slightly outdated, but it 
 
 A complete list of region IDs can be found here:
 
-* Municipalities: [https://github.com/cultuurnet/geojson-data/tree/master/geojson/BE/gem](https://github.com/cultuurnet/geojson-data/blob/main/input/gem.json)
-* Provinces: [https://github.com/cultuurnet/geojson-data/tree/master/geojson/BE/prv](https://github.com/cultuurnet/geojson-data/blob/main/input/prv.json)
+* [Municipalities](/files/gem.json)
+* [Provinces](/files/prv.json)
 
 The file names represent the region IDs \(without the .geojson extension\).
