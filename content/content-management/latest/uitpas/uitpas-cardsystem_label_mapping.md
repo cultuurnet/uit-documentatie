@@ -86,7 +86,7 @@ If succesful, this method returns a `200` response code and a JSON-LD document i
 | 23            | UiTPAS Aarschot              | UiTPAS Aarschot           |
 | 24            | UiTPAS Nijlen                | UiTPAS Nijlen             |
 | 25            | UiTPAS Rupel                 | UiTPAS Rupel              |
-| 26            | UiTPAS Hasselt               | UiTPAS 26                 |
+| 26            | UiTPAS Regio Hasselt         | UiTPAS 26                 |
 | 27            | UiTPAS Sint-Pieters-Leeuw    | UiTPAS Sint-Pieters-Leeuw |
 | 28            | UiTPAS Maldegem              | UiTPAS Maldegem           |
 | 29            | UiTPAS Bornem                | UiTPAS Bornem             |
