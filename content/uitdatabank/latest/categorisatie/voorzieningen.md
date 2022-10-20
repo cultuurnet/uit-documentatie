@@ -3,7 +3,7 @@
 
 # Voorzieningen
 
-Binnen de categorisatie van UiTdatabank worden een aantal voorzieningen onderscheiden, om faciliteiten voor specifieke doelgroepen mee aan te duiden. De volledige taxonomy vind je op `http://taxonomy.uitdatabank.be/terms`
+Binnen de categorisatie van UiTdatabank worden een aantal voorzieningen onderscheiden, om faciliteiten voor specifieke doelgroepen mee aan te duiden. De volledige taxonomy vind je op `http://taxonomy.uitdatabank.be/terms`.
 
 ## Toegankelijkheidsvoorzieningen 
 
@@ -16,8 +16,8 @@ Voorzieningen op locatieniveau zijn voorzieningen die permanent op de locatie aa
 | --- | --- | --- | 
 | Contactpunt voor personen met een handicap |Er is ter plaatse een duidelijk aanspreekpunt waar bezoekers met een handicap met hun vragen terecht kunnen. Dit kan een fysiek onthaal- en infopunt zijn (uiteraard toegankelijk) of bij assistenten. | 3.25.0.0.0 | 
 | Rolstoel ter beschikking | Er is minstens één rolstoel aanwezig die kan ontleend worden aan bezoekers met een beperking. | 3.23.3.0.0 |
-| Parkeersplaats | Standplaats voor auto's waarvan één of meerdere passagiers een handicap hebben | 3.26.0.0.0 |
-| Voorzieningen voor assistentiehonden | Voorzieningen voor assistentiehonden | 3.13.1.0.0 |
+| Parkeersplaats | Er zijn aangepaste parkeerplaatsen voor bezoekers met een beperking dichtbij het evenement. | 3.26.0.0.0 |
+| Voorzieningen voor assistentiehonden | Assistentiehonden moeten ten allen tijde toegelaten worden op evenementen. De organisatie voorziet in water en een plaats voor ontlasting voor assistentiehonden. . | 3.13.1.0.0 |
 
 
 ### Voorzieningen op eventniveau
