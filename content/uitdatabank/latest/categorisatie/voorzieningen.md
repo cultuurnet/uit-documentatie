@@ -30,7 +30,6 @@ Voorzieningen die verschillen van event tot event.
 | Voorzieningen voor assistentiehonden | Voorzieningen voor assistentiehonden | 3.13.1.0.0 |
 | Audiodescriptie | Beschrijving van de visuele elementen (bv. bij een theaterstuk of sportwedstrijd) | 3.13.2.0.0 |
 | Ringleiding | Extra ondersteuning bij het luisteren naar een geluidsbron (bv. bij een concert) | 3.17.1.0.0 |
-| Voelstoelen | Een voelstoel zet geluid om in trillingen | 3.17.2.0.0 |
 | Boven- of ondertiteling | Boven- of ondertiteling voor doven of slechthorenden | 3.17.3.0.0 |
 | Contactpunt voor personen met een handicap | | 3.25.0.0.0 |
 | Parkeerplaats | Standplaats voor auto's waarvan één of meerdere passagiers een handicap hebben | 3.26.0.0.0 |
@@ -42,10 +41,11 @@ Voorzieningen die verschillen van event tot event.
 | Toegankelijk sanitair | Sanitair toegankelijk voor rolstoelgebruikers | 3.31.0.0.0 |
 | Tolken Vlaamse Gebarentaal || 3.33.0.0.0 |
 | Vereenvoudigde informatie || 3.34.0.0.0 |
-| 1 begeleider gratis || 3.35.0.0.0 |
 | Verzorgingsruimte || 3.36.0.0.0 |
 | Oplaadzone rolstoelen || 3.37.0.0.0 |
 | Inter-assistentie | Er is assistentie vanuit INTER voorzien | 3.38.0.0.0 |
 | Begeleiderspas || 3.39.0.0.0 |
 | Inter-toegankelijkheidsgarantie | Het toegankelijkheidsgarantielabel van INTER duidt aan dat het event toegankelijk is voor iedereen | 3.40.0.0.0 |
+| Prikkelarm aanbod | Een aanbod van activiteiten, voorzieningen en materialen dat er voor zorgt dat het evenement prikkelarm kan beleefd worden | H28fcfRKFQAQs00K9NF9hh |
+| Afspraken en voorspelbaarheid | Een aanbod van informatie en voorzieningen die zorgen voor duidelijke afspraken en een betere voorspelbaarheid van het evenement | 4Vz9eZf0cnQmtfqcGGnNMF |
 
