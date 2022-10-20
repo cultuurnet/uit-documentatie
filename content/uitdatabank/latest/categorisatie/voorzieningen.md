@@ -3,7 +3,7 @@
 
 # Voorzieningen
 
-Binnen de categorisatie van UiTdatabank worden een aantal voorzieningen onderscheiden, om faciliteiten voor specifieke doelgroepen mee aan te duiden. De volledige taxonomy vind je op `http://taxonomy.uitdatabank.be/api/domain/facility/classification`
+Binnen de categorisatie van UiTdatabank worden een aantal voorzieningen onderscheiden, om faciliteiten voor specifieke doelgroepen mee aan te duiden. De volledige taxonomy vind je op `http://taxonomy.uitdatabank.be/terms`
 
 ## Toegankelijkheidsvoorzieningen 
 
