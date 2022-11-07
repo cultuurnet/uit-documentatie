@@ -24,6 +24,7 @@ Voorzieningen op locatieniveau zijn voorzieningen die permanent op de locatie aa
 Voorzieningen die verschillen van event tot event.
 
 #### Voorzieningen voor personen met een motorische beperking
+
 | Categorie | Toelichting | Identifier | 
 | --- | --- | --- | 
 | Assistentie | Medewerkers van het evenement bieden onthaal en assistentie aan bezoekers met een beperking. | 3.23.2.0.0 | 
@@ -34,12 +35,14 @@ Voorzieningen die verschillen van event tot event.
 | Toegankelijk sanitair | Er is minstens 1 toegankelijk toilet voor bezoekers met een beperking beschikbaar op het evenement. | 3.31.0.0.0 |
 
 #### Voorzieningen voor personen met een visuele beperking
+
 | Categorie | Toelichting | Identifier | 
 | --- | --- | --- | 
 | Audiodescriptie | Er is een aanbod van audiodescriptie voor blinden en slechtzienden. Audiodescriptie is een techniek waarbij een stem toelichting geeft over wat er te zien is, waardoor de doelgroep het evenement ten volle kan beleven. | 3.13.2.0.0 |
 | Voorzieningen voor assistentiehonden | Assistentiehonden moeten ten allen tijde toegelaten worden op evenementen. De organisatie voorziet in water en een plaats voor ontlasting voor assistentiehonden. | 3.13.1.0.0 |
 
 #### Voorzieningen voor personen met een auditieve beperking
+
 | Categorie | Toelichting | Identifier | 
 | --- | --- | --- | 
 | Boven- of ondertiteling | Boven- of ondertiteling is een tekstuele versie van gesproken taal. Boventiteling wordt gebruikt bij live-voorstellingen. Ondertiteling bij film of video. | 3.17.3.0.0 |
@@ -47,11 +50,13 @@ Voorzieningen die verschillen van event tot event.
 | Tolken Vlaamse Gebarentaal | Tolken Vlaamse Gebarentaal zorgen voor een vlotte communicatie tussen horende personen die gesproken taal (Nederlands) gebruiken en dove personen die Vlaamse Gebarentaal (VGT) gebruiken. En vertalen de gesproken taal of muziekteksten van je evenement naar Vlaamse Gebarentaal. | 3.33.0.0.0 |
 
 #### Voorzieningen voor personen met een verstandelijke beperking
+
 | Categorie | Toelichting | Identifier | 
 | --- | --- | --- | 
 | Vereenvoudigde informatie | Een aanbod van vereenvoudigde teksten, inleidingen of informatie over het evenement of hoe aan het evenement deel te nemen. | 3.34.0.0.0 |
 
 #### Voorzieningen voor neurodiverse personen
+
 | Categorie | Toelichting | Identifier | 
 | --- | --- | --- | 
 | Afspraken en voorspelbaarheid | Een aanbod van informatie en voorzieningen die zorgen voor duidelijke afspraken en een betere voorspelbaarheid van het evenement. | 4Vz9eZf0cnQmtfqcGGnNMF |
