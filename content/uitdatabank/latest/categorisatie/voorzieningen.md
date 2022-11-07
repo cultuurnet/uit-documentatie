@@ -3,7 +3,7 @@
 
 # Voorzieningen
 
-Binnen de categorisatie van UiTdatabank worden een aantal voorzieningen onderscheiden, om faciliteiten voor specifieke doelgroepen mee aan te duiden. De volledige taxonomy vind je op `http://taxonomy.uitdatabank.be/api/domain/facility/classification`
+Binnen de categorisatie van UiTdatabank worden een aantal voorzieningen onderscheiden, om faciliteiten voor specifieke doelgroepen mee aan te duiden. De volledige taxonomy vind je op `http://taxonomy.uitdatabank.be/terms`.
 
 ## Toegankelijkheidsvoorzieningen 
 
@@ -14,38 +14,59 @@ Voorzieningen op locatieniveau zijn voorzieningen die permanent op de locatie aa
 
 | Categorie | Toelichting | Identifier | 
 | --- | --- | --- | 
-| Contactpunt voor personen met een handicap | | 3.25.0.0.0 | 
-| Rolstoel ter beschikking | | 3.23.3.0.0 |
-| Parkeersplaats | Standplaats voor auto's waarvan één of meerdere passagiers een handicap hebben | 3.26.0.0.0 |
-| Voorzieningen voor assistentiehonden | Voorzieningen voor assistentiehonden | 3.13.1.0.0 |
+| Contactpunt voor personen met een handicap |Er is ter plaatse een duidelijk aanspreekpunt waar bezoekers met een handicap met hun vragen terecht kunnen. Dit kan een fysiek onthaal- en infopunt zijn (uiteraard toegankelijk) of bij assistenten. | 3.25.0.0.0 | 
+| Rolstoel ter beschikking | Er is minstens één rolstoel aanwezig die kan ontleend worden aan bezoekers met een beperking. | 3.23.3.0.0 |
+| Parkeersplaats | Er zijn aangepaste parkeerplaatsen voor bezoekers met een beperking dichtbij het evenement. | 3.26.0.0.0 |
+| Voorzieningen voor assistentiehonden | Assistentiehonden moeten ten allen tijde toegelaten worden op evenementen. De organisatie voorziet in water en een plaats voor ontlasting voor assistentiehonden. . | 3.13.1.0.0 |
 
 
 ### Voorzieningen op eventniveau
 Voorzieningen die verschillen van event tot event.
 
+#### Voorzieningen voor personen met een motorische beperking
 | Categorie | Toelichting | Identifier | 
 | --- | --- | --- | 
-| Assistentie | Assistentie voor personen met een handicap voorzien door de locatie of organisator zelf | 3.23.2.0.0 | 
-| Rolstoel ter beschikking | | 3.23.3.0.0 |
-| Voorzieningen voor assistentiehonden | Voorzieningen voor assistentiehonden | 3.13.1.0.0 |
-| Audiodescriptie | Beschrijving van de visuele elementen (bv. bij een theaterstuk of sportwedstrijd) | 3.13.2.0.0 |
-| Ringleiding | Extra ondersteuning bij het luisteren naar een geluidsbron (bv. bij een concert) | 3.17.1.0.0 |
-| Voelstoelen | Een voelstoel zet geluid om in trillingen | 3.17.2.0.0 |
-| Boven- of ondertiteling | Boven- of ondertiteling voor doven of slechthorenden | 3.17.3.0.0 |
-| Contactpunt voor personen met een handicap | | 3.25.0.0.0 |
-| Parkeerplaats | Standplaats voor auto's waarvan één of meerdere passagiers een handicap hebben | 3.26.0.0.0 |
-| Rolstoeltoegankelijk || 3.27.0.0.0 |
-| Alternatieve ingang | Alternatieve, toegankelijke ingang voor rolstoelgebruikers | 3.28.0.0.0 |
-| Gegarandeerd zicht | Gegarandeerd zicht voor rolstoelgebruikers | 3.29.0.0.0 |
-| Rolstoelpodium | Platform of podium voor rolstoelgebruikers | 3.30.0.0.0 |
-| Voorbehouden camping | Voorbehouden camping voor personen met een handicap | 3.32.0.0.0 |
-| Toegankelijk sanitair | Sanitair toegankelijk voor rolstoelgebruikers | 3.31.0.0.0 |
-| Tolken Vlaamse Gebarentaal || 3.33.0.0.0 |
-| Vereenvoudigde informatie || 3.34.0.0.0 |
-| 1 begeleider gratis || 3.35.0.0.0 |
-| Verzorgingsruimte || 3.36.0.0.0 |
-| Oplaadzone rolstoelen || 3.37.0.0.0 |
-| Inter-assistentie | Er is assistentie vanuit INTER voorzien | 3.38.0.0.0 |
-| Begeleiderspas || 3.39.0.0.0 |
-| Inter-toegankelijkheidsgarantie | Het toegankelijkheidsgarantielabel van INTER duidt aan dat het event toegankelijk is voor iedereen | 3.40.0.0.0 |
+| Assistentie | Medewerkers van het evenement bieden onthaal en assistentie aan bezoekers met een beperking. | 3.23.2.0.0 | 
+| Parkeerplaats | Er zijn aangepaste parkeerplaatsen voor bezoekers met een beperking dichtbij het evenement. | 3.26.0.0.0 |
+| Rolstoel ter beschikking | Er is minstens één rolstoel aanwezig die kan ontleend worden aan bezoekers met een beperking. | 3.23.3.0.0 |
+| Rolstoelpodium | Er is een verhoogd platform aanwezig voor personen met een beperking en rolstoelgebruikers zodat zij vrij zicht hebben op het evenement.  | 3.30.0.0.0 |
+| Rolstoeltoegankelijk |Het publieksgedeelte van de evenementenlocatie (ingang, locatie én sanitair) is toegankelijk voor rolstoelgebruikers. | 3.27.0.0.0 |
+| Toegankelijk sanitair | Er is minstens 1 toegankelijk toilet voor bezoekers met een beperking beschikbaar op het evenement. | 3.31.0.0.0 |
 
+#### Voorzieningen voor personen met een visuele beperking
+| Categorie | Toelichting | Identifier | 
+| --- | --- | --- | 
+| Audiodescriptie | Er is een aanbod van audiodescriptie voor blinden en slechtzienden. Audiodescriptie is een techniek waarbij een stem toelichting geeft over wat er te zien is, waardoor de doelgroep het evenement ten volle kan beleven. | 3.13.2.0.0 |
+| Voorzieningen voor assistentiehonden | Assistentiehonden moeten ten allen tijde toegelaten worden op evenementen. De organisatie voorziet in water en een plaats voor ontlasting voor assistentiehonden. | 3.13.1.0.0 |
+
+#### Voorzieningen voor personen met een auditieve beperking
+| Categorie | Toelichting | Identifier | 
+| --- | --- | --- | 
+| Boven- of ondertiteling | Boven- of ondertiteling is een tekstuele versie van gesproken taal. Boventiteling wordt gebruikt bij live-voorstellingen. Ondertiteling bij film of video. | 3.17.3.0.0 |
+| Ringleiding | Een ringleiding is een toestel waarmee personen met een hoorapparaat elektrisch versterkte gesproken taal of muziek horen zonder storende omgevingsgeluiden. Het geluid wordt via een elektromagnetisch veld omgezet en dat signaal kan worden beluisterd via het hoorapparaat. | 3.17.1.0.0 |
+| Tolken Vlaamse Gebarentaal | Tolken Vlaamse Gebarentaal zorgen voor een vlotte communicatie tussen horende personen die gesproken taal (Nederlands) gebruiken en dove personen die Vlaamse Gebarentaal (VGT) gebruiken. En vertalen de gesproken taal of muziekteksten van je evenement naar Vlaamse Gebarentaal. | 3.33.0.0.0 |
+
+#### Voorzieningen voor personen met een verstandelijke beperking
+| Categorie | Toelichting | Identifier | 
+| --- | --- | --- | 
+| Vereenvoudigde informatie | Een aanbod van vereenvoudigde teksten, inleidingen of informatie over het evenement of hoe aan het evenement deel te nemen. | 3.34.0.0.0 |
+
+#### Voorzieningen voor neurodiverse personen
+| Categorie | Toelichting | Identifier | 
+| --- | --- | --- | 
+| Afspraken en voorspelbaarheid | Een aanbod van informatie en voorzieningen die zorgen voor duidelijke afspraken en een betere voorspelbaarheid van het evenement. | 4Vz9eZf0cnQmtfqcGGnNMF |
+| Prikkelarm aanbod | Een aanbod van activiteiten, voorzieningen en materialen dat er voor zorgt dat het evenement prikkelarm kan beleefd worden. | H28fcfRKFQAQs00K9NF9hh |
+
+#### Overige voorzieningen
+
+| Categorie | Toelichting | Identifier | 
+| --- | --- | --- | 
+| Alternatieve ingang | Alternatieve, toegankelijke ingang voor rolstoelgebruikers | 3.28.0.0.0 |
+| Begeleiderspas | Per persoon met een beperking mag maximaal 1 begeleider gratis deelnemen aan het evenement en gebruik maken van de voorzieningen. In bepaalde provincies bestaat hiervoor de begeleiderspas. | 3.39.0.0.0 |
+| Contactpunt voor personen met een handicap | Er is ter plaatse een duidelijk aanspreekpunt waar bezoekers met een handicap met hun vragen terecht kunnen. Dit kan een fysiek onthaal- en infopunt zijn (uiteraard toegankelijk) of bij assistenten. | 3.25.0.0.0 |
+| Gegarandeerd zicht | Bezoekers met een beperking hebben een gegarandeerd vrij zicht op wat er zich tijdens je evenement afspeelt. | 3.29.0.0.0 |
+| Inter-assistentie | Inter-vrijwilligers bieden tijdens het evenement onthaal en assistentie aan bezoekers met een beperking. | 3.38.0.0.0 |
+| Inter-toegankelijkheidsgarantie | Het toegankelijkheidsgarantielabel van INTER duidt aan dat het event toegankelijk is voor iedereen | 3.40.0.0.0 |
+| Stroomvoorziening voor handicap | Personen met een handicap kunnen op het evenement stroom gebruiken voor het opladen van elektrische rolstoelen en apparaten in functie van hun handicap. | 3.37.0.0.0 |
+| Verzorgingsruimte | Er is op het evenement een verzorgingsruimte waar personen met een beperking kunnen verzorgd en verschoond worden. Er is een tillift, verzorgingsbed en water aanwezig. | 3.36.0.0.0 |
+| Voorbehouden camping | Er is een camping (apart of gedeelte van de reguliere camping) voor bezoekers met een beperking. Dit stuk is toegankelijk voor bezoekers met een handicap en is voorzien van toegankelijk sanitair en douches. | 3.32.0.0.0 |
