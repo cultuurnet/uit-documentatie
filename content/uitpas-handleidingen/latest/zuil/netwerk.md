@@ -23,11 +23,10 @@ u ziet dan de huidige settings, en onderaan staat het type netwerk "ethernet IP 
 
 om goed te kunnen werkren heeft het toetsel de volgende poorten uitgaand open nodig 
 
-* TCP 443 naar www.uitid.be (176.34.136.29)
-* TCP 80 naar www.uitid.be (176.34.136.29) & cidmonitor.lodgon.com (54.246.119.103)
+* TCP 443 (HTTPS verkeer - gebrukt voor communicatie met de backend) 
+* TCP 80 (HTTP verkeer - gebruikt voor een aantal checks) 
 * TCP 8080 naar cidmonitor.lodgon.com (54.246.119.103)
-
-als er een ntp server aanwezig is op het netwerk moet de klok daarop ook juist staan. 
+* UDP 123 om toe te staan dat het toestel zijn klok synchroniseert met pool.ntp.org. dit is een pool van ip's met eenn groete colectie servers in.
 
 
 
