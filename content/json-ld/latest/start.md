@@ -3,8 +3,4 @@
 
 # JSON-LD API documentation
 
-## Swagger docs
-
-For an overview of all the public endpoints of the UiTdatabank JSON-LD API :
-
-[apidoc.uitdatabank.be](https://apidoc.uitdatabank.be)
+With UiTdatabank's JSON-LD API you can create new events, places and organizers, and add extra info to them with specific requests to add/update properties. 

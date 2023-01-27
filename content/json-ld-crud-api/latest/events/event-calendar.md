@@ -96,3 +96,7 @@ Possible values: `single`, `multiple`, `periodic`, `permanent`.
   }
 ]
 ```
+
+## Including the status in your request
+
+The `status` (if applicable) should always be included in the request payload. Otherwise the status of the (sub)Event will be reverted to `Available` ([more info](https://documentatie.uitdatabank.be/content/json-ld-crud-api/latest/events/event-status.html))

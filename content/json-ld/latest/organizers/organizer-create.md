@@ -56,7 +56,7 @@ X-Api-Key: {apiKey}
   "address": {
     "addressCountry": "BE",
     "addressLocality": "Leuven",
-    "postalCode": 3000,
+    "postalCode": "3000",
     "streetAddress": "Sluisstraat 79"
   },
   "contact": [

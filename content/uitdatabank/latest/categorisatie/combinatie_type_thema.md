@@ -238,7 +238,7 @@ Hieronder vind je een overzicht van de combinaties die gemaakt kunnen worden tus
 |  |  | Milieu en natuur |	1.64.0.0.0 |
 |  |  | Mode |	1.49.0.0.0 |
 |  |  | Samenleving |	1.37.2.0.0 |
-|  |  | Schilderkunst |	1.3.1.0.0 |
+|  |  | Schilderkunst |	1.0.1.0.0 |
 |  |  | Wetenschap |	1.25.0.0.0 |
 | Theatervoorstelling | 0.55.0.0.0 |  |  |
 |  |  | Circus | 0.52.0.0.0 |

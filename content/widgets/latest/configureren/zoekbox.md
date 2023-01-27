@@ -127,6 +127,6 @@ Wanneer je de setting ```Extra groepfilters``` activeert, zijn ook volgende sett
 
 Het is mogelijk om je zoekbox uit te breiden met zoekfilters op toegankelijkheidsvoorzieningen. De filters en query's zijn al voorgedefinieerd, deze hoef je dus niet meer in te stellen.
 
-De groep bestaat uit 23 voorzieningen die opgedeeld zijn per doelgroep (bv. verstandelijke beperking). De groepfilters worden weergegeven in een lijst met meerdere keuzes (checkbox-groep) en laten de bezoeker van je agenda toe om de zoeken op toegankelijke evenementen.
+De groep bestaat uit 23 voorzieningen die opgedeeld zijn per doelgroep (bv. verstandelijke beperking). De groepfilters worden weergegeven in een lijst met meerdere keuzes (checkbox-groep) en laten de bezoeker van je agenda toe om te zoeken op toegankelijke evenementen.
 
 

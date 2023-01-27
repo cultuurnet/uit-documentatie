@@ -11,10 +11,8 @@ A Publish command is an authenticated request that requires specific permission:
 
 ## HTTP request
 
-**!notice the deprecated endpoint `place` instead of `places`!**
-
 ```
-PATCH /place/{placeId}
+PATCH /places/{placeId}
 ```
 
 ## Request headers

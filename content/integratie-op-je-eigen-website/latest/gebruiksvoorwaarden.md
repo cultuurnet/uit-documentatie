@@ -33,7 +33,7 @@ Voor de API is er zowel een testomgeving als een productie-omgeving ter beschikk
 
 Voor de testomgeving is er een directe en gratis toegang.
 
-Op vraag van de gebruiker kan publiq het project omschakelen naar de productie-omgeving. Hieraan is een jaarlijkse administratieve kost verbonden van 80€ excl BTW. Hierbij verwacht publiq  een link naar het project/app die gebruik maakt van de API,  om vrijblijvend feedback en tips te kunnen geven met betrekking tot een optimale inzet van de API.
+Op vraag van de gebruiker kan publiq het project omschakelen naar de productie-omgeving. Hieraan is een jaarlijkse administratieve kost verbonden en dit vanaf 125€ excl BTW. Hierbij verwacht publiq  een link naar het project/app die gebruik maakt van de API,  om vrijblijvend feedback en tips te kunnen geven met betrekking tot een optimale inzet van de API.
 
 publiq stelt ook generieke developer keys die toegang geven tot de productie-omgeving ter beschikking. Deze zijn voor tijdelijk gebruik om een proof of concept uit te werken, veranderen op onregelmatige tijdstippen en geven geen enkel recht op een voortdurend beschikbare dienst.
 
@@ -45,11 +45,7 @@ Alle technische documentatie voor gebruik van de publicatietools is te vinden op
 
 Met betrekking tot het gebruik van de API bieden we geen gratis technische ondersteuning binnen bovenstaand kader
 
-Ad hoc support is beschikbaar als professional service, en wordt aangerekend in manuren, met een minimum van 3u. Neem hiervoor contact op met vragen@uitdatabank.be
-
-Voor de Culturefeed Drupal Modules gelden dezelfde service condities als voor het gebruik van de API.
-
-Voor de widgets  komt er behalve de administratieve kost inzake de access key ook een kost voor de hosting load bij (30€ exclusief btw/jaar).
+Ad hoc support is beschikbaar als professional service, en wordt aangerekend in manuren, met een minimum van 3u. Neem hiervoor contact op met partnerships@publiq.be.
 
 ### Geoorloofd gebruik
 
@@ -60,7 +56,7 @@ Gebruikers van de publicatietools huldigen het share alike-principe (https://en.
 
 De gebruiker mag geen gebruik maken van de publicatietools op een wijze die of voor een doel dat niet in overeenstemming is met de wet, in de meest ruime betekenis van het woord. Hieronder worden begrepen, zonder een exhaustieve opsomming te zijn, de regels van het toepasselijke internationale, nationale, regionale lokale recht of van het gewoonterecht. Zo dient u onder meer de regelgeving inzake intellectuele eigendomsrechten, inzake bescherming van de privacy en inzake bescherming van databanken te respecteren.
 
-Het gebruik van de publicatietools is enkel toegestaan mits expliciete vermelding van de bron  (bvb.  Bron: UiTinVlaanderen.be). Daarnaast dienen  de gestelde vereisten omtrent het opnemen van beeldmerken die publiq de gebruiker doorgeeft voor publicatie op het kanaal van de gebruiker gerespecteerd te worden. De beeldmerken en informatie zijn te vinden op https://docs.google.com/a/cultuurnet.be/document/d/1dpoow3xwaAlhUtzmSz5rNtoDUWnwybuCbfvfQHwiRFA/edit?usp=sharing
+Het gebruik van de publicatietools is enkel toegestaan mits expliciete vermelding van de bron. Indien mogelijk vermeld je de bron onderaan op het detail van het evenement. Bijvoorbeeld, Bron: [uitinvlaanderen.be](https://www.uitinvlaanderen.be?utm_source=externeagenda&utm_medium=partnerlink&utm_campaign=backlinks&utm_content=home&utm_term=uitinvlaanderen). Daarnaast dienen  de gestelde vereisten omtrent het opnemen van beeldmerken die publiq de gebruiker doorgeeft voor publicatie op het kanaal van de gebruiker gerespecteerd te worden. De beeldmerken en informatie zijn [hier te vinden](https://docs.google.com/a/cultuurnet.be/document/d/1dpoow3xwaAlhUtzmSz5rNtoDUWnwybuCbfvfQHwiRFA/edit?usp=sharing).
 
 Eventuele aanpassingen en aanvullingen van de data, o.m. verrijkingen en correcties, moeten terugstromen naar de UiTdatabank. publiq moet deze aanpassingen kunnen verspreiden naar andere gebruikers.
 

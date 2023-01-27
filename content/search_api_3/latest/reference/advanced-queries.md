@@ -54,8 +54,10 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.postalCode | String |  See [offers/address]({% link content/search_api_3/latest/searching/offers/address.md %}) and [organizers/address]({% link content/search_api_3/latest/searching/organizers/address.md %}) |
 | address.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})}.streetAddress | String | See [offers/address]({% link content/search_api_3/latest/searching/offers/address.md %}) and [organizers/address]({% link content/search_api_3/latest/searching/organizers/address.md %}) |
 | allAges | Boolean | See [Age]({% link content/search_api_3/latest/searching/offers/age.md %}) |
+| attendanceMode | String | See [Attendance mode]({% link content/search_api_3/latest/searching/offers/attendance-mode.md %}) |
 | audienceType | String | See [Audience type]({% link content/search_api_3/latest/searching/offers/audience-type.md %}) |
 | availableRange | Date range | See [Availability]({% link content/search_api_3/latest/searching/offers/availability.md %}) |
+| bookingAvailability | Enum | See [Booking availability]({% link content/search_api_3/latest/searching/offers/booking-availability.md %}) |
 | calendarType | String | Looks for complete matches |
 | createdRange | DateRange | See [Created and Modified]({% link content/search_api_3/latest/searching/offers/created-and-modified.md %}) |
 | creator | String | See [offers/creator]({% link content/search_api_3/latest/searching/offers/creator.md %}) and [organizers/creator]({% link content/search_api_3/latest/searching/organizers/creator.md %})|
@@ -65,15 +67,15 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | languages | String | See [Languages]({% link content/search_api_3/latest/searching/offers/languages.md %}) |
 | localTimeRange | Integer range | See [Time]({% link content/search_api_3/latest/searching/offers/date-time/time.md %}) |
 | location.id | String | Looks for complete matches. See [Id]({% link content/search_api_3/latest/searching/offers/id.md %}) |
-| location.name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| location.name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String | See [name]({% link content/search_api_3/latest/searching/offers/name.md %}) |
 | location.labels | String | Looks for complete matches |
 | location.terms.id | String | Looks for complete matches |
 | location.terms.label | String | Looks for complete matches |
 | mediaObjectsCount | Integer | See [Media objects]({% link content/search_api_3/latest/searching/offers/media-objects.md %}) |
 | modifiedRange | DateRange | See [Created and Modified]({% link content/search_api_3/latest/searching/offers/created-and-modified.md %}) |
-| name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String | See [name]({% link content/search_api_3/latest/searching/offers/name.md %}) |
 | organizer.id | String | Looks for complete matches. See [Id]({% link content/search_api_3/latest/searching/offers/id.md %}) |
-| organizer.name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String |  |
+| organizer.name.{[lang]({% link content/search_api_3/latest/searching/offers/languages.md %})} | String | See [name]({% link content/search_api_3/latest/searching/offers/name.md %}) |
 | organizer.labels | String | Looks for complete matches |
 | price | Integer | See [Price]({% link content/search_api_3/latest/searching/offers/price.md %}) |
 | regions | Enum | See [Geosearch]({% link content/search_api_3/latest/searching/offers/geosearch.md %}) |
@@ -81,6 +83,7 @@ GET https://search.uitdatabank.be/offers/?q=labels:"\"dag van de fiets\""
 | terms.id | String | Looks for complete matches |
 | terms.label | String | Looks for complete matches |
 | typicalAgeRange | Integer range | See [Age]({% link content/search_api_3/latest/searching/offers/age.md %}) |
+| videosCount | Integer  | See [Videos]({% link content/search_api_3/latest/searching/offers/video.md %}) |
 | workflowStatus | Enum \(String\) | See [Workflow status]({% link content/search_api_3/latest/searching/offers/workflow-status.md %}) |
 
 ### Notes

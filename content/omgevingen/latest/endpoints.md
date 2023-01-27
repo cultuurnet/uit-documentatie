@@ -3,16 +3,28 @@
 
 ## Endpoints
 
-### UiTiD Test
+### UiTiD v1 Test
 
 * URL: ```https://test.uitid.be/uitid/rest```
-* Key: ```b0da8306ea57853c1e7954b3445e0f51```
-* Secret: ```4e8656e4f8afc9abec8ee1e728f51f54```
+* Key: op aanvraag (via [projectaanvraag](https://projectaanvraag.uitdatabank.be), kies integratietype EntryAPI)
+* Secret: op aanvraag
 
-### UiTiD Productie
+### UiTiD v1 Productie
 
 * URL: ```https://www.uitid.be/uitid/rest```
-* Key: op aanvraag
+* Key: op aanvraag (via [projectaanvraag](https://projectaanvraag.uitdatabank.be), kies integratietype EntryAPI)
+* Secret: op aanvraag
+
+### UiTPAS API 3.0 Test
+
+* URL: ```https://test.uitid.be/uitid/rest/uitpas```
+* Key: op aanvraag (via [projectaanvraag](https://projectaanvraag.uitdatabank.be), kies integratietype EntryAPI en contacteer de helpdesk om extra toegang tot de UiTPAS API te krijgen)
+* Secret: op aanvraag
+
+### UiTPAS API 3.0 Productie
+
+* URL: ```https://test.uitid.be/uitid/rest/uitpas```
+* Key: op aanvraag (via [projectaanvraag](https://projectaanvraag.uitdatabank.be), kies integratietype EntryAPI en contacteer de helpdesk om extra toegang tot de UiTPAS API te krijgen)
 * Secret: op aanvraag
 
 ### Search API 3 Test

@@ -156,8 +156,6 @@ Fields marked with an `*` are not yet indexed under the `completeLanguages` prop
 
 * It is possible that not every place address has geo-coordinates.
 
-* Geocoordinates are not calculated for an organizer.
-
 ```
 "geo": {
   "latitude": 50.9321713,

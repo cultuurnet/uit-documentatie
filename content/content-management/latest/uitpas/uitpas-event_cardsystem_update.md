@@ -3,6 +3,10 @@
 
 # Update specific cardsystem for an event
 
+According to the philosophy of UiTPAS, all events of an UiTPAS organizer are by default UiTPAS events. With these endpoints you can deviate from that basic principle. 
+
+**!Note that these endpoints may thus only be used for specific use cases where not every event from the organizer is applicable for all card systems of the organizer!**
+
 ## Host
 
  For documentation on UiTPAS base url, go [here]({% link content/entry_api_3/latest/authentication/authentication-baseUrl.md %})

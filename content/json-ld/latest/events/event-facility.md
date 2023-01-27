@@ -17,7 +17,6 @@ Object must contain:
 | 3.13.1.0.0 | Voorzieningen voor assistentiehonden |
 | 3.13.2.0.0 | Audiodescriptie |
 | 3.17.1.0.0 | Ringleiding |
-| 3.17.2.0.0 | Voelstoelen |
 | 3.17.3.0.0 | Boven- of ondertiteling |
 | 3.23.2.0.0  | Assistentie |
 | 3.26.0.0.0 | Parkeerplaats |
@@ -29,12 +28,13 @@ Object must contain:
 | 3.32.0.0.0 | Voorbehouden camping |
 | 3.33.0.0.0 | Tolken Vlaamse Gebarentaal |
 | 3.34.0.0.0 | Vereenvoudigde informatie |
-| 3.35.0.0.0 | 1 begeleider gratis |
 | 3.36.0.0.0 | Verzorgingsruimte |
 | 3.37.0.0.0 | Oplaadzone rolstoelen |
 | 3.38.0.0.0 | Inter-assistentie |
 | 3.39.0.0.0 | Begeleiderspas |
 | 3.40.0.0.0 | Inter-events |
+| H28fcfRKFQAQs00K9NF9hh | Prikkelarm aanbod |
+| 4Vz9eZf0cnQmtfqcGGnNMF | Afspraken en voorspelbaarheid |
 
 ## HTTP request
 

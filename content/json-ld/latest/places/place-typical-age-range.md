@@ -6,7 +6,7 @@
 Add or remove the age range appropriate for the offer.
 Don't use decimals
 
-Offers with upper boundary smaller or equal to 12 are enriched with the 'Vlieg'-icon and published on https://www.uitmetvlieg.be
+Places with upper boundary smaller or equal to 12 are enriched with the 'Vlieg'-icon and published on [UiTmetvlieg](https://www.uitinvlaanderen.be/vlieg).
 
 ## HTTP request
 
@@ -44,6 +44,7 @@ Add a specific age range to an offer
 |--|--|--|--|
 | typicalAgeRange | string | Specify the lower and upper age range applicable for the offer. Do not use decimals | 3-4 |
 
+To specify that a places is suitable for all ages, add the typicalAgeRange `"-"`
 
 ## Response
 

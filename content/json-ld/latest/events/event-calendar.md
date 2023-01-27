@@ -4,8 +4,11 @@
 # Update Calendar info
 
 The calendar information for an event consists of:
-- a combination 'calendarType + openingHours' OR 'calendarType + timestamps'
-- a startDate and endDate
+- a combination `calendarType` + `openingHours` OR `calendarType` + `timestamps`
+- a `startDate` and `endDate`
+
+Note that the `status` (if applicable) should always be included in the request payload. Otherwise the status of that (sub)Event will be reverted to `Available` ([more info](#including-the-status-in-your-request))
+
 
 ## HTTP request
 
@@ -173,6 +176,17 @@ Token claims validation failed. This most likely means the token is expired.
     "status": 401
 }
 ```
+
+## Including the status in your request
+Events and subEvents can have a 'status'. This status indicates whether the (sub)Event still takes place as planned or not. The following values for ‘status’ are applicable:
+* `available`: the event takes place as planned. This is the default value when no status for the event or subEvent is included.
+* `temporarilyUnavailable`: the event has been postponed to a later date yet to be determined.
+* `unavailable`: the event has been cancelled.
+
+**Important notes** 
+* When updating the calendarInfo without including the status of the (sub)Event in your request, UiTdatabank will assume that the status of the (sub)Event is `Available`. 
+* If a (sub)Event has a status other than `Available`, you have to pass the status (`Unavailable` | `TemporarilyUnavailable`) for that (sub)Event in your request when updating the calendarInfo (see [status](https://documentatie.uitdatabank.be/content/json-ld/latest/events/event-status.html)).
+
 
 ## Definitions
 

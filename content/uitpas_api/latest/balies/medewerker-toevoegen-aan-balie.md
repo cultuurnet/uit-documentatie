@@ -15,7 +15,8 @@ Parameters:
 
 | **Naam** | **Type** | **Omschrijving** | **Verplicht** |
 | balieConsumerKey | String | ConsumerKey van de balie waarvoor deze request wordt uitgevoerd. | verplicht |
-| uid | String | UID van de CultureFeed gebruiker. | x |
+| uid | String | UID van de CultureFeed (UiTIDv1) gebruiker. gebruik bij voorkeur email. | verplicht indien email niet werd meegegeven |
+| email | String | email van de UiTID gebruikers (v1 of v2) | verplicht indien uid niet werd meegegeven |
 
 _Authenticatie_
 [User access token]({% link content/authenticatie-autorisatie/latest/authenticatie-XML-apis/authenticatie-via-useraccesstoken.md %}) van de Balie Admin die de actie uitvoert

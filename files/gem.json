@@ -1,0 +1,4332 @@
+[
+  {
+    "nis": 11002,
+    "nl": "Antwerpen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-antwerpen"
+  },
+  {
+    "nis": 11056,
+    "nl": "Zwijndrecht",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waasland"
+  },
+  {
+    "nis": 11050,
+    "nl": "Wijnegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11007,
+    "nl": "Borsbeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-antwerpen"
+  },
+  {
+    "nis": 11052,
+    "nl": "Wommelgem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-antwerpen"
+  },
+  {
+    "nis": 11054,
+    "nl": "Zandhoven",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11057,
+    "nl": "Malle",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11035,
+    "nl": "Ranst",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11004,
+    "nl": "Boechout",
+    "fr": null,
+    "de": null,
+    "parent": "reg-antwerpen"
+  },
+  {
+    "nis": 11021,
+    "nl": "Hove",
+    "fr": null,
+    "de": null,
+    "parent": "reg-antwerpen"
+  },
+  {
+    "nis": 11025,
+    "nl": "Lint",
+    "fr": null,
+    "de": null,
+    "parent": "reg-antwerpen"
+  },
+  {
+    "nis": 11024,
+    "nl": "Kontich",
+    "fr": null,
+    "de": null,
+    "parent": "reg-antwerpen"
+  },
+  {
+    "nis": 11018,
+    "nl": "Hemiksem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-antwerpen"
+  },
+  {
+    "nis": 11038,
+    "nl": "Schelle",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-antwerpen"
+  },
+  {
+    "nis": 11001,
+    "nl": "Aartselaar",
+    "fr": null,
+    "de": null,
+    "parent": "reg-antwerpen"
+  },
+  {
+    "nis": 11029,
+    "nl": "Mortsel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-antwerpen"
+  },
+  {
+    "nis": 11013,
+    "nl": "Edegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-antwerpen"
+  },
+  {
+    "nis": 11037,
+    "nl": "Rumst",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-antwerpen"
+  },
+  {
+    "nis": 11030,
+    "nl": "Niel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-antwerpen"
+  },
+  {
+    "nis": 11005,
+    "nl": "Boom",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-antwerpen"
+  },
+  {
+    "nis": 11040,
+    "nl": "Schoten",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11016,
+    "nl": "Essen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11022,
+    "nl": "Kalmthout",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11008,
+    "nl": "Brasschaat",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11044,
+    "nl": "Stabroek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11023,
+    "nl": "Kapellen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11009,
+    "nl": "Brecht",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11039,
+    "nl": "Schilde",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11055,
+    "nl": "Zoersel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 11053,
+    "nl": "Wuustwezel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 12009,
+    "nl": "Duffel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 12025,
+    "nl": "Mechelen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-mechelen"
+  },
+  {
+    "nis": 12005,
+    "nl": "Bonheiden",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 12040,
+    "nl": "Willebroek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-antwerpen"
+  },
+  {
+    "nis": 12035,
+    "nl": "Sint-Katelijne-Waver",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 12007,
+    "nl": "Bornem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-antwerpen"
+  },
+  {
+    "nis": 13011,
+    "nl": "Herentals",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13013,
+    "nl": "Herselt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13016,
+    "nl": "Hulshout",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13029,
+    "nl": "Olen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13049,
+    "nl": "Westerlo",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13012,
+    "nl": "Herenthout",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13019,
+    "nl": "Lille",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13010,
+    "nl": "Grobbendonk",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13044,
+    "nl": "Vorselaar",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13040,
+    "nl": "Turnhout",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13037,
+    "nl": "Rijkevorsel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13014,
+    "nl": "Hoogstraten",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13023,
+    "nl": "Merksplas",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13004,
+    "nl": "Beerse",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13046,
+    "nl": "Vosselaar",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13031,
+    "nl": "Oud-Turnhout",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13001,
+    "nl": "Arendonk",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13035,
+    "nl": "Ravels",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13002,
+    "nl": "Baarle-Hertog",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13025,
+    "nl": "Mol",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13053,
+    "nl": "Laakdal",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13008,
+    "nl": "Geel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13021,
+    "nl": "Meerhout",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13017,
+    "nl": "Kasterlee",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13036,
+    "nl": "Retie",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13006,
+    "nl": "Dessel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 13003,
+    "nl": "Balen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 12014,
+    "nl": "Heist-op-den-Berg",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 12021,
+    "nl": "Lier",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 12026,
+    "nl": "Nijlen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 12029,
+    "nl": "Putte",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 12002,
+    "nl": "Berlaar",
+    "fr": null,
+    "de": null,
+    "parent": "reg-kempen"
+  },
+  {
+    "nis": 72039,
+    "nl": "Houthalen-Helchteren",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 72018,
+    "nl": "Kinrooi",
+    "fr": null,
+    "de": null,
+    "parent": "reg-maasland"
+  },
+  {
+    "nis": 72041,
+    "nl": "Dilsen-Stokkem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-maasland"
+  },
+  {
+    "nis": 72021,
+    "nl": "Maaseik",
+    "fr": null,
+    "de": null,
+    "parent": "reg-maasland"
+  },
+  {
+    "nis": 72020,
+    "nl": "Lommel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 72037,
+    "nl": "Hamont-Achel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 72038,
+    "nl": "Hechtel-Eksel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 72003,
+    "nl": "Bocholt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 72004,
+    "nl": "Bree",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 72030,
+    "nl": "Peer",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 73001,
+    "nl": "Alken",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 73042,
+    "nl": "Lanaken",
+    "fr": null,
+    "de": null,
+    "parent": "reg-maasland"
+  },
+  {
+    "nis": 73107,
+    "nl": "Maasmechelen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-maasland"
+  },
+  {
+    "nis": 73083,
+    "nl": "Tongeren",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 73028,
+    "nl": "Herstappe",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 73040,
+    "nl": "Kortessem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 73032,
+    "nl": "Hoeselt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 73006,
+    "nl": "Bilzen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 73066,
+    "nl": "Riemst",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 73109,
+    "nl": "Voeren",
+    "fr": null,
+    "de": null,
+    "parent": "reg-voerstreek"
+  },
+  {
+    "nis": 71053,
+    "nl": "Sint-Truiden",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 73098,
+    "nl": "Wellen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 73009,
+    "nl": "Borgloon",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 73022,
+    "nl": "Heers",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 71017,
+    "nl": "Gingelom",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 71022,
+    "nl": "Hasselt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hasselt"
+  },
+  {
+    "nis": 71066,
+    "nl": "Zonhoven",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 71024,
+    "nl": "Herk-de-Stad",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 71020,
+    "nl": "Halen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 71070,
+    "nl": "Heusden-Zolder",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 71037,
+    "nl": "Lummen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 71004,
+    "nl": "Beringen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 71011,
+    "nl": "Diepenbeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 71016,
+    "nl": "Genk",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 71002,
+    "nl": "As",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 71067,
+    "nl": "Zutendaal",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 71045,
+    "nl": "Nieuwerkerken",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 71069,
+    "nl": "Ham",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 71034,
+    "nl": "Leopoldsburg",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 71057,
+    "nl": "Tessenderlo",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen"
+  },
+  {
+    "nis": 41002,
+    "nl": "Aalst",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 41034,
+    "nl": "Lede",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 41048,
+    "nl": "Ninove",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 41082,
+    "nl": "Erpe-Mere",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 41024,
+    "nl": "Haaltert",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 41011,
+    "nl": "Denderleeuw",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 41018,
+    "nl": "Geraardsbergen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 41063,
+    "nl": "Sint-Lievens-Houtem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 41027,
+    "nl": "Herzele",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 41081,
+    "nl": "Zottegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 45063,
+    "nl": "Lierde",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 45041,
+    "nl": "Ronse",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 45065,
+    "nl": "Zwalm",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 45059,
+    "nl": "Brakel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 45062,
+    "nl": "Horebeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 45064,
+    "nl": "Maarkedal",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 45060,
+    "nl": "Kluisbergen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 45035,
+    "nl": "Oudenaarde",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 45061,
+    "nl": "Wortegem-Petegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 46021,
+    "nl": "Sint-Niklaas",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waasland"
+  },
+  {
+    "nis": 46003,
+    "nl": "Beveren",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waasland"
+  },
+  {
+    "nis": 46025,
+    "nl": "Temse",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waasland"
+  },
+  {
+    "nis": 46013,
+    "nl": "Kruibeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waasland"
+  },
+  {
+    "nis": 46014,
+    "nl": "Lokeren",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waasland"
+  },
+  {
+    "nis": 46020,
+    "nl": "Sint-Gillis-Waas",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waasland"
+  },
+  {
+    "nis": 46024,
+    "nl": "Stekene",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waasland"
+  },
+  {
+    "nis": 42006,
+    "nl": "Dendermonde",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 42008,
+    "nl": "Hamme",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 42025,
+    "nl": "Wetteren",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 42028,
+    "nl": "Zele",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 42023,
+    "nl": "Waasmunster",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waasland"
+  },
+  {
+    "nis": 42004,
+    "nl": "Buggenhout",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 42026,
+    "nl": "Wichelen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 42010,
+    "nl": "Laarne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 42011,
+    "nl": "Lebbeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 42003,
+    "nl": "Berlare",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 43018,
+    "nl": "Zelzate",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland"
+  },
+  {
+    "nis": 43005,
+    "nl": "Eeklo",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland"
+  },
+  {
+    "nis": 43002,
+    "nl": "Assenede",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland"
+  },
+  {
+    "nis": 43007,
+    "nl": "Kaprijke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland"
+  },
+  {
+    "nis": 43014,
+    "nl": "Sint-Laureins",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland"
+  },
+  {
+    "nis": 43010,
+    "nl": "Maldegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland"
+  },
+  {
+    "nis": 44021,
+    "nl": "Gent",
+    "fr": null,
+    "de": null,
+    "parent": "reg-gent"
+  },
+  {
+    "nis": 44013,
+    "nl": "Destelbergen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 44034,
+    "nl": "Lochristi",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waasland"
+  },
+  {
+    "nis": 44040,
+    "nl": "Melle",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 44045,
+    "nl": "Moerbeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waasland"
+  },
+  {
+    "nis": 44073,
+    "nl": "Wachtebeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland"
+  },
+  {
+    "nis": 44048,
+    "nl": "Nazareth",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-oost-vlaanderen"
+  },
+  {
+    "nis": 44043,
+    "nl": "Merelbeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-oost-vlaanderen"
+  },
+  {
+    "nis": 44064,
+    "nl": "Sint-Martens-Latem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-oost-vlaanderen"
+  },
+  {
+    "nis": 44012,
+    "nl": "De Pinte",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-oost-vlaanderen"
+  },
+  {
+    "nis": 44052,
+    "nl": "Oosterzele",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 44081,
+    "nl": "Zulte",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-oost-vlaanderen"
+  },
+  {
+    "nis": 44020,
+    "nl": "Gavere",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen"
+  },
+  {
+    "nis": 44019,
+    "nl": "Evergem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland"
+  },
+  {
+    "nis": 23088,
+    "nl": "Vilvoorde",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23081,
+    "nl": "Steenokkerzeel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23047,
+    "nl": "Machelen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23025,
+    "nl": "Grimbergen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23050,
+    "nl": "Meise",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23039,
+    "nl": "Kapelle-op-den-Bos",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23038,
+    "nl": "Kampenhout",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23094,
+    "nl": "Zaventem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23099,
+    "nl": "Kraainem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23103,
+    "nl": "Wezembeek-Oppem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23096,
+    "nl": "Zemst",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 24001,
+    "nl": "Aarschot",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24134,
+    "nl": "Scherpenheuvel-Zichem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24020,
+    "nl": "Diest",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24107,
+    "nl": "Tienen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24041,
+    "nl": "Hoegaarden",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24133,
+    "nl": "Linter",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24137,
+    "nl": "Glabbeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24135,
+    "nl": "Tielt-Winge",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24059,
+    "nl": "Landen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-haspengouw"
+  },
+  {
+    "nis": 24130,
+    "nl": "Zoutleeuw",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24028,
+    "nl": "Geetbets",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24008,
+    "nl": "Bekkevoort",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24054,
+    "nl": "Kortenaken",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 23027,
+    "nl": "Halle",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23032,
+    "nl": "Herne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23009,
+    "nl": "Bever",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23033,
+    "nl": "Hoeilaart",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23023,
+    "nl": "Galmaarden",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23077,
+    "nl": "Sint-Pieters-Leeuw",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23098,
+    "nl": "Drogenbos",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23100,
+    "nl": "Linkebeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23101,
+    "nl": "Sint-Genesius-Rode",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23003,
+    "nl": "Beersel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23064,
+    "nl": "Pepingen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23016,
+    "nl": "Dilbeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23002,
+    "nl": "Asse",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23086,
+    "nl": "Ternat",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23060,
+    "nl": "Opwijk",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23104,
+    "nl": "Lennik",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23024,
+    "nl": "Gooik",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23097,
+    "nl": "Roosdaal",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23044,
+    "nl": "Liedekerke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23102,
+    "nl": "Wemmel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23052,
+    "nl": "Merchtem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23105,
+    "nl": "Affligem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23045,
+    "nl": "Londerzeel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 24062,
+    "nl": "Leuven",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leuven"
+  },
+  {
+    "nis": 24038,
+    "nl": "Herent",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 24045,
+    "nl": "Huldenberg",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 24086,
+    "nl": "Oud-Heverlee",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 24009,
+    "nl": "Bertem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 24055,
+    "nl": "Kortenberg",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 24104,
+    "nl": "Tervuren",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 23062,
+    "nl": "Overijse",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 24094,
+    "nl": "Rotselaar",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24109,
+    "nl": "Tremelo",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24007,
+    "nl": "Begijnendijk",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24048,
+    "nl": "Keerbergen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 24033,
+    "nl": "Haacht",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 24014,
+    "nl": "Boortmeerbeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-groene-gordel"
+  },
+  {
+    "nis": 24066,
+    "nl": "Lubbeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24043,
+    "nl": "Holsbeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24011,
+    "nl": "Bierbeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 24016,
+    "nl": "Boutersem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-hageland"
+  },
+  {
+    "nis": 31005,
+    "nl": "Brugge",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugge"
+  },
+  {
+    "nis": 31022,
+    "nl": "Oostkamp",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 31040,
+    "nl": "Zedelgem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 31043,
+    "nl": "Knokke-Heist",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-kust"
+  },
+  {
+    "nis": 31006,
+    "nl": "Damme",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 31004,
+    "nl": "Blankenberge",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-kust"
+  },
+  {
+    "nis": 31042,
+    "nl": "Zuienkerke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 35006,
+    "nl": "Ichtegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 31012,
+    "nl": "Jabbeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 31003,
+    "nl": "Beernem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 31033,
+    "nl": "Torhout",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 35029,
+    "nl": "De Haan",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-kust"
+  },
+  {
+    "nis": 35002,
+    "nl": "Bredene",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-kust"
+  },
+  {
+    "nis": 35014,
+    "nl": "Oudenburg",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 35005,
+    "nl": "Gistel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 36007,
+    "nl": "Ingelmunster",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 36015,
+    "nl": "Roeselare",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 36011,
+    "nl": "Lichtervelde",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 36006,
+    "nl": "Hooglede",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 36019,
+    "nl": "Staden",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 36008,
+    "nl": "Izegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 36010,
+    "nl": "Ledegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 36012,
+    "nl": "Moorslede",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 37015,
+    "nl": "Tielt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 37017,
+    "nl": "Wielsbeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 37002,
+    "nl": "Dentergem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 37011,
+    "nl": "Pittem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 37018,
+    "nl": "Wingene",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 37012,
+    "nl": "Ruiselede",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 37007,
+    "nl": "Meulebeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 37010,
+    "nl": "Oostrozebeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 37020,
+    "nl": "Ardooie",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brugse-ommeland"
+  },
+  {
+    "nis": 38025,
+    "nl": "Veurne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 38008,
+    "nl": "De Panne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-kust"
+  },
+  {
+    "nis": 38002,
+    "nl": "Alveringem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 32003,
+    "nl": "Diksmuide",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 32011,
+    "nl": "Kortemark",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 32030,
+    "nl": "Lo-Reninge",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 32006,
+    "nl": "Houthulst",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 32010,
+    "nl": "Koekelare",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 33041,
+    "nl": "Vleteren",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 33011,
+    "nl": "Ieper",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 33040,
+    "nl": "Langemark-Poelkapelle",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 33039,
+    "nl": "Heuvelland",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 33016,
+    "nl": "Mesen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 33021,
+    "nl": "Poperinge",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 33037,
+    "nl": "Zonnebeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 34022,
+    "nl": "Kortrijk",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 34023,
+    "nl": "Kuurne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 34013,
+    "nl": "Harelbeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 34009,
+    "nl": "Deerlijk",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 34042,
+    "nl": "Zwevegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 34041,
+    "nl": "Wevelgem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 34002,
+    "nl": "Anzegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 34003,
+    "nl": "Avelgem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 34043,
+    "nl": "Spiere-Helkijn",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 34040,
+    "nl": "Waregem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 34025,
+    "nl": "Lendelede",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 34027,
+    "nl": "Menen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-west-vlaanderen"
+  },
+  {
+    "nis": 33029,
+    "nl": "Wervik",
+    "fr": null,
+    "de": null,
+    "parent": "reg-westhoek"
+  },
+  {
+    "nis": 35013,
+    "nl": "Oostende",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-kust"
+  },
+  {
+    "nis": 35011,
+    "nl": "Middelkerke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-kust"
+  },
+  {
+    "nis": 38016,
+    "nl": "Nieuwpoort",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-kust"
+  },
+  {
+    "nis": 38014,
+    "nl": "Koksijde",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-kust"
+  },
+  {
+    "nis": 64008,
+    "nl": "Berloz",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64074,
+    "nl": "Borgworm",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64015,
+    "nl": "Braives",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64021,
+    "nl": "Crisnée",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64023,
+    "nl": "Donceel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64076,
+    "nl": "Faimes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64025,
+    "nl": "Fexhe-le-Haut-Clocher",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64029,
+    "nl": "Geer",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64034,
+    "nl": "Hannuit",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64047,
+    "nl": "Lijsem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64056,
+    "nl": "Oerle",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64063,
+    "nl": "Remicourt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64065,
+    "nl": "Saint-Georges-sur-Meuse",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 64075,
+    "nl": "Wasseiges",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61003,
+    "nl": "Amay",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61079,
+    "nl": "Anthisnes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61010,
+    "nl": "Burdinne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61012,
+    "nl": "Clavier",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61080,
+    "nl": "Engis",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61019,
+    "nl": "Ferrières",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61024,
+    "nl": "Hamoir",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61028,
+    "nl": "Héron",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61031,
+    "nl": "Hoei",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61039,
+    "nl": "Marchin",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61041,
+    "nl": "Modave",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61043,
+    "nl": "Nandrin",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61048,
+    "nl": "Ouffet",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61081,
+    "nl": "Tinlot",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61063,
+    "nl": "Verlaine",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61068,
+    "nl": "Villers-le-Bouillet",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 61072,
+    "nl": "Wanze",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62003,
+    "nl": "Ans",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62006,
+    "nl": "Awans",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62009,
+    "nl": "Aywaille",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62015,
+    "nl": "Beyne-Heusay",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62011,
+    "nl": "Bitsingen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62119,
+    "nl": "Blégny",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62022,
+    "nl": "Chaudfontaine",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62026,
+    "nl": "Comblain-au-Pont",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62027,
+    "nl": "Dalhem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62032,
+    "nl": "Esneux",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62120,
+    "nl": "Flémalle",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62038,
+    "nl": "Fléron",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62118,
+    "nl": "Grâce-Hollogne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62051,
+    "nl": "Herstal",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62060,
+    "nl": "Juprelle",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62063,
+    "nl": "Luik",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62121,
+    "nl": "Neupré",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62079,
+    "nl": "Oupeye",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62093,
+    "nl": "Saint-Nicolas",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62096,
+    "nl": "Seraing",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62099,
+    "nl": "Soumagne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62100,
+    "nl": "Sprimont",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62122,
+    "nl": "Trooz",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 62108,
+    "nl": "Wezet",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63001,
+    "nl": "Amel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63003,
+    "nl": "Aubel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63004,
+    "nl": "Baelen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63012,
+    "nl": "Büllingen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63087,
+    "nl": "Burg-Reuland",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63013,
+    "nl": "Bütgenbach",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63020,
+    "nl": "Dison",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63023,
+    "nl": "Eupen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63035,
+    "nl": "Herve",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63038,
+    "nl": "Jalhay",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63040,
+    "nl": "Kelmis",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63045,
+    "nl": "Lierneux",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63046,
+    "nl": "Limburg",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63048,
+    "nl": "Lontzen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63049,
+    "nl": "Malmedy",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63057,
+    "nl": "Olne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63058,
+    "nl": "Pepinster",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63088,
+    "nl": "Plombières",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63061,
+    "nl": "Raeren",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63067,
+    "nl": "Sankt Vith",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63072,
+    "nl": "Spa",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63073,
+    "nl": "Stavelot",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63075,
+    "nl": "Stoumont",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63076,
+    "nl": "Theux",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63089,
+    "nl": "Thimister-Clermont",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63086,
+    "nl": "Trois-Ponts",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63079,
+    "nl": "Verviers",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63080,
+    "nl": "Weismes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 63084,
+    "nl": "Welkenraedt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luik"
+  },
+  {
+    "nis": 51004,
+    "nl": "Aat",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 51008,
+    "nl": "Beloeil",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 51009,
+    "nl": "Bernissart",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 51012,
+    "nl": "Brugelette",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 51014,
+    "nl": "Chièvres",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 51017,
+    "nl": "Elzele",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 51065,
+    "nl": "Frasnes-lez-Anvaing",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 51019,
+    "nl": "Vloesberg",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53053,
+    "nl": "Bergen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53014,
+    "nl": "Boussu",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53082,
+    "nl": "Colfontaine",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53020,
+    "nl": "Dour",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53028,
+    "nl": "Frameries",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53039,
+    "nl": "Hensies",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53083,
+    "nl": "Honnelles",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53044,
+    "nl": "Jurbeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53046,
+    "nl": "Lens",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53065,
+    "nl": "Quaregnon",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53084,
+    "nl": "Quévy",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53068,
+    "nl": "Quiévrain",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 53070,
+    "nl": "Saint-Ghislain",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52074,
+    "nl": "Aiseau-Presles",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52010,
+    "nl": "Chapelle-lez-Herlaimont",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52011,
+    "nl": "Charleroi",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52012,
+    "nl": "Châtelet",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52015,
+    "nl": "Courcelles",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52018,
+    "nl": "Farciennes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52021,
+    "nl": "Fleurus",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52022,
+    "nl": "Fontaine-l'Evêque",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52025,
+    "nl": "Gerpinnes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52075,
+    "nl": "Les Bons Villers",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52043,
+    "nl": "Manage",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52048,
+    "nl": "Montigny-le-Tilleul",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52055,
+    "nl": "Pont-à-celles",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 52063,
+    "nl": "Seneffe",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 57003,
+    "nl": "Antoing",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 57093,
+    "nl": "Brunehaut",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 57018,
+    "nl": "Celles",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 57081,
+    "nl": "Doornik",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 57027,
+    "nl": "Estaimpuis",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 57094,
+    "nl": "Leuze-en-Hainaut",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 57095,
+    "nl": "Mont-de-l'Enclus",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 57062,
+    "nl": "Pecq",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 57064,
+    "nl": "Péruwelz",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 57072,
+    "nl": "Rumes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 54010,
+    "nl": "Komen-Waasten",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 54007,
+    "nl": "Moeskroen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56001,
+    "nl": "Anderlues",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56005,
+    "nl": "Beaumont",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56011,
+    "nl": "Binche",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56016,
+    "nl": "Chimay",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56022,
+    "nl": "Erquelinnes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56085,
+    "nl": "Estinnes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56029,
+    "nl": "Froidchapelle",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56086,
+    "nl": "Ham-sur-Heure-Nalinnes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56044,
+    "nl": "Lobbes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56049,
+    "nl": "Merbes-le-Château",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56051,
+    "nl": "Momignies",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56087,
+    "nl": "Morlanwelz",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56088,
+    "nl": "Sivry-Rance",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 56078,
+    "nl": "Thuin",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 55004,
+    "nl": "s Gravenbrakel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 55050,
+    "nl": "Ecaussinnes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 55010,
+    "nl": "Edingen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 55022,
+    "nl": "La Louvière",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 55035,
+    "nl": "Le Roeulx",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 55023,
+    "nl": "Lessen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 55039,
+    "nl": "Opzullik",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 55040,
+    "nl": "Zinnik",
+    "fr": null,
+    "de": null,
+    "parent": "reg-henegouwen"
+  },
+  {
+    "nis": 25005,
+    "nl": "Bevekom",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25117,
+    "nl": "Chastre",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25018,
+    "nl": "Chaumont-Gistoux",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25023,
+    "nl": "Court-Saint-Etienne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25014,
+    "nl": "Eigenbrakel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25048,
+    "nl": "Geldenaken",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25031,
+    "nl": "Genepien",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25037,
+    "nl": "Graven",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25118,
+    "nl": "Hélécine",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25043,
+    "nl": "Incourt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25044,
+    "nl": "Itter",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25015,
+    "nl": "Kasteelbrakel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25119,
+    "nl": "Lasne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25068,
+    "nl": "Mont-Saint-Guibert",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25072,
+    "nl": "Nijvel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25120,
+    "nl": "Orp-Jauche",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25121,
+    "nl": "Ottignies-Louvain-la-Neuve",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25084,
+    "nl": "Perwijs",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25122,
+    "nl": "Ramillies",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25123,
+    "nl": "Rebecq",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25091,
+    "nl": "Rixensart",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25050,
+    "nl": "Terhulpen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25105,
+    "nl": "Tubeke",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25107,
+    "nl": "Villers-la-Ville",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25124,
+    "nl": "Walhain",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25110,
+    "nl": "Waterloo",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 25112,
+    "nl": "Waver",
+    "fr": null,
+    "de": null,
+    "parent": "reg-waals-brabant"
+  },
+  {
+    "nis": 81001,
+    "nl": "Aarlen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 81003,
+    "nl": "Attert",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 81004,
+    "nl": "Aubange",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 81013,
+    "nl": "Martelange",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 81015,
+    "nl": "Messancy",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 82003,
+    "nl": "Bastenaken",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 82005,
+    "nl": "Bertogne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 82009,
+    "nl": "Fauvillers",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 82037,
+    "nl": "Gouvy",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 82014,
+    "nl": "Houffalize",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 82038,
+    "nl": "Sainte-Ode",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 82036,
+    "nl": "Vaux-sur-Sûre",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 82032,
+    "nl": "Vielsalm",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 83012,
+    "nl": "Durbuy",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 83013,
+    "nl": "Erezée",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 83028,
+    "nl": "Hotton",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 83031,
+    "nl": "La Roche-en-Ardenne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 83055,
+    "nl": "Manhay",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 83034,
+    "nl": "Marche-en-Famenne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 83040,
+    "nl": "Nassogne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 83044,
+    "nl": "Rendeux",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 83049,
+    "nl": "Tenneville",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84009,
+    "nl": "Bertrix",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84010,
+    "nl": "Bouillon",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84016,
+    "nl": "Daverdisse",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84029,
+    "nl": "Herbeumont",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84033,
+    "nl": "Léglise",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84035,
+    "nl": "Libin",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84077,
+    "nl": "Libramont-Chevigny",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84043,
+    "nl": "Neufchâteau",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84050,
+    "nl": "Paliseul",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84059,
+    "nl": "Saint-Hubert",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84068,
+    "nl": "Tellin",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 84075,
+    "nl": "Wellin",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 85007,
+    "nl": "Chiny",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 85009,
+    "nl": "Etalle",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 85011,
+    "nl": "Florenville",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 85046,
+    "nl": "Habay",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 85024,
+    "nl": "Meix-devant-Virton",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 85026,
+    "nl": "Musson",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 85047,
+    "nl": "Rouvroy",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 85034,
+    "nl": "Saint-Léger",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 85039,
+    "nl": "Tintigny",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 85045,
+    "nl": "Virton",
+    "fr": null,
+    "de": null,
+    "parent": "reg-luxemburg"
+  },
+  {
+    "nis": 21001,
+    "nl": "Anderlecht",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21004,
+    "nl": "Brussel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21009,
+    "nl": "Elsene",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21005,
+    "nl": "Etterbeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21006,
+    "nl": "Evere",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21008,
+    "nl": "Ganshoren",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21010,
+    "nl": "Jette",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21011,
+    "nl": "Koekelberg",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21002,
+    "nl": "Oudergem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21015,
+    "nl": "Schaarbeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21003,
+    "nl": "Sint-Agatha-Berchem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21013,
+    "nl": "Sint-Gillis",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21012,
+    "nl": "Sint-Jans-Molenbeek",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21014,
+    "nl": "Sint-Joost-ten-Node",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21018,
+    "nl": "Sint-Lambrechts-Woluwe",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21019,
+    "nl": "Sint-Pieters-Woluwe",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21016,
+    "nl": "Ukkel",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21007,
+    "nl": "Vorst",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 21017,
+    "nl": "Watermaal-Bosvoorde",
+    "fr": null,
+    "de": null,
+    "parent": "reg-brussel"
+  },
+  {
+    "nis": 91005,
+    "nl": "Anhée",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91013,
+    "nl": "Beauraing",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91015,
+    "nl": "Bièvre",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91030,
+    "nl": "Ciney",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91034,
+    "nl": "Dinant",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91054,
+    "nl": "Gedinne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91059,
+    "nl": "Hamois",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91142,
+    "nl": "Hastière",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91064,
+    "nl": "Havelange",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91072,
+    "nl": "Houyet",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91103,
+    "nl": "Onhaye",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91114,
+    "nl": "Rochefort",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91120,
+    "nl": "Somme-Leuze",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91143,
+    "nl": "Vresse-sur-Semois",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 91141,
+    "nl": "Yvoir",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92003,
+    "nl": "Andenne",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92006,
+    "nl": "Assesse",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92035,
+    "nl": "Eghezée",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92138,
+    "nl": "Fernelmont",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92045,
+    "nl": "Floreffe",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92048,
+    "nl": "Fosses-la-Ville",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92142,
+    "nl": "Gembloux",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92054,
+    "nl": "Gesves",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92140,
+    "nl": "Jemeppe-sur-Sambre",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92141,
+    "nl": "La Bruyère",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92087,
+    "nl": "Mettet",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92094,
+    "nl": "Namen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92097,
+    "nl": "Ohey",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92101,
+    "nl": "Profondeville",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92137,
+    "nl": "Sambreville",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 92114,
+    "nl": "Sombreffe",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 93010,
+    "nl": "Cerfontaine",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 93014,
+    "nl": "Couvin",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 93018,
+    "nl": "Doische",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 93022,
+    "nl": "Florennes",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 93056,
+    "nl": "Philippeville",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 93090,
+    "nl": "Viroinval",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": 93088,
+    "nl": "Walcourt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-namen"
+  },
+  {
+    "nis": "72043",
+    "nl": "Pelt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen",
+    "history-nis": [
+      "72025",
+      "72029"
+    ]
+  },
+  {
+    "nis": "45068",
+    "nl": "Kruisem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen",
+    "history-nis": [
+      "45057",
+      "45017"
+    ]
+  },
+  {
+    "nis": "44084",
+    "nl": "Aalter",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland",
+    "history-nis": [
+      "44001",
+      "44029"
+    ]
+  },
+  {
+    "nis": "44083",
+    "nl": "Deinze",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-oost-vlaanderen",
+    "history-nis": [
+      "44011",
+      "44049"
+    ]
+  },
+  {
+    "nis": "12041",
+    "nl": "Puurs-Sint-Amands",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-antwerpen",
+    "history-nis": [
+      "12030",
+      "12034"
+    ]
+  },
+  {
+    "nis": "44085",
+    "nl": "Lievegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland",
+    "history-nis": [
+      "44072",
+      "44036",
+      "44080"
+    ]
+  },
+  {
+    "nis": "72042",
+    "nl": "Oudsbergen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen",
+    "history-nis": [
+      "72040",
+      "71047"
+    ]
+  },
+  {
+    "nis": "72043",
+    "nl": "Pelt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen",
+    "history-nis": [
+      "72025",
+      "72029"
+    ]
+  },
+  {
+    "nis": "45068",
+    "nl": "Kruisem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen",
+    "history-nis": [
+      "45057",
+      "45017"
+    ]
+  },
+  {
+    "nis": "44084",
+    "nl": "Aalter",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland",
+    "history-nis": [
+      "44001",
+      "44029"
+    ]
+  },
+  {
+    "nis": "44083",
+    "nl": "Deinze",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-oost-vlaanderen",
+    "history-nis": [
+      "44011",
+      "44049"
+    ]
+  },
+  {
+    "nis": "12041",
+    "nl": "Puurs-Sint-Amands",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-antwerpen",
+    "history-nis": [
+      "12030",
+      "12034"
+    ]
+  },
+  {
+    "nis": "44085",
+    "nl": "Lievegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland",
+    "history-nis": [
+      "44072",
+      "44036",
+      "44080"
+    ]
+  },
+  {
+    "nis": "72042",
+    "nl": "Oudsbergen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen",
+    "history-nis": [
+      "72040",
+      "71047"
+    ]
+  },
+  {
+    "nis": "72043",
+    "nl": "Pelt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen",
+    "history-nis": [
+      "72025",
+      "72029"
+    ]
+  },
+  {
+    "nis": "45068",
+    "nl": "Kruisem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen",
+    "history-nis": [
+      "45057",
+      "45017"
+    ]
+  },
+  {
+    "nis": "44084",
+    "nl": "Aalter",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland",
+    "history-nis": [
+      "44001",
+      "44029"
+    ]
+  },
+  {
+    "nis": "44083",
+    "nl": "Deinze",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-oost-vlaanderen",
+    "history-nis": [
+      "44011",
+      "44049"
+    ]
+  },
+  {
+    "nis": "12041",
+    "nl": "Puurs-Sint-Amands",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-antwerpen",
+    "history-nis": [
+      "12030",
+      "12034"
+    ]
+  },
+  {
+    "nis": "44085",
+    "nl": "Lievegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland",
+    "history-nis": [
+      "44072",
+      "44036",
+      "44080"
+    ]
+  },
+  {
+    "nis": "72042",
+    "nl": "Oudsbergen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen",
+    "history-nis": [
+      "72040",
+      "71047"
+    ]
+  },
+  {
+    "nis": "72043",
+    "nl": "Pelt",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen",
+    "history-nis": [
+      "72025",
+      "72029"
+    ]
+  },
+  {
+    "nis": "45068",
+    "nl": "Kruisem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-vlaamse-ardennen",
+    "history-nis": [
+      "45057",
+      "45017"
+    ]
+  },
+  {
+    "nis": "44084",
+    "nl": "Aalter",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland",
+    "history-nis": [
+      "44001",
+      "44029"
+    ]
+  },
+  {
+    "nis": "44083",
+    "nl": "Deinze",
+    "fr": null,
+    "de": null,
+    "parent": "reg-leiestreek-oost-vlaanderen",
+    "history-nis": [
+      "44011",
+      "44049"
+    ]
+  },
+  {
+    "nis": "12041",
+    "nl": "Puurs-Sint-Amands",
+    "fr": null,
+    "de": null,
+    "parent": "reg-scheldeland-antwerpen",
+    "history-nis": [
+      "12030",
+      "12034"
+    ]
+  },
+  {
+    "nis": "44085",
+    "nl": "Lievegem",
+    "fr": null,
+    "de": null,
+    "parent": "reg-meetjesland",
+    "history-nis": [
+      "44072",
+      "44036",
+      "44080"
+    ]
+  },
+  {
+    "nis": "72042",
+    "nl": "Oudsbergen",
+    "fr": null,
+    "de": null,
+    "parent": "reg-limburgse-kempen",
+    "history-nis": [
+      "72040",
+      "71047"
+    ]
+  }
+]
