@@ -90,6 +90,16 @@
 					</div>
 					{% endif %}
 
+					{% comment %} Show warning in Widgets docs on "content/widgets/..." pages. {% endcomment %}
+					{% assign widgets_pages_path = 'content/widgets' %}
+					{% assign widgets_pages_path_size = widgets_pages_path | size %}
+					{% assign current_page_path_slice = page.path | slice: 0, widgets_pages_path_size %}
+					{% if current_page_path_slice == widgets_pages_path %}
+					<div class="warning">
+						<p>Je leest de historische Widget documentatie. We verwijzen je graag door naar <strong><a href="https://docs.publiq.be/docs/widgets">de vernieuwde documentatie</a></strong> voor een aangenamere leeservaring en de meest actuele info.</p>
+					</div>
+					{% endif %}
+
 					<section class="markdown-body">
 					{{ content }}
 					</section>
