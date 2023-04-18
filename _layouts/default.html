@@ -99,6 +99,26 @@
 						<p>Je leest de historische Widget documentatie. We verwijzen je graag door naar <strong><a href="https://docs.publiq.be/docs/widgets">de vernieuwde documentatie</a></strong> voor een aangenamere leeservaring en de meest actuele info.</p>
 					</div>
 					{% endif %}
+					
+					{% comment %} Show warning in Entry API docs on "content/entry_api_3/..." pages. {% endcomment %}
+					{% assign entry_api_3_pages_path = 'content/entry_api_3' %}
+					{% assign entry_api_3_pages_path_size = entry_api_3_pages_path | size %}
+					{% assign current_page_path_slice = page.path | slice: 0, entry_api_3_pages_path_size %}
+					{% if current_page_path_slice == entry_api_3_pages_path %}
+					<div class="warning">
+						<p>Je leest de historische Entry API documentatie. We verwijzen je graag door naar <strong><a href="https://docs.publiq.be/docs/uitdatabank/entry-api/introduction">de vernieuwde documentatie</a></strong> voor een aangenamere leeservaring en de meest actuele info.</p>
+					</div>
+					{% endif %}
+
+					{% comment %} Show warning in Search API docs on "content/search_api_3/..." pages. {% endcomment %}
+					{% assign search_api_3_pages_path = 'content/search_api_3' %}
+					{% assign search_api_3_pages_path_size = search_api_3_pages_path | size %}
+					{% assign current_page_path_slice = page.path | slice: 0, search_api_3_pages_path_size %}
+					{% if current_page_path_slice == search_api_3_pages_path %}
+					<div class="warning">
+						<p>Je leest de historische Search API documentatie. We verwijzen je graag door naar <strong><a href="https://docs.publiq.be/docs/uitdatabank/search-api/introduction">de vernieuwde documentatie</a></strong> voor een aangenamere leeservaring en de meest actuele info.</p>
+					</div>
+					{% endif %}
 
 					<section class="markdown-body">
 					{{ content }}
