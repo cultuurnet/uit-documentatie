@@ -55,6 +55,7 @@ _Required permission_
 - Balie: **PERMISSION_PASSHOLDER - ACTION_CREATE**
 - Kansenstatuut enkel toegelaten voor balies met: **PERMISSION_KANSENSTATUUT - ACTION_CREATE**
 - Pashouders uit andere gemeenten enkel toegelaten voor balies met **PERMISSION_PASSHOLDER_OTHER_CITY - ACTION_CREATE**
+- Pashouders uit het buitenland (kan nooit een UiTPAS met kansenstatuut zijn) enkel toegelaten voor balies met **PERMISSION_PASSHOLDER_FOREIGN - ACTION_CREATE**
 
 **Response**
 
