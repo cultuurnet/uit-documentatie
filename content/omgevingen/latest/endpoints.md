@@ -47,24 +47,6 @@
 * URL: ```https://io.uitdatabank.be```
 * Key: [op aanvraag](https://projectaanvraag.uitdatabank.be)
 
-### Search API 2 Test
-
-* URL: ```https://test.uitid.be/search/rest/search```
-
-### Search API 2 Productie
-
-* URL: ```https://www.uitid.be/search/rest/search```
-
-### Entry API 2 Test
-
-* URL: ```https://test.uitid.be/uitid/rest/entry/test.rest.uitdatabank.be```
-* Deze versie is verouderd en enkel bedoeld als archief
-
-### Entry API 2 Productie
-
-* URL: ```https://www.uitid.be/uitid/rest/entry/rest.uitdatabank.be```
-* Deze versie is verouderd en enkel bedoeld als archief
-
 ### UiTdatabank Test
 
 * URL: ```https://test.uitdatabank.be```
