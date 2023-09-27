@@ -23,7 +23,7 @@
 
 ### UiTPAS API 3.0 Productie
 
-* URL: ```https://test.uitid.be/uitid/rest/uitpas```
+* URL: ```https://www.uitid.be/uitid/rest/uitpas```
 * Key: op aanvraag (via [projectaanvraag](https://projectaanvraag.uitdatabank.be), kies integratietype EntryAPI en contacteer de helpdesk om extra toegang tot de UiTPAS API te krijgen)
 * Secret: op aanvraag
 
@@ -46,24 +46,6 @@
 
 * URL: ```https://io.uitdatabank.be```
 * Key: [op aanvraag](https://projectaanvraag.uitdatabank.be)
-
-### Search API 2 Test
-
-* URL: ```https://test.uitid.be/search/rest/search```
-
-### Search API 2 Productie
-
-* URL: ```https://www.uitid.be/search/rest/search```
-
-### Entry API 2 Test
-
-* URL: ```https://test.uitid.be/uitid/rest/entry/test.rest.uitdatabank.be```
-* Deze versie is verouderd en enkel bedoeld als archief
-
-### Entry API 2 Productie
-
-* URL: ```https://www.uitid.be/uitid/rest/entry/rest.uitdatabank.be```
-* Deze versie is verouderd en enkel bedoeld als archief
 
 ### UiTdatabank Test
 
